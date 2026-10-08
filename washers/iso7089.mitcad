@@ -1,0 +1,155 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "d1",
+      "expression": "5.3 mm",
+      "unit": "mm",
+      "value": 5.3,
+      "comment": "Hole diameter"
+    },
+    {
+      "name": "d2",
+      "expression": "10 mm",
+      "unit": "mm",
+      "value": 10.0,
+      "comment": "Outside diameter"
+    },
+    {
+      "name": "h",
+      "expression": "1 mm",
+      "unit": "mm",
+      "value": 1.0,
+      "comment": "Thickness"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Washer",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "d2",
+      "height": "h",
+      "operation": "new_body"
+    },
+    {
+      "uid": "F2",
+      "name": "Hole",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "d1",
+      "height": "h",
+      "operation": "cut"
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Body1"
+    }
+  ],
+  "configurations": {
+    "selectors": [
+      "Size"
+    ],
+    "parameters": [
+      "d1",
+      "d2",
+      "h"
+    ],
+    "default": "M5",
+    "rows": [
+      {
+        "name": "M3",
+        "select": {
+          "Size": "M3"
+        },
+        "values": {
+          "d1": "3.2 mm",
+          "d2": "7 mm",
+          "h": "0.5 mm"
+        }
+      },
+      {
+        "name": "M4",
+        "select": {
+          "Size": "M4"
+        },
+        "values": {
+          "d1": "4.3 mm",
+          "d2": "9 mm",
+          "h": "0.8 mm"
+        }
+      },
+      {
+        "name": "M5",
+        "select": {
+          "Size": "M5"
+        },
+        "values": {
+          "d1": "5.3 mm",
+          "d2": "10 mm",
+          "h": "1 mm"
+        }
+      },
+      {
+        "name": "M6",
+        "select": {
+          "Size": "M6"
+        },
+        "values": {
+          "d1": "6.4 mm",
+          "d2": "12 mm",
+          "h": "1.6 mm"
+        }
+      },
+      {
+        "name": "M8",
+        "select": {
+          "Size": "M8"
+        },
+        "values": {
+          "d1": "8.4 mm",
+          "d2": "16 mm",
+          "h": "1.6 mm"
+        }
+      },
+      {
+        "name": "M10",
+        "select": {
+          "Size": "M10"
+        },
+        "values": {
+          "d1": "10.5 mm",
+          "d2": "20 mm",
+          "h": "2 mm"
+        }
+      },
+      {
+        "name": "M12",
+        "select": {
+          "Size": "M12"
+        },
+        "values": {
+          "d1": "13 mm",
+          "d2": "24 mm",
+          "h": "2.5 mm"
+        }
+      }
+    ]
+  }
+}

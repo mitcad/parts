@@ -1,0 +1,362 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "d",
+      "expression": "5 mm",
+      "unit": "mm",
+      "value": 5.0,
+      "comment": "Nominal thread diameter"
+    },
+    {
+      "name": "P",
+      "expression": "0.8 mm",
+      "unit": "mm",
+      "value": 0.8,
+      "comment": "Thread pitch"
+    },
+    {
+      "name": "s",
+      "expression": "8 mm",
+      "unit": "mm",
+      "value": 8.0,
+      "comment": "Width across flats"
+    },
+    {
+      "name": "mn",
+      "expression": "4.7 mm",
+      "unit": "mm",
+      "value": 4.7,
+      "comment": "Nut height (m in ISO 4032)"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Nut sketch",
+      "type": "sketch",
+      "plane": "xy",
+      "entities": [
+        {
+          "id": "c1",
+          "type": "line",
+          "start": "p7",
+          "end": "p8"
+        },
+        {
+          "id": "c2",
+          "type": "line",
+          "start": "p8",
+          "end": "p9"
+        },
+        {
+          "id": "c3",
+          "type": "line",
+          "start": "p9",
+          "end": "p10"
+        },
+        {
+          "id": "c4",
+          "type": "line",
+          "start": "p10",
+          "end": "p11"
+        },
+        {
+          "id": "c5",
+          "type": "line",
+          "start": "p11",
+          "end": "p12"
+        },
+        {
+          "id": "c6",
+          "type": "line",
+          "start": "p12",
+          "end": "p7"
+        },
+        {
+          "id": "p7",
+          "type": "point",
+          "at": [
+            3.9999999999999996,
+            -2.3094010767585034
+          ]
+        },
+        {
+          "id": "p8",
+          "type": "point",
+          "at": [
+            3.9999999999999996,
+            2.309401076758503
+          ]
+        },
+        {
+          "id": "p9",
+          "type": "point",
+          "at": [
+            1.6718023557502117e-16,
+            4.618802153517007
+          ]
+        },
+        {
+          "id": "p10",
+          "type": "point",
+          "at": [
+            -3.999999999999999,
+            2.3094010767585025
+          ]
+        },
+        {
+          "id": "p11",
+          "type": "point",
+          "at": [
+            -4.000000000000001,
+            -2.3094010767585034
+          ]
+        },
+        {
+          "id": "p12",
+          "type": "point",
+          "at": [
+            -8.549547153167532e-16,
+            -4.618802153517007
+          ]
+        },
+        {
+          "id": "p13",
+          "type": "point",
+          "at": [
+            -2.6469779601696886e-23,
+            -2.6469779601696886e-23
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c14",
+          "type": "circle",
+          "center": "p13",
+          "radius": 4.0,
+          "construction": true
+        }
+      ],
+      "constraints": [
+        {
+          "id": "k1",
+          "type": "tangent",
+          "a": "c1",
+          "b": "c14"
+        },
+        {
+          "id": "k2",
+          "type": "tangent",
+          "a": "c2",
+          "b": "c14"
+        },
+        {
+          "id": "k3",
+          "type": "tangent",
+          "a": "c3",
+          "b": "c14"
+        },
+        {
+          "id": "k4",
+          "type": "tangent",
+          "a": "c4",
+          "b": "c14"
+        },
+        {
+          "id": "k5",
+          "type": "tangent",
+          "a": "c5",
+          "b": "c14"
+        },
+        {
+          "id": "k6",
+          "type": "tangent",
+          "a": "c6",
+          "b": "c14"
+        },
+        {
+          "id": "k7",
+          "type": "equal",
+          "a": "c1",
+          "b": "c2"
+        },
+        {
+          "id": "k8",
+          "type": "equal",
+          "a": "c2",
+          "b": "c3"
+        },
+        {
+          "id": "k9",
+          "type": "equal",
+          "a": "c3",
+          "b": "c4"
+        },
+        {
+          "id": "k10",
+          "type": "equal",
+          "a": "c4",
+          "b": "c5"
+        },
+        {
+          "id": "k11",
+          "type": "equal",
+          "a": "c5",
+          "b": "c6"
+        },
+        {
+          "id": "k12",
+          "type": "vertical",
+          "line": "c1"
+        }
+      ],
+      "dimensions": [
+        {
+          "id": "k13",
+          "type": "diameter",
+          "curve": "c14",
+          "value": "s"
+        }
+      ]
+    },
+    {
+      "uid": "F2",
+      "name": "Nut",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F1",
+          "region": "r{c1[c6,c2],c2[c1,c3],c3[c2,c4],c4[c3,c5],c5[c4,c6],c6[c5,c1]}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "mn"
+      },
+      "operation": "new_body"
+    },
+    {
+      "uid": "F3",
+      "name": "Hole",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "d",
+      "height": "mn",
+      "operation": "cut"
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F2.b0",
+      "name": "Body1"
+    }
+  ],
+  "configurations": {
+    "selectors": [
+      "Size"
+    ],
+    "parameters": [
+      "d",
+      "P",
+      "s",
+      "mn"
+    ],
+    "default": "M5",
+    "rows": [
+      {
+        "name": "M3",
+        "select": {
+          "Size": "M3"
+        },
+        "values": {
+          "P": "0.5 mm",
+          "d": "3 mm",
+          "mn": "2.4 mm",
+          "s": "5.5 mm"
+        }
+      },
+      {
+        "name": "M4",
+        "select": {
+          "Size": "M4"
+        },
+        "values": {
+          "P": "0.7 mm",
+          "d": "4 mm",
+          "mn": "3.2 mm",
+          "s": "7 mm"
+        }
+      },
+      {
+        "name": "M5",
+        "select": {
+          "Size": "M5"
+        },
+        "values": {
+          "P": "0.8 mm",
+          "d": "5 mm",
+          "mn": "4.7 mm",
+          "s": "8 mm"
+        }
+      },
+      {
+        "name": "M6",
+        "select": {
+          "Size": "M6"
+        },
+        "values": {
+          "P": "1 mm",
+          "d": "6 mm",
+          "mn": "5.2 mm",
+          "s": "10 mm"
+        }
+      },
+      {
+        "name": "M8",
+        "select": {
+          "Size": "M8"
+        },
+        "values": {
+          "P": "1.25 mm",
+          "d": "8 mm",
+          "mn": "6.8 mm",
+          "s": "13 mm"
+        }
+      },
+      {
+        "name": "M10",
+        "select": {
+          "Size": "M10"
+        },
+        "values": {
+          "P": "1.5 mm",
+          "d": "10 mm",
+          "mn": "8.4 mm",
+          "s": "16 mm"
+        }
+      },
+      {
+        "name": "M12",
+        "select": {
+          "Size": "M12"
+        },
+        "values": {
+          "P": "1.75 mm",
+          "d": "12 mm",
+          "mn": "10.8 mm",
+          "s": "18 mm"
+        }
+      }
+    ]
+  }
+}

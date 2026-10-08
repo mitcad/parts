@@ -1,0 +1,5 @@
+# Mitcad project files are text with LF line ends on every platform; git
+# merges them only as whole files.
+*.mitcad text eol=lf merge=binary
+# B-rep data of base features: content-addressed, never changed.
+.mitcad/brep/** binary

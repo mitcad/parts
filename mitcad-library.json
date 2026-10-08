@@ -1,0 +1,118 @@
+{
+  "format": "mitcad-library",
+  "version": 1,
+  "id": "mitcad-fasteners",
+  "name": "Mitcad metric fasteners",
+  "description": "ISO metric screws, nuts and washers, M3 to M12, simplified for assemblies.",
+  "library_version": "1.0.0",
+  "license": "CC0-1.0",
+  "authors": [
+    "Mitcad contributors"
+  ],
+  "sources": [
+    "ISO 4762",
+    "ISO 4017",
+    "ISO 10642",
+    "ISO 4032",
+    "ISO 7089",
+    "ISO 261",
+    "ISO 724",
+    "Tabulated for this library; see SOURCES.md"
+  ],
+  "units": "mm",
+  "categories": [
+    {
+      "id": "screws",
+      "name": "Screws"
+    },
+    {
+      "id": "nuts",
+      "name": "Nuts"
+    },
+    {
+      "id": "washers",
+      "name": "Washers"
+    }
+  ],
+  "components": [
+    {
+      "id": "iso4762",
+      "path": "screws/iso4762.mitcad",
+      "category": "screws",
+      "name": "Hexagon socket head cap screw",
+      "standard": "ISO 4762",
+      "keywords": [
+        "socket head",
+        "cap screw",
+        "SHCS",
+        "DIN 912",
+        "allen"
+      ],
+      "preview": "previews/iso4762.png",
+      "designation": "ISO 4762 {Size}x{Length}",
+      "description": "89 sizes, M3x5 to M12x120."
+    },
+    {
+      "id": "iso4017",
+      "path": "screws/iso4017.mitcad",
+      "category": "screws",
+      "name": "Hexagon head screw, thread to the head",
+      "standard": "ISO 4017",
+      "keywords": [
+        "hex head",
+        "hex bolt",
+        "set screw",
+        "DIN 933"
+      ],
+      "preview": "previews/iso4017.png",
+      "designation": "ISO 4017 {Size}x{Length}",
+      "description": "84 sizes, M3x6 to M12x120."
+    },
+    {
+      "id": "iso10642",
+      "path": "screws/iso10642.mitcad",
+      "category": "screws",
+      "name": "Hexagon socket countersunk head screw",
+      "standard": "ISO 10642",
+      "keywords": [
+        "countersunk",
+        "flat head",
+        "DIN 7991",
+        "socket"
+      ],
+      "preview": "previews/iso10642.png",
+      "designation": "ISO 10642 {Size}x{Length}",
+      "description": "85 sizes, M3x8 to M12x100."
+    },
+    {
+      "id": "iso4032",
+      "path": "nuts/iso4032.mitcad",
+      "category": "nuts",
+      "name": "Hexagon nut",
+      "standard": "ISO 4032",
+      "keywords": [
+        "hex nut",
+        "DIN 934",
+        "nut"
+      ],
+      "preview": "previews/iso4032.png",
+      "designation": "ISO 4032 {Size}",
+      "description": "7 sizes, M3 to M12."
+    },
+    {
+      "id": "iso7089",
+      "path": "washers/iso7089.mitcad",
+      "category": "washers",
+      "name": "Plain washer, normal series",
+      "standard": "ISO 7089",
+      "keywords": [
+        "washer",
+        "flat washer",
+        "DIN 125"
+      ],
+      "preview": "previews/iso7089.png",
+      "designation": "ISO 7089 {Size}",
+      "description": "7 sizes, M3 to M12."
+    }
+  ]
+}

@@ -1,0 +1,1471 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "d",
+      "expression": "5 mm",
+      "unit": "mm",
+      "value": 5.0,
+      "comment": "Nominal thread diameter"
+    },
+    {
+      "name": "P",
+      "expression": "0.8 mm",
+      "unit": "mm",
+      "value": 0.8,
+      "comment": "Thread pitch"
+    },
+    {
+      "name": "s",
+      "expression": "8 mm",
+      "unit": "mm",
+      "value": 8.0,
+      "comment": "Width across flats"
+    },
+    {
+      "name": "k",
+      "expression": "3.5 mm",
+      "unit": "mm",
+      "value": 3.5,
+      "comment": "Head height"
+    },
+    {
+      "name": "L",
+      "expression": "20 mm",
+      "unit": "mm",
+      "value": 20.0,
+      "comment": "Nominal length"
+    },
+    {
+      "name": "d1",
+      "expression": "-L",
+      "unit": "mm",
+      "value": -20.0,
+      "comment": "Shank height",
+      "owner": "F3"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Head sketch",
+      "type": "sketch",
+      "plane": "xy",
+      "entities": [
+        {
+          "id": "c1",
+          "type": "line",
+          "start": "p7",
+          "end": "p8"
+        },
+        {
+          "id": "c2",
+          "type": "line",
+          "start": "p8",
+          "end": "p9"
+        },
+        {
+          "id": "c3",
+          "type": "line",
+          "start": "p9",
+          "end": "p10"
+        },
+        {
+          "id": "c4",
+          "type": "line",
+          "start": "p10",
+          "end": "p11"
+        },
+        {
+          "id": "c5",
+          "type": "line",
+          "start": "p11",
+          "end": "p12"
+        },
+        {
+          "id": "c6",
+          "type": "line",
+          "start": "p12",
+          "end": "p7"
+        },
+        {
+          "id": "p7",
+          "type": "point",
+          "at": [
+            3.9999999999999996,
+            -2.3094010767585034
+          ]
+        },
+        {
+          "id": "p8",
+          "type": "point",
+          "at": [
+            3.9999999999999996,
+            2.309401076758503
+          ]
+        },
+        {
+          "id": "p9",
+          "type": "point",
+          "at": [
+            1.6718023557502117e-16,
+            4.618802153517007
+          ]
+        },
+        {
+          "id": "p10",
+          "type": "point",
+          "at": [
+            -3.999999999999999,
+            2.3094010767585025
+          ]
+        },
+        {
+          "id": "p11",
+          "type": "point",
+          "at": [
+            -4.000000000000001,
+            -2.3094010767585034
+          ]
+        },
+        {
+          "id": "p12",
+          "type": "point",
+          "at": [
+            -8.549547153167532e-16,
+            -4.618802153517007
+          ]
+        },
+        {
+          "id": "p13",
+          "type": "point",
+          "at": [
+            -2.6469779601696886e-23,
+            -2.6469779601696886e-23
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c14",
+          "type": "circle",
+          "center": "p13",
+          "radius": 4.0,
+          "construction": true
+        }
+      ],
+      "constraints": [
+        {
+          "id": "k1",
+          "type": "tangent",
+          "a": "c1",
+          "b": "c14"
+        },
+        {
+          "id": "k2",
+          "type": "tangent",
+          "a": "c2",
+          "b": "c14"
+        },
+        {
+          "id": "k3",
+          "type": "tangent",
+          "a": "c3",
+          "b": "c14"
+        },
+        {
+          "id": "k4",
+          "type": "tangent",
+          "a": "c4",
+          "b": "c14"
+        },
+        {
+          "id": "k5",
+          "type": "tangent",
+          "a": "c5",
+          "b": "c14"
+        },
+        {
+          "id": "k6",
+          "type": "tangent",
+          "a": "c6",
+          "b": "c14"
+        },
+        {
+          "id": "k7",
+          "type": "equal",
+          "a": "c1",
+          "b": "c2"
+        },
+        {
+          "id": "k8",
+          "type": "equal",
+          "a": "c2",
+          "b": "c3"
+        },
+        {
+          "id": "k9",
+          "type": "equal",
+          "a": "c3",
+          "b": "c4"
+        },
+        {
+          "id": "k10",
+          "type": "equal",
+          "a": "c4",
+          "b": "c5"
+        },
+        {
+          "id": "k11",
+          "type": "equal",
+          "a": "c5",
+          "b": "c6"
+        },
+        {
+          "id": "k12",
+          "type": "vertical",
+          "line": "c1"
+        }
+      ],
+      "dimensions": [
+        {
+          "id": "k13",
+          "type": "diameter",
+          "curve": "c14",
+          "value": "s"
+        }
+      ]
+    },
+    {
+      "uid": "F2",
+      "name": "Head",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F1",
+          "region": "r{c1[c6,c2],c2[c1,c3],c3[c2,c4],c4[c3,c5],c5[c4,c6],c6[c5,c1]}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "k"
+      },
+      "operation": "new_body"
+    },
+    {
+      "uid": "F3",
+      "name": "Shank",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "d",
+      "height": "d1",
+      "operation": "join"
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F2.b0",
+      "name": "Body1"
+    }
+  ],
+  "configurations": {
+    "selectors": [
+      "Size",
+      "Length"
+    ],
+    "parameters": [
+      "d",
+      "P",
+      "s",
+      "k",
+      "L"
+    ],
+    "default": "M5x20",
+    "rows": [
+      {
+        "name": "M3x6",
+        "select": {
+          "Length": "6",
+          "Size": "M3"
+        },
+        "values": {
+          "L": "6 mm",
+          "P": "0.5 mm",
+          "d": "3 mm",
+          "k": "2 mm",
+          "s": "5.5 mm"
+        }
+      },
+      {
+        "name": "M3x8",
+        "select": {
+          "Length": "8",
+          "Size": "M3"
+        },
+        "values": {
+          "L": "8 mm",
+          "P": "0.5 mm",
+          "d": "3 mm",
+          "k": "2 mm",
+          "s": "5.5 mm"
+        }
+      },
+      {
+        "name": "M3x10",
+        "select": {
+          "Length": "10",
+          "Size": "M3"
+        },
+        "values": {
+          "L": "10 mm",
+          "P": "0.5 mm",
+          "d": "3 mm",
+          "k": "2 mm",
+          "s": "5.5 mm"
+        }
+      },
+      {
+        "name": "M3x12",
+        "select": {
+          "Length": "12",
+          "Size": "M3"
+        },
+        "values": {
+          "L": "12 mm",
+          "P": "0.5 mm",
+          "d": "3 mm",
+          "k": "2 mm",
+          "s": "5.5 mm"
+        }
+      },
+      {
+        "name": "M3x16",
+        "select": {
+          "Length": "16",
+          "Size": "M3"
+        },
+        "values": {
+          "L": "16 mm",
+          "P": "0.5 mm",
+          "d": "3 mm",
+          "k": "2 mm",
+          "s": "5.5 mm"
+        }
+      },
+      {
+        "name": "M3x20",
+        "select": {
+          "Length": "20",
+          "Size": "M3"
+        },
+        "values": {
+          "L": "20 mm",
+          "P": "0.5 mm",
+          "d": "3 mm",
+          "k": "2 mm",
+          "s": "5.5 mm"
+        }
+      },
+      {
+        "name": "M3x25",
+        "select": {
+          "Length": "25",
+          "Size": "M3"
+        },
+        "values": {
+          "L": "25 mm",
+          "P": "0.5 mm",
+          "d": "3 mm",
+          "k": "2 mm",
+          "s": "5.5 mm"
+        }
+      },
+      {
+        "name": "M3x30",
+        "select": {
+          "Length": "30",
+          "Size": "M3"
+        },
+        "values": {
+          "L": "30 mm",
+          "P": "0.5 mm",
+          "d": "3 mm",
+          "k": "2 mm",
+          "s": "5.5 mm"
+        }
+      },
+      {
+        "name": "M4x8",
+        "select": {
+          "Length": "8",
+          "Size": "M4"
+        },
+        "values": {
+          "L": "8 mm",
+          "P": "0.7 mm",
+          "d": "4 mm",
+          "k": "2.8 mm",
+          "s": "7 mm"
+        }
+      },
+      {
+        "name": "M4x10",
+        "select": {
+          "Length": "10",
+          "Size": "M4"
+        },
+        "values": {
+          "L": "10 mm",
+          "P": "0.7 mm",
+          "d": "4 mm",
+          "k": "2.8 mm",
+          "s": "7 mm"
+        }
+      },
+      {
+        "name": "M4x12",
+        "select": {
+          "Length": "12",
+          "Size": "M4"
+        },
+        "values": {
+          "L": "12 mm",
+          "P": "0.7 mm",
+          "d": "4 mm",
+          "k": "2.8 mm",
+          "s": "7 mm"
+        }
+      },
+      {
+        "name": "M4x16",
+        "select": {
+          "Length": "16",
+          "Size": "M4"
+        },
+        "values": {
+          "L": "16 mm",
+          "P": "0.7 mm",
+          "d": "4 mm",
+          "k": "2.8 mm",
+          "s": "7 mm"
+        }
+      },
+      {
+        "name": "M4x20",
+        "select": {
+          "Length": "20",
+          "Size": "M4"
+        },
+        "values": {
+          "L": "20 mm",
+          "P": "0.7 mm",
+          "d": "4 mm",
+          "k": "2.8 mm",
+          "s": "7 mm"
+        }
+      },
+      {
+        "name": "M4x25",
+        "select": {
+          "Length": "25",
+          "Size": "M4"
+        },
+        "values": {
+          "L": "25 mm",
+          "P": "0.7 mm",
+          "d": "4 mm",
+          "k": "2.8 mm",
+          "s": "7 mm"
+        }
+      },
+      {
+        "name": "M4x30",
+        "select": {
+          "Length": "30",
+          "Size": "M4"
+        },
+        "values": {
+          "L": "30 mm",
+          "P": "0.7 mm",
+          "d": "4 mm",
+          "k": "2.8 mm",
+          "s": "7 mm"
+        }
+      },
+      {
+        "name": "M4x35",
+        "select": {
+          "Length": "35",
+          "Size": "M4"
+        },
+        "values": {
+          "L": "35 mm",
+          "P": "0.7 mm",
+          "d": "4 mm",
+          "k": "2.8 mm",
+          "s": "7 mm"
+        }
+      },
+      {
+        "name": "M4x40",
+        "select": {
+          "Length": "40",
+          "Size": "M4"
+        },
+        "values": {
+          "L": "40 mm",
+          "P": "0.7 mm",
+          "d": "4 mm",
+          "k": "2.8 mm",
+          "s": "7 mm"
+        }
+      },
+      {
+        "name": "M5x10",
+        "select": {
+          "Length": "10",
+          "Size": "M5"
+        },
+        "values": {
+          "L": "10 mm",
+          "P": "0.8 mm",
+          "d": "5 mm",
+          "k": "3.5 mm",
+          "s": "8 mm"
+        }
+      },
+      {
+        "name": "M5x12",
+        "select": {
+          "Length": "12",
+          "Size": "M5"
+        },
+        "values": {
+          "L": "12 mm",
+          "P": "0.8 mm",
+          "d": "5 mm",
+          "k": "3.5 mm",
+          "s": "8 mm"
+        }
+      },
+      {
+        "name": "M5x16",
+        "select": {
+          "Length": "16",
+          "Size": "M5"
+        },
+        "values": {
+          "L": "16 mm",
+          "P": "0.8 mm",
+          "d": "5 mm",
+          "k": "3.5 mm",
+          "s": "8 mm"
+        }
+      },
+      {
+        "name": "M5x20",
+        "select": {
+          "Length": "20",
+          "Size": "M5"
+        },
+        "values": {
+          "L": "20 mm",
+          "P": "0.8 mm",
+          "d": "5 mm",
+          "k": "3.5 mm",
+          "s": "8 mm"
+        }
+      },
+      {
+        "name": "M5x25",
+        "select": {
+          "Length": "25",
+          "Size": "M5"
+        },
+        "values": {
+          "L": "25 mm",
+          "P": "0.8 mm",
+          "d": "5 mm",
+          "k": "3.5 mm",
+          "s": "8 mm"
+        }
+      },
+      {
+        "name": "M5x30",
+        "select": {
+          "Length": "30",
+          "Size": "M5"
+        },
+        "values": {
+          "L": "30 mm",
+          "P": "0.8 mm",
+          "d": "5 mm",
+          "k": "3.5 mm",
+          "s": "8 mm"
+        }
+      },
+      {
+        "name": "M5x35",
+        "select": {
+          "Length": "35",
+          "Size": "M5"
+        },
+        "values": {
+          "L": "35 mm",
+          "P": "0.8 mm",
+          "d": "5 mm",
+          "k": "3.5 mm",
+          "s": "8 mm"
+        }
+      },
+      {
+        "name": "M5x40",
+        "select": {
+          "Length": "40",
+          "Size": "M5"
+        },
+        "values": {
+          "L": "40 mm",
+          "P": "0.8 mm",
+          "d": "5 mm",
+          "k": "3.5 mm",
+          "s": "8 mm"
+        }
+      },
+      {
+        "name": "M5x45",
+        "select": {
+          "Length": "45",
+          "Size": "M5"
+        },
+        "values": {
+          "L": "45 mm",
+          "P": "0.8 mm",
+          "d": "5 mm",
+          "k": "3.5 mm",
+          "s": "8 mm"
+        }
+      },
+      {
+        "name": "M5x50",
+        "select": {
+          "Length": "50",
+          "Size": "M5"
+        },
+        "values": {
+          "L": "50 mm",
+          "P": "0.8 mm",
+          "d": "5 mm",
+          "k": "3.5 mm",
+          "s": "8 mm"
+        }
+      },
+      {
+        "name": "M6x10",
+        "select": {
+          "Length": "10",
+          "Size": "M6"
+        },
+        "values": {
+          "L": "10 mm",
+          "P": "1 mm",
+          "d": "6 mm",
+          "k": "4 mm",
+          "s": "10 mm"
+        }
+      },
+      {
+        "name": "M6x12",
+        "select": {
+          "Length": "12",
+          "Size": "M6"
+        },
+        "values": {
+          "L": "12 mm",
+          "P": "1 mm",
+          "d": "6 mm",
+          "k": "4 mm",
+          "s": "10 mm"
+        }
+      },
+      {
+        "name": "M6x16",
+        "select": {
+          "Length": "16",
+          "Size": "M6"
+        },
+        "values": {
+          "L": "16 mm",
+          "P": "1 mm",
+          "d": "6 mm",
+          "k": "4 mm",
+          "s": "10 mm"
+        }
+      },
+      {
+        "name": "M6x20",
+        "select": {
+          "Length": "20",
+          "Size": "M6"
+        },
+        "values": {
+          "L": "20 mm",
+          "P": "1 mm",
+          "d": "6 mm",
+          "k": "4 mm",
+          "s": "10 mm"
+        }
+      },
+      {
+        "name": "M6x25",
+        "select": {
+          "Length": "25",
+          "Size": "M6"
+        },
+        "values": {
+          "L": "25 mm",
+          "P": "1 mm",
+          "d": "6 mm",
+          "k": "4 mm",
+          "s": "10 mm"
+        }
+      },
+      {
+        "name": "M6x30",
+        "select": {
+          "Length": "30",
+          "Size": "M6"
+        },
+        "values": {
+          "L": "30 mm",
+          "P": "1 mm",
+          "d": "6 mm",
+          "k": "4 mm",
+          "s": "10 mm"
+        }
+      },
+      {
+        "name": "M6x35",
+        "select": {
+          "Length": "35",
+          "Size": "M6"
+        },
+        "values": {
+          "L": "35 mm",
+          "P": "1 mm",
+          "d": "6 mm",
+          "k": "4 mm",
+          "s": "10 mm"
+        }
+      },
+      {
+        "name": "M6x40",
+        "select": {
+          "Length": "40",
+          "Size": "M6"
+        },
+        "values": {
+          "L": "40 mm",
+          "P": "1 mm",
+          "d": "6 mm",
+          "k": "4 mm",
+          "s": "10 mm"
+        }
+      },
+      {
+        "name": "M6x45",
+        "select": {
+          "Length": "45",
+          "Size": "M6"
+        },
+        "values": {
+          "L": "45 mm",
+          "P": "1 mm",
+          "d": "6 mm",
+          "k": "4 mm",
+          "s": "10 mm"
+        }
+      },
+      {
+        "name": "M6x50",
+        "select": {
+          "Length": "50",
+          "Size": "M6"
+        },
+        "values": {
+          "L": "50 mm",
+          "P": "1 mm",
+          "d": "6 mm",
+          "k": "4 mm",
+          "s": "10 mm"
+        }
+      },
+      {
+        "name": "M6x55",
+        "select": {
+          "Length": "55",
+          "Size": "M6"
+        },
+        "values": {
+          "L": "55 mm",
+          "P": "1 mm",
+          "d": "6 mm",
+          "k": "4 mm",
+          "s": "10 mm"
+        }
+      },
+      {
+        "name": "M6x60",
+        "select": {
+          "Length": "60",
+          "Size": "M6"
+        },
+        "values": {
+          "L": "60 mm",
+          "P": "1 mm",
+          "d": "6 mm",
+          "k": "4 mm",
+          "s": "10 mm"
+        }
+      },
+      {
+        "name": "M8x12",
+        "select": {
+          "Length": "12",
+          "Size": "M8"
+        },
+        "values": {
+          "L": "12 mm",
+          "P": "1.25 mm",
+          "d": "8 mm",
+          "k": "5.3 mm",
+          "s": "13 mm"
+        }
+      },
+      {
+        "name": "M8x16",
+        "select": {
+          "Length": "16",
+          "Size": "M8"
+        },
+        "values": {
+          "L": "16 mm",
+          "P": "1.25 mm",
+          "d": "8 mm",
+          "k": "5.3 mm",
+          "s": "13 mm"
+        }
+      },
+      {
+        "name": "M8x20",
+        "select": {
+          "Length": "20",
+          "Size": "M8"
+        },
+        "values": {
+          "L": "20 mm",
+          "P": "1.25 mm",
+          "d": "8 mm",
+          "k": "5.3 mm",
+          "s": "13 mm"
+        }
+      },
+      {
+        "name": "M8x25",
+        "select": {
+          "Length": "25",
+          "Size": "M8"
+        },
+        "values": {
+          "L": "25 mm",
+          "P": "1.25 mm",
+          "d": "8 mm",
+          "k": "5.3 mm",
+          "s": "13 mm"
+        }
+      },
+      {
+        "name": "M8x30",
+        "select": {
+          "Length": "30",
+          "Size": "M8"
+        },
+        "values": {
+          "L": "30 mm",
+          "P": "1.25 mm",
+          "d": "8 mm",
+          "k": "5.3 mm",
+          "s": "13 mm"
+        }
+      },
+      {
+        "name": "M8x35",
+        "select": {
+          "Length": "35",
+          "Size": "M8"
+        },
+        "values": {
+          "L": "35 mm",
+          "P": "1.25 mm",
+          "d": "8 mm",
+          "k": "5.3 mm",
+          "s": "13 mm"
+        }
+      },
+      {
+        "name": "M8x40",
+        "select": {
+          "Length": "40",
+          "Size": "M8"
+        },
+        "values": {
+          "L": "40 mm",
+          "P": "1.25 mm",
+          "d": "8 mm",
+          "k": "5.3 mm",
+          "s": "13 mm"
+        }
+      },
+      {
+        "name": "M8x45",
+        "select": {
+          "Length": "45",
+          "Size": "M8"
+        },
+        "values": {
+          "L": "45 mm",
+          "P": "1.25 mm",
+          "d": "8 mm",
+          "k": "5.3 mm",
+          "s": "13 mm"
+        }
+      },
+      {
+        "name": "M8x50",
+        "select": {
+          "Length": "50",
+          "Size": "M8"
+        },
+        "values": {
+          "L": "50 mm",
+          "P": "1.25 mm",
+          "d": "8 mm",
+          "k": "5.3 mm",
+          "s": "13 mm"
+        }
+      },
+      {
+        "name": "M8x55",
+        "select": {
+          "Length": "55",
+          "Size": "M8"
+        },
+        "values": {
+          "L": "55 mm",
+          "P": "1.25 mm",
+          "d": "8 mm",
+          "k": "5.3 mm",
+          "s": "13 mm"
+        }
+      },
+      {
+        "name": "M8x60",
+        "select": {
+          "Length": "60",
+          "Size": "M8"
+        },
+        "values": {
+          "L": "60 mm",
+          "P": "1.25 mm",
+          "d": "8 mm",
+          "k": "5.3 mm",
+          "s": "13 mm"
+        }
+      },
+      {
+        "name": "M8x65",
+        "select": {
+          "Length": "65",
+          "Size": "M8"
+        },
+        "values": {
+          "L": "65 mm",
+          "P": "1.25 mm",
+          "d": "8 mm",
+          "k": "5.3 mm",
+          "s": "13 mm"
+        }
+      },
+      {
+        "name": "M8x70",
+        "select": {
+          "Length": "70",
+          "Size": "M8"
+        },
+        "values": {
+          "L": "70 mm",
+          "P": "1.25 mm",
+          "d": "8 mm",
+          "k": "5.3 mm",
+          "s": "13 mm"
+        }
+      },
+      {
+        "name": "M8x80",
+        "select": {
+          "Length": "80",
+          "Size": "M8"
+        },
+        "values": {
+          "L": "80 mm",
+          "P": "1.25 mm",
+          "d": "8 mm",
+          "k": "5.3 mm",
+          "s": "13 mm"
+        }
+      },
+      {
+        "name": "M10x16",
+        "select": {
+          "Length": "16",
+          "Size": "M10"
+        },
+        "values": {
+          "L": "16 mm",
+          "P": "1.5 mm",
+          "d": "10 mm",
+          "k": "6.4 mm",
+          "s": "16 mm"
+        }
+      },
+      {
+        "name": "M10x20",
+        "select": {
+          "Length": "20",
+          "Size": "M10"
+        },
+        "values": {
+          "L": "20 mm",
+          "P": "1.5 mm",
+          "d": "10 mm",
+          "k": "6.4 mm",
+          "s": "16 mm"
+        }
+      },
+      {
+        "name": "M10x25",
+        "select": {
+          "Length": "25",
+          "Size": "M10"
+        },
+        "values": {
+          "L": "25 mm",
+          "P": "1.5 mm",
+          "d": "10 mm",
+          "k": "6.4 mm",
+          "s": "16 mm"
+        }
+      },
+      {
+        "name": "M10x30",
+        "select": {
+          "Length": "30",
+          "Size": "M10"
+        },
+        "values": {
+          "L": "30 mm",
+          "P": "1.5 mm",
+          "d": "10 mm",
+          "k": "6.4 mm",
+          "s": "16 mm"
+        }
+      },
+      {
+        "name": "M10x35",
+        "select": {
+          "Length": "35",
+          "Size": "M10"
+        },
+        "values": {
+          "L": "35 mm",
+          "P": "1.5 mm",
+          "d": "10 mm",
+          "k": "6.4 mm",
+          "s": "16 mm"
+        }
+      },
+      {
+        "name": "M10x40",
+        "select": {
+          "Length": "40",
+          "Size": "M10"
+        },
+        "values": {
+          "L": "40 mm",
+          "P": "1.5 mm",
+          "d": "10 mm",
+          "k": "6.4 mm",
+          "s": "16 mm"
+        }
+      },
+      {
+        "name": "M10x45",
+        "select": {
+          "Length": "45",
+          "Size": "M10"
+        },
+        "values": {
+          "L": "45 mm",
+          "P": "1.5 mm",
+          "d": "10 mm",
+          "k": "6.4 mm",
+          "s": "16 mm"
+        }
+      },
+      {
+        "name": "M10x50",
+        "select": {
+          "Length": "50",
+          "Size": "M10"
+        },
+        "values": {
+          "L": "50 mm",
+          "P": "1.5 mm",
+          "d": "10 mm",
+          "k": "6.4 mm",
+          "s": "16 mm"
+        }
+      },
+      {
+        "name": "M10x55",
+        "select": {
+          "Length": "55",
+          "Size": "M10"
+        },
+        "values": {
+          "L": "55 mm",
+          "P": "1.5 mm",
+          "d": "10 mm",
+          "k": "6.4 mm",
+          "s": "16 mm"
+        }
+      },
+      {
+        "name": "M10x60",
+        "select": {
+          "Length": "60",
+          "Size": "M10"
+        },
+        "values": {
+          "L": "60 mm",
+          "P": "1.5 mm",
+          "d": "10 mm",
+          "k": "6.4 mm",
+          "s": "16 mm"
+        }
+      },
+      {
+        "name": "M10x65",
+        "select": {
+          "Length": "65",
+          "Size": "M10"
+        },
+        "values": {
+          "L": "65 mm",
+          "P": "1.5 mm",
+          "d": "10 mm",
+          "k": "6.4 mm",
+          "s": "16 mm"
+        }
+      },
+      {
+        "name": "M10x70",
+        "select": {
+          "Length": "70",
+          "Size": "M10"
+        },
+        "values": {
+          "L": "70 mm",
+          "P": "1.5 mm",
+          "d": "10 mm",
+          "k": "6.4 mm",
+          "s": "16 mm"
+        }
+      },
+      {
+        "name": "M10x80",
+        "select": {
+          "Length": "80",
+          "Size": "M10"
+        },
+        "values": {
+          "L": "80 mm",
+          "P": "1.5 mm",
+          "d": "10 mm",
+          "k": "6.4 mm",
+          "s": "16 mm"
+        }
+      },
+      {
+        "name": "M10x90",
+        "select": {
+          "Length": "90",
+          "Size": "M10"
+        },
+        "values": {
+          "L": "90 mm",
+          "P": "1.5 mm",
+          "d": "10 mm",
+          "k": "6.4 mm",
+          "s": "16 mm"
+        }
+      },
+      {
+        "name": "M10x100",
+        "select": {
+          "Length": "100",
+          "Size": "M10"
+        },
+        "values": {
+          "L": "100 mm",
+          "P": "1.5 mm",
+          "d": "10 mm",
+          "k": "6.4 mm",
+          "s": "16 mm"
+        }
+      },
+      {
+        "name": "M12x20",
+        "select": {
+          "Length": "20",
+          "Size": "M12"
+        },
+        "values": {
+          "L": "20 mm",
+          "P": "1.75 mm",
+          "d": "12 mm",
+          "k": "7.5 mm",
+          "s": "18 mm"
+        }
+      },
+      {
+        "name": "M12x25",
+        "select": {
+          "Length": "25",
+          "Size": "M12"
+        },
+        "values": {
+          "L": "25 mm",
+          "P": "1.75 mm",
+          "d": "12 mm",
+          "k": "7.5 mm",
+          "s": "18 mm"
+        }
+      },
+      {
+        "name": "M12x30",
+        "select": {
+          "Length": "30",
+          "Size": "M12"
+        },
+        "values": {
+          "L": "30 mm",
+          "P": "1.75 mm",
+          "d": "12 mm",
+          "k": "7.5 mm",
+          "s": "18 mm"
+        }
+      },
+      {
+        "name": "M12x35",
+        "select": {
+          "Length": "35",
+          "Size": "M12"
+        },
+        "values": {
+          "L": "35 mm",
+          "P": "1.75 mm",
+          "d": "12 mm",
+          "k": "7.5 mm",
+          "s": "18 mm"
+        }
+      },
+      {
+        "name": "M12x40",
+        "select": {
+          "Length": "40",
+          "Size": "M12"
+        },
+        "values": {
+          "L": "40 mm",
+          "P": "1.75 mm",
+          "d": "12 mm",
+          "k": "7.5 mm",
+          "s": "18 mm"
+        }
+      },
+      {
+        "name": "M12x45",
+        "select": {
+          "Length": "45",
+          "Size": "M12"
+        },
+        "values": {
+          "L": "45 mm",
+          "P": "1.75 mm",
+          "d": "12 mm",
+          "k": "7.5 mm",
+          "s": "18 mm"
+        }
+      },
+      {
+        "name": "M12x50",
+        "select": {
+          "Length": "50",
+          "Size": "M12"
+        },
+        "values": {
+          "L": "50 mm",
+          "P": "1.75 mm",
+          "d": "12 mm",
+          "k": "7.5 mm",
+          "s": "18 mm"
+        }
+      },
+      {
+        "name": "M12x55",
+        "select": {
+          "Length": "55",
+          "Size": "M12"
+        },
+        "values": {
+          "L": "55 mm",
+          "P": "1.75 mm",
+          "d": "12 mm",
+          "k": "7.5 mm",
+          "s": "18 mm"
+        }
+      },
+      {
+        "name": "M12x60",
+        "select": {
+          "Length": "60",
+          "Size": "M12"
+        },
+        "values": {
+          "L": "60 mm",
+          "P": "1.75 mm",
+          "d": "12 mm",
+          "k": "7.5 mm",
+          "s": "18 mm"
+        }
+      },
+      {
+        "name": "M12x65",
+        "select": {
+          "Length": "65",
+          "Size": "M12"
+        },
+        "values": {
+          "L": "65 mm",
+          "P": "1.75 mm",
+          "d": "12 mm",
+          "k": "7.5 mm",
+          "s": "18 mm"
+        }
+      },
+      {
+        "name": "M12x70",
+        "select": {
+          "Length": "70",
+          "Size": "M12"
+        },
+        "values": {
+          "L": "70 mm",
+          "P": "1.75 mm",
+          "d": "12 mm",
+          "k": "7.5 mm",
+          "s": "18 mm"
+        }
+      },
+      {
+        "name": "M12x80",
+        "select": {
+          "Length": "80",
+          "Size": "M12"
+        },
+        "values": {
+          "L": "80 mm",
+          "P": "1.75 mm",
+          "d": "12 mm",
+          "k": "7.5 mm",
+          "s": "18 mm"
+        }
+      },
+      {
+        "name": "M12x90",
+        "select": {
+          "Length": "90",
+          "Size": "M12"
+        },
+        "values": {
+          "L": "90 mm",
+          "P": "1.75 mm",
+          "d": "12 mm",
+          "k": "7.5 mm",
+          "s": "18 mm"
+        }
+      },
+      {
+        "name": "M12x100",
+        "select": {
+          "Length": "100",
+          "Size": "M12"
+        },
+        "values": {
+          "L": "100 mm",
+          "P": "1.75 mm",
+          "d": "12 mm",
+          "k": "7.5 mm",
+          "s": "18 mm"
+        }
+      },
+      {
+        "name": "M12x110",
+        "select": {
+          "Length": "110",
+          "Size": "M12"
+        },
+        "values": {
+          "L": "110 mm",
+          "P": "1.75 mm",
+          "d": "12 mm",
+          "k": "7.5 mm",
+          "s": "18 mm"
+        }
+      },
+      {
+        "name": "M12x120",
+        "select": {
+          "Length": "120",
+          "Size": "M12"
+        },
+        "values": {
+          "L": "120 mm",
+          "P": "1.75 mm",
+          "d": "12 mm",
+          "k": "7.5 mm",
+          "s": "18 mm"
+        }
+      }
+    ]
+  }
+}
