@@ -1,0 +1,176 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "W",
+      "expression": "169 mm",
+      "unit": "mm",
+      "value": 169.0,
+      "comment": ""
+    },
+    {
+      "name": "L",
+      "expression": "1000 mm",
+      "unit": "mm",
+      "value": 1000.0,
+      "comment": ""
+    },
+    {
+      "name": "T",
+      "expression": "8 mm",
+      "unit": "mm",
+      "value": 8.0,
+      "comment": ""
+    },
+    {
+      "name": "d1",
+      "expression": "-W / 2",
+      "unit": "mm",
+      "value": -84.5,
+      "comment": "Centred x",
+      "owner": "F2"
+    },
+    {
+      "name": "d2",
+      "expression": "0 mm",
+      "unit": "mm",
+      "value": 0.0,
+      "comment": "Centred y",
+      "owner": "F2"
+    },
+    {
+      "name": "d3",
+      "expression": "0 mm",
+      "unit": "mm",
+      "value": 0.0,
+      "comment": "Centred z",
+      "owner": "F2"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Plate",
+      "type": "box",
+      "plane": "xy",
+      "corner": [
+        0.0,
+        0.0
+      ],
+      "length": "W",
+      "width": "T",
+      "height": "L",
+      "operation": "new_body"
+    },
+    {
+      "uid": "F2",
+      "name": "Centred",
+      "type": "move",
+      "bodies": [
+        "F1.b0"
+      ],
+      "transform": {
+        "type": "translate_xyz",
+        "x": "d1",
+        "y": "d2",
+        "z": "d3"
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "mount:end_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F4",
+      "name": "mount:face",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Body1"
+    }
+  ],
+  "configurations": {
+    "selectors": [
+      "Width"
+    ],
+    "parameters": [
+      "W"
+    ],
+    "default": "169",
+    "rows": [
+      {
+        "name": "169",
+        "select": {
+          "Width": "169"
+        },
+        "values": {
+          "W": "169 mm"
+        },
+        "part_number": "Plate 169x1964 racking"
+      },
+      {
+        "name": "269",
+        "select": {
+          "Width": "269"
+        },
+        "values": {
+          "W": "269 mm"
+        },
+        "part_number": "Plate 269x1964 racking"
+      },
+      {
+        "name": "369",
+        "select": {
+          "Width": "369"
+        },
+        "values": {
+          "W": "369 mm"
+        },
+        "part_number": "Plate 369x1964 racking"
+      }
+    ]
+  }
+}

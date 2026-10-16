@@ -1,0 +1,592 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "L",
+      "expression": "300 mm",
+      "unit": "mm",
+      "value": 300.0,
+      "comment": "Length"
+    },
+    {
+      "name": "d1",
+      "expression": "3.5 mm",
+      "unit": "mm",
+      "value": 3.5,
+      "comment": "Hole 1 diameter",
+      "owner": "F4"
+    },
+    {
+      "name": "d2",
+      "expression": "max(1, floor((L - 12.5 mm) / (25 mm)) + 1)",
+      "unit": "mm",
+      "value": 12.0,
+      "comment": "Holes at the pitch quantity",
+      "owner": "F5"
+    },
+    {
+      "name": "d3",
+      "expression": "25 mm",
+      "unit": "mm",
+      "value": 25.0,
+      "comment": "Holes at the pitch distance",
+      "owner": "F5"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Section",
+      "type": "sketch",
+      "plane": "xy",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            6.0,
+            2.7
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p2",
+          "type": "point",
+          "at": [
+            6.0,
+            3.45
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c3",
+          "type": "line",
+          "start": "p1",
+          "end": "p2",
+          "fixed": true
+        },
+        {
+          "id": "p4",
+          "type": "point",
+          "at": [
+            6.0,
+            1.45
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p5",
+          "type": "point",
+          "at": [
+            4.833333333,
+            1.898763734
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c6",
+          "type": "arc",
+          "center": "p4",
+          "start": "p1",
+          "end": "p5",
+          "fixed": true
+        },
+        {
+          "id": "p7",
+          "type": "point",
+          "at": [
+            4.8,
+            1.45
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p8",
+          "type": "point",
+          "at": [
+            4.833333333,
+            1.001236266
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c9",
+          "type": "arc",
+          "center": "p7",
+          "start": "p5",
+          "end": "p8",
+          "fixed": true
+        },
+        {
+          "id": "p10",
+          "type": "point",
+          "at": [
+            6.0,
+            1.45
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p11",
+          "type": "point",
+          "at": [
+            6.0,
+            0.2
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c12",
+          "type": "arc",
+          "center": "p10",
+          "start": "p8",
+          "end": "p11",
+          "fixed": true
+        },
+        {
+          "id": "p13",
+          "type": "point",
+          "at": [
+            6.0,
+            -2.95
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c14",
+          "type": "line",
+          "start": "p13",
+          "end": "p11",
+          "fixed": true
+        },
+        {
+          "id": "p15",
+          "type": "point",
+          "at": [
+            5.2,
+            -3.75
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c16",
+          "type": "line",
+          "start": "p15",
+          "end": "p13",
+          "fixed": true
+        },
+        {
+          "id": "p17",
+          "type": "point",
+          "at": [
+            -5.2,
+            -3.75
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c18",
+          "type": "line",
+          "start": "p17",
+          "end": "p15",
+          "fixed": true
+        },
+        {
+          "id": "p19",
+          "type": "point",
+          "at": [
+            -6.0,
+            -2.95
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c20",
+          "type": "line",
+          "start": "p19",
+          "end": "p17",
+          "fixed": true
+        },
+        {
+          "id": "p21",
+          "type": "point",
+          "at": [
+            -6.0,
+            0.2
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c22",
+          "type": "line",
+          "start": "p21",
+          "end": "p19",
+          "fixed": true
+        },
+        {
+          "id": "p23",
+          "type": "point",
+          "at": [
+            -6.0,
+            1.45
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p24",
+          "type": "point",
+          "at": [
+            -4.833333333,
+            1.001236266
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c25",
+          "type": "arc",
+          "center": "p23",
+          "start": "p21",
+          "end": "p24",
+          "fixed": true
+        },
+        {
+          "id": "p26",
+          "type": "point",
+          "at": [
+            -4.8,
+            1.45
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p27",
+          "type": "point",
+          "at": [
+            -4.833333333,
+            1.898763734
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c28",
+          "type": "arc",
+          "center": "p26",
+          "start": "p24",
+          "end": "p27",
+          "fixed": true
+        },
+        {
+          "id": "p29",
+          "type": "point",
+          "at": [
+            -6.0,
+            1.45
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p30",
+          "type": "point",
+          "at": [
+            -6.0,
+            2.7
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c31",
+          "type": "arc",
+          "center": "p29",
+          "start": "p27",
+          "end": "p30",
+          "fixed": true
+        },
+        {
+          "id": "p32",
+          "type": "point",
+          "at": [
+            -6.0,
+            3.45
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c33",
+          "type": "line",
+          "start": "p32",
+          "end": "p30",
+          "fixed": true
+        },
+        {
+          "id": "p34",
+          "type": "point",
+          "at": [
+            -5.7,
+            3.45
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p35",
+          "type": "point",
+          "at": [
+            -5.7,
+            3.75
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c36",
+          "type": "arc",
+          "center": "p34",
+          "start": "p35",
+          "end": "p32",
+          "fixed": true
+        },
+        {
+          "id": "p37",
+          "type": "point",
+          "at": [
+            5.7,
+            3.75
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c38",
+          "type": "line",
+          "start": "p37",
+          "end": "p35",
+          "fixed": true
+        },
+        {
+          "id": "p39",
+          "type": "point",
+          "at": [
+            5.7,
+            3.45
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c40",
+          "type": "arc",
+          "center": "p39",
+          "start": "p2",
+          "end": "p37",
+          "fixed": true
+        }
+      ]
+    },
+    {
+      "uid": "F2",
+      "name": "Profile",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F1",
+          "region": "r{c3[c6,c40],c6[c3,c9],c9[c6,c12],c12[c9,c14],c14[c16,c12],c16[c18,c14],c18[c20,c16],c20[c22,c18],c22[c25,c20],c25[c22,c28],c28[c25,c31],c31[c28,c33],c33[c36,c31],c36[c38,c33],c38[c40,c36],c40[c3,c38]}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "L"
+      },
+      "operation": "new_body"
+    },
+    {
+      "uid": "F3",
+      "name": "Hole plane 1",
+      "type": "construction_plane",
+      "definition": {
+        "type": "fixed",
+        "origin": [
+          0.0,
+          3.75,
+          12.5
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "y_axis": [
+          1.0,
+          0.0,
+          -0.0
+        ]
+      }
+    },
+    {
+      "uid": "F4",
+      "name": "Hole 1",
+      "type": "hole",
+      "placement": {
+        "type": "plane",
+        "plane": "F3",
+        "points": [
+          [
+            0.0,
+            3.75,
+            12.5
+          ]
+        ]
+      },
+      "diameter": "d1",
+      "extent": {
+        "type": "through_all"
+      }
+    },
+    {
+      "uid": "F5",
+      "name": "Holes at the pitch",
+      "type": "rectangular_pattern",
+      "objects": {
+        "type": "features",
+        "features": [
+          "F4"
+        ]
+      },
+      "direction1": {
+        "axis": "z",
+        "quantity": "d2",
+        "distance": "d3"
+      },
+      "distance_type": "spacing"
+    },
+    {
+      "uid": "F6",
+      "name": "mount:end_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F7",
+      "name": "End B plane",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": "xy",
+        "distance": "L"
+      }
+    },
+    {
+      "uid": "F8",
+      "name": "mount:end_b",
+      "type": "joint_origin",
+      "geometry": "F7"
+    },
+    {
+      "uid": "F9",
+      "name": "mount:rail",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          3.75,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "uid": "F10",
+      "name": "mount:base",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          -3.75,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F2.b0",
+      "name": "Body1"
+    }
+  ],
+  "configurations": {
+    "selectors": [
+      "Stock"
+    ],
+    "parameters": [],
+    "default": "300",
+    "rows": [
+      {
+        "name": "300",
+        "select": {
+          "Stock": "300"
+        },
+        "values": {},
+        "part_number": "MR12M-N-300"
+      },
+      {
+        "name": "400",
+        "select": {
+          "Stock": "400"
+        },
+        "values": {},
+        "part_number": "MR12M-N-400"
+      },
+      {
+        "name": "500",
+        "select": {
+          "Stock": "500"
+        },
+        "values": {},
+        "part_number": "MR12M-N-500"
+      },
+      {
+        "name": "600",
+        "select": {
+          "Stock": "600"
+        },
+        "values": {},
+        "part_number": "MR12M-N-600"
+      }
+    ]
+  }
+}

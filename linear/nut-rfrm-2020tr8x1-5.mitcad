@@ -1,0 +1,83 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base1",
+      "type": "base",
+      "bodies": [
+        {
+          "name": "RFRM-2020TR8x1.5",
+          "color": [
+            0.65098,
+            0.141176,
+            0.14902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 26158,
+            "data": "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"
+          }
+        }
+      ],
+      "source": "RFRM_2020TR8x1_5_1.stp"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:bore",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          10.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "mount:mount",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "RFRM-2020TR8x1.5"
+    }
+  ]
+}

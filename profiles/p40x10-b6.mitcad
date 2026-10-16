@@ -1,0 +1,3276 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "L",
+      "expression": "100 mm",
+      "unit": "mm",
+      "value": 100.0,
+      "comment": "Length"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Section",
+      "type": "sketch",
+      "plane": "xy",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            3.7,
+            5.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p2",
+          "type": "point",
+          "at": [
+            19.0,
+            5.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c3",
+          "type": "line",
+          "start": "p1",
+          "end": "p2",
+          "fixed": true
+        },
+        {
+          "id": "p4",
+          "type": "point",
+          "at": [
+            19.0,
+            4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p5",
+          "type": "point",
+          "at": [
+            20.0,
+            4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c6",
+          "type": "arc",
+          "center": "p4",
+          "start": "p5",
+          "end": "p2",
+          "fixed": true
+        },
+        {
+          "id": "p7",
+          "type": "point",
+          "at": [
+            20.0,
+            -4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c8",
+          "type": "line",
+          "start": "p5",
+          "end": "p7",
+          "fixed": true
+        },
+        {
+          "id": "p9",
+          "type": "point",
+          "at": [
+            19.0,
+            -4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p10",
+          "type": "point",
+          "at": [
+            19.0,
+            -5.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c11",
+          "type": "arc",
+          "center": "p9",
+          "start": "p10",
+          "end": "p7",
+          "fixed": true
+        },
+        {
+          "id": "p12",
+          "type": "point",
+          "at": [
+            13.7,
+            -5.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c13",
+          "type": "line",
+          "start": "p10",
+          "end": "p12",
+          "fixed": true
+        },
+        {
+          "id": "p14",
+          "type": "point",
+          "at": [
+            13.7,
+            -4.8
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p15",
+          "type": "point",
+          "at": [
+            13.5,
+            -4.8
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c16",
+          "type": "arc",
+          "center": "p14",
+          "start": "p15",
+          "end": "p12",
+          "fixed": true
+        },
+        {
+          "id": "p17",
+          "type": "point",
+          "at": [
+            13.5,
+            -4.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c18",
+          "type": "line",
+          "start": "p15",
+          "end": "p17",
+          "fixed": true
+        },
+        {
+          "id": "p19",
+          "type": "point",
+          "at": [
+            13.2,
+            -4.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c20",
+          "type": "line",
+          "start": "p17",
+          "end": "p19",
+          "fixed": true
+        },
+        {
+          "id": "p21",
+          "type": "point",
+          "at": [
+            13.2,
+            -4.3
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p22",
+          "type": "point",
+          "at": [
+            13.0,
+            -4.3
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c23",
+          "type": "arc",
+          "center": "p21",
+          "start": "p22",
+          "end": "p19",
+          "fixed": true
+        },
+        {
+          "id": "p24",
+          "type": "point",
+          "at": [
+            13.0,
+            -4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c25",
+          "type": "line",
+          "start": "p22",
+          "end": "p24",
+          "fixed": true
+        },
+        {
+          "id": "p26",
+          "type": "point",
+          "at": [
+            13.5,
+            -4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p27",
+          "type": "point",
+          "at": [
+            13.5,
+            -3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c28",
+          "type": "arc",
+          "center": "p26",
+          "start": "p27",
+          "end": "p24",
+          "fixed": true
+        },
+        {
+          "id": "p29",
+          "type": "point",
+          "at": [
+            15.5,
+            -3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c30",
+          "type": "line",
+          "start": "p27",
+          "end": "p29",
+          "fixed": true
+        },
+        {
+          "id": "p31",
+          "type": "point",
+          "at": [
+            15.5,
+            -3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p32",
+          "type": "point",
+          "at": [
+            16.0,
+            -3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c33",
+          "type": "arc",
+          "center": "p31",
+          "start": "p29",
+          "end": "p32",
+          "fixed": true
+        },
+        {
+          "id": "p34",
+          "type": "point",
+          "at": [
+            16.0,
+            -2.267766953
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c35",
+          "type": "line",
+          "start": "p32",
+          "end": "p34",
+          "fixed": true
+        },
+        {
+          "id": "p36",
+          "type": "point",
+          "at": [
+            15.5,
+            -2.267766953
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p37",
+          "type": "point",
+          "at": [
+            15.853553391,
+            -1.914213562
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c38",
+          "type": "arc",
+          "center": "p36",
+          "start": "p34",
+          "end": "p37",
+          "fixed": true
+        },
+        {
+          "id": "p39",
+          "type": "point",
+          "at": [
+            13.585786438,
+            0.353553391
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c40",
+          "type": "line",
+          "start": "p37",
+          "end": "p39",
+          "fixed": true
+        },
+        {
+          "id": "p41",
+          "type": "point",
+          "at": [
+            13.232233047,
+            0.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p42",
+          "type": "point",
+          "at": [
+            13.232233047,
+            0.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c43",
+          "type": "arc",
+          "center": "p41",
+          "start": "p39",
+          "end": "p42",
+          "fixed": true
+        },
+        {
+          "id": "p44",
+          "type": "point",
+          "at": [
+            10.919615242,
+            0.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c45",
+          "type": "line",
+          "start": "p42",
+          "end": "p44",
+          "fixed": true
+        },
+        {
+          "id": "p46",
+          "type": "point",
+          "at": [
+            10.919615242,
+            0.7
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p47",
+          "type": "point",
+          "at": [
+            10.819615242,
+            0.526794919
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c48",
+          "type": "arc",
+          "center": "p46",
+          "start": "p47",
+          "end": "p44",
+          "fixed": true
+        },
+        {
+          "id": "p49",
+          "type": "point",
+          "at": [
+            10.1,
+            0.942264973
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c50",
+          "type": "line",
+          "start": "p47",
+          "end": "p49",
+          "fixed": true
+        },
+        {
+          "id": "p51",
+          "type": "point",
+          "at": [
+            10.0,
+            0.769059892
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p52",
+          "type": "point",
+          "at": [
+            9.9,
+            0.942264973
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c53",
+          "type": "arc",
+          "center": "p51",
+          "start": "p49",
+          "end": "p52",
+          "fixed": true
+        },
+        {
+          "id": "p54",
+          "type": "point",
+          "at": [
+            9.180384758,
+            0.526794919
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c55",
+          "type": "line",
+          "start": "p52",
+          "end": "p54",
+          "fixed": true
+        },
+        {
+          "id": "p56",
+          "type": "point",
+          "at": [
+            9.080384758,
+            0.7
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p57",
+          "type": "point",
+          "at": [
+            9.080384758,
+            0.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c58",
+          "type": "arc",
+          "center": "p56",
+          "start": "p57",
+          "end": "p54",
+          "fixed": true
+        },
+        {
+          "id": "p59",
+          "type": "point",
+          "at": [
+            6.767766953,
+            0.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c60",
+          "type": "line",
+          "start": "p57",
+          "end": "p59",
+          "fixed": true
+        },
+        {
+          "id": "p61",
+          "type": "point",
+          "at": [
+            6.767766953,
+            0.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p62",
+          "type": "point",
+          "at": [
+            6.414213562,
+            0.353553391
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c63",
+          "type": "arc",
+          "center": "p61",
+          "start": "p59",
+          "end": "p62",
+          "fixed": true
+        },
+        {
+          "id": "p64",
+          "type": "point",
+          "at": [
+            4.146446609,
+            -1.914213562
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c65",
+          "type": "line",
+          "start": "p62",
+          "end": "p64",
+          "fixed": true
+        },
+        {
+          "id": "p66",
+          "type": "point",
+          "at": [
+            4.5,
+            -2.267766953
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p67",
+          "type": "point",
+          "at": [
+            4.0,
+            -2.267766953
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c68",
+          "type": "arc",
+          "center": "p66",
+          "start": "p64",
+          "end": "p67",
+          "fixed": true
+        },
+        {
+          "id": "p69",
+          "type": "point",
+          "at": [
+            4.0,
+            -3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c70",
+          "type": "line",
+          "start": "p67",
+          "end": "p69",
+          "fixed": true
+        },
+        {
+          "id": "p71",
+          "type": "point",
+          "at": [
+            4.5,
+            -3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p72",
+          "type": "point",
+          "at": [
+            4.5,
+            -3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c73",
+          "type": "arc",
+          "center": "p71",
+          "start": "p69",
+          "end": "p72",
+          "fixed": true
+        },
+        {
+          "id": "p74",
+          "type": "point",
+          "at": [
+            6.5,
+            -3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c75",
+          "type": "line",
+          "start": "p72",
+          "end": "p74",
+          "fixed": true
+        },
+        {
+          "id": "p76",
+          "type": "point",
+          "at": [
+            6.5,
+            -4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p77",
+          "type": "point",
+          "at": [
+            7.0,
+            -4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c78",
+          "type": "arc",
+          "center": "p76",
+          "start": "p77",
+          "end": "p74",
+          "fixed": true
+        },
+        {
+          "id": "p79",
+          "type": "point",
+          "at": [
+            7.0,
+            -4.3
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c80",
+          "type": "line",
+          "start": "p77",
+          "end": "p79",
+          "fixed": true
+        },
+        {
+          "id": "p81",
+          "type": "point",
+          "at": [
+            6.8,
+            -4.3
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p82",
+          "type": "point",
+          "at": [
+            6.8,
+            -4.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c83",
+          "type": "arc",
+          "center": "p81",
+          "start": "p82",
+          "end": "p79",
+          "fixed": true
+        },
+        {
+          "id": "p84",
+          "type": "point",
+          "at": [
+            6.5,
+            -4.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c85",
+          "type": "line",
+          "start": "p82",
+          "end": "p84",
+          "fixed": true
+        },
+        {
+          "id": "p86",
+          "type": "point",
+          "at": [
+            6.5,
+            -4.8
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c87",
+          "type": "line",
+          "start": "p84",
+          "end": "p86",
+          "fixed": true
+        },
+        {
+          "id": "p88",
+          "type": "point",
+          "at": [
+            6.3,
+            -4.8
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p89",
+          "type": "point",
+          "at": [
+            6.3,
+            -5.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c90",
+          "type": "arc",
+          "center": "p88",
+          "start": "p89",
+          "end": "p86",
+          "fixed": true
+        },
+        {
+          "id": "p91",
+          "type": "point",
+          "at": [
+            -6.3,
+            -5.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c92",
+          "type": "line",
+          "start": "p89",
+          "end": "p91",
+          "fixed": true
+        },
+        {
+          "id": "p93",
+          "type": "point",
+          "at": [
+            -6.3,
+            -4.8
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p94",
+          "type": "point",
+          "at": [
+            -6.5,
+            -4.8
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c95",
+          "type": "arc",
+          "center": "p93",
+          "start": "p94",
+          "end": "p91",
+          "fixed": true
+        },
+        {
+          "id": "p96",
+          "type": "point",
+          "at": [
+            -6.5,
+            -4.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c97",
+          "type": "line",
+          "start": "p94",
+          "end": "p96",
+          "fixed": true
+        },
+        {
+          "id": "p98",
+          "type": "point",
+          "at": [
+            -6.8,
+            -4.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c99",
+          "type": "line",
+          "start": "p96",
+          "end": "p98",
+          "fixed": true
+        },
+        {
+          "id": "p100",
+          "type": "point",
+          "at": [
+            -6.8,
+            -4.3
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p101",
+          "type": "point",
+          "at": [
+            -7.0,
+            -4.3
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c102",
+          "type": "arc",
+          "center": "p100",
+          "start": "p101",
+          "end": "p98",
+          "fixed": true
+        },
+        {
+          "id": "p103",
+          "type": "point",
+          "at": [
+            -7.0,
+            -4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c104",
+          "type": "line",
+          "start": "p101",
+          "end": "p103",
+          "fixed": true
+        },
+        {
+          "id": "p105",
+          "type": "point",
+          "at": [
+            -6.5,
+            -4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p106",
+          "type": "point",
+          "at": [
+            -6.5,
+            -3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c107",
+          "type": "arc",
+          "center": "p105",
+          "start": "p106",
+          "end": "p103",
+          "fixed": true
+        },
+        {
+          "id": "p108",
+          "type": "point",
+          "at": [
+            -4.5,
+            -3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c109",
+          "type": "line",
+          "start": "p106",
+          "end": "p108",
+          "fixed": true
+        },
+        {
+          "id": "p110",
+          "type": "point",
+          "at": [
+            -4.5,
+            -3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p111",
+          "type": "point",
+          "at": [
+            -4.0,
+            -3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c112",
+          "type": "arc",
+          "center": "p110",
+          "start": "p108",
+          "end": "p111",
+          "fixed": true
+        },
+        {
+          "id": "p113",
+          "type": "point",
+          "at": [
+            -4.0,
+            -2.267766953
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c114",
+          "type": "line",
+          "start": "p111",
+          "end": "p113",
+          "fixed": true
+        },
+        {
+          "id": "p115",
+          "type": "point",
+          "at": [
+            -4.5,
+            -2.267766953
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p116",
+          "type": "point",
+          "at": [
+            -4.146446609,
+            -1.914213562
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c117",
+          "type": "arc",
+          "center": "p115",
+          "start": "p113",
+          "end": "p116",
+          "fixed": true
+        },
+        {
+          "id": "p118",
+          "type": "point",
+          "at": [
+            -6.414213562,
+            0.353553391
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c119",
+          "type": "line",
+          "start": "p116",
+          "end": "p118",
+          "fixed": true
+        },
+        {
+          "id": "p120",
+          "type": "point",
+          "at": [
+            -6.767766953,
+            0.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p121",
+          "type": "point",
+          "at": [
+            -6.767766953,
+            0.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c122",
+          "type": "arc",
+          "center": "p120",
+          "start": "p118",
+          "end": "p121",
+          "fixed": true
+        },
+        {
+          "id": "p123",
+          "type": "point",
+          "at": [
+            -9.080384758,
+            0.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c124",
+          "type": "line",
+          "start": "p121",
+          "end": "p123",
+          "fixed": true
+        },
+        {
+          "id": "p125",
+          "type": "point",
+          "at": [
+            -9.080384758,
+            0.7
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p126",
+          "type": "point",
+          "at": [
+            -9.180384758,
+            0.526794919
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c127",
+          "type": "arc",
+          "center": "p125",
+          "start": "p126",
+          "end": "p123",
+          "fixed": true
+        },
+        {
+          "id": "p128",
+          "type": "point",
+          "at": [
+            -9.9,
+            0.942264973
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c129",
+          "type": "line",
+          "start": "p126",
+          "end": "p128",
+          "fixed": true
+        },
+        {
+          "id": "p130",
+          "type": "point",
+          "at": [
+            -10.0,
+            0.769059892
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p131",
+          "type": "point",
+          "at": [
+            -10.1,
+            0.942264973
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c132",
+          "type": "arc",
+          "center": "p130",
+          "start": "p128",
+          "end": "p131",
+          "fixed": true
+        },
+        {
+          "id": "p133",
+          "type": "point",
+          "at": [
+            -10.819615242,
+            0.526794919
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c134",
+          "type": "line",
+          "start": "p131",
+          "end": "p133",
+          "fixed": true
+        },
+        {
+          "id": "p135",
+          "type": "point",
+          "at": [
+            -10.919615242,
+            0.7
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p136",
+          "type": "point",
+          "at": [
+            -10.919615242,
+            0.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c137",
+          "type": "arc",
+          "center": "p135",
+          "start": "p136",
+          "end": "p133",
+          "fixed": true
+        },
+        {
+          "id": "p138",
+          "type": "point",
+          "at": [
+            -13.232233047,
+            0.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c139",
+          "type": "line",
+          "start": "p136",
+          "end": "p138",
+          "fixed": true
+        },
+        {
+          "id": "p140",
+          "type": "point",
+          "at": [
+            -13.232233047,
+            0.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p141",
+          "type": "point",
+          "at": [
+            -13.585786438,
+            0.353553391
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c142",
+          "type": "arc",
+          "center": "p140",
+          "start": "p138",
+          "end": "p141",
+          "fixed": true
+        },
+        {
+          "id": "p143",
+          "type": "point",
+          "at": [
+            -15.853553391,
+            -1.914213562
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c144",
+          "type": "line",
+          "start": "p141",
+          "end": "p143",
+          "fixed": true
+        },
+        {
+          "id": "p145",
+          "type": "point",
+          "at": [
+            -15.5,
+            -2.267766953
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p146",
+          "type": "point",
+          "at": [
+            -16.0,
+            -2.267766953
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c147",
+          "type": "arc",
+          "center": "p145",
+          "start": "p143",
+          "end": "p146",
+          "fixed": true
+        },
+        {
+          "id": "p148",
+          "type": "point",
+          "at": [
+            -16.0,
+            -3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c149",
+          "type": "line",
+          "start": "p146",
+          "end": "p148",
+          "fixed": true
+        },
+        {
+          "id": "p150",
+          "type": "point",
+          "at": [
+            -15.5,
+            -3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p151",
+          "type": "point",
+          "at": [
+            -15.5,
+            -3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c152",
+          "type": "arc",
+          "center": "p150",
+          "start": "p148",
+          "end": "p151",
+          "fixed": true
+        },
+        {
+          "id": "p153",
+          "type": "point",
+          "at": [
+            -13.5,
+            -3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c154",
+          "type": "line",
+          "start": "p151",
+          "end": "p153",
+          "fixed": true
+        },
+        {
+          "id": "p155",
+          "type": "point",
+          "at": [
+            -13.5,
+            -4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p156",
+          "type": "point",
+          "at": [
+            -13.0,
+            -4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c157",
+          "type": "arc",
+          "center": "p155",
+          "start": "p156",
+          "end": "p153",
+          "fixed": true
+        },
+        {
+          "id": "p158",
+          "type": "point",
+          "at": [
+            -13.0,
+            -4.3
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c159",
+          "type": "line",
+          "start": "p156",
+          "end": "p158",
+          "fixed": true
+        },
+        {
+          "id": "p160",
+          "type": "point",
+          "at": [
+            -13.2,
+            -4.3
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p161",
+          "type": "point",
+          "at": [
+            -13.2,
+            -4.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c162",
+          "type": "arc",
+          "center": "p160",
+          "start": "p161",
+          "end": "p158",
+          "fixed": true
+        },
+        {
+          "id": "p163",
+          "type": "point",
+          "at": [
+            -13.5,
+            -4.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c164",
+          "type": "line",
+          "start": "p161",
+          "end": "p163",
+          "fixed": true
+        },
+        {
+          "id": "p165",
+          "type": "point",
+          "at": [
+            -13.5,
+            -4.8
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c166",
+          "type": "line",
+          "start": "p163",
+          "end": "p165",
+          "fixed": true
+        },
+        {
+          "id": "p167",
+          "type": "point",
+          "at": [
+            -13.7,
+            -4.8
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p168",
+          "type": "point",
+          "at": [
+            -13.7,
+            -5.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c169",
+          "type": "arc",
+          "center": "p167",
+          "start": "p168",
+          "end": "p165",
+          "fixed": true
+        },
+        {
+          "id": "p170",
+          "type": "point",
+          "at": [
+            -19.0,
+            -5.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c171",
+          "type": "line",
+          "start": "p168",
+          "end": "p170",
+          "fixed": true
+        },
+        {
+          "id": "p172",
+          "type": "point",
+          "at": [
+            -19.0,
+            -4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p173",
+          "type": "point",
+          "at": [
+            -20.0,
+            -4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c174",
+          "type": "arc",
+          "center": "p172",
+          "start": "p173",
+          "end": "p170",
+          "fixed": true
+        },
+        {
+          "id": "p175",
+          "type": "point",
+          "at": [
+            -20.0,
+            4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c176",
+          "type": "line",
+          "start": "p173",
+          "end": "p175",
+          "fixed": true
+        },
+        {
+          "id": "p177",
+          "type": "point",
+          "at": [
+            -19.0,
+            4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p178",
+          "type": "point",
+          "at": [
+            -19.0,
+            5.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c179",
+          "type": "arc",
+          "center": "p177",
+          "start": "p178",
+          "end": "p175",
+          "fixed": true
+        },
+        {
+          "id": "p180",
+          "type": "point",
+          "at": [
+            -3.7,
+            5.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c181",
+          "type": "line",
+          "start": "p178",
+          "end": "p180",
+          "fixed": true
+        },
+        {
+          "id": "p182",
+          "type": "point",
+          "at": [
+            -3.7,
+            4.8
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p183",
+          "type": "point",
+          "at": [
+            -3.5,
+            4.8
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c184",
+          "type": "arc",
+          "center": "p182",
+          "start": "p183",
+          "end": "p180",
+          "fixed": true
+        },
+        {
+          "id": "p185",
+          "type": "point",
+          "at": [
+            -3.5,
+            4.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c186",
+          "type": "line",
+          "start": "p183",
+          "end": "p185",
+          "fixed": true
+        },
+        {
+          "id": "p187",
+          "type": "point",
+          "at": [
+            -3.2,
+            4.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c188",
+          "type": "line",
+          "start": "p185",
+          "end": "p187",
+          "fixed": true
+        },
+        {
+          "id": "p189",
+          "type": "point",
+          "at": [
+            -3.2,
+            4.3
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p190",
+          "type": "point",
+          "at": [
+            -3.0,
+            4.3
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c191",
+          "type": "arc",
+          "center": "p189",
+          "start": "p190",
+          "end": "p187",
+          "fixed": true
+        },
+        {
+          "id": "p192",
+          "type": "point",
+          "at": [
+            -3.0,
+            4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c193",
+          "type": "line",
+          "start": "p190",
+          "end": "p192",
+          "fixed": true
+        },
+        {
+          "id": "p194",
+          "type": "point",
+          "at": [
+            -3.5,
+            4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p195",
+          "type": "point",
+          "at": [
+            -3.5,
+            3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c196",
+          "type": "arc",
+          "center": "p194",
+          "start": "p195",
+          "end": "p192",
+          "fixed": true
+        },
+        {
+          "id": "p197",
+          "type": "point",
+          "at": [
+            -5.5,
+            3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c198",
+          "type": "line",
+          "start": "p195",
+          "end": "p197",
+          "fixed": true
+        },
+        {
+          "id": "p199",
+          "type": "point",
+          "at": [
+            -5.5,
+            3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p200",
+          "type": "point",
+          "at": [
+            -6.0,
+            3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c201",
+          "type": "arc",
+          "center": "p199",
+          "start": "p197",
+          "end": "p200",
+          "fixed": true
+        },
+        {
+          "id": "p202",
+          "type": "point",
+          "at": [
+            -6.0,
+            2.267766953
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c203",
+          "type": "line",
+          "start": "p200",
+          "end": "p202",
+          "fixed": true
+        },
+        {
+          "id": "p204",
+          "type": "point",
+          "at": [
+            -5.5,
+            2.267766953
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p205",
+          "type": "point",
+          "at": [
+            -5.853553391,
+            1.914213562
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c206",
+          "type": "arc",
+          "center": "p204",
+          "start": "p202",
+          "end": "p205",
+          "fixed": true
+        },
+        {
+          "id": "p207",
+          "type": "point",
+          "at": [
+            -3.585786438,
+            -0.353553391
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c208",
+          "type": "line",
+          "start": "p205",
+          "end": "p207",
+          "fixed": true
+        },
+        {
+          "id": "p209",
+          "type": "point",
+          "at": [
+            -3.232233047,
+            0.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p210",
+          "type": "point",
+          "at": [
+            -3.232233047,
+            -0.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c211",
+          "type": "arc",
+          "center": "p209",
+          "start": "p207",
+          "end": "p210",
+          "fixed": true
+        },
+        {
+          "id": "p212",
+          "type": "point",
+          "at": [
+            -0.919615242,
+            -0.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c213",
+          "type": "line",
+          "start": "p210",
+          "end": "p212",
+          "fixed": true
+        },
+        {
+          "id": "p214",
+          "type": "point",
+          "at": [
+            -0.919615242,
+            -0.7
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p215",
+          "type": "point",
+          "at": [
+            -0.819615242,
+            -0.526794919
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c216",
+          "type": "arc",
+          "center": "p214",
+          "start": "p215",
+          "end": "p212",
+          "fixed": true
+        },
+        {
+          "id": "p217",
+          "type": "point",
+          "at": [
+            -0.1,
+            -0.942264973
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c218",
+          "type": "line",
+          "start": "p215",
+          "end": "p217",
+          "fixed": true
+        },
+        {
+          "id": "p219",
+          "type": "point",
+          "at": [
+            0.0,
+            -0.769059892
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p220",
+          "type": "point",
+          "at": [
+            0.1,
+            -0.942264973
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c221",
+          "type": "arc",
+          "center": "p219",
+          "start": "p217",
+          "end": "p220",
+          "fixed": true
+        },
+        {
+          "id": "p222",
+          "type": "point",
+          "at": [
+            0.819615242,
+            -0.526794919
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c223",
+          "type": "line",
+          "start": "p220",
+          "end": "p222",
+          "fixed": true
+        },
+        {
+          "id": "p224",
+          "type": "point",
+          "at": [
+            0.919615242,
+            -0.7
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p225",
+          "type": "point",
+          "at": [
+            0.919615242,
+            -0.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c226",
+          "type": "arc",
+          "center": "p224",
+          "start": "p225",
+          "end": "p222",
+          "fixed": true
+        },
+        {
+          "id": "p227",
+          "type": "point",
+          "at": [
+            3.232233047,
+            -0.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c228",
+          "type": "line",
+          "start": "p225",
+          "end": "p227",
+          "fixed": true
+        },
+        {
+          "id": "p229",
+          "type": "point",
+          "at": [
+            3.232233047,
+            0.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p230",
+          "type": "point",
+          "at": [
+            3.585786438,
+            -0.353553391
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c231",
+          "type": "arc",
+          "center": "p229",
+          "start": "p227",
+          "end": "p230",
+          "fixed": true
+        },
+        {
+          "id": "p232",
+          "type": "point",
+          "at": [
+            5.853553391,
+            1.914213562
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c233",
+          "type": "line",
+          "start": "p230",
+          "end": "p232",
+          "fixed": true
+        },
+        {
+          "id": "p234",
+          "type": "point",
+          "at": [
+            5.5,
+            2.267766953
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p235",
+          "type": "point",
+          "at": [
+            6.0,
+            2.267766953
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c236",
+          "type": "arc",
+          "center": "p234",
+          "start": "p232",
+          "end": "p235",
+          "fixed": true
+        },
+        {
+          "id": "p237",
+          "type": "point",
+          "at": [
+            6.0,
+            3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c238",
+          "type": "line",
+          "start": "p235",
+          "end": "p237",
+          "fixed": true
+        },
+        {
+          "id": "p239",
+          "type": "point",
+          "at": [
+            5.5,
+            3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p240",
+          "type": "point",
+          "at": [
+            5.5,
+            3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c241",
+          "type": "arc",
+          "center": "p239",
+          "start": "p237",
+          "end": "p240",
+          "fixed": true
+        },
+        {
+          "id": "p242",
+          "type": "point",
+          "at": [
+            3.5,
+            3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c243",
+          "type": "line",
+          "start": "p240",
+          "end": "p242",
+          "fixed": true
+        },
+        {
+          "id": "p244",
+          "type": "point",
+          "at": [
+            3.5,
+            4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p245",
+          "type": "point",
+          "at": [
+            3.0,
+            4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c246",
+          "type": "arc",
+          "center": "p244",
+          "start": "p245",
+          "end": "p242",
+          "fixed": true
+        },
+        {
+          "id": "p247",
+          "type": "point",
+          "at": [
+            3.0,
+            4.3
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c248",
+          "type": "line",
+          "start": "p245",
+          "end": "p247",
+          "fixed": true
+        },
+        {
+          "id": "p249",
+          "type": "point",
+          "at": [
+            3.2,
+            4.3
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p250",
+          "type": "point",
+          "at": [
+            3.2,
+            4.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c251",
+          "type": "arc",
+          "center": "p249",
+          "start": "p250",
+          "end": "p247",
+          "fixed": true
+        },
+        {
+          "id": "p252",
+          "type": "point",
+          "at": [
+            3.5,
+            4.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c253",
+          "type": "line",
+          "start": "p250",
+          "end": "p252",
+          "fixed": true
+        },
+        {
+          "id": "p254",
+          "type": "point",
+          "at": [
+            3.5,
+            4.8
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c255",
+          "type": "line",
+          "start": "p252",
+          "end": "p254",
+          "fixed": true
+        },
+        {
+          "id": "p256",
+          "type": "point",
+          "at": [
+            3.7,
+            4.8
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c257",
+          "type": "arc",
+          "center": "p256",
+          "start": "p1",
+          "end": "p254",
+          "fixed": true
+        },
+        {
+          "id": "p258",
+          "type": "point",
+          "at": [
+            -14.100067052,
+            3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p259",
+          "type": "point",
+          "at": [
+            -13.767766953,
+            3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c260",
+          "type": "line",
+          "start": "p258",
+          "end": "p259",
+          "fixed": true
+        },
+        {
+          "id": "p261",
+          "type": "point",
+          "at": [
+            -14.100067052,
+            3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p262",
+          "type": "point",
+          "at": [
+            -14.38685527,
+            3.409576022
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c263",
+          "type": "arc",
+          "center": "p261",
+          "start": "p258",
+          "end": "p262",
+          "fixed": true
+        },
+        {
+          "id": "p264",
+          "type": "point",
+          "at": [
+            -15.037426947,
+            2.95404083
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c265",
+          "type": "line",
+          "start": "p264",
+          "end": "p262",
+          "fixed": true
+        },
+        {
+          "id": "p266",
+          "type": "point",
+          "at": [
+            -15.209499878,
+            3.199786443
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p267",
+          "type": "point",
+          "at": [
+            -15.424453384,
+            2.990513916
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c268",
+          "type": "arc",
+          "center": "p266",
+          "start": "p267",
+          "end": "p264",
+          "fixed": true
+        },
+        {
+          "id": "p269",
+          "type": "point",
+          "at": [
+            -16.75,
+            1.7
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p270",
+          "type": "point",
+          "at": [
+            -17.129590509,
+            3.510638298
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c271",
+          "type": "arc",
+          "center": "p269",
+          "start": "p267",
+          "end": "p270",
+          "fixed": true
+        },
+        {
+          "id": "p272",
+          "type": "point",
+          "at": [
+            -17.232182538,
+            4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p273",
+          "type": "point",
+          "at": [
+            -17.232182538,
+            3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c274",
+          "type": "arc",
+          "center": "p272",
+          "start": "p273",
+          "end": "p270",
+          "fixed": true
+        },
+        {
+          "id": "p275",
+          "type": "point",
+          "at": [
+            -18.0,
+            3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c276",
+          "type": "line",
+          "start": "p275",
+          "end": "p273",
+          "fixed": true
+        },
+        {
+          "id": "p277",
+          "type": "point",
+          "at": [
+            -18.0,
+            3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p278",
+          "type": "point",
+          "at": [
+            -18.5,
+            3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c279",
+          "type": "arc",
+          "center": "p277",
+          "start": "p275",
+          "end": "p278",
+          "fixed": true
+        },
+        {
+          "id": "p280",
+          "type": "point",
+          "at": [
+            -18.5,
+            2.378232998
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c281",
+          "type": "line",
+          "start": "p280",
+          "end": "p278",
+          "fixed": true
+        },
+        {
+          "id": "p282",
+          "type": "point",
+          "at": [
+            -19.0,
+            2.378232998
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p283",
+          "type": "point",
+          "at": [
+            -18.521276596,
+            2.233928105
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c284",
+          "type": "arc",
+          "center": "p282",
+          "start": "p283",
+          "end": "p280",
+          "fixed": true
+        },
+        {
+          "id": "p285",
+          "type": "point",
+          "at": [
+            -16.75,
+            1.7
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p286",
+          "type": "point",
+          "at": [
+            -18.032826298,
+            0.367012119
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c287",
+          "type": "arc",
+          "center": "p285",
+          "start": "p283",
+          "end": "p286",
+          "fixed": true
+        },
+        {
+          "id": "p288",
+          "type": "point",
+          "at": [
+            -18.240852184,
+            0.150851922
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p289",
+          "type": "point",
+          "at": [
+            -17.995106571,
+            -0.021221008
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c290",
+          "type": "arc",
+          "center": "p288",
+          "start": "p289",
+          "end": "p286",
+          "fixed": true
+        },
+        {
+          "id": "p291",
+          "type": "point",
+          "at": [
+            -18.409576022,
+            -0.61314473
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c292",
+          "type": "line",
+          "start": "p291",
+          "end": "p289",
+          "fixed": true
+        },
+        {
+          "id": "p293",
+          "type": "point",
+          "at": [
+            -18.0,
+            -0.899932948
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p294",
+          "type": "point",
+          "at": [
+            -18.5,
+            -0.899932948
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c295",
+          "type": "arc",
+          "center": "p293",
+          "start": "p291",
+          "end": "p294",
+          "fixed": true
+        },
+        {
+          "id": "p296",
+          "type": "point",
+          "at": [
+            -18.5,
+            -1.232233047
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c297",
+          "type": "line",
+          "start": "p296",
+          "end": "p294",
+          "fixed": true
+        },
+        {
+          "id": "p298",
+          "type": "point",
+          "at": [
+            -18.0,
+            -1.232233047
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p299",
+          "type": "point",
+          "at": [
+            -17.646446609,
+            -1.585786438
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c300",
+          "type": "arc",
+          "center": "p298",
+          "start": "p296",
+          "end": "p299",
+          "fixed": true
+        },
+        {
+          "id": "p301",
+          "type": "point",
+          "at": [
+            -16.158865171,
+            -0.098204999
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c302",
+          "type": "line",
+          "start": "p301",
+          "end": "p299",
+          "fixed": true
+        },
+        {
+          "id": "p303",
+          "type": "point",
+          "at": [
+            -15.80531178,
+            -0.45175839
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p304",
+          "type": "point",
+          "at": [
+            -16.006309274,
+            0.006062544
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c305",
+          "type": "arc",
+          "center": "p303",
+          "start": "p304",
+          "end": "p301",
+          "fixed": true
+        },
+        {
+          "id": "p306",
+          "type": "point",
+          "at": [
+            -16.75,
+            1.7
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p307",
+          "type": "point",
+          "at": [
+            -15.056062544,
+            0.956309274
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c308",
+          "type": "arc",
+          "center": "p306",
+          "start": "p304",
+          "end": "p307",
+          "fixed": true
+        },
+        {
+          "id": "p309",
+          "type": "point",
+          "at": [
+            -14.59824161,
+            0.75531178
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p310",
+          "type": "point",
+          "at": [
+            -14.951795001,
+            1.108865171
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c311",
+          "type": "arc",
+          "center": "p309",
+          "start": "p310",
+          "end": "p307",
+          "fixed": true
+        },
+        {
+          "id": "p312",
+          "type": "point",
+          "at": [
+            -13.414213562,
+            2.646446609
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c313",
+          "type": "line",
+          "start": "p312",
+          "end": "p310",
+          "fixed": true
+        },
+        {
+          "id": "p314",
+          "type": "point",
+          "at": [
+            -13.767766953,
+            3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c315",
+          "type": "arc",
+          "center": "p314",
+          "start": "p312",
+          "end": "p259",
+          "fixed": true
+        },
+        {
+          "id": "p316",
+          "type": "point",
+          "at": [
+            17.232182538,
+            3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p317",
+          "type": "point",
+          "at": [
+            18.0,
+            3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c318",
+          "type": "line",
+          "start": "p316",
+          "end": "p317",
+          "fixed": true
+        },
+        {
+          "id": "p319",
+          "type": "point",
+          "at": [
+            17.232182538,
+            4.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p320",
+          "type": "point",
+          "at": [
+            17.129590509,
+            3.510638298
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c321",
+          "type": "arc",
+          "center": "p319",
+          "start": "p320",
+          "end": "p316",
+          "fixed": true
+        },
+        {
+          "id": "p322",
+          "type": "point",
+          "at": [
+            16.75,
+            1.7
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p323",
+          "type": "point",
+          "at": [
+            15.424453384,
+            2.990513916
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c324",
+          "type": "arc",
+          "center": "p322",
+          "start": "p320",
+          "end": "p323",
+          "fixed": true
+        },
+        {
+          "id": "p325",
+          "type": "point",
+          "at": [
+            15.209499878,
+            3.199786443
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p326",
+          "type": "point",
+          "at": [
+            15.037426947,
+            2.95404083
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c327",
+          "type": "arc",
+          "center": "p325",
+          "start": "p326",
+          "end": "p323",
+          "fixed": true
+        },
+        {
+          "id": "p328",
+          "type": "point",
+          "at": [
+            14.38685527,
+            3.409576022
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c329",
+          "type": "line",
+          "start": "p328",
+          "end": "p326",
+          "fixed": true
+        },
+        {
+          "id": "p330",
+          "type": "point",
+          "at": [
+            14.100067052,
+            3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p331",
+          "type": "point",
+          "at": [
+            14.100067052,
+            3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c332",
+          "type": "arc",
+          "center": "p330",
+          "start": "p328",
+          "end": "p331",
+          "fixed": true
+        },
+        {
+          "id": "p333",
+          "type": "point",
+          "at": [
+            13.767766953,
+            3.5
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c334",
+          "type": "line",
+          "start": "p333",
+          "end": "p331",
+          "fixed": true
+        },
+        {
+          "id": "p335",
+          "type": "point",
+          "at": [
+            13.767766953,
+            3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p336",
+          "type": "point",
+          "at": [
+            13.414213562,
+            2.646446609
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c337",
+          "type": "arc",
+          "center": "p335",
+          "start": "p333",
+          "end": "p336",
+          "fixed": true
+        },
+        {
+          "id": "p338",
+          "type": "point",
+          "at": [
+            14.951795001,
+            1.108865171
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c339",
+          "type": "line",
+          "start": "p338",
+          "end": "p336",
+          "fixed": true
+        },
+        {
+          "id": "p340",
+          "type": "point",
+          "at": [
+            14.59824161,
+            0.75531178
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p341",
+          "type": "point",
+          "at": [
+            15.056062544,
+            0.956309274
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c342",
+          "type": "arc",
+          "center": "p340",
+          "start": "p341",
+          "end": "p338",
+          "fixed": true
+        },
+        {
+          "id": "p343",
+          "type": "point",
+          "at": [
+            16.75,
+            1.7
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p344",
+          "type": "point",
+          "at": [
+            16.006309274,
+            0.006062544
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c345",
+          "type": "arc",
+          "center": "p343",
+          "start": "p341",
+          "end": "p344",
+          "fixed": true
+        },
+        {
+          "id": "p346",
+          "type": "point",
+          "at": [
+            15.80531178,
+            -0.45175839
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p347",
+          "type": "point",
+          "at": [
+            16.158865171,
+            -0.098204999
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c348",
+          "type": "arc",
+          "center": "p346",
+          "start": "p347",
+          "end": "p344",
+          "fixed": true
+        },
+        {
+          "id": "p349",
+          "type": "point",
+          "at": [
+            17.646446609,
+            -1.585786438
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c350",
+          "type": "line",
+          "start": "p349",
+          "end": "p347",
+          "fixed": true
+        },
+        {
+          "id": "p351",
+          "type": "point",
+          "at": [
+            18.0,
+            -1.232233047
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p352",
+          "type": "point",
+          "at": [
+            18.5,
+            -1.232233047
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c353",
+          "type": "arc",
+          "center": "p351",
+          "start": "p349",
+          "end": "p352",
+          "fixed": true
+        },
+        {
+          "id": "p354",
+          "type": "point",
+          "at": [
+            18.5,
+            -0.899932948
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c355",
+          "type": "line",
+          "start": "p354",
+          "end": "p352",
+          "fixed": true
+        },
+        {
+          "id": "p356",
+          "type": "point",
+          "at": [
+            18.0,
+            -0.899932948
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p357",
+          "type": "point",
+          "at": [
+            18.409576022,
+            -0.61314473
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c358",
+          "type": "arc",
+          "center": "p356",
+          "start": "p354",
+          "end": "p357",
+          "fixed": true
+        },
+        {
+          "id": "p359",
+          "type": "point",
+          "at": [
+            17.995106571,
+            -0.021221008
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c360",
+          "type": "line",
+          "start": "p359",
+          "end": "p357",
+          "fixed": true
+        },
+        {
+          "id": "p361",
+          "type": "point",
+          "at": [
+            18.240852184,
+            0.150851922
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p362",
+          "type": "point",
+          "at": [
+            18.032826298,
+            0.367012119
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c363",
+          "type": "arc",
+          "center": "p361",
+          "start": "p362",
+          "end": "p359",
+          "fixed": true
+        },
+        {
+          "id": "p364",
+          "type": "point",
+          "at": [
+            16.75,
+            1.7
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p365",
+          "type": "point",
+          "at": [
+            18.521276596,
+            2.233928105
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c366",
+          "type": "arc",
+          "center": "p364",
+          "start": "p362",
+          "end": "p365",
+          "fixed": true
+        },
+        {
+          "id": "p367",
+          "type": "point",
+          "at": [
+            19.0,
+            2.378232998
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p368",
+          "type": "point",
+          "at": [
+            18.5,
+            2.378232998
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c369",
+          "type": "arc",
+          "center": "p367",
+          "start": "p368",
+          "end": "p365",
+          "fixed": true
+        },
+        {
+          "id": "p370",
+          "type": "point",
+          "at": [
+            18.5,
+            3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c371",
+          "type": "line",
+          "start": "p370",
+          "end": "p368",
+          "fixed": true
+        },
+        {
+          "id": "p372",
+          "type": "point",
+          "at": [
+            18.0,
+            3.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c373",
+          "type": "arc",
+          "center": "p372",
+          "start": "p370",
+          "end": "p317",
+          "fixed": true
+        }
+      ]
+    },
+    {
+      "uid": "F2",
+      "name": "Profile",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F1",
+          "region": "r{c3[c257,c6],c6[c8,c3],c8[c6,c11],c11[c13,c8],c13[c11,c16],c16[c18,c13],c18[c16,c20],c20[c18,c23],c23[c25,c20],c25[c23,c28],c28[c30,c25],c30[c28,c33],c33[c30,c35],c35[c33,c38],c38[c35,c40],c40[c38,c43],c43[c40,c45],c45[c43,c48],c48[c50,c45],c50[c48,c53],c53[c50,c55],c55[c53,c58],c58[c60,c55],c60[c58,c63],c63[c60,c65],c65[c63,c68],c68[c65,c70],c70[c68,c73],c73[c70,c75],c75[c73,c78],c78[c80,c75],c80[c78,c83],c83[c85,c80],c85[c83,c87],c87[c85,c90],c90[c92,c87],c92[c90,c95],c95[c97,c92],c97[c95,c99],c99[c97,c102],c102[c104,c99],c104[c102,c107],c107[c109,c104],c109[c107,c112],c112[c109,c114],c114[c112,c117],c117[c114,c119],c119[c117,c122],c122[c119,c124],c124[c122,c127],c127[c129,c124],c129[c127,c132],c132[c129,c134],c134[c132,c137],c137[c139,c134],c139[c137,c142],c142[c139,c144],c144[c142,c147],c147[c144,c149],c149[c147,c152],c152[c149,c154],c154[c152,c157],c157[c159,c154],c159[c157,c162],c162[c164,c159],c164[c162,c166],c166[c164,c169],c169[c171,c166],c171[c169,c174],c174[c176,c171],c176[c174,c179],c179[c181,c176],c181[c179,c184],c184[c186,c181],c186[c184,c188],c188[c186,c191],c191[c193,c188],c193[c191,c196],c196[c198,c193],c198[c196,c201],c201[c198,c203],c203[c201,c206],c206[c203,c208],c208[c206,c211],c211[c208,c213],c213[c211,c216],c216[c218,c213],c218[c216,c221],c221[c218,c223],c223[c221,c226],c226[c228,c223],c228[c226,c231],c231[c228,c233],c233[c231,c236],c236[c233,c238],c238[c236,c241],c241[c238,c243],c243[c241,c246],c246[c248,c243],c248[c246,c251],c251[c253,c248],c253[c251,c255],c255[c253,c257],c257[c3,c255]}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "L"
+      },
+      "operation": "new_body"
+    },
+    {
+      "uid": "F3",
+      "name": "mount:end_a",
+      "type": "joint_origin",
+      "geometry": "xy",
+      "flip": true
+    },
+    {
+      "uid": "F4",
+      "name": "End B plane",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": "xy",
+        "distance": "L"
+      }
+    },
+    {
+      "uid": "F5",
+      "name": "mount:end_b",
+      "type": "joint_origin",
+      "geometry": "F4"
+    },
+    {
+      "uid": "F6",
+      "name": "mount:slot_y+_1",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          5.0000000000002975,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "uid": "F7",
+      "name": "mount:slot_y-_1",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin": [
+          -10.0,
+          -5.000000000000693,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "uid": "F8",
+      "name": "mount:slot_y-_2",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin": [
+          10.0,
+          -5.000000000000693,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F2.b0",
+      "name": "Body1"
+    }
+  ]
+}

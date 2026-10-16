@@ -148,7 +148,7 @@
           "type": "point",
           "at": [
             2.0,
-            -1.1547005383792517
+            -1.1547005383792512
           ]
         },
         {
@@ -163,31 +163,31 @@
           "id": "p9",
           "type": "point",
           "at": [
-            1.015321976951628e-16,
-            2.3094010767585025
+            2.0350881387425838e-16,
+            2.309401076758503
           ]
         },
         {
           "id": "p10",
           "type": "point",
           "at": [
-            -2.0000000000000004,
-            1.154700538379252
+            -1.9999999999999998,
+            1.1547005383792512
           ]
         },
         {
           "id": "p11",
           "type": "point",
           "at": [
-            -1.9999999999999996,
-            -1.154700538379251
+            -2.0,
+            -1.1547005383792515
           ]
         },
         {
           "id": "p12",
           "type": "point",
           "at": [
-            2.2866893201141537e-16,
+            -3.166498253233414e-16,
             -2.309401076758503
           ]
         },
@@ -195,8 +195,8 @@
           "id": "p13",
           "type": "point",
           "at": [
-            0.0,
-            0.0
+            2.375264499703542e-25,
+            -3.877409121342317e-25
           ],
           "fixed": true
         },
@@ -205,6 +205,13 @@
           "type": "circle",
           "center": "p13",
           "radius": 2.0,
+          "construction": true
+        },
+        {
+          "id": "c15",
+          "type": "circle",
+          "center": "p13",
+          "radius": 2.309401076758503,
           "construction": true
         }
       ],
@@ -247,43 +254,49 @@
         },
         {
           "id": "k7",
-          "type": "equal",
-          "a": "c1",
-          "b": "c2"
+          "type": "coincident",
+          "point": "p7",
+          "entity": "c15"
         },
         {
           "id": "k8",
-          "type": "equal",
-          "a": "c2",
-          "b": "c3"
+          "type": "coincident",
+          "point": "p8",
+          "entity": "c15"
         },
         {
           "id": "k9",
-          "type": "equal",
-          "a": "c3",
-          "b": "c4"
+          "type": "coincident",
+          "point": "p9",
+          "entity": "c15"
         },
         {
           "id": "k10",
-          "type": "equal",
-          "a": "c4",
-          "b": "c5"
+          "type": "coincident",
+          "point": "p10",
+          "entity": "c15"
         },
         {
           "id": "k11",
-          "type": "equal",
-          "a": "c5",
-          "b": "c6"
+          "type": "coincident",
+          "point": "p11",
+          "entity": "c15"
         },
         {
           "id": "k12",
+          "type": "coincident",
+          "point": "p12",
+          "entity": "c15"
+        },
+        {
+          "id": "k13",
           "type": "vertical",
           "line": "c1"
         }
       ],
       "dimensions": [
         {
-          "id": "k13",
+          "id": "k14",
           "type": "diameter",
           "curve": "c14",
           "value": "s"

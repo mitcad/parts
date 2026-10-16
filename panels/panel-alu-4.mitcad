@@ -1,0 +1,206 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "W",
+      "expression": "80 mm",
+      "unit": "mm",
+      "value": 80.0,
+      "comment": ""
+    },
+    {
+      "name": "L",
+      "expression": "500 mm",
+      "unit": "mm",
+      "value": 500.0,
+      "comment": ""
+    },
+    {
+      "name": "T",
+      "expression": "4 mm",
+      "unit": "mm",
+      "value": 4.0,
+      "comment": ""
+    },
+    {
+      "name": "d1",
+      "expression": "-W / 2",
+      "unit": "mm",
+      "value": -40.0,
+      "comment": "Centred x",
+      "owner": "F2"
+    },
+    {
+      "name": "d2",
+      "expression": "0 mm",
+      "unit": "mm",
+      "value": 0.0,
+      "comment": "Centred y",
+      "owner": "F2"
+    },
+    {
+      "name": "d3",
+      "expression": "0 mm",
+      "unit": "mm",
+      "value": 0.0,
+      "comment": "Centred z",
+      "owner": "F2"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Plate",
+      "type": "box",
+      "plane": "xy",
+      "corner": [
+        0.0,
+        0.0
+      ],
+      "length": "W",
+      "width": "T",
+      "height": "L",
+      "operation": "new_body"
+    },
+    {
+      "uid": "F2",
+      "name": "Centred",
+      "type": "move",
+      "bodies": [
+        "F1.b0"
+      ],
+      "transform": {
+        "type": "translate_xyz",
+        "x": "d1",
+        "y": "d2",
+        "z": "d3"
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "mount:end_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F4",
+      "name": "mount:face",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Body1"
+    }
+  ],
+  "configurations": {
+    "selectors": [
+      "Width"
+    ],
+    "parameters": [
+      "W"
+    ],
+    "default": "80",
+    "rows": [
+      {
+        "name": "80",
+        "select": {
+          "Width": "80"
+        },
+        "values": {
+          "W": "80 mm"
+        },
+        "part_number": "Alu DIN/EN-Platte (5083) 4mm - Breite 80"
+      },
+      {
+        "name": "90",
+        "select": {
+          "Width": "90"
+        },
+        "values": {
+          "W": "90 mm"
+        },
+        "part_number": "Alu DIN/EN-Platte (5083) 4mm - Breite 90"
+      },
+      {
+        "name": "100",
+        "select": {
+          "Width": "100"
+        },
+        "values": {
+          "W": "100 mm"
+        },
+        "part_number": "Alu DIN/EN-Platte (5083) 4mm - Breite 100"
+      },
+      {
+        "name": "120",
+        "select": {
+          "Width": "120"
+        },
+        "values": {
+          "W": "120 mm"
+        },
+        "part_number": "Alu DIN/EN-Platte (5083) 4mm - Breite 120"
+      },
+      {
+        "name": "160",
+        "select": {
+          "Width": "160"
+        },
+        "values": {
+          "W": "160 mm"
+        },
+        "part_number": "Alu DIN/EN-Platte (5083) 4mm - Breite 160"
+      },
+      {
+        "name": "200",
+        "select": {
+          "Width": "200"
+        },
+        "values": {
+          "W": "200 mm"
+        },
+        "part_number": "Alu DIN/EN-Platte (5083) 4mm - Breite 200"
+      }
+    ]
+  }
+}
