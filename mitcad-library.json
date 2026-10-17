@@ -4,7 +4,7 @@
   "id": "mitcad-parts",
   "name": "Mitcad parts",
   "description": "Mitcad's parts: ISO metric screws, nuts and washers, and slot profiles, connectors, nuts, caps, panels and linear parts for the BUILD tab.",
-  "library_version": "2.1.0",
+  "library_version": "2.2.0",
   "license": "MIT",
   "authors": [
     "Mitcad contributors"
@@ -675,6 +675,65 @@
       }
     },
     {
+      "id": "angle45-20-i5",
+      "path": "connectors/angle45-20-i5.mitcad",
+      "category": "connectors",
+      "name": "Angle connector 45\u00b0 20 I-type slot 5",
+      "designation": "Angle connector 45\u00b0 20 I-type slot 5",
+      "supplier": "Motedis",
+      "part_number": "4562",
+      "supplier_url": "https://www.motedis.com/en/Angle-Connector-45G-20-I-Type-Nut-5",
+      "preview": "previews/angle45-20-i5.png",
+      "build": {
+        "role": "connector",
+        "systems": [
+          {
+            "type": "I",
+            "slot": 5,
+            "grid": 20
+          }
+        ],
+        "frames": [
+          {
+            "name": "mount_a",
+            "kind": "face"
+          },
+          {
+            "name": "mount_b",
+            "kind": "face"
+          }
+        ],
+        "connector": {
+          "junctions": [
+            "T",
+            "L"
+          ],
+          "space": "inner_corner",
+          "mates": [
+            {
+              "frame": "mount_a",
+              "to": "end"
+            },
+            {
+              "frame": "mount_b",
+              "to": "slot"
+            }
+          ],
+          "machining": [
+            {
+              "on": "a",
+              "frame": "end",
+              "hole": {
+                "diameter": "4.2 mm",
+                "depth": "15 mm",
+                "thread": "M5"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "angle45-30x60-b8",
       "path": "connectors/angle45-30x60-b8.mitcad",
       "category": "connectors",
@@ -791,6 +850,252 @@
                 "diameter": "6.8 mm",
                 "depth": "25 mm",
                 "thread": "M8"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "angle45-40x80-i8-new",
+      "path": "connectors/angle45-40x80-i8-new.mitcad",
+      "category": "connectors",
+      "name": "Angle connector 45\u00b0 40-40x80 I-type slot 8",
+      "designation": "Angle connector 45\u00b0 40-40x80 I-type slot 8",
+      "supplier": "Motedis",
+      "part_number": "BR4040AA",
+      "supplier_url": "https://www.motedis.com/en/Angle-Connector-45G-40x80-I-Typ-slot-8",
+      "preview": "previews/angle45-40x80-i8-new.png",
+      "build": {
+        "role": "connector",
+        "systems": [
+          {
+            "type": "I",
+            "slot": 8,
+            "grid": 40
+          }
+        ],
+        "frames": [
+          {
+            "name": "mount_a",
+            "kind": "face"
+          },
+          {
+            "name": "mount_b",
+            "kind": "face"
+          }
+        ],
+        "connector": {
+          "junctions": [
+            "T",
+            "L"
+          ],
+          "space": "inner_corner",
+          "mates": [
+            {
+              "frame": "mount_a",
+              "to": "end"
+            },
+            {
+              "frame": "mount_b",
+              "to": "slot"
+            }
+          ],
+          "fasteners": [
+            {
+              "frame": "mount_a",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "iso4762",
+                "config": "M8x30"
+              }
+            },
+            {
+              "frame": "mount_b",
+              "nut": {
+                "library": "mitcad-parts",
+                "component": "tnut-i8-guided",
+                "config": "M8"
+              },
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "iso4762",
+                "config": "M8x16"
+              }
+            }
+          ],
+          "machining": [
+            {
+              "on": "a",
+              "frame": "end",
+              "hole": {
+                "diameter": "6.8 mm",
+                "depth": "30 mm",
+                "thread": "M8"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "angle45-80x40-i8",
+      "path": "connectors/angle45-80x40-i8.mitcad",
+      "category": "connectors",
+      "name": "Angle connector 45\u00b0 80x40 I-type slot 8",
+      "designation": "Angle connector 45\u00b0 80x40 I-type slot 8",
+      "supplier": "Motedis",
+      "part_number": "ALUCON8040",
+      "supplier_url": "https://www.motedis.com/en/Angle-Connector-45G-80x40-I-Typ-slot-8",
+      "preview": "previews/angle45-80x40-i8.png",
+      "build": {
+        "role": "connector",
+        "systems": [
+          {
+            "type": "I",
+            "slot": 8,
+            "grid": 40
+          }
+        ],
+        "frames": [
+          {
+            "name": "mount_a",
+            "kind": "face"
+          },
+          {
+            "name": "mount_b",
+            "kind": "face"
+          }
+        ],
+        "connector": {
+          "junctions": [
+            "T",
+            "L"
+          ],
+          "space": "inner_corner",
+          "mates": [
+            {
+              "frame": "mount_a",
+              "to": "end"
+            },
+            {
+              "frame": "mount_b",
+              "to": "slot"
+            }
+          ],
+          "fasteners": [
+            {
+              "frame": "mount_a",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "iso4762",
+                "config": "M8x30"
+              }
+            },
+            {
+              "frame": "mount_b",
+              "nut": {
+                "library": "mitcad-parts",
+                "component": "tnut-i8-guided",
+                "config": "M8"
+              },
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "iso4762",
+                "config": "M8x16"
+              }
+            }
+          ],
+          "machining": [
+            {
+              "on": "a",
+              "frame": "end",
+              "hole": {
+                "diameter": "6.8 mm",
+                "depth": "30 mm",
+                "thread": "M8"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "angle45-45-b10-new",
+      "path": "connectors/angle45-45-b10-new.mitcad",
+      "category": "connectors",
+      "name": "Angle connector 45\u00b0 45 B-type slot 10",
+      "designation": "Angle connector 45\u00b0 45 B-type slot 10",
+      "supplier": "Motedis",
+      "part_number": "4569",
+      "supplier_url": "https://www.motedis.com/en/Angle-Connector-45G-45-B-Type-slot-10-NEW",
+      "preview": "previews/angle45-45-b10-new.png",
+      "build": {
+        "role": "connector",
+        "systems": [
+          {
+            "type": "B",
+            "slot": 10,
+            "grid": 45
+          }
+        ],
+        "frames": [
+          {
+            "name": "mount_a",
+            "kind": "face"
+          },
+          {
+            "name": "mount_b",
+            "kind": "face"
+          }
+        ],
+        "connector": {
+          "junctions": [
+            "T",
+            "L"
+          ],
+          "space": "inner_corner",
+          "mates": [
+            {
+              "frame": "mount_a",
+              "to": "end"
+            },
+            {
+              "frame": "mount_b",
+              "to": "slot"
+            }
+          ],
+          "fasteners": [
+            {
+              "frame": "mount_a",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "iso4762",
+                "config": "M12x30"
+              }
+            },
+            {
+              "frame": "mount_b",
+              "nut": {
+                "library": "mitcad-parts",
+                "component": "tnut-b10",
+                "config": "M8"
+              },
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "iso4762",
+                "config": "M8x16"
+              }
+            }
+          ],
+          "machining": [
+            {
+              "on": "a",
+              "frame": "end",
+              "hole": {
+                "diameter": "10.2 mm",
+                "depth": "30 mm",
+                "thread": "M12"
               }
             }
           ]
@@ -5278,6 +5583,161 @@
         }
       },
       "description": "3 sizes, 6302-2RS to SS6302-2RS."
+    },
+    {
+      "id": "angular-bearing-10x30x9",
+      "path": "bearings/angular-bearing-10x30x9.mitcad",
+      "category": "bearings",
+      "name": "Angular contact ball bearing 10x30x9, plastic",
+      "designation": "Angular contact ball bearing 10x30x9, plastic",
+      "supplier": "Motedis",
+      "part_number": "9640",
+      "supplier_url": "https://www.motedis.com/en/Angular-contact-ball-bearings-10x30x9",
+      "preview": "previews/angular-bearing-10x30x9.png",
+      "build": {
+        "role": "linear",
+        "frames": [
+          {
+            "name": "bore",
+            "kind": "bore",
+            "diameter": "10 mm"
+          }
+        ],
+        "linear": {
+          "kind": "bearing",
+          "size": "10 mm",
+          "mate": {
+            "frame": "bore",
+            "on": "shaft",
+            "joint": "revolute",
+            "axis": "z"
+          }
+        }
+      }
+    },
+    {
+      "id": "angular-bearing-10x30x14",
+      "path": "bearings/angular-bearing-10x30x14.mitcad",
+      "category": "bearings",
+      "name": "Angular contact ball bearing 10x30x14, plastic",
+      "designation": "Angular contact ball bearing 10x30x14, plastic",
+      "supplier": "Motedis",
+      "part_number": "9641",
+      "supplier_url": "https://www.motedis.com/en/Angular-contact-ball-bearings-10x30x14",
+      "preview": "previews/angular-bearing-10x30x14.png",
+      "build": {
+        "role": "linear",
+        "frames": [
+          {
+            "name": "bore",
+            "kind": "bore",
+            "diameter": "10 mm"
+          }
+        ],
+        "linear": {
+          "kind": "bearing",
+          "size": "10 mm",
+          "mate": {
+            "frame": "bore",
+            "on": "shaft",
+            "joint": "revolute",
+            "axis": "z"
+          }
+        }
+      }
+    },
+    {
+      "id": "angular-bearing-3200-2rs",
+      "path": "bearings/angular-bearing-3200-2rs.mitcad",
+      "category": "bearings",
+      "name": "Angular contact ball bearing 3200/5200 2RS, 10x30x14.3",
+      "designation": "Angular contact ball bearing 3200/5200 2RS, 10x30x14.3",
+      "supplier": "Motedis",
+      "part_number": "1490",
+      "supplier_url": "https://www.motedis.com/en/angular-ball-bearing-3200-5200-2RS-10x30x143mm",
+      "preview": "previews/angular-bearing-3200-2rs.png",
+      "build": {
+        "role": "linear",
+        "frames": [
+          {
+            "name": "bore",
+            "kind": "bore",
+            "diameter": "10 mm"
+          }
+        ],
+        "linear": {
+          "kind": "bearing",
+          "size": "10 mm",
+          "mate": {
+            "frame": "bore",
+            "on": "shaft",
+            "joint": "revolute",
+            "axis": "z"
+          }
+        }
+      }
+    },
+    {
+      "id": "angular-bearing-12x32x10",
+      "path": "bearings/angular-bearing-12x32x10.mitcad",
+      "category": "bearings",
+      "name": "Angular contact ball bearing 12x32x10, plastic",
+      "designation": "Angular contact ball bearing 12x32x10, plastic",
+      "supplier": "Motedis",
+      "part_number": "9642",
+      "supplier_url": "https://www.motedis.com/en/Angular-contact-ball-bearings-12x32x10",
+      "preview": "previews/angular-bearing-12x32x10.png",
+      "build": {
+        "role": "linear",
+        "frames": [
+          {
+            "name": "bore",
+            "kind": "bore",
+            "diameter": "12 mm"
+          }
+        ],
+        "linear": {
+          "kind": "bearing",
+          "size": "12 mm",
+          "mate": {
+            "frame": "bore",
+            "on": "shaft",
+            "joint": "revolute",
+            "axis": "z"
+          }
+        }
+      }
+    },
+    {
+      "id": "angular-bearing-15x35x15-9",
+      "path": "bearings/angular-bearing-15x35x15-9.mitcad",
+      "category": "bearings",
+      "name": "Angular contact ball bearing 15x35x15.9, plastic",
+      "designation": "Angular contact ball bearing 15x35x15.9, plastic",
+      "supplier": "Motedis",
+      "part_number": "9645",
+      "supplier_url": "https://www.motedis.com/en/Angular-contact-ball-bearings-15x35x159",
+      "preview": "previews/angular-bearing-15x35x15-9.png",
+      "build": {
+        "role": "linear",
+        "frames": [
+          {
+            "name": "bore",
+            "kind": "bore",
+            "diameter": "15 mm"
+          }
+        ],
+        "linear": {
+          "kind": "bearing",
+          "size": "15 mm",
+          "mate": {
+            "frame": "bore",
+            "on": "shaft",
+            "joint": "revolute",
+            "axis": "z"
+          }
+        }
+      }
     },
     {
       "id": "cap20x20-i5",
