@@ -1,0 +1,289 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "L",
+      "expression": "77 mm",
+      "unit": "mm",
+      "value": 77.0,
+      "comment": "Length"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Section",
+      "type": "sketch",
+      "plane": "xy",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            9.5,
+            -5.484827557
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p2",
+          "type": "point",
+          "at": [
+            9.5,
+            5.484827557
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c3",
+          "type": "line",
+          "start": "p1",
+          "end": "p2",
+          "fixed": true
+        },
+        {
+          "id": "p4",
+          "type": "point",
+          "at": [
+            0.0,
+            -10.969655115
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c5",
+          "type": "line",
+          "start": "p4",
+          "end": "p1",
+          "fixed": true
+        },
+        {
+          "id": "p6",
+          "type": "point",
+          "at": [
+            -9.5,
+            -5.484827557
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c7",
+          "type": "line",
+          "start": "p6",
+          "end": "p4",
+          "fixed": true
+        },
+        {
+          "id": "p8",
+          "type": "point",
+          "at": [
+            -9.5,
+            5.484827557
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c9",
+          "type": "line",
+          "start": "p8",
+          "end": "p6",
+          "fixed": true
+        },
+        {
+          "id": "p10",
+          "type": "point",
+          "at": [
+            0.0,
+            10.969655115
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c11",
+          "type": "line",
+          "start": "p10",
+          "end": "p8",
+          "fixed": true
+        },
+        {
+          "id": "c12",
+          "type": "line",
+          "start": "p2",
+          "end": "p10",
+          "fixed": true
+        },
+        {
+          "id": "p13",
+          "type": "point",
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p14",
+          "type": "point",
+          "at": [
+            -4.186052171,
+            1.182990794
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p15",
+          "type": "point",
+          "at": [
+            0.0,
+            -4.35
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c16",
+          "type": "arc",
+          "center": "p13",
+          "start": "p14",
+          "end": "p15",
+          "fixed": true
+        },
+        {
+          "id": "p17",
+          "type": "point",
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c18",
+          "type": "arc",
+          "center": "p17",
+          "start": "p15",
+          "end": "p14",
+          "fixed": true
+        }
+      ]
+    },
+    {
+      "uid": "F2",
+      "name": "Profile",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F1",
+          "region": "r{c3[c5,c12],c5[c7,c3],c7[c9,c5],c9[c11,c7],c11[c12,c9],c12[c3,c11]}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "L"
+      },
+      "operation": "new_body"
+    },
+    {
+      "uid": "F3",
+      "name": "mount:end_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F4",
+      "name": "End B plane",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": "xy",
+        "distance": "L"
+      }
+    },
+    {
+      "uid": "F5",
+      "name": "mount:end_b",
+      "type": "joint_origin",
+      "geometry": "F4"
+    },
+    {
+      "uid": "F6",
+      "name": "mount:shaft",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F2.b0",
+      "name": "Body1"
+    }
+  ],
+  "configurations": {
+    "selectors": [
+      "Length"
+    ],
+    "parameters": [
+      "L"
+    ],
+    "default": "77 mm",
+    "rows": [
+      {
+        "name": "77 mm",
+        "select": {
+          "Length": "77 mm"
+        },
+        "values": {
+          "L": "77 mm"
+        },
+        "part_number": "AHSW19-77"
+      },
+      {
+        "name": "80 mm",
+        "select": {
+          "Length": "80 mm"
+        },
+        "values": {
+          "L": "80 mm"
+        },
+        "part_number": "AHSW19-80",
+        "supplier_url": "https://www.motedis.com/en/Aluminium-hexagon-SW19-length-80mm-M8-all-the-way-through"
+      }
+    ]
+  }
+}

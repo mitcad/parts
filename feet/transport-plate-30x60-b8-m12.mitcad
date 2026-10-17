@@ -1,0 +1,83 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base1",
+      "type": "base",
+      "bodies": [
+        {
+          "name": "TBPA3060",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 15946,
+            "data": "eJzlWltvXUcVnr194suJXSfOzUmT4+Mkbhw3cS4OudWNJ82tpHWcElOg5VLjXIuxo4RUKiDVUl+QIn4AICp4Qjwh8YYScbaoxANKheAFwQMSQgKKeLCQEEaoUs/2nm/N3mtmnb1Tn9OXjhLN7Jk1s751mTVr5rg8dfvafPXM6StnTp89V51euL0wt3DjzerLR/ZVh2f3VpPRmbuzM1evlV9cmJ35xq2F+bvVg+Uz9+68ce3w1bvVY8fLwZb9Z6f/P7hVq5VSMfVSTZkSJtVIlNTj+r1n3rr+zo/+VjP1BK/NBB2sW1n5fVopW5ZqAVYUCQy2yGAz9dIEx6YZtgmhrhG2DQm2CYH1hMGmdB6BYthIWkMwqpP6lHZWKKifSZ1DQBg0luYYIgFDTSBwpCAWkUNQ1EZm4DH8h2GLlB98PjZtCBzpOLaIYeO1g01nsTmaz8cWMQLRtyPuy7wmbP1G6h8+evu9cwdekqSWCiAQlMW3o9/8+NzRjZqEOvm9jh/c//NFrTjmC5v/+tt37y+NJ59Qj7xyUvUVWDm7EpyiwMqt84GeVceQgis0iJDZjvwIEDkERfWjgaVwjF19fOtpdpTWGECPsJFTKxSUogGGVu/0rkjEZgh0DsHWqOC+c6VjE2ys6M9I3RcVXHmJG3sx2z/AY8VkUcx5K/c1UZ8aS2KAsJkI+TD5LBohB3Q+698Pjr317T/u1HnYIoMtYqw+qRbJzih6sjTFItmO/OikOfiVTP5udexE2YiBowJr4VizTNFCkGHfNaEf3zA2zyVlRhxZJEyYKIiMS1BjyPhpOSoyYqIAGSY47okJ41EOh5rEQTMONYGDA0krb1makLSrOSFaTLuL/BhndFy7OCE5MlcUIIseE5njoRLiPGSR8palmoQsekxkkkcSMhZbKoyBy8j/LZWlGk5bwwjGqETZY2b1jJK6jxhFYCRMaBYjspFO6tx4hu/FnHgm+TWK7AzSBC0h4/5pCEX/nJBiuZY4SDE7zz+liKnzRGEE8p6WZNeckE1wQqyWOEiOwidIjiIpa9FxFLPZklz5nUv69W2/mvruC79+mIMMpcIQucj4Aqwscjph9y/XWrP7Bz4uRvQesEMndaf+71TnQM/9fzz0TyBdUwDUArKPrOukplx3SBsviH565+ZfHlX/lYssSupl55zMcpC+peIaJ2otIxgnOholHZ16+BffCv7T/7tx/wRHBc3fCEkN4yyOYYtG3/n7G//755/eFZFJ+ZlWAsLLC3Nv3liYHztbf0Y37an56Tu3ZuZv3JujB/Yr9+5cn5mtJ+aHjvHEHKVl6S+KqOUcrToXHhoXgr8cywUAFGH5POHRVFwgh4F4uDgSRKrxQnkMpcMIpWWZpeNVOofRatN+FPlCkq2pLGbrfJVptvDqz2/llyTiDBoXMX4u0nmPBEFYoHnnPcJcy7N9MBImNOu8b11iwfKDTt2qFIk9uDf/FGaHaaduNoOkHtDOqVaevnJz5nZ8qh08Ue54/mcPv//vP3zzVELO7yoxvEAF9X8jjJKftSOWsh2UwUpHUu795MH7Dz7YpB/8/NEvT57frsN4QBos0Qg2YximPjj5Cud44OuGIJgzDRF11Bh1NucHdUWHbYqfb3awRMK2AXUp9cHJCTXABq8LqPmr0KiAuk3QT7hGFdF1CajbUx+irgE2uAnUGSwl5Zc67FBFNLgGWDpTH5ycsABCAAcYWaOM730N026hcQON6yAuKUJOXIIEyjXQcJNEWTCSSbLQJw21ikokFGm9y5HUkoflFCUfJDXMAvvNPNS6Mer2DKeU8dbWK2mwRMKCIuxWBYw3A9SAn8XSkZmP3+cmtdUgxYgeh50lD59QzlWeBt0AAlDkSAG8JfgqGq+h8RUQW0eyMIwjfRk0eRFJ+03SqdKF0qy6I8EtKOj0Ku4rljxcp3hEsoPu3v6igNqJSALqLjPfiUjr650dwqAVCRRhnyoQkV7JRR0VQ11W6ZLetMAAa4QblLwvw40pSj7oov68gJo/iEseslb59RNuqndKhrAigSLcrAro+uXHRh35UXerdPH5NawRblEN/Lo/RckHXdTTQJ3B0iNIHW5VNqjJGqSwt00V0OCsg4VCDZ1Qr4LmC+j5HHo+i54r6PkMehCgrEnw5Jn0VyL75OkzyRNmPn4Yxe+f4ZP1zrXCoFUDKMLtKTVwcoXz+TLgX+ZqUFOOHMn3kIYc9tHOJ0evJMeOemd3rhygCCtF5JiEHJOOHC/65ai/b0EO+77lk2OdJMdAvbMnVw5QhNUiclyEHBcdOT6NHnvM2e1ojrmX8H0JjRfQeN6vBudHBSlSrDfznd05qBrtTtqVqHeqAjeJ8xCLEoEMlj6VLqkEaZdqlCBhhELabsWjlidBQoAIAMqa5BymvYYGRYGzILbWssCMtc6AJs8k2m+SDcoPPRxS9kBRjhogMR05TxVRw2lgRxTPYtmYmY/cbrzuAaRt1HscdpY8HFZSnjiuXfcAKBu8ofeAArNGA3f3lEksDGOSU6DJu29r6Wbu3OG133ibDCdnP+1VjXIzyslQj6gC+wlP98EzkC+DZbNKl5QjPZ3CwgdLdDegdGyf4hmXx5EAIXjFi2WLhGV/ISyUho+qAnd/pKoBFGT39klMO4EGZQHHQWwdyQIzjnQMNHl3QO13j36VKYY6vneRtlEfUFzrqXvXQVXg3vUpYPe7x9bM9JRJDqlGcQaYKM4cVgXcAxltAFB2b8MSwRE0xtBAYpYyieVkTHLYK9w20+vswzHVKG8noVAfUQX2ISnaCVyKMkrIpA6ioV3hurhwB0AjZZ26cdb5pJlv/twdf8oatcWQj9b/t68VKEg4yiX3exW93fQ6eVS8VeS8lvJZ1MdTH2Ietd/BQoreB809DRrqmXIVDfak6BFH0ck3fmVfrtlf2X2K3iGpIfbuXlENuBWAIozjk3RVIDUMA/uwo4Y9ghxDJEfj9L4iyRHHkO5cOSi9Hy8ixxDkGOJyBLtdm2E5stlT+N6lGhuvohsbb0ClC/74t0+3PauS3KG9V6CgXTIIaGSSDIeqoIowzl5k9yC3QK1VgV1CWAa5WhVwkJ8QMgUlpDRupTYar3iFAxvzF842yMTh8LlYfd0CBamPPMG96CHA0I2PQo7PSbo5ZERA5hv0FxrLNfsXGj7f2Kn82g7jNH+9MFhSuF6CIowzWOnOSZbDkUxns1VDv18Ouu8u1xrfd3dJcsS3nZ5cOei+e76IHMg8KQW1G3uTazMsRzajZHFjjvEqurHxdqt0SW3sCyq5OrevFyjIM3EptSbJcBiS1Brf62X3ILdAfVEV2NiEpY+rlRYkP6GbPVkrpXErtdF4r1c4BFhnY8fPD/F2bO8RKEh95Anuywfm0hMIPRX6nKSHQ+72Qt6jMkUnVXxhpSsE6jjUtAnk4SVV4MJK9685LlyAH8boWh7gehG86grXxoXrchakn9zwu0hAzxS4AQeUWlImTdedMl+Q8iTbM+D0eFwn5FDpjkQPIfQzDR6yRtqw4FUMfQmNC2g8h8azaBxF4xAao2C9Fz0Iz5SAUeav8I5CT6/0mG+vK1D8SJhY1Bp9BB3qQ6iKQQs="
+          }
+        }
+      ],
+      "source": "TBPA3060M12M8.stp"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:mount",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          -7.5,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "mount:castor",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          7.5,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "TBPA3060"
+    }
+  ]
+}

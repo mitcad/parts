@@ -1,0 +1,78 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base1",
+      "type": "base",
+      "bodies": [
+        {
+          "name": "096p01409025m5",
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 7190,
+            "data": "eJzFV81OW0cUnhmMgQshhPwBcZJrJ20T47QE2ioLVG4ElbqolEqg7i1CaSRiIyiVUlWqn6O7bLLtruoCyX6GdlG1eQmUbRbJte/9zvx7rhJEZuGZ8TlzznfOnG9mbvRof6cVrz/cXH+48XW81d5v77V3n8Xff96I72zfjTNp83C7+Xgn+ra93fzpSbt1GC9F60cHP+8sPz6MV76M+Ny9ja3X1fmEOdvJGmdDW6rwd3Xlt1//qyXZH6W8P+lCRWQmZnvZtNIzFUyL+SDJsU0kXtdBBR0bCU4BWz7oZF2jZ3oI5a3rsZC7fvF8lftWYsTfDFq1l/WLvb+evvzz6cvnxwAbtuBRWAsoSEueLTjDDKPgHNgCLljYQtEMd3JLPaw0XIR32W9Bz/Bp8iugUGD39T8aSUELigIyXNCFQwF7U9BCLTExDM7Dw/j+g8goiEqiz7FJ6E+6yL2xwIt2Te+pdQzDpjzhmaOF5D2ReWv93ZExZzORUTl2AgtyDyk1IEGNJP3f7v//rGJBzsZVbSGzqg5laVGng/5DJ8s04E0WQiEkViieZDFWMFlms7fj7GqeOZu/5gP77ljgq6yAh1pS1MN37b1nu+3Wykb67srHj1pbB0+ard2jPXqRbR4d/NDcTs+gB1GoFC0Peu9rlF1UVHJmjgIlbBnwOep4HIXofuoO0IwTK9hMshZ18EK+N5wGSe51vBYo9JOufjrQaXGsORrmQP/DtwdeQx1dbqfU4ky0tfljcz/lzBdL0dg3fxz//urfX77Svao1zVl6hfJ6QLPfcs0yNPngDxfaUkYir1CknfAIS2UsE6rnfreM6f18IFG7XwE+1LCMFyS+9cQIk6hNYYkkIwBYUiamOqEGWP5ZQdTKrmioR5g7Y2KUDcl1mb1Tru9ZqDUsJU/UYowVySCWi3Fl4s0g7TtA1UdZXntLgP0pdBoYLEK5xPR8D6RZ5dahY5Q/mkpXN1HM5tu8Ud1uLx90ShQ+NMSEkhNTXUSKpimkhN1BlJ9Y8fnPOxfqMtMbVkvU0BCTFmqpLqYUTVNIqAGWf2Shzua1JI84GY56zOlpUUENDXHOi3oxEdOKpikk1ADLbwG1hmVcW13r5QNl36EhzltYpLqYUTRNIWEBBI4CkET5GMtu03oMqk7gE0xvYKe4wKwDhYQyKmiIWWZnWH65m6fNsgmcaMxvQiT5LO1mfOYxpjegHCD2QLkQsRVNLU+RbreXD9INxnlNxL7I5HVhqotLrACxKwByjbnjqyXe+DTUk5qnmgM1leVlC7VSlldYgbKcB5CKhdr3UeZGPcX0JokNgETsqxZqhdhzrACxrwII4OtYzjnXVxUsdDTOe7GkR+MCK3A0Yrs5QEl+LEA0h8EVDC47gU8bzojYfSd+YtOjB33FEZVFbLwe5JONTiTc2OwiRJLY0m5+UV/CfNYZ03kdRifr0gcOUYo24zozeaY8lm4wazNIaN9T15xYZoJYiFo3h2GJmUktBxa66YlalF8qDADidAcgXUrGJYz8KJ12BneB+YJD2oiB/WvFl0tRYxYDSWhfrVbVM5Q2HQmc7rUZO7iyGdykM7hZ5gsOUGnnbg3BL26zAjtHd/W8FRwRGHcwp7t6yg5uzAxu3DJIRwM2nuPOZxO2wXHTYNkyCMpyvL/pdmYN26AwDNJ7oD6CU+wuFK5DFZVGBy3dtPS+o0c1fRrVBT4x4LNO3xxvAQ+FBy4="
+          }
+        }
+      ],
+      "source": "Motedis_Threaded_Plate_B-Type_slot6.STEP"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:slot",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          4.5,
+          7.0,
+          2.5
+        ],
+        "x_axis": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "096p01409025m5"
+    }
+  ],
+  "configurations": {
+    "selectors": [
+      "Thread"
+    ],
+    "parameters": [],
+    "default": "M4",
+    "rows": [
+      {
+        "name": "M4",
+        "select": {
+          "Thread": "M4"
+        },
+        "values": {},
+        "part_number": "561"
+      }
+    ]
+  }
+}

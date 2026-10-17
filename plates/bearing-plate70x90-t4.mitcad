@@ -1,0 +1,91 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "W",
+      "expression": "70 mm",
+      "unit": "mm",
+      "value": 70.0,
+      "comment": ""
+    },
+    {
+      "name": "T",
+      "expression": "4 mm",
+      "unit": "mm",
+      "value": 4.0,
+      "comment": ""
+    },
+    {
+      "name": "L",
+      "expression": "90 mm",
+      "unit": "mm",
+      "value": 90.0,
+      "comment": ""
+    },
+    {
+      "name": "d1",
+      "expression": "-W / 2",
+      "unit": "mm",
+      "value": -35.0,
+      "comment": "Centred x",
+      "owner": "F2"
+    },
+    {
+      "name": "d2",
+      "expression": "0 mm",
+      "unit": "mm",
+      "value": 0.0,
+      "comment": "Centred y",
+      "owner": "F2"
+    },
+    {
+      "name": "d3",
+      "expression": "0 mm",
+      "unit": "mm",
+      "value": 0.0,
+      "comment": "Centred z",
+      "owner": "F2"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Plate",
+      "type": "box",
+      "plane": "xy",
+      "corner": [
+        0.0,
+        0.0
+      ],
+      "length": "W",
+      "width": "T",
+      "height": "L",
+      "operation": "new_body"
+    },
+    {
+      "uid": "F2",
+      "name": "Centred",
+      "type": "move",
+      "bodies": [
+        "F1.b0"
+      ],
+      "transform": {
+        "type": "translate_xyz",
+        "x": "d1",
+        "y": "d2",
+        "z": "d3"
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Body1"
+    }
+  ]
+}

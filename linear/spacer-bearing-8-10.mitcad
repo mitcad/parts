@@ -1,0 +1,61 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base1",
+      "type": "base",
+      "bodies": [
+        {
+          "name": "Spacer for bearing, 8 to 10 mm 1",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 7563,
+            "data": "eJzdV0FPG1cQfru2F1ggOMEhNm2aJW0pcZM2YKpSCbUPQaUeIqUSqKdeLEJoJGojXCpRVWrOPfRYqTn00EOuuVeW2F56yDGXiHP+QJRjokhZ4/3m7XtvxzaJQUlWgHbfmzfzzcw38wb/+vZGLVheWl1eWvk6WKtv17fqm3vBd/OXg5n1S0F7t9pYr97Y8K/V16s/3arXGsFVf3l35+eNuRuNoDLvO8UrK2vPpoakSH0efwWBsItASd75K3oOlmJNj/ch4nInjYXb+npeQnPIHexVs9AhRZq7HXx1zTcPn5lQF4g0//n0+eSP//y7uPdo4Y9HC3cXe9NcpGjIN0ZzwYqGNA/2qvm2vq4wh2+M5oLsVkr73Ypxn+LZrrVZaWFjTvaKrRQel+Y+eh1i46jYhH5QeS2PS/MreH3YpRvB7Od+7H8+zH5fqEzf/W9Rz5F91EKtuycYb7hcmjnFk5ecISkYZIwhRu51MKT3xH4ZKr51hgqsIckoeEnWFd86Q3RPFsPh3/++9sXe/abo+PAVLkWfkZ2YoTgEhXC0cbB/b+z/lw5ByB1It8zJKWQnZujIIfi2vrW3Wa9VVqKhPn6/XlvbuVWtbe5u0bi/urtzs7oeXSUL/om1UYcxFDIKjkwbzoAU/TIQT3nNeMprdmmbRzbAjBbc08cudjyGIv4yIZOiT4ZOzBOrhvy11R+q21ENfTbnD3xzr3nnycNfvmxLp41ljnCinzIn2VTVEEt6kHQOF/QH/1hnnDgGHidxqK+1MB9vOJX4RbeAQGIGfTBV+e3Xg4vSzQhVWuZmlnZw3M0mPkzx2DchKhYWMy5S9yMRQQ11xrCE4d3NpaDGpkKN466X+DDF7QheTY1gVugP9LgDwm5O2EzBMpj4MMUJCyA4AFXOIbhzODQLGVr5FC+f4FRWkAtkzGnT7QpkjNwUJQRV/0tntxpeLEktcjnBRG4o+sixkUPAIeH60R8uCxS5j+FlGf5pWDzjHDFqOGHJZpSFZSSBhWUUIDgApbJ4CQ7MYMsILs0Ei52DO2CAoMIejRY9ZlM5BAn3VIpDVmFPw6Fp0yHnQ6woyqlctSnnfITPDxinLe7Jnrkn08MzKPSHuDcmOnEPUaV856M/A4w45fsi/JuCfxqWIeMcce+06MQ9C8uZBBaWe4DgAJTiXgAHLmCL416X4PoGCOLeeLQ4yGwqhyDhFlIcsrh3Hg6dNx1y3sWK4p7KVdzu3sP3OyItN8PxKooNjmfORosT0a+XYyTsiJctgAG2EHFRwgoagYNG4JRsb3KmN0XImJmTEOw2mqgcd76CR4T+UAGdEyqD5maWdujaK4oerr0JeHkW/mlYRo1zVEAlYfNNFZCFZVL0MA4AgjORiuWUHmfQIcy0+NUipDfISNgWbEYXsDWOWJ3BC8juYCXBE5WPmCenIdONJ2HPPAnTeTIm9Id40nLOYzazNEvSPdSqU5cRp8jBGGVBx5I3zhFPLgj7TlQ8sbAEwh52LZ4AAkVANVrwVYxYWxjeEslTXsfXJXoS9VndS+QWjQh1nGk1olbX9zxGgrBPW3EkgLjPqXqo+qgl0OWacMIznKC+rjSD22Lc2sLcSpNsQnPG1ExNEXNGOYPyuQzJ9yEziZdzeAFJ6FpWLIWpsovxHbkp0zz/Asu/0Ms="
+          }
+        }
+      ],
+      "source": "SPACER FOR BEARING 8 TO 10MM.stp"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:bore",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Spacer for bearing, 8 to 10 mm 1"
+    }
+  ]
+}

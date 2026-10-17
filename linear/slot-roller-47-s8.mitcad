@@ -1,0 +1,583 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base1",
+      "type": "base",
+      "bodies": [
+        {
+          "name": "4309.008.047",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 10293,
+            "data": "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"
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 1",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 6805,
+            "data": "eJy9WN9rHEUcn7293CXbpG0uSZNeY3qJ0abXRNKmFMHQ25IIPggVEnzx6UjTWAh3ITGFFrF9EcSC9FErSP+B4qvQw11Q6YMNiIpSffBNUXywgg9FUHdv5zOzO7Pf3ewRM+THzsx3vvP5fubz/e7cWRc3VhuVhQtLCxcWX6wsNzea6821a5VXz05XplZOVoLZ+tZK/dKq9XJzpf7GlWZjq3LaMlhs+8MhxmvZxhlb2N68unrm0lZl7oxljMwsLv893mNTTmDgphgctd8d/Pf65IkfayrcHLWSGHfm2m3AhmeXWijAz7ZXfKNtbaRtne7h6/G5G28+mrCD7ifzqieFwBiDqAcZJp52y89NjCv89IB5h4rO3Xnot5JNGihnl8qP7iHo3m4pQTgKP6kGcgJPmfkJoh2x008fR6PwI08/VYG79ECmj5OWgI6aX466Reb8EvzsVe4ngI8XvzRo1yKv6p1D2Su57/xy9clvP3zWuvOB3wz78xduXP7o7s/Og/fMT+/+9X7ru6BfI+LO29ReQM0SmyQWeaZtBGSEAy1JeLsZ/a/Ol/ZvIwOhffXtWxsPZr7gSZl373Fu73Ouf+fcU1y7e4UsjWuXxW+U+VCDlp3rDjcq2wbS7fzUkw/HX/sSXNs7nNtHAdfzOx3qOjPXAJSV6w7lVt6/jXgNKbtvDxkD/9x7iBri/sS5fcy5vt+hrjOrQHkXlWxUN76RTTlAKDZCSVlQe6W5fm2t2ZhbrMxa/PliY3nzSr2xtr3OL5ez1tL25uX6ildxn7dM1cf/VW162y+JX2vE+3jvhN3pG8FhiU2PyIw3TJXNrjdCOXw8nUydm+xo99RREdnEBpkjQiIMcTHs01mVbUrmbrKD7MXnNI9Myzlreen1+oaXc2fPWcWXPm7d+fP76+eDVfptx//QYng/VWHJteAq72ppWYCl0R6Itlv8Zm/6Ez7pBcqi7c8feI5PGDP8IboDTg53P1zxcj7TBjGZFzNYnsuHOqo5j42xGQ2LyiAq6rzGYAS1qeyEW3WuKwa1mCwwmRrqpAxJSkxlsBrLYJ5FGzznikz/zComu5mepphMwAIIBkBVu0DuNExPwUaMnMTDFFblmQhBbhHI7QRsqLNpyZwj1K3dRONPsYvvFP0s5EXd4/2xvN9CnrAQfDyD7iRQR3YoMBbDsCeFAz4sYjIvZgAw1xvqqOZC3ZPJWIoUlr4ELLmDjNJJGGhEJ0aYFzxInTwN0wnYiJFxGEt5SGBcHhXYKPKQd5vk1O1mRKSHvA55Xoe9TpGkAcuKKg1j6I5pqKmLfDzqHr7+lirVfu9PyUdeICyEVAWWUWCJ7GAxIvSBBF5k6KIQDzL96qRJdVTDAnkYT2HRMdiU8YCRkDwkMC6Po7DR5HE7kMc8XT24pXbfjz+SA7FBeqV1yOt0U5NHGCUkv+5iWURI/r9hdI8gvgiWXsWTOLzhEBZtciS0k/4+IrEAgjGscc1F7SqiduMZ7GPRJm4X/iH6p17oJix0LAOxvBxUohO3i2MxvMjbBWZE/R0NdcjbxYCGRYh6CFODiKSEkX48YCSkbhk+V/fh2CgP8VF8rYqvD00/l/y0L5iEhf5e1+s1ODRQnQWrBt7rRsx73VSx98ViR0QckcsROuZxFtT6QpGw0HNjTMMO3pngXWQt6ozI4xD2oord0jyXtZFTup+c6kccaFFb3q+NTOgOuxSH4gojboFVE5p7FlPHsWYEDxCMqBsM7xdRz8UVt5rDbRDRVNsD/u9/lLak/A=="
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 2",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 8251,
+            "data": "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"
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVe9LE2Ecv9vWlke9Sc250k5fhI4EawbNRjvTLMgycNoLrRxTlzp2w6mgmdmbojfaIgiCEo3MXkQ/tCAYXUaBUS9ShNyMqESjeuFYMdKU2j3PfZ+6myv/gL54+Pnc9/t8v597ns/umFJPrZstLCgrLCjaw9p4D+/inW1sRd4WNsuRzeKs3euw19QyJbzD3lzPu72siaEpFCErtaL4XWdCkc7Fq1v8GQ1rrznugDoUei7egJUKUYkTxEsl/RejsKWptXZbjZfNY+jxDNOpjkAmp88psv3ImJcWhgRooKMoNZUaBSnRCxclkGLggRuefPWx74QfufJcmxiIEN63tvSh8fw3q0HisycnGnfvDVuTJV7yZsgyvDhnTZV40P+ob7rhC+GVqN+sNUXi02j9B9J/AtVPkfx7lB8n+U+IPyH5Lm+uf+H0gAV4AOcFqA/i9QLMf4X7C6D3LZ4vGOT6SP0Y1i9A/4P4+Ug91h8m+V68P2Q+7hcRFPsrKPZfwIe3jtNEz2bkme/Cg8ZETjzkO/Wh66EljHHvJIS77956WZOZjHBn+Zp3V4cxds03fJ0sXo9wFZqN8f6CLMOBxhSE82fO5Jxdwjj73Aw30qNHGGtJRVg31u/cPoxxpJk+wRcbEJ7RV3ffnMQYn9UGhJ9Wp91PW8L4nqZj9HDPRoT7B4NTvow0hH0l5rkXQxh3hS6ptMXpCPMXI8ncJMZHd5RntzdsQvsgM6zS3cDBsMDBsMDBsMDBsGMSB8NCHgwLHAwLHAwLHAwLHAwLHAwLHAxL9EuGJfMlwwIHw4JeMKxCH+FgWOBgWLn+MOFgWHm/iKDYX0Gx//8Nu4xhaeWvWvkOR69rL7uVUVFxYqEyybR5oM+iXAkvc3k+Jrrk61TcId7V5uTdpiI2l5FwqdvWVG93O1tc0tcxlylraaqzO5AyTZzOFFMlTvZZlIqUSv9eB6HiYkQwtrLjdk9UhJnR7bvtvxx+3b6r82Pr/OfgNX94cGfF6Gy5WVr8WPwC0tE/oxYqaZomX8g/AzyCVog3EqQEDcD4r2ncctPEGzjglwBOUIuHq45e2ngVsVp0oEX2PJqVPI8upscqSlK3GhZpAayCYrhj1FBkIplB42cDKxjV0FANd1SgC4xspCD/C6oKtqM="
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVe1LU1EYv3ebW17sQ6n5UtbVQHQkWCqkSbumWZFl4EuQVg5fljp2l3OGZmZfir5oi0AoKjQyg6IXLQhGV6PAKChFyM2IUjTMD44lIy2h3XPuc2p3Lv0DOuyy3+88z3me3z3nd+9l8s2VJjY7qyA7K2c3W8ibeSNvaGSLU7ewCeWJLI7qLeX6ikomjy/X11fzJgubwtAUGi4dtczomuu4dmpiWld5xKra/G5cF6Y4GXbPFMlBXJoXIG8mPi1kX/+a/oANqtD4U2ClQuR5CrGDeCmkf3FkW+saKrdVWNhUhh6OTTnb7IjjIpNyCn/GzksLXQIU0FCUkoryggjvhZOCSTJwxx1zhvL4D8KPXn+tDnV4CO9cnf9Me2lOFy3xqTMjtbv2uHXhEs/72JvZ92tWFyVxp/1550TNDOElqN6ULkLiE2j9OKk/gvLHSPwLig+T+DTiL0i81ZJsXzjXnQncgeMC5DvxegH6v8f1BdD7CfcXon31kfwhrF+A+gfx/ZF8rN9N4jfx/pD+uJ5HkO2vINt/AR/eWk7lPZuBV7bLT2tDOfGQH1a7brsWMca1wxBue3T/bUVcOMItRSGfb/RhbJyv+T6auw7hUtQb4/1ZCdEHaiMQzpg8n3RhEePEi5PcQHskwlhLFMKaoS5DWh/Gnnr6NJ8bjfBkZFnb3VGM8VmtR/hlWcyTmEWMH6uaBw+3b0C4q8c5ZouNQdiWlz77phfjVleHQp27EWH+iiecG8X42PaixKaaTWgffAwrdzdwMCxwMCxwMCxwMOyQxMGwEAfDAgfDAgfDAgfDAgfDAgfDAgfDEv2SYUl/ybDAwbCgFwwr00c4GBY4GNZXv5twMKxvPY8g219Btv//DbuEYWn5Uy1/h6PXtYXdyiioAGOhJCwlvrszU74SXua+cb/R6rtOwR3ijY0G3pSSwyYzEs43FdZV600Gq1H6OiYzBda6Kn05UqYKUJliSsXOtky5IrnSf+fBUHB+IpjCghN6s1dEOqPZ+8B+1f2haWfL14b5b85bdnfPjuLBqaJ0aXG/+AWkvT+tGjJpmiZfyL8HeAStECeCpQANQLtcN26pbuIEHvAkgBOU4uEqvZc6UIa/Fg1o8bkf1UruR+NXI4iS1K2CRWoAQZAMM1oVRTqSHjS+N7CCVgkFlTCjAF1gZC0F8d8pIMOJ"
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVe9LU1EYvnebm16qD6n5I62rROjIsjRKk3ZNsyDLwB990MoxdaljdzgVNDP7UvRFWwRBUKGRWdBPLQpGV6NCKUJNyM2IUjQsyLFqpCW0e859D+3OZX9Ah132POd9z/s+95zn3svkWcrNbFZmflZm9k62gLfwJt7YwBalrmMTDIksjuqtBn1ZOZPLG/S1lbzZyqYwNIWGS0ctMuKnN2yZef5aF1yYHbqM/6IbGLz1fc0NBQdxaV6AvPqJ9eOvHsb0BmxQgUYk5zu7uBB5nkLsIF4K6V8cWXU19eWbyqxsKkMPx6Ucb3LEc5FJ2QU/42alhS4BCmgoSklFeUGE98JJISQZuOOaJV15+AfhBy8OqEMdHsLbl+Y90p75pouW+NSxkeodu9y6cInnvu3O6Pk1o4uSuNP+uH2i6jPhxajelC5C4hNo/TipP4Lyx0j8A4oPk/g04k9IvMWabJ870ZkB3IHjAuQ78XoB+g/i+gLofYf7C9G++kj+ENYvQP19+P5IPtbvJvHLeH9If1zPI8j2V5Dtv4APbzmn8p5N3zPb2QfVoZx4yHcqXVdd8xjj2mEIt969+bIsPhzh5sIl7y/1YGyarfo6mrMC4RLUG+M9mQnRe6sjEE6fPJl0ah7jxNOTXF9bJMJYSxTCmqEO4+YejD219FE+JxrhycjS1uujGOOzWonw09LY+7HzGN9TNfUfaItBuKPLOWaLi0XYlps286Ib4xbXeYU6ZxXC/DlPODeK8aGthYmNVavRPvgYVu5u4GBY4GBY4GBY4GDYIYmDYSEOhgUOhgUOhgUOhgUOhgUOhgUOhiX6JcOS/pJhgYNhQS8YVqaPcDAscDCsr3434WBY33oeQba/gmz//xt2AcPS8qda/g5Hr2sru5FRUAHGXHFYytrO9gz5SniZ+8b9RovvOgW3nzc1GHlzSjabzEg4z1xQU6k3G+tM0tcxmcmvq6nQG5AyVYDKFFMidrZlyBXJlf49D4aC8xPBFOQf0Vu8ItIYze7b9gvuN43bmz/Wz35yXrG7u7YV9U8VpkmLe8UvIO39adWQSdM0+UL+OcAjaIU4ESIFaADaxbpxC3UTJ/CAJwGcoBQPV+m91IEy/LVoQIvP/aj+5X40fjWCKEldMCxSAwiCZJjRqijSkfSg8b2BFbRKKKiEGQXoAiNrKYj/Bt3sw2k="
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVe9LU1EYvndbW16qD6n5I62rROjIsjRKk3ZNsyBLwWkftHL4Y6ljdzgVNDP7UvRFWwRBUKGSWdBPLQpGV6PCKKKZkJsRpWhYkGPVSEto95z7Htqdy/6ADrvsec77nvd97jnPvZfJs1SY2azMgqzM7J2snrfwJt7YyBalrmMTyhJZHDVYywzlFUwuX2aoq+LNVjaFoSk03DpqgdE1tWHL9NPXgkefHbqM/6LLd9z4vuaaoh/i0rwAeaXj68de3o/pD9qgEo1Izn92YSHyPIXYQbwU0r84suprGyo2lVvZVIYeiks51uyM5yKTsvU/42akhW4BCmgoSklF+UCE78JJISQZuPOKJV156AfhBy48U4c6vYR3LM17oD39TRct8cmjwzU7dnl04RLPfdub0fdrWhclcZf9Ycd49WfCi1G9SV2ExMfR+jFSfxjlj5L4BxQfIvEpxB+ReKs12T57vDsDuBPHBch34fUC9H+F6wug9x3uL0T76yP5DqxfgPr78P2RfKzfQ+KX8P6Q/rieV5DtryDbfwEf3nJO5TubgSe2M/dqQjnxkG9VuS+75zDGtcMQbrt9/UV5fDjCLYVL3l/sw9g0U/11JGcFwiWoN8Z7MhOi99ZEIJw+cSLp5BzGiacmuIH2SISxliiENY5O4+Y+jL119BE+JxrhicjStqsjGOOzWonw49LYu7FzGN9RNQ/ub49BuLPHNWqLi0XYlps2/bwX41b3OYU6ZxXC/FlvODeC8cGthYlN1avRPvgZVu5u4GBY4GBY4GBY4GBYh8TBsBAHwwIHwwIHwwIHwwIHwwIHwwIHwxL9kmFJf8mwwMGwoBcMK9NHOBgWOBjWX7+HcDCsfz2vINtfQbb//w07j2Fp+VMtf4ej17WV3cgoqCBjtjgsZW13R4Z8JbzM/eMBo9V/nYLL502NRt6cks0mMxLOM+trqwxmY71J+jomMwX1tZWGMqRMFaQyxZSInW0ZckVypX/Pg6HgAkQw+oLDBotPRBqj2X3Tft7zpml7y8eGmU+uLrunZ1vR4GRhmrS4X/wC0r6fVg2ZNE2TL+SfAzyCVogTIVKABqBdqBs3XzdxAg94EsAJSvFwlb5LHSwjUIsGtPjdj+pf7kcTUGMRJalbDIvUABZBMsxoVRTpSHrQ+N7AClolFFTCjAJ0gZG1FMR/A3fQxy8="
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVe1LU1EYv3dbW17sQ6k5LetqIDoSLLXSpF3TrMgy8CVIK4dv+cLucs7QzOxL0RdtEQhFhUZmUPSiBcHwzkgwCkoRcjOiFA3rg2PJSEto95z7HNqdy/6ADrvs9zvPc57nd8/53XuZXFO5kc3MyMvMyNrD5vMmvpavbGQLkzezcaXxLI4azKWGsnImhy811FfxRjObxNAUGi49tcwYnOu4fnpyRth+1KLa9HZCv01xKvS+UWuHuDQvQF5/bErwfvtqe8AGFWhoOd/Z5YXI8xRiB/FSSP/iyLTUNZRvLTOzyQw9Ep10rtkRw2kTsvJ/Rs9LC10CFNBQlJKK8IJw74WTgkgycMddU5ryxA/Cj914pQ5xeAjvXJX7XHd5Th8p8emzozW797r1YRLP+dCb3vdrVh8hcaetv3Oy+hvhRajetD5c4pNo/QSpP4ryx0n8M4qPkPgM4i9IvNWcaFs4350O3IHjAuQ78XoB+r/D9QXQ+xH3FyJ99ZH8YaxfgPqH8P2RfKzfTeK38P6Q/rieR5DtryDbfwEf3hpO5T2bgUHrlWc1IZx4yI+qXHdcixjj2qEItz1+8KYsJgzhloLgTzf7MK6dr/4+lr0W4WLUG+MDGXGRB2vCEU6bupBwcRHj+EtT3EC7FmGsJQJhzXBXZUofxp56+gyfHYnwlLak7d4Yxvis1iH8siTqadQixk9UzUNH2tcj3NXjHLdGRyFszUmdfd2LcaurQ6HO3oAwf9UTxo1hfHxHQXxT9Ua0Dz6GlbsbOBgWOBgWOBgWOBh2WOJgWIiDYYGDYYGDYYGDYYGDYYGDYYGDYYl+ybCkv2RY4GBY0AuGlekjHAwLHAzrq99NOBjWt55HkO2vINv//4ZdwrC0/KmWv8PR69rMbmEUVICxUBSaFNvdmS5fCS9z37jfaPVdp+AO87WNlbwxKYtNZCSca8yvqzIYKy210tcxkcmz1FUYSpEyVYDKFFMsdramyxXJlf49D4aC8xPB5OedNJi8IlIZzb6Htmvu9027Wr40zH913ra5e3YWDk0XpEqL7eIXkPb+dGrIpGmafCH/HOARtEKcCJICNADdct24pbqJE3jAkwBOUIqHq/Re6kAZ/lo0oMXnflT/cj8avxorKEndSlikBrACkmFGp6JIR9KDxvcGVtApoaASZhSgC4ysoyD+G7t7xOg="
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVe9LE2Ecv9vmlke9Sc0fpZ0SoUPBmkHaameaBVkG/uiFWo5Nlzp2Y1NBM7M3RW+0RRAEFRqZvZB+aEEwOo0Co5AUITcjMtGoXjhmjLSkds9z34d2c+Uf0BcPP5/7fp/v93PP89kdU2KvtbEF+aUF+YUH2DLezlt5SytbkZPJppsyWJw1Ok1Gcy1TzJuMTfW8zcnqGJpC4TNQawqfsK3aMjbm+OXWoUgZhox0Xw91M4I5c3Ega2/EAXUoEjjZgLUKIXUKcYJ4KaT/YhQ0O1pqd5qdbA5DT6TqzrZ70riErMKyH6lLBlAIDTQUpaQSgyA+eOGiaFIM3HPHnqc8+Z3w6usv1TGeAOE9G0qeaC99MyRJfP7MZOP+g35DnMSL3w3qh34uGBIl7nU/7Zlt+Ep4Jeo3b4iX+Cxa/5H0n0T10yQ/g/ITJP8Z8Wck3+nMdi+f69MD9+C8APVevF6A+W9wfwH0vsfzhaRQfaR+HOsXoP9R/HykHuv3k/xNvD9kPu4XEGT7K8j2X8CHt5FTBc9m5IXr8uPGGE485Pv1vtu+FYxx71iEux4MvDanxSHcUb7+w40hjK1LDYtTRZsQrkKzMT6cn550pDEe4by581kXVjDOuDjHjXQnIIy1JCKsGe+17BrCONBEn+aLkhCeS6jpujuFMT6rzQg/r0l+lLyC8UNV++jx7i0I9/Z7p12pyQi7inMXXg1i3Om7qlAXpSDMXwnEcVMYn9hdntHWsBXtQ4hh5e4GDoYFDoYFDoYFDoYdlzgYFvJgWOBgWOBgWOBgWOBgWOBgWOBgWKJfMiyZLxkWOBgW9IJhZfoIB8MCB8OG6vcTDoYN7RcQZPsryPb/v2FXMSwt/1XL3+Hode1kdzAKKkIsV8bqtvf16OUr4WUemg+LztB1Cu4Yb2218DZdIZvNSLjEVuaoN9oszVbp65jNlDY76owmpEwVoTPFVImTXXq5IrnSv9dBKLgwEUxZ6SmjPSgil9Ecuue+5n/btq/jU8vSF+8tt79/T8XofHmutHhY/ALSwT+tGippmiZfyD8DPIJWiDeipQQNQPuvadxq08QbOOCXAE5QioerDF7qSBXhWjSgJeR5VGt5Hk1YjyhKUrcOFqkBREEx3NGqKDKRzKDxs4EVtEpoqIQ7CtAFRtZSkP8NNP+/MA=="
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVf9LE2EYv9vmlof9UGpOyzoVSkeCpUKatDPNiiwDvwRp5Zi61LFbzhmamf1S9Iu2CIQiQyMzKPqiBcHoNAqMglKE3IwoRcX6wbFkpCW0ve89L+3msj+gBw8/n/d53uf53Huf3TEF5koTm5NdmJOdu4ct4s28kTc0siVpW9lEfRKLszqLXldRyeTzel19NW+ysKkMTaFwaakVonG+4/rpyVmh86hVkfBuQpihT0XcM6kHIC+ua6EuYUt62P6BNVzQAVUo1Jz/6spCpHUy3wTfJRP/+yLHWtdQub3CwqYx9Ehc6rlmRzynTs4t+hm3IG50CdBARVFyKtoLorwXLgolxcAdd8yZ8hM/CD9247Uy3OEhvGt1wTPN5XltjMinz47W7t7r1kaKPP9jX1b/rzlttMid9uddkzXfCC9F/aa1USKfRPsnSP9RVD9O8l9QfoTkZxF/QfKtlhT74vmeLOAOnBeg3on3CzD/Pe4vgN5PeL4Q46+P1A9j/QL0P4Tvj9Rj/W6Sv4nPh8zH/TyC5HwFyfkL+OGt5RTeZzP4ynblaW04stTDatdt1xLGuHcEwm2P7r+tiI9EuKU47HNnP8bGhZrvY3nrEC5DszE+kJ0Yc7A2CuHMqQvJF5cwTro0xQ22qxHGWqIRVg13G9L7MfbU02f4vBiEp9TlbXfHMMbPaj3CL8tjn8QuYfxY0Tx0pH0Dwt29znFbXCzCtvyMuTd9GLe6OmTKvI0I81c9kdwYxsd3FCc11WxC5+BnWKm7gYNhgYNhgYNhgYNhh0UOhoU8GBY4GBY4GBY4GBY4GBY4GBY4GJboFw1L5ouGBQ6GBb1gWIk+wsGwwMGw/vrdhINh/ft5BMn5CpLz/2/YZQxLS3/V0nc4el1b2G2MjAoSi6URqZt7urKkO+Fl7p8PiFb/fTLuMG9sNPCm1Fw2hRFxgamorlpnMliN4tcxhSm01lXp9EiZIkhniinzTbZlSRVJlf69DkLGBYhgigpP6sxeERmMat8D+zX3h6ZdLTMNC1+dt+zu3p0lQ9PFGeLmAd8XkPb+aZRQSdM0+UL+GeARtMO3EComaACalaZxy03zLeCAXwI4Qe57uHLvpQxWEahFBVr87kfxL/ejCugRQonqVsEmJYAQKIYVjYIiE8kMGt8bWEEjh4ZyWJGBLjCyhoL8bw9gxLQ="
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVe9LU1EYvndbW16qD6n5I62rROjIsjRKk3ZNsyDLwM0CrRxTlzp2h1NBM7M+FH3RFkEQVGhoFvRTi4LR1agwilATcjOiFO0X5Fg10hLazrnvod257A/osMue57zved/nnvPce5k8S6mZzcrMz8rM3spqeQtv4o11bEHqKjbBkMjiqN5q0JeUMrm8QV9dzputbApDU2i4NNQco/3Dmg2TT14KMbrs0EX8F2Fv//XvK67KeiAuzmsg79jY6tEX92K4oA3K0Ijk/GfnFiLNk/k6+C6Z+O8bWTVVtaXrSqxsKkMPxqUcaXDEc5FJ2dqfcVPiQpcABVQUJaeivCDCe+GkEJIM3HHZki4/8IPwfeefKkMdHsJbF+bdV5/6pokW+cThocot29yacJHnvu7K6P41qYkSudP+oHWs4jPhhajehCZC5GNo/SipP4TyR0j8HYoPkvhHxB+SeJM12T59tCMDuAPHBch34vUC9O/H9QXQ+wb3F6L99ZH8AaxfgPq78P2RfKzfTeIX8f6Q/rieR5DsryDZfwEf3mJO4T2b3se203crQ5Glbpa72l0zGOPaYQg337r2vCQ+HOFG3YK3F7oxNk1VfB3OWYJwEeqN8Y7MhOidlREIp48fTzoxg3HiyXGutyUSYawlCmHVQJtxfTfGnmr6EJ8TjfB4ZHHzlWGM8VktRfhRceyd2BmMbysa+va04EeirdM5YouLRdiWmzb5rAvjJtdZmTJnGcL8GU84N4zx/o26xPqK5Wgf/AwrdTdwMCxwMCxwMCxwMOyAyMGwEAfDAgfDAgfDAgfDAgfDAgfDAgfDEv2iYUl/0bDAwbCgFwwr0Uc4GBY4GNZfv5twMKx/PY8g2V9Bsv//DTuLYWnpUy19h6PXtZVdy8ioIGO6MCxlZUdrhnQlvMz94wGjyX+djNvNm+qMvDklm01mRJxn1laV683GGpP4dUxm8muqyvQGpEwRpDLFFPk62zKkiqRK/54HQ8YFiGC0+Qf1Fq+INEa1/Yb9nPtV/ebG97VTn5yX7O7OTQV9E7o0cXGP7wtIe39qJWTSNE2+kH8O8Aha4ZsIEQM0APVc3bjZuvkm8IAnAZwg9x2u3Hspg2UEalGBFr/7UfzL/agCasyjRHXzYZESwDxIhhm1giIdSQ8a3xtYQS2HgnKYkYEuMLKagvhvP9TFMA=="
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVe9LU1EYvndbW176Aan5o6yrROjIsjRKk3bNZUWWgdM+aOWYutSxO5wKmpl9KfqiLYIgqNDITOinFgWjm1FhFNFMyM2IVDQyyLFqpCW0nXPfQ7tz2R/QYZc9z3nf877PPee59zJ5ljIzm52Vn52l3c7qeAtv4o31bGHaGjbRkMTiqN5q0JeWMbm8QV9TwZutbCpDU2i4NdQcY/HEuk2Tz95ohnXa8EX8F6HLceP7qi4ZB3FxXgN5u0bXjry6v5wL2aAcjWgucHZuIdI8mb+D/5KJ//6RXVtdV7ah1MqmMXR/fOqxRmcCF52s1f2MnxIXugUooKIoORXjA1G+CyeFkWTgzquWDPmhH4QfuPBcGe70Et62MO+B+vQ3TazIx48OVG3b4dFEijz3XXdmz69JTYzIXfaHbaOVnwkvQvXGNVEiH0XrR0j9AZQ/ROLDKN5P4p8Qf0zizdYU+/TxjkzgThwXIN+F1wvQ/zWuL4De97i/EBuoj+Q7sH4B6u/F90fysX4PiV/C+0P643peQbK/gmT/BXx4SziF72x6n9rO3KsKR5a6VeG+4p7BGNeOQLjl9vWXpQmRCDcVLPhwsQdj01Tl18GcpQgXo94Y785KjN1TFYVwxtiJ5JMzGCedGuN6W6MRxlpiEFY52o0bezD21tBH+JxYhMeiS1quDWKMz2oZwk9K4u7GzWB8R9HYt78VPxLtna4hW3wcwrbc9MkX3Rg3u8/JlDkrEObPeiO5QYwPbi5IaqhcifYhwLBSdwMHwwIHwwIHwwIHwzpEDoaFOBgWOBgWOBgWOBgWOBgWOBgWOBiW6BcNS/qLhgUOhgW9YFiJPsLBsMDBsIH6PYSDYQPreQXJ/gqS/f9v2FkMS0ufauk7HL2urex6RkaFGNNFEamrO9oypSvhZR4YDxrNgetk3D7eVG/kzalaNoURcZ5ZV12hNxtrTeLXMYXJr60u1xuQMkWIyhRT7O9sy5Qqkir9ex4MGRckgtHlH9ZbfCLSGdXOm/bznrcNW5s+1k1NuC7bPZ1bCvvGC9LFxY/8X0Da91MrIZOmafKF/HOAR9AK/0SYGKABqOfqxs3WzT+BBzwJ4AS5/3DlvksZKiNYiwq0BNyP4l/uRxVUYx4lqpsPi5QA5kEyzKgVFOlIetD43sAKajkUlMOMDHSBkdUUxH8D6zXEKg=="
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVe9LU1EYvnebW17sQ6n5o6yrgehIsFRIk3ZNsyLLwB8VWjmmLnXsLucMzcy+GH3RFoFQVGhkBkU/tCAYXY0Co6AUITcjStGwPjiWjDSFtnPue2p3Lv0DevHi85z3Pe/73HOf3cvkmyqMbHZWQXZWzm62kDfxBl7fwBanbmETdIkszmrNOm15BZPH67R1VbzRzKYwNIXCqaGWiZnZjmunJ6Y1C0ctis3vxoUjslNh94yRHOTFdQ3UtcanhezrX8MFHFCJ4k+DlQqR1sm8E7yXTPzvjWxLbX3FtnIzm8rQw7Ep55rscVxkUk7hr9g5caNTgAYqipJTUR4Q4blwUTApBm6/Y8qQn/hJ+LHrr5Whdjfhnavzn6kvzWqiRT51dqRm1x6XJlzkeR97M/sWZjRRInfYnndOVH8nvAT1m9JEiHwC7R8n/UdQ/RjJf0H5YZKfRvwFybeYk23z57szgdtxXoB6B94vwPz3uL8Aej/h+UK0rz5SP4T1C9D/IL4/Uo/1u0j+Jj4fMh/3cwuS8xUk5y/gh7eWU3iezcAr6+WnNaHIUg+rnLedixjj3mEItz26/7Y8Lhzh5qKQzzf6MDbMVf8YzV2HcCmajfH+rIToAzURCGdMtiZdWMQ48eIkN9AeiTDWEoWwaqhLn9aHsbuOPsPnRiM8GVnWdncUY/ys1iP8sizmScwixo8VTYOH2zcg3NXjGLPGxiBszUufedOLcYuzQ6bM3Ygwf8Udzo1ifHx7UWJj9SZ0Dj6GlbobOBgWOBgWOBgWOBh2SORgWMiDYYGDYYGDYYGDYYGDYYGDYYGDYYl+0bBkvmhY4GBY0AuGlegjHAwLHAzrq99FOBjWt59bkJyvIDn//4ZdwrC09FctfYej17WZ3crIqAAxXxKWEt/dmSndCS9z37xftPjuk3GHeEODnjem5LDJjIjzjYW1VVqj3mIQv47JTIGltlKrQ8oUATpTTKl3sjVTqkiq9N91EDLOTwRTWHBSa/KISGdUex/Yrro+NO5s/lo/981xy+bq2VE8OFWULm7u934Bac+fWgmVNE2TL+TfAR5BO7wLwWKCBqBebhq31DTvAg74JYAT5N6HK/dcykAV/lpUoMXnfhQruR+VX48gSlS3CjYpAQRBMayoFRSZSGbQ+N7ACmo5NJTDigx0gZHVFOR/A9PVxK4="
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 4",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 9166,
+            "data": "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"
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 5",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 5014,
+            "data": "eJy9WE1oE0EUnt1NUrP9/9Okat0EoTVUaJMiiMVsaQUPhQoJ3kP6Y6EkpbGVlkJ79uClF/FQehAvHgTP0Q14Uy/ag1jv9ediKPQgHnQ3u+8lM7OTpKHt0GV35v198703+7ZRp5dmM9rEeGJifPKOlswuZRez82va/dEhbTB9TbOlqVw6NTOrTmXTqYcL2UxOi6kSoUbRoOeegrMeJ8caZX2JXYAxVxoBXWRYbwBZcqLIBKORiZXl1dnoTE6LRlUpcH0y+TfkLxz2/Fu/OvAtzkEEhdcxa+yJFexpfozBYoCCXqdCWYC7IDW26YwtWLfpC+kCz2UHDHihQlD/1E3xc2xssG4MlngMArZgQWSI4PejFPMYWqoVuraHk+IHPBQb5meLXg/op+U5rNfalFGLFqN0gnLayIiKIAZKJXcgTDupOvjd0cME/bt4+GZjZC8PBlDjL58ob3ePno4d3dqc29k9iD+374bsHkEUmRtbDDKOVjxkzY93pm6uvc9vUxQECg6yfKPIGuYMjhgG2q6enIYpsG+BswuEXNOKXKOodUhOHtkZBTIPwvb31T+/9vcYCsK6KNC97OLafDYTm9SGVed5OpNcXkhl5lcWnV4/rCZWludSafNQ31AVkSdmvVZ9GiJ7ODk/hqzXzM/4SR0IYUB7mNzVGajhJCF1p30Qzpi6gC6RukbjO+MqUk0mHqSWzIqMjapNd1/lnx1+Wb8NxU+3m7BufQ1I5l/EB5pSaYHZhvMxg5+FrkKLU1kg9KBZWcMJFIYpPEQQtah3uaMGz84nKaZOsarLY14+SaBR8kcqsWiAhYqgiLbuJWJeylsHc9lXMWHVkReNw+J1RFIIjK6ATj88wErEQxA5xpDszF4GHSRa1IqRaNRMPHrxrvfjB0yJ0zML7inx0Hsk8DWsNJmTc+blE2lgSi4C9j5ATUXwUvT59c+h2ObG17Au+4mddDehByWYErViwqpjSvo4LCyDYwyDujsvPiYSFlKzC2oUtpiLXoGwvCUvcskyeMGVwSZCD/Ast1Zg4YRtVCRaWAULQJAAFBY1CaIb0MGV8/DQC1bl6i4jdKq7B3S46iY0Wt09N+ccOfPPT1xpN28d5uXzCjT4XXYBFiqCn7jxZia4k4hItRIMEigeuatiwqpjzXZxWJDxTjDqAB1YkYBxyYXxiqTajLeDDtduKGjCdqMSAR/dpFpHkVk+ekgdfLQCdnigsTRT1kXD+fnCUCwiLFZ8skADs48RsKEh4y1ghmHgVY6BK4iuaJU20SrnsJ9bCfB+FNYPlDhpYs2lFs5hB+/QxzjEtzC+8CMKmF8CUTc8tIExngPwhw02IkPTBA4ipQVL/h/MJmGq"
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 6",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 5014,
+            "data": "eJy9WFtIFFEYPjOzu+p4v9VqpeMFtEVBXYkkaUc0CFIMlJ6CWLwlyK64WiqBPvcgQS/mg/gQEfRQ7y3Ngm8lPXQho3eph0ACn4JqZmf+f/acmbO7bqsHB885/+073/+f+Ufl0fmpiDI4MDY4MHRNGY/OR+eiMyvKrd4OpX3iomJKw7GJ8OSUPBydCC/ORiMxJSgLhBqHIXrtUdseHTZent/H/ZHdP7HQ458arG8w63ZTH9eCu2NCppPDr6YHwBu2nihYUUSC0cjg0sK9qZ7JmNLTIwv+zqHx301Fif2av6utbd9CrAdU2Aga4yNfwVy+ijNYNFBQs1SwBXgKkuGY1lin91tUjmfbAQOeq1CnLtL8HBsb7GtJGoN1gK0uwTNE8BU082z18ENn9pAvfsDDYc78rNP7fjX/nreeGMOuigTHgZaJFi15g2JKd7eMIPqSN/aAm3aSdjhPBwNB3+l8fnvk6FOcNmhRX2xIb3aONvuPrqxNb+8chJ6avzXRPQIvsmOsM8g4tOrIih9uD/etvI0vUxT4E+9NZPE9C9neMZHlzBlcMQy0nD45/0mB//QCIde0oqNRZLok+Ud24oHwIkitHZuvtz8jBSDgBboZnVuZiUaCQ0qXbM1HI+MLs+HIzNKc1eu75LGlhenwhH6pL8kSzxOzn6k+tfT2Ler3DuM18yOUrwvBDYjcZRko5yQhdSd9EWo7T4k6CCiQrEbuJ3NUpDw+djc8r1dksFcuuP4yvvXry+pVKH5oN3bxC0TQfwI+0BSSG8wxrI8Z/Cx0FRqcihyhB81sDStQMyxhEkDUvN7ljho8W5+kmDrJqC6P/vgEjkbSH0nFogAWKoLEO7qX8Hmxjw7moi9lwaojL4oDi9cSCU1g1Ag6DTCBnYCHIHKMIZiZvQA6SDSvFSPRqDl2/9lu7d47TInVMxPuKfHQZyTwNSwV6ItC/fHxNDAl5wB7PaCmIngp+orUD03BtQdfm1WxiJhJdxN6UIIpkVMWrDqmpN6BhWWwn2FQdefFx0TCQip2QY3CEn3TyxHaR/IilyyDZ10ZLCD0AM9iaQoWh7CMikQL02ABCAKAwqImdegGdHDnDExqwcqubhuhVd01oOOobkKjVd1zU2jJmT9+QlK5sak/Pi9Hw3nKKsBCRSgibrzpCa4kPFKNBIMEikesSlmw6lizVQ4syHglGFWADuwIwLjgwnhKUk3Gy0HH0W5AMX27kQmHj2qSrqOILB81JAs+SgE7TGgsxZT1oWb9+0KTDCIMVnwiRwOzjxGwoSHjJWCGYeBVjoFTiE5plSbRssNhg2PH7/QjsX6gxEkBay6UOBxWOB36GIf4FsYXfkAC8/MgqoZJGRjjPQB/2GADIjRN4CCQ3DDk/wAm+m31"
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 2",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 8251,
+            "data": "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"
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVetLFFEUn9ldd2uoPqTmo7TRIHRRsNYgbWnHNAuyDFbtg1ou6yMf7ZirgqZmX5IItK0gCFI0Mv0QPbQgWBofFUZFKkI+IizTKCFlqyVNsZ1759zaUcs/oMMO+/vNOfec39z72x0msTDLwsbGGGNj4vaySXwhX8DnlLEpkWFsiDmUxVmT1WzKzGISeLOpOJe3WFkdQ1Mopg3UiuJ3nQ5FILdc3dyCKwwNUTBAyFrnUXneVGNfQHHJno3Ct+NEd77xVWutvnvL017VmgHDB6MiTDB/Eb6jBlP2k6Mv6yfTbfpx6X4XrhNglEKcIF4K6VuM2JKi0qztmVY2kqH7g3SnK4aCOd/wuKSfQTMGEAQNNBSlpPxcwMd14aLVpBj40M3CaOWxH4SnX3um9hxyEt64NvGh9sI3g7/EJyoH8vfscxi8JZ7wpk3fPjdl8JP4sP1R41jeJOGpqN+EwUfiY2j9e9J/ANWPkPw7lO8n+U+Id5F8tTXCPnumWQ98COcFqB/G6wWY34v7C6D3LZ4v+LvrI/V9WL8A/Q/h5yP1WL+D5Bvw/pD5uJ9TkO2vINt/AR/eek7lOpvOJ7aLD/I9OfGQ7+RO35iexxj39kK49u6tF5nB3ghXJa8ZrW/HuGAm7+tg/AaE09BsjA/EhPgfzPdBOHr8bHjNPMah58a5zjpfhLEWP4Q1fU05O9oxdhbTp/h4f4THfTNqWwcxxme1EeHHGQH3A+Yxvqeq6DlStwnhppbhEVtQAMK2hKip520YV09fUajjAxHmLzu9uUGMj+5MDi3P24z2wc2wcncDB8MCB8MCB8MCB8P2SRwMC3kwLHAwLHAwLHAwLHAwLHAwLHAwLNEvGZbMlwwLHAwLesGwMn2Eg2GBg2Hd9TsIB8O693MKsv0VZPv/37BLGJaW/6rlLxP0d21ltzEKapmYTfXSbW1u1MtXwp+5e35RVLuvU3CH+YKyHN6ii2MjGAknWpKKck2WnJIC6e0YwRhLirJNZqRMtUxnikkTJ9v0ckVypX+vg1Bwi0QwScbjpkKXiChGs/+2/arjdfnuqo+lM5+Hr9sdLbtSeiaSo6TFHeIbkHZ9tGqopGmavCH/DPAIWiHeWC0laADaf03jlpom3sABvwRwglI8XKXrUi9XsViLBrS4PY9qJc+jWdTDg5LUrYJFagAeUAx3tCqKTCQzaPxsYAWtEhoq4Y4CdIGRtRTkfwH8qd+0"
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVftLFFEUnpldd2uwoNJcLWssiFwKLAuylmZMsyLLYLWg97Ju5qMdc7Oo1OyXJAJtKxCKDI1MoeihBcHS+KgwKnwg5CPCNA0TUjZb0pLauXfOpR01+wM67LDfd8+553xz59sdNiHTZudios0x0bEbuUQxU8wQU05yO1ct45ZawzmctTislmQbGy9aLcdSRbuDi2RpCsUQT00RZcPF10709PO23dnaxY3dfABzNOCO3SBAXlmXoG5gyWr/LTWzamCAZJvpl3vBUuD6heKy6xAKQ82R+nRzY2WhqX7xiyatfyv/0cwsk6xfpG9yGT/oOtr1pmRgn9PUq6zX4ToJBjPyBPlilG85YrKzjttWJju4VSzdEhZ5Jqd9kWBYHpv4I2yEB0HQQE9RGirYC4K8Fy6aToqBt9/OXKs58J3wfddf6ua0ewgvnZHwxHhxmA9ReF9ua/qGTW4+UOHx76pM1T8H+WCFd7ielvakDRC+B/Xr44MU3oP2d5P+rai+k+Q/oHwLyfcjXkfy+Y4I1+jZchPwdpyXoL4D75dgfhPuL4He93i+FOKrj9Q3Y/0S9N+O74/UY/1ukr+Bz4fMx/08kup8JdX5S/jhzRa03mdT+9x56XH6HEF+yPdTh24NjWGMewcgXPjg7uvkRYEI5yX5d5VUY5wxkva1LW4uwnvRbIy3Ri8N2ZYehPDa3nPLC8YwDj/fK9QWGRDGWoIR1jeXpayuxthzjD4txoUg3Gs4WFjZhjF+VvMQfnYw9FHoGMYPtTkNu4rmI1xW0dHpDAtF2BkfNfiqCuP8oWJGF7cAYfGKJ1Bow3j/mqTwU2kL0Tn4GFbtbuBgWOBgWOBgWOBg2GaFg2EhD4YFDoYFDoYFDoYFDoYFDoYFDoYl+hXDkvmKYYGDYUEvGFalj3AwLHAwrK9+N+FgWN9+Hkl1vpLq/P8bdgLD0upftfqlg/6uHdwKlqEmidE9AZFLyktN6p3wZ+6bHxf5vvsYYYeYcTJFtEfGchGsghPsiVmpFntKdobydoxgzdlZhyxWpEw7SWeK3StPdprUitRK/14HwQjjRLCJ5sOWTK+IKFa/+Z7rqvvtqfV5n46PfO646XJXrNvZ0JcUpWyukd+AtPdj1EElTdPkDflngEfQDnlhupKgARinmiZMNE1ewAG/BHCCRn64Gu+lm6xivBY9aPG5H+2/3I9+XA8/SlE3DTbpAPhBMawYtRSZSGbQ+N7ACkYNNNTACgO6wMhGCvK/AXu/7Jo="
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVftLFFEUnpldd2uofsjMR1mjReTSw7Ioa2nGNAuyDFbrh57LauajHXNT6KHZL0kE2lYQBBkamQY9tShYGh8lSi81IR8RpmmYoLLlkpbUzr1zLu2o2R/QYYf9vnvOPeebO9/usLHpiVYuMsIUGRG1iYsT08U0MekYt3PVEm6xJYTDWbPNYk5IZGNEi/losmi1cWEsTaEY5KlJIrh3+ZqB2rf8lPgo7xliP1/fcGdo4S1GgLyyLkFdVteyzteP51bCAClxhlf2OXOe4xeKi46DKPwqD9ekmt6U5RtrFtQ2aKc1859MzBLJ0i8NyWX8gONIx6vCvr12Y7eyXo3rJBjMyBPki1G+5YjMzMhKXJlg41axdFNQ2KmTrcGC39KouB9BwzwIggZ6itJQ/m7g675w0VRSDLz1Zvo6zf7vhO+9Wq/zbnURXjQ99onh/Dc+QOE92c2pGzc7eR+Fx7wvN1b8HOD9Fd7meFrUldJH+G7Ur4f3VXgX2t9J+jej+naS/4jyTSTfi3g1yefaQh0jp0uMwFtxXoL6NrxfgvkNuL8Eej/g+VKApz5S34j1S9B/O74/Uo/1O0n+Gj4fMh/3c0mq85VU5y/hhzdT0LqfTdVz+4VHqd6C/JDvJQ/eGBzFGPeehXD+/dsvE4J9EM6Jn9ZRWIFx2nDK15bo2QjvQbMx3hqxOGBbqi/C67rPLM0bxTjkbLdQVeCHMNbij7C+sThpdQXGrqP0CTE6AOFuvwP5ZS0Y42c1B+FnBwIfBo5i/EB7sm5XwVyEi0vb2u1BgQjbY8IHXpRjnDt4mdFFz0NYvOTyEVow3rc2PuR4ynx0Dh6GVbsbOBgWOBgWOBgWOBi2UeFgWMiDYYGDYYGDYYGDYYGDYYGDYYGDYYl+xbBkvmJY4GBY0AuGVekjHAwLHAzrqd9JOBjWs59LUp2vpDr//4Ydx7C0+letfumgv2sbt4JlqAliZPessEUlRUb1Tvgz98yPiVzPfYywQ0w7liRaw6K4UFbBsda4jGSzNSkzTXk7hrKmzIyDZgtSpp2gM8XukSfbjWpFaqV/r4NghDEi2DjTIXO6W0Q4q99y13HF+e74hpzPWcNf2q47nKXrd9b1xIcrmyvlNyDt/hh0UEnTNHlD/hngEbRDXpiqJGgAhsmmCeNNkxdwwC8BnKCRH67GfekmqhirRQ9aPO5H+y/3ox/Tw4tS1E2BTToAXlAMKwYtRSaSGTS+N7CCQQMNNbDCgC4wsoGC/G8wmux6"
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVftLFFEUnpldd2uofsjMR1ljReTSw7Ioa2nWNAuyDHatH3q5rGY+2jE3A03Nfkki0LaCIMhQyTToqUXB0vgoMXqpCfmIME3DBJUtl7Skdu6dc2lHzf6ADjvs991z7jnf3Pl2h41JS7ByEeHGiPDIrZxJSBNShcRMbs/a5dwySzCHs2abxRyfwEYLFvPxJMFq40JZmkIxxFNTRGnfqvWD9W9FpynSe5YwwO9uuj285CZTDXl5XYS6uO6VXa8fza+GAWLCLK+cc+Z8xy8UFx2HUfhVH61LMb6pKNDXLa5vVM9o4T8ZmeWiZUAclsr4QcexzldF/Qfs+h55vRbXiTCYkSZIFyN/SxGRkX4iYU28jVvL0s1Boaey2xYZ/FZEmn4EjfAgCBpoKUpF+buBr/vCRdNJMfC2G2kbVYe+E37g6nONd5uL8OKZMY9157/xATLvzWlJ2bLNyfvIPPp9pb7q5yDvL/N2x5Pi7uR+wvehfr28r8y70f4u0r8F1XeQ/EeUbyb5PsRrST7PFuIYPV2mB96G8yLUt+P9IsxvxP1F0PsBzxcDPPWR+iasX4T+u/D9kXqs30ny1/D5kPm4n0tUnK+oOH8RP7zZBrX72dQ8s194mOJtkB7y3aSh60NjGOPecxAuuHfrZfwiH4RzY2d0FlVhnDqS/LU1ai7C+9FsjHeELwvYmeKL8MaeMyvyxzAOPttjqCn0Qxhr8UdY21SSuK4KY9dx+qQQFYBwj19cQUUrxvhZzUP4aVzgg8AxjO+rsxv2Fs5HuKS8vcMeFIiwPTps8EUlxnlDlxlN1AKEhUsuH0Mrxgc3xAZnJS9E5+BhWKW7gYNhgYNhgYNhgYNhm2QOhoU8GBY4GBY4GBY4GBY4GBY4GBY4GJbolw1L5suGBQ6GBb1gWIU+wsGwwMGwnvqdhINhPfu5RMX5iorz/2/YCQxLK3/VypcO+ru2catZhpokRvfNCV1aVqxX7oQ/c8/8uMjz3McYdgupmYmCNTSSC2FlHGM1pSeZrYkZqfLbMYQ1ZqQfNluQMvUknSl2vzTZrlcqUir9ex0EYxgngjUZj5jT3CLCWO32O44rzndZm3M/nxj50l7qcJZv2tPQGxsmb66W3oC0+6PTQCVN0+QN+WeAR9AOaWG6nKAB6KaaZphomrSAA34J4ASV9HBV7kszWcV4LVrQ4nE/6n+5H+24Hl6UrG4abNIA8IJiWNGpKTKRzKDxvYEVdCpoqIIVBnSBkXUU5H8Dym/wQA=="
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVftLFFEUnpldd2uwoNJcLWssiFwKLHtZS7OmWZFlsFrQe1nNfLRjbhaVmv2SRKBtBUKRoZEpFD20IFicVTOMCh8I+YgwTcOElM2WtKR27p1zaUfN/oAOO+z33XPuOd/c+XaHjctIsnJRkaaoyOjNXLyQIaQLyae53auWcUstoRzOmm0Wc2ISGytYzCdSBKuNC2dpCsUQT00R9cNFN0719Itr92apFzd282uY4373rDon5OV1Eeqql6z23eac5YQBYtJMn5xL5nzHLxRXHUdQ6JzH6tJMjRUFhrrFL5rUvq38RxOzTLR8Eb9JZfyg43jXm+KBA3ZDr7xei+tEGMxIE6SLkb+liMrKPJm0MtHGrWLplpDwc9nti4y65dHxP0JGeBAEDbQUpaICPSDAc+Gi6aQYePvdjPWqQ98JP3DzpWZOu5vwkhlxz/SXh/kgmffltKZt2uLi/WUe+67SUPVzkA+UeYejuqQndYDwfahfHx8g8x60v5v0b0X1nST/AeVbSL4f8VqSz7OFOUbPlxmAt+O8CPUdeL8I85twfxH0vsfzxSBvfaS+GesXof9OfH+kHut3kfwtfD5kPu7nFhXnKyrOX8QPb7ZR7Xk2NfX2K0/T5hilh/wwZejO0BjGuLcfwgWP7r9OXOSPcG6Cb1dxFcbpI6lf22LmIrwfzcZ4e+TSoB1pAQiv772wPH8M49CLvcaaQh3CWEsgwtrm0uTVVRi7T9BnhZgghHt1hwsq2jDGz2oews8PBz8JHsP4sTq7YU/hfIRLyzs67SHBCNtjIwZfVWKcN1TEaGIWICxcc/sb2zA+uC4h9EzqQnQOXoZVuhs4GBY4GBY4GBY4GLZZ5mBYyINhgYNhgYNhgYNhgYNhgYNhgYNhiX7ZsGS+bFjgYFjQC4ZV6CMcDAscDOut30U4GNa7n1tUnK+oOP//hp3AsLTyV6186aC/axu3gmWoSWJ0n1/4krISg3In/Jl758dFnvc+xrhLSD+dLFjDo7kwVsZx1vjMFLM1OStdfjuGsaaszCNmC1KmnqQzxe6XJtsNSkVKpX+vg2CM40Sw8aaj5gyPiAhWu/WB47rr7ZmNuZ9OjnzuuO1wlW/Y3dCXECFvdkpvQNrz0WugkqZp8ob8M8AjaIe0MF1O0AD0U00zTjRNWsABvwRwgkp6uCrPpZmsYrwWLWjxuh/1v9yPdlwPH0pWNw02aQD4QDGs6NUUmUhm0PjewAp6FTRUwQoDusDIegryvwEOKe35"
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVe1LU1EYv3ebW12qD5X5Uta1InQoWDNIW22mWZBlMLUPajmmLl/aNaeCpmZfkgi0VRAEGRqZfpBetCAYXV8qjMpUhHyJ0EyjhByzRlpiu+fc59CuWv4BPeyy3+88z3me3z33t10mPi/DwkZHGaKjYvazCVwel8uZi9mk8BA2yBTM4qzRajKmZzBxnMlYkMVZrKyGoSkUDh21pHDwW1PNXV35c3YNio2tkBHXtVA3wqeHTDWF7oEBfMYqr7KLxkr7HIor9kwUvq2nOnIMbxqrtB1bnncrVvTpPhpkIbzpK/9dKNNN2k8Pv66ZSLVpx8T1dlzHw2CZMEG4ZOK3ENGF+UUZO9KtbDhD9wZqzpYObNb7hsYk/Ayc1oEgaKCiKDnl5wY+7gsXLSfFwAfu5EXKT/wgPPXGC+WaARfhtSvjH6svfdP5i3y8rC9n3wGnzlvkce+atS2/JnV+Ih+0P6kdzZ4gPBn1G9f5iHwU7f9A+veh+iGSH0H5XpL/jHg7yVdYw+wz5+q1wAdwnof6Qbyfh/nduD8Pet/j+by/pz5S34P189D/CL4/Uo/1O0n+Jj4fMh/3c/GS8+Ul58/jh7dar3A/m7ZntsuPctbohYd8L8tx2zGLMe69FuGq+02v0jd7I1yeuGK4pgXj3Onsqf7YdQinoNkYH4oK8j+c44Nw5Nj50MpZjIMvjOnbqn0Rxlr8EFb11Jl3tmDsKqDPcLH+CI/5plU19mOMn9V6hJ+mBTwMmMX4gaK081j1BoTrGgaHbIEBCNviIiZfNmNc4bgmU8ZuRJi76vLW92N8fFdicEn2JnQOHoaVuhs4GBY4GBY4GBY4GLZH5GBYyINhgYNhgYNhgYNhgYNhgYNhgYNhiX7RsGS+aFjgYFjQC4aV6CMcDAscDOup30k4GNazn4uXnC8vOf//hl3AsLT0V01JXjro79rKbmdk1CIxk7xWs62+VivdCX/mnvl5UeG5T6Y/yuUWmzmLJoYNY0Qcb0nIzzJazIW54tsxjDEU5mcaTUiZYpHOFJMiTLZppYqkSv9eByHTzxPBJBhOGvPcIiIY1cG79uvOtyV7yz8VTX8ZvGV3NuxO6hxPjBA3twpvQNr9USuhkqZp8ob8M8AjaIewsFxM0ADU/5qmX2iasIADfgngBLnwcOXuS7lYxXwtKtDicT+KpdyPal4PL0pUtww2KQF4QTGsqBUUmUhm0PjewApqOTSUw4oMdIGR1RTkfwOHnuhB"
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVftLFFEUntldd2uwoNJcLWtMqFwKLAuylmZNsyLLYLWgp8v6yEc76qqhqdkvSQTaViAUGRqZQtFDC4Kl8VFhVPhAyEeEaSompGy2pCW1c++cSztq9gd02GG/755zz/nmzrc7THR6goUNDzOGh0XsZGP4dD6NT8plD25ax641B7E4a7KaTfEJTBRvNmUl8xYrG8LQFIoxjpojcsfLrp/uHxbKD2erAlv6hCE6w+uuRVsPeWmdg7rANZs999QvMsAAIWGhR8FFU7H9F4or9kQU2vpTTanGlpoSfVPgy1aVZwf3yahYJ5i/CN/EMm7UntH7tnzkmE0/IK034joBBivECeKlkL7FCM/OzEnYGG9lNzF0e0DI2fyuVQbt+oiYHwETHAiCBhqKUlK+LuDjunDRfFIMvOtO+lblie+EH7vxSr2ky0l4xYLop7pL45yfxAcLOlJ37HJw3hKPel+rr/s5yvlKvNv+rKI/ZYTwI6jfIOcj8X60v4/070D1PST/EeXbSX4Y8UaSL7IG2yfPVemBd+G8APXdeL8A81txfwH0fsDzBT93faS+DesXoP9+fH+kHut3kPxNfD5kPu7nFGTnK8jOX8APb7FB5Xo2DS9sl5+kLkGWepA8dntsCmPc2wvhkof33sSv8ka4MNazt7wO47SJlK+dkUsRPopmY7w3bK3fvlQfhLcOnF9fPIVx0IUBQ0OpFmGsxRdhTVtl0uY6jJ1Z9Bk+0g/hAW1cSU0nxvhZLUP4eZz/Y/8pjB+p8psPlS5HuLK6u8cW4I+wLSp09HUtxkVjZQp15AqE+atOb0Mnxse3xAblpaxE5+BmWLm7gYNhgYNhgYNhgYNh2yQOhoU8GBY4GBY4GBY4GBY4GBY4GBY4GJbolwxL5kuGBQ6GBb1gWJk+wsGwwMGw7vodhINh3fs5Bdn5CrLz/2/YGQxLy3/V8pcO+ru2shsYBTVLTB7xClldVaGX74Q/c/f8tChy36cwHODTcpN4S0gEG8xIONoSk5lssiRlp0lvx2DGmJ2ZaDIjZapZOlPMUXGyTS9XJFf69zoIhWGaCCbGeNKU7hIRymh237dfc7zL2144lDPxufuW3VG97WDzYGyotLlefAPSro9ODZU0TZM35J8BHkE7xIX5UoIGoJtrmmGmaeICDvglgBOU4sNVui71bBXTtWhAi9v9qP7lfjTTenhQkrp5sEkNwAOKYUWnoshEMoPG9wZW0CmhoRJWFKALjKyjIP8bYf/txQ=="
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVftLFFEUnpldd2uofsjMR1ljReTSw7Ioa2nWNAuyDFYr6LmsZj7aMTcFTc36IYlA2wqCIEND06CnFgVL46PE6KUm5CPCNO0hqGy5pCW1c++cSztq9gd0cPD77jn3nG/ufLPDRqXEWbiwUGNYaPhGLlpIEZKF+Axux8rF3CJzIIezJqvZFBvHRgpm09EEwWLlglmaQjHAUxNEyadlq/vrXouzY8I9pwl94q6Gm4MLrjNVkJfXeag72bW08+WD2QYYIMZN88g+Y8qz/0Jx3n4QhU/V4dok46vyfH3t/LoG9ZRm/oORWSya+8RBqYzvtx/peFHYu9em75bXa3CdCIMZaYJ0MfJ/KcLSUtPjVsRauZUs3RQQfDyrdZ7BZ0l49I+AIR4EQQMtRakoXxfwdl24aDIpBt56LWWtav93wvdefqrxbHUSXjQ16qHu7DfeT+Y92c1JGzY5eC+ZR76t0Ff+7Od9Zd5mf1TUldhL+G7Ur4f3lnkX2t9J+jej+naSf4/yTST/GfEaks+1BtmHT5TqgbfivAj1bXi/CPMbcH8R9L7D80U/d32kvhHrF6H/Nnx/pB7rd5D8FXw+ZD7u5xQV5ysqzl/ED2+6Qe16NtVPbOfuJ3kiS91OGCgZGMEY956BcP6dG89j53khnBMzpaOwEuPkocSvLREzEd6DZmO8JXSR39Ykb4TXdp9akjeCceDpbkN1gQ/CWIsvwtrG4vhVlRg7j9LHhAg/hLt9DuSXt2CMn9UshB8f8L/nP4LxXXVW/c4C/EoUl7W12wL8EbZFhvQ/q8A4d+Aio4mYg7BwwellaMF435qYwMzEuegc3AyrdDdwMCxwMCxwMCxwMGyjzMGwkAfDAgfDAgfDAgfDAgfDAgfDAgfDEv2yYcl82bDAwbCgFwyr0Ec4GBY4GNZdv4NwMKx7P6eoOF9Rcf7/DTuGYWnlW6386KCfayu3nGWocWJ494zghaVFeuVO+DF3z4+KXPd9jGG7kJwRL1iCw7kgVsZRlujUBJMlPi1Z/joGsca01IMmM1KmHqczxe6RJtv0SkVKpX+vg2AMo0Sw0cZDphSXiBBWu/mW/ZLjTeb6nI/pQ1/artodZet21PfEhMibq6QvIO3602mgkqZp8oX8M8AjaIe0MFlO0AB0E00zjDVNWsABbwI4QSU9XJXr0oxXMVqLFrS43Y/6X+5HO6qHByWrmwSbNAA8oBhWdGqKTCQzaHxvYAWdChqqYIUBXWBkHQX535Jz7kE="
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVftLFFEUnpldd2voAZn5KGusiFx6WBZlLc2YZkWWwa71Q89lNfPRjrkZ9LZfigi0rSAIMjQyFXpqUbA0PkqMXmpCPiJ8pJGCypZLWlI79865tKNmf0AHB7/vnnPP+ebONztsXHqijYuKNEVFRq/jzGK6mCYmHeG2LVvAzbeGcjhrsVstCYlsrGi1HEoWbXYunKUpFH08NUZM7lq8orfqHd9qjvadJPZIxbV3+ucWMwLklXUe6ja2L2p783iGAAOkxEk+J85bzjp/objk3IcioOxAZarpbVG2sXJOVY12Qj3/ycQskKw9Ur9cxvc6D7a8zu3e5TB2KOsVuE6CwYw8Qb4Y5b8cUZkZhxOXJti5ZSxdFxJ+6njjbCFgYbT5R8gAD4KggZ6iNFSgB/h7Llw0nhQDb7yVvkqz5zvhu6690Pk2ugnPmxj3xHDhGx+k8M4T9alr17t4P4XHfigxlv7s5QMV3uR8mtee0k34DtSvk/dXeDva30b616P6ZpJvRfk6kv+CeAXJZ9nDnIOnC4zAG3FegvomvF+C+TW4vwR6P+L5UpC3PlJfi/VL0H8Lvj9Sj/W7SP46Ph8yH/dzS6rzlVTnL+GHN0XQep5N+XPHxUepvshS95L7bvYNYYx7T0U4+/7tVwmz/RA+GT+hJbcU47SBlK8NMdMQ3olmY7wpcn7Q5lR/hFd1nFl4dgjj0HMdQnlOAMJYSyDC+tr8pOWlGLsP0cfEmCCEOwL2Zhc1YIyf1XSEn+0Nfhg8hPED7fHq7Tn4lcgvbGp2hAQj7IiN6H1ZgnFW3xVGFzMTYfGy209owHj3yvjQoymz0Dl4GVbtbuBgWOBgWOBgWOBg2FqFg2EhD4YFDoYFDoYFDoYFDoYFDoYFDoYl+hXDkvmKYYGDYUEvGFalj3AwLHAwrLd+F+FgWO9+bkl1vpLq/P8bdgTD0uq3Wv3RQT/Xdm4Jy1CjxOCOqeHzCvKM6p3wY+6dHxZZ3vsYYauYdiRJtIVHc2GsguNs5oxkiy0pM035OoaxpsyMfRYrUqYdpTPF7pQnO4xqRWqlf6+DYIRhIlizab8l3SMigtVvuOu86np/dM3Jz4cHuppuOF2Fq7dVd8ZHKJvL5C8g7fkz6KCSpmnyhfwzwCNoh7wwXknQAAxjTRNGmiYv4IA3AZygkR+uxnPpRqsYrkUPWrzuR/sv96Mf1sOHUtSNg006AD5QDCsGLUUmkhk0vjewgkEDDTWwwoAuMLKBgvxvPePtOw=="
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 2466,
+            "data": "eJztVftLFFEUnpldd2uwoNJcLWssiFwKLAuylmZMsyLLYLUHPZfVzEc75mbRQ7NflAi0rUAoMjQyhaKHFgRL46PCqPCBkI8I0zRMSNlsSVNq5945l3bU7A/osMN+3z3nnvPNnW932LiMJBsXFWmOiozeyMWLGWK6mHyK27lqGbfUGsrhrMVutSQmsbGi1XI8RbTZuXCWplAM8tQUMTBUdP1kdx8/uidLu7ihS9rNHPO7azMIkFfWeajLW7Lad0v1LAEGSEkzfbIvWvKdv1BccR5GYag+WpdmbqgoMNUtftmo9W3hP5mZZZL1q/RdLuMHnMc63xb373eYepT1WlwnwWBGniBfjPItR1RW5omklYl2bhVLN4eEnzvbtkgwLI+O/xkyzIMgaKCnKA0V6AEBngsXTSfFwNvuZKzVHPxB+P4br3Rz2tyEl8yIe2q8NMQHKbw3uyVtwyYX76/w2PeVpqrRAT5Q4e3OZyXdqf2E70X9evkAhXej/V2kfwuq7yD5jyjfTPJ9iNeSfK49zDlyvswEvA3nJahvx/slmN+I+0ug9wOeLwV56yP1TVi/BP234/sj9Vi/i+Rv4vMh83E/t6Q6X0l1/hJ+eLMFrefZ1LxwXH6SNgdZ6kHK4O3BMYxxbz+ECx7ee5O4yB/hnATfzuIqjNOHU7+1xsxFeB+ajfHWyKVB29ICEF7bk7c8fwzj0As9Qk2hAWGsJRBhfVNp8uoqjN3H6TNiTBDCPYZDBRWtGONnNQ/h54eCHwePYfxIe7Z+V+F8hEvL2zscIcEIO2IjBl5XYpw7WMToYhYgLF51+wutGB9YkxB6OnUhOgcvw6rdDRwMCxwMCxwMCxwM26RwMCzkwbDAwbDAwbDAwbDAwbDAwbDAwbBEv2JYMl8xLHAwLOgFw6r0EQ6GBQ6G9dbvIhwM693PLanOV1Kd/3/DTmBYWv2rVr900N+1nVvBMtQkMbLXL3xJWYlJvRP+zL3z4yLXex8j7BDTTyWLtvBoLoxVcJwtPjPFYkvOSlfejmGsOSvzsMWKlGkn6Uyx++TJDpNakVrp3+sgGGGcCDbefMSS4RERweo333dec707vT7n84nhL+23nK7ydTvrexMilM3V8huQ9nyMOqikaZq8If8M8AjaIS9MVxI0AONU04SJpskLOOCXAE7QyA9X47l0k1WM16IHLV73o/2X+9GP6+FDKeqmwSYdAB8ohhWjliITyQwa3xtYwaiBhhpYYUAXGNlIQf43JoPtvw=="
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 4",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 9166,
+            "data": "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"
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 5",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 5014,
+            "data": "eJy9WE1IFFEcfzOzu+ZoZmq19jluQbUYpBtBtLQTGnQICla6dVjWjyTbNU1DMfQWFAjhJTqIhwiiQ9B5a5aEDn3Qh0Fklw5lX5AieIgONrMz///se2+eq4v6cJh5/8/f+/3/b9646tnutpTWdDLedLL5lNaS7k53pTsGtPNH6rUDyYOarU30JhOtbeqZdDJxtTOd6tUiqkSoMWfQc1/WkcfIioZrL0Hgtgr/9VuJG5nF3BjLtOdGMHt58lL8zYPR6OTe52995R9iX+NyvZH8YyxYZrHZzJUvr8d/X7gd/ebIn9l2CFSWnCyym4009fX0tzW29mqNjaoUPNTc8q+uNDtfszi4b//nGAcRDB5HrDElNrCnmSizWAMM9GUauApcBSnAozNGQG7TV6cLIrsBGPBCg1r9XTXFz4qxgdw4kOOxFrDVZkWOCH66kWIeU0uFUheOsFr8QIS5ovkZoeVBfa0ih/RCizIK0WLkdlCv1tCgIoj9uZabEZadLDn41dHDBD07N/9kqGEqAw7Q4w9HlacTC3eiC8eH28cnZmL37Lshe2cQZebGCIOMoxU3WdnN8TPHBl5kxigKglkHWaZYZEVzBlsME40tXZyiKbBvwfVLhFzThkGdSVRok6w+snVKZG6Ese/9f39NTzEUhHRRonPproGOdCrSrB1WneezqZaezkSqo6/LOesPq/G+nvZE0tzUR1VFFImRF+pPQ+QPO+dHvfWa+RlbrQ0hTGgPk7tlJiq6SEjdWm+EdaYuqEtkWaP4lXEdqbbELya6zY6MHFFLTj/K3J3/OHgCmp8+bkK69TUgmX/hAFhKOQGzDOdjBj8LPZUWp7JA6UM318JJFIIpPIQRtejs8kYNkZ1PUiydYnWXz7wCksAiF4/kY9EAC5VBES3dT8S8uEsHdzmQN2HNkReNw+J3VFIdOO0Bm93wAJKwjyByzCHZld0FNki06ChGotEyfu3+5JZXL7EkzpmZ9S6Jj14jga9hpcScbDCvgMgCS7IDsG8H1FQGP0Vfqf6+LjI89Cmky6XELrqX0ocaLImaN2HNsSTbOSwsg1GGQd2blwCTCRupzAM1KstNoV+gdJfkRy5ZBrd5MlhC6AGR5Y15WDhlBZWJVi6BBSBIAAqbmtRiGLBByVZ42AJebne7CJ3urgEbrrsJjVb3rs0GR8/88xNTNpm3SvMK+AUW/CqrAAuVoZR48WYWeDMRkWoVGDTQPHJV3oQ1x56t4rAg45vBqRJsQCIB45IH43lFtRnfBDbccUNBEx43KhHwUU2WOlFklo8asgw+NgJ2eKCxlFHec4bz84WhWERYrARkgQVWHzPggYaMl4MbpoFXOSbOIzrvqLSJVrmAuzlJkI+jsHGgxUkJ6y6VcwEr+YABJiC+hfGFH1bAfSeoquGhApxxH0A8PGDDMhyawEE4J7D0/wHz8Iq7"
+          }
+        },
+        {
+          "name": "Roller 47 mm for slot 8 6",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 5014,
+            "data": "eJy9WF1IFFEUvjOzu+ZoZqa19jtmUC0K5UYUSTuhQVBRsNJTEcumJtmuuVoqhb4FBVL4Yj6IDxFFD/Xe0iwJPZT9UEZGLz2UFFEtgU9BNrMz58zeO3PXn9SLg/ee3+9+59y5o/KxtsaYUncgXHeg/qDSEG+Lt8abu5UTu6qUbdHtiqmNJKKRM43ykXg00tESjyWUoCwQaqRD9Nqjbr2R3rSnbQLlR0f/JkIDPzRYH2bW20x7XFsJ0lpjkffK9cjV5HRmDCSbMsOfOj96LvzqXn/taOXT157C8dDnsFilRX9qU4ZZ6FfywqcXw99P3az9YsmfmHaYQBSsLKKdjdR1tl9srDmTUGpqZMFfXd/wpyI/NVE63bNl68cQu1U06A8a4y3fwFw+TNIkpTUwUGdpYCtwF8R1sPUgfbS8UuVEtgMw4LkG5WoHzc+csYFcy9AYLAds5SmeI4Ivpplnu4efeuYIC8UPREjPm58+Wu5XFz7y0C1j2F2R4gTQZqJFy5yghLJzp4wg9mZO7CS37CTncO4OBoI+XX335NGp8STtUKne75cej0wN1k7t620aHpkM3TZ/a6J7Bl5mx+hjkHFo1ZEVXBs+srf7WbKLosCfemkiS45ZyMbmiGzenMERw0RduYvznxT4ly4Rck0b+lUm0UyHZOGRLXoiPAjSlqrBR8PvkAJQ8BIdj7d2N8djwXplh2zNj8Ua2lsisebOVuuu3yGHO9ubIlH9UO+WJV4kRj5Tf2q5/SvVr1XGa+ZbaKEOBDchcjfLRPMuElK32AehrHqJqIOEApnVmP/OHB0pN4TPRtr0jgzukvMOPUgO/X7fsx+aH64bu/kFIug/AR9YChkBsw3rYwY/C12VBqciR+lBN9vCSrQZljAJIGre3eWOGiJbn6RYOsnoLo/++ASORSYeycaiABYqg8TbupfwebG3Du6iL2vBmiMvigOL11IJFeC0CWw2wgQkAQ9B5JhDMCu7AWyQaN5VjESjZfjSndGysedYEuvOTLmXxEPvkcDXsJSnL5bpj49ngSVZB9jXAmoqg5eiL199UxHsvfxhsyrmE7PobkoParAkctaCNceSrHVgYRmsZRhU3XnxMZmwkQpcUKOyUBd6OUp7S17kkmVwjSuDeYQeEFlcnoXFoSyiMtHKHFgAggCgsKlJOYYBG5SshkkZeNndbSO0ursUbBzdTWi0qnttlll65o+fkLTCEOqPz8uxcO6yBLBQGfKJG296gVcSHqlGgUEDzSOWZC1Yc+zZEgcWZHwlOBWDDUgEYFxwYTyrqCbjK8DGcd2AYe7rRiYcPlaRXDeKyPJRSmbBx3LADhMaSwHlndasf19okkGEwYpP5Fhg9TEDXmjIeCG4YRp4lWPiLKKzrkqTaNkRcKND4nfGkdg40OIkj3UXCh0Bi50BfUxAfAvjCz8ggft6UK2CSRE44zmAeHjBBkS4NIGDQEZg6P8BTsSXBg=="
+          }
+        }
+      ],
+      "source": "Motedis_194_8.stp"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:bore",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "4309.008.047"
+    },
+    {
+      "uid": "F1.b1",
+      "name": "Roller 47 mm for slot 8 1"
+    },
+    {
+      "uid": "F1.b2",
+      "name": "Roller 47 mm for slot 8 2"
+    },
+    {
+      "uid": "F1.b3",
+      "name": "Roller 47 mm for slot 8 3"
+    },
+    {
+      "uid": "F1.b4",
+      "name": "Roller 47 mm for slot 8 7"
+    },
+    {
+      "uid": "F1.b5",
+      "name": "Roller 47 mm for slot 8 8"
+    },
+    {
+      "uid": "F1.b6",
+      "name": "Roller 47 mm for slot 8 9"
+    },
+    {
+      "uid": "F1.b7",
+      "name": "Roller 47 mm for slot 8 10"
+    },
+    {
+      "uid": "F1.b8",
+      "name": "Roller 47 mm for slot 8 11"
+    },
+    {
+      "uid": "F1.b9",
+      "name": "Roller 47 mm for slot 8 12"
+    },
+    {
+      "uid": "F1.b10",
+      "name": "Roller 47 mm for slot 8 13"
+    },
+    {
+      "uid": "F1.b11",
+      "name": "Roller 47 mm for slot 8 14"
+    },
+    {
+      "uid": "F1.b12",
+      "name": "Roller 47 mm for slot 8 15"
+    },
+    {
+      "uid": "F1.b13",
+      "name": "Roller 47 mm for slot 8 4"
+    },
+    {
+      "uid": "F1.b14",
+      "name": "Roller 47 mm for slot 8 5"
+    },
+    {
+      "uid": "F1.b15",
+      "name": "Roller 47 mm for slot 8 6"
+    },
+    {
+      "uid": "F1.b16",
+      "name": "Roller 47 mm for slot 8 16"
+    },
+    {
+      "uid": "F1.b17",
+      "name": "Roller 47 mm for slot 8 17"
+    },
+    {
+      "uid": "F1.b18",
+      "name": "Roller 47 mm for slot 8 18"
+    },
+    {
+      "uid": "F1.b19",
+      "name": "Roller 47 mm for slot 8 19"
+    },
+    {
+      "uid": "F1.b20",
+      "name": "Roller 47 mm for slot 8 20"
+    },
+    {
+      "uid": "F1.b21",
+      "name": "Roller 47 mm for slot 8 21"
+    },
+    {
+      "uid": "F1.b22",
+      "name": "Roller 47 mm for slot 8 22"
+    },
+    {
+      "uid": "F1.b23",
+      "name": "Roller 47 mm for slot 8 23"
+    },
+    {
+      "uid": "F1.b24",
+      "name": "Roller 47 mm for slot 8 24"
+    },
+    {
+      "uid": "F1.b25",
+      "name": "Roller 47 mm for slot 8 25"
+    },
+    {
+      "uid": "F1.b26",
+      "name": "Roller 47 mm for slot 8 26"
+    },
+    {
+      "uid": "F1.b27",
+      "name": "Roller 47 mm for slot 8 27"
+    },
+    {
+      "uid": "F1.b28",
+      "name": "Roller 47 mm for slot 8 28"
+    },
+    {
+      "uid": "F1.b29",
+      "name": "Roller 47 mm for slot 8 29"
+    }
+  ]
+}

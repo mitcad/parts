@@ -1,0 +1,83 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base1",
+      "type": "base",
+      "bodies": [
+        {
+          "name": "GFM_1618_09_10",
+          "color": [
+            0.509804,
+            0.509804,
+            0.54902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 8770,
+            "data": "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"
+          }
+        }
+      ],
+      "source": "GFM_1618_09_10.stp"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:bore",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          4.5
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "mount:flange",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "GFM_1618_09_10"
+    }
+  ]
+}

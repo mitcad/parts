@@ -1,0 +1,92 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base1",
+      "type": "base",
+      "bodies": [
+        {
+          "name": "Motedis idler plate",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 26487,
+            "data": "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"
+          }
+        }
+      ],
+      "source": "IDLER PLT.stp"
+    },
+    {
+      "uid": "F2",
+      "name": "Placed",
+      "type": "move",
+      "bodies": [
+        "F1.b0"
+      ],
+      "transform": {
+        "type": "free",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -734.29
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -381.55
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "mount:mount",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          -17.75,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Motedis idler plate"
+    }
+  ]
+}

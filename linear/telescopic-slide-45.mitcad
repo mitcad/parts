@@ -1,0 +1,206 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "L",
+      "expression": "400 mm",
+      "unit": "mm",
+      "value": 400.0,
+      "comment": ""
+    },
+    {
+      "name": "W",
+      "expression": "45 mm",
+      "unit": "mm",
+      "value": 45.0,
+      "comment": ""
+    },
+    {
+      "name": "T",
+      "expression": "12.7 mm",
+      "unit": "mm",
+      "value": 12.7,
+      "comment": ""
+    },
+    {
+      "name": "d1",
+      "expression": "-W / 2",
+      "unit": "mm",
+      "value": -22.5,
+      "comment": "Centred x",
+      "owner": "F2"
+    },
+    {
+      "name": "d2",
+      "expression": "0 mm",
+      "unit": "mm",
+      "value": 0.0,
+      "comment": "Centred y",
+      "owner": "F2"
+    },
+    {
+      "name": "d3",
+      "expression": "0 mm",
+      "unit": "mm",
+      "value": 0.0,
+      "comment": "Centred z",
+      "owner": "F2"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Plate",
+      "type": "box",
+      "plane": "xy",
+      "corner": [
+        0.0,
+        0.0
+      ],
+      "length": "W",
+      "width": "T",
+      "height": "L",
+      "operation": "new_body"
+    },
+    {
+      "uid": "F2",
+      "name": "Centred",
+      "type": "move",
+      "bodies": [
+        "F1.b0"
+      ],
+      "transform": {
+        "type": "translate_xyz",
+        "x": "d1",
+        "y": "d2",
+        "z": "d3"
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "mount:base",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "uid": "F4",
+      "name": "mount:slide",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          12.7,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Body1"
+    }
+  ],
+  "configurations": {
+    "selectors": [
+      "Type"
+    ],
+    "parameters": [
+      "L"
+    ],
+    "default": "400",
+    "rows": [
+      {
+        "name": "400",
+        "select": {
+          "Type": "400"
+        },
+        "values": {
+          "L": "400 mm"
+        },
+        "designation": "Telescopic slide 45 L=400, full extension",
+        "part_number": "TS-45-400",
+        "supplier_url": "https://www.motedis.com/en/Telescopic-slider-45-full-extension-L400mm-1-pair"
+      },
+      {
+        "name": "600",
+        "select": {
+          "Type": "600"
+        },
+        "values": {
+          "L": "600 mm"
+        },
+        "designation": "Telescopic slide 45 L=600, full extension",
+        "part_number": "TS-45-600",
+        "supplier_url": "https://www.motedis.com/en/Telescopic-slider-45-full-extension-L600mm-1-pair"
+      },
+      {
+        "name": "300-SC",
+        "select": {
+          "Type": "300-SC"
+        },
+        "values": {
+          "L": "300 mm"
+        },
+        "designation": "Telescopic slide 45 L=300, full extension, soft close",
+        "part_number": "TS-45-300-SC",
+        "supplier_url": "https://www.motedis.com/en/Telescopic-slider-45-full-extension-soft-close-L300mm-1-pair"
+      },
+      {
+        "name": "400-SC",
+        "select": {
+          "Type": "400-SC"
+        },
+        "values": {
+          "L": "400 mm"
+        },
+        "designation": "Telescopic slide 45 L=400, full extension, soft close",
+        "part_number": "TS-45-400-SC",
+        "supplier_url": "https://www.motedis.com/en/Telescopic-slider-45-full-extension-soft-close-L400mm-1-pair"
+      },
+      {
+        "name": "600-SC",
+        "select": {
+          "Type": "600-SC"
+        },
+        "values": {
+          "L": "600 mm"
+        },
+        "designation": "Telescopic slide 45 L=600, full extension, soft close",
+        "part_number": "TS-45-600-SC",
+        "supplier_url": "https://www.motedis.com/en/Telescopic-slider-45-full-extension-soft-close-L600mm-1-pair"
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "A",
+      "expression": "30 mm",
+      "unit": "mm",
+      "value": 30.0,
+      "comment": ""
+    },
+    {
+      "name": "B",
+      "expression": "30 mm",
+      "unit": "mm",
+      "value": 30.0,
+      "comment": ""
+    },
+    {
+      "name": "W",
+      "expression": "26 mm",
+      "unit": "mm",
+      "value": 26.0,
+      "comment": ""
+    },
+    {
+      "name": "T",
+      "expression": "4 mm",
+      "unit": "mm",
+      "value": 4.0,
+      "comment": ""
+    },
+    {
+      "name": "d1",
+      "expression": "-W / 2",
+      "unit": "mm",
+      "value": -13.0,
+      "comment": "Centred x",
+      "owner": "F3"
+    },
+    {
+      "name": "d2",
+      "expression": "0 mm",
+      "unit": "mm",
+      "value": 0.0,
+      "comment": "Centred y",
+      "owner": "F3"
+    },
+    {
+      "name": "d3",
+      "expression": "0 mm",
+      "unit": "mm",
+      "value": 0.0,
+      "comment": "Centred z",
+      "owner": "F3"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Leg A",
+      "type": "box",
+      "plane": "xy",
+      "corner": [
+        0.0,
+        0.0
+      ],
+      "length": "W",
+      "width": "T",
+      "height": "A",
+      "operation": "new_body"
+    },
+    {
+      "uid": "F2",
+      "name": "Leg B",
+      "type": "box",
+      "plane": "xy",
+      "corner": [
+        0.0,
+        0.0
+      ],
+      "length": "W",
+      "width": "B",
+      "height": "T",
+      "operation": "join"
+    },
+    {
+      "uid": "F3",
+      "name": "Centred",
+      "type": "move",
+      "bodies": [
+        "F1.b0"
+      ],
+      "transform": {
+        "type": "translate_xyz",
+        "x": "d1",
+        "y": "d2",
+        "z": "d3"
+      }
+    },
+    {
+      "uid": "F4",
+      "name": "mount:mount_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          15.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "uid": "F5",
+      "name": "mount:mount_b",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          0.0,
+          15.0,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Body1"
+    }
+  ]
+}

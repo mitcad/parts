@@ -1,0 +1,281 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "D",
+      "expression": "40 mm",
+      "unit": "mm",
+      "value": 40.0,
+      "comment": ""
+    },
+    {
+      "name": "H",
+      "expression": "18 mm",
+      "unit": "mm",
+      "value": 18.0,
+      "comment": ""
+    },
+    {
+      "name": "B",
+      "expression": "23 mm",
+      "unit": "mm",
+      "value": 23.0,
+      "comment": ""
+    },
+    {
+      "name": "K",
+      "expression": "13 mm",
+      "unit": "mm",
+      "value": 13.0,
+      "comment": ""
+    },
+    {
+      "name": "T",
+      "expression": "8 mm",
+      "unit": "mm",
+      "value": 8.0,
+      "comment": ""
+    },
+    {
+      "name": "F",
+      "expression": "13 mm",
+      "unit": "mm",
+      "value": 13.0,
+      "comment": ""
+    },
+    {
+      "name": "d1",
+      "expression": "0.62 * D",
+      "unit": "mm",
+      "value": 24.8,
+      "comment": "Core diameter",
+      "owner": "F1"
+    },
+    {
+      "name": "d2",
+      "expression": "K + H",
+      "unit": "mm",
+      "value": 31.0,
+      "comment": "Core height",
+      "owner": "F1"
+    },
+    {
+      "name": "d3",
+      "expression": "0.36 * D",
+      "unit": "mm",
+      "value": 14.399999999999999,
+      "comment": "Lobe 1 diameter",
+      "owner": "F2"
+    },
+    {
+      "name": "d4",
+      "expression": "K + H",
+      "unit": "mm",
+      "value": 31.0,
+      "comment": "Lobe 1 height",
+      "owner": "F2"
+    },
+    {
+      "name": "d5",
+      "expression": "0.36 * D",
+      "unit": "mm",
+      "value": 14.399999999999999,
+      "comment": "Lobe 2 diameter",
+      "owner": "F3"
+    },
+    {
+      "name": "d6",
+      "expression": "K + H",
+      "unit": "mm",
+      "value": 31.0,
+      "comment": "Lobe 2 height",
+      "owner": "F3"
+    },
+    {
+      "name": "d7",
+      "expression": "0.36 * D",
+      "unit": "mm",
+      "value": 14.399999999999999,
+      "comment": "Lobe 3 diameter",
+      "owner": "F4"
+    },
+    {
+      "name": "d8",
+      "expression": "K + H",
+      "unit": "mm",
+      "value": 31.0,
+      "comment": "Lobe 3 height",
+      "owner": "F4"
+    },
+    {
+      "name": "d9",
+      "expression": "0.36 * D",
+      "unit": "mm",
+      "value": 14.399999999999999,
+      "comment": "Lobe 4 diameter",
+      "owner": "F5"
+    },
+    {
+      "name": "d10",
+      "expression": "K + H",
+      "unit": "mm",
+      "value": 31.0,
+      "comment": "Lobe 4 height",
+      "owner": "F5"
+    },
+    {
+      "name": "d11",
+      "expression": "0.36 * D",
+      "unit": "mm",
+      "value": 14.399999999999999,
+      "comment": "Lobe 5 diameter",
+      "owner": "F6"
+    },
+    {
+      "name": "d12",
+      "expression": "K + H",
+      "unit": "mm",
+      "value": 31.0,
+      "comment": "Lobe 5 height",
+      "owner": "F6"
+    },
+    {
+      "name": "d13",
+      "expression": "D + 2",
+      "unit": "mm",
+      "value": 42.0,
+      "comment": "Above the base diameter",
+      "owner": "F7"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Core",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "d1",
+      "height": "d2",
+      "operation": "new_body"
+    },
+    {
+      "uid": "F2",
+      "name": "Lobe 1",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        12.8
+      ],
+      "diameter": "d3",
+      "height": "d4",
+      "operation": "join"
+    },
+    {
+      "uid": "F3",
+      "name": "Lobe 2",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        -12.17,
+        3.96
+      ],
+      "diameter": "d5",
+      "height": "d6",
+      "operation": "join"
+    },
+    {
+      "uid": "F4",
+      "name": "Lobe 3",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        -7.52,
+        -10.36
+      ],
+      "diameter": "d7",
+      "height": "d8",
+      "operation": "join"
+    },
+    {
+      "uid": "F5",
+      "name": "Lobe 4",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        7.52,
+        -10.36
+      ],
+      "diameter": "d9",
+      "height": "d10",
+      "operation": "join"
+    },
+    {
+      "uid": "F6",
+      "name": "Lobe 5",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        12.17,
+        3.96
+      ],
+      "diameter": "d11",
+      "height": "d12",
+      "operation": "join"
+    },
+    {
+      "uid": "F7",
+      "name": "Above the base",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "d13",
+      "height": "K",
+      "operation": "cut"
+    },
+    {
+      "uid": "F8",
+      "name": "Boss",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "B",
+      "height": "K",
+      "operation": "join"
+    },
+    {
+      "uid": "F9",
+      "name": "Thread",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "T",
+      "height": "F",
+      "operation": "cut"
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Body1"
+    }
+  ]
+}

@@ -1,0 +1,845 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "L",
+      "expression": "1000 mm",
+      "unit": "mm",
+      "value": 1000.0,
+      "comment": "Length"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Section",
+      "type": "sketch",
+      "plane": "xy",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            4.75,
+            -4.249839252
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p2",
+          "type": "point",
+          "at": [
+            4.75,
+            -2.615891145
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c3",
+          "type": "line",
+          "start": "p1",
+          "end": "p2",
+          "fixed": true
+        },
+        {
+          "id": "p4",
+          "type": "point",
+          "at": [
+            4.15,
+            -4.249839252
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c5",
+          "type": "line",
+          "start": "p4",
+          "end": "p1",
+          "fixed": true
+        },
+        {
+          "id": "p6",
+          "type": "point",
+          "at": [
+            4.15,
+            -1.849926404
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c7",
+          "type": "line",
+          "start": "p6",
+          "end": "p4",
+          "fixed": true
+        },
+        {
+          "id": "p8",
+          "type": "point",
+          "at": [
+            4.57259,
+            1.120160748
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p9",
+          "type": "point",
+          "at": [
+            1.999972969,
+            -0.423096071
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c10",
+          "type": "arc",
+          "center": "p8",
+          "start": "p9",
+          "end": "p6",
+          "fixed": true
+        },
+        {
+          "id": "p11",
+          "type": "point",
+          "at": [
+            2.09999769,
+            -0.249848172
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c12",
+          "type": "line",
+          "start": "p11",
+          "end": "p9",
+          "fixed": true
+        },
+        {
+          "id": "p13",
+          "type": "point",
+          "at": [
+            5.21695,
+            7.117960748
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p14",
+          "type": "point",
+          "at": [
+            4.5,
+            -0.849848404
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c15",
+          "type": "arc",
+          "center": "p13",
+          "start": "p11",
+          "end": "p14",
+          "fixed": true
+        },
+        {
+          "id": "p16",
+          "type": "point",
+          "at": [
+            4.5,
+            0.901632611
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c17",
+          "type": "line",
+          "start": "p16",
+          "end": "p14",
+          "fixed": true
+        },
+        {
+          "id": "p18",
+          "type": "point",
+          "at": [
+            3.4,
+            2.001632611
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c19",
+          "type": "line",
+          "start": "p18",
+          "end": "p16",
+          "fixed": true
+        },
+        {
+          "id": "p20",
+          "type": "point",
+          "at": [
+            3.4,
+            3.631690466
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c21",
+          "type": "line",
+          "start": "p20",
+          "end": "p18",
+          "fixed": true
+        },
+        {
+          "id": "p22",
+          "type": "point",
+          "at": [
+            0.0,
+            23.949170625
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p23",
+          "type": "point",
+          "at": [
+            -3.4,
+            3.631690466
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c24",
+          "type": "arc",
+          "center": "p22",
+          "start": "p23",
+          "end": "p20",
+          "fixed": true
+        },
+        {
+          "id": "p25",
+          "type": "point",
+          "at": [
+            -3.4,
+            2.001632611
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c26",
+          "type": "line",
+          "start": "p25",
+          "end": "p23",
+          "fixed": true
+        },
+        {
+          "id": "p27",
+          "type": "point",
+          "at": [
+            -4.5,
+            0.901632611
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c28",
+          "type": "line",
+          "start": "p27",
+          "end": "p25",
+          "fixed": true
+        },
+        {
+          "id": "p29",
+          "type": "point",
+          "at": [
+            -4.5,
+            -0.849848404
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c30",
+          "type": "line",
+          "start": "p29",
+          "end": "p27",
+          "fixed": true
+        },
+        {
+          "id": "p31",
+          "type": "point",
+          "at": [
+            -5.21695,
+            7.117960748
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p32",
+          "type": "point",
+          "at": [
+            -2.09999769,
+            -0.249848172
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c33",
+          "type": "arc",
+          "center": "p31",
+          "start": "p29",
+          "end": "p32",
+          "fixed": true
+        },
+        {
+          "id": "p34",
+          "type": "point",
+          "at": [
+            -1.999972969,
+            -0.423096071
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c35",
+          "type": "line",
+          "start": "p34",
+          "end": "p32",
+          "fixed": true
+        },
+        {
+          "id": "p36",
+          "type": "point",
+          "at": [
+            -4.57259,
+            1.120160748
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p37",
+          "type": "point",
+          "at": [
+            -4.15,
+            -1.849926404
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c38",
+          "type": "arc",
+          "center": "p36",
+          "start": "p37",
+          "end": "p34",
+          "fixed": true
+        },
+        {
+          "id": "p39",
+          "type": "point",
+          "at": [
+            -4.15,
+            -4.249839252
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c40",
+          "type": "line",
+          "start": "p39",
+          "end": "p37",
+          "fixed": true
+        },
+        {
+          "id": "p41",
+          "type": "point",
+          "at": [
+            -4.75,
+            -4.249839252
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c42",
+          "type": "line",
+          "start": "p41",
+          "end": "p39",
+          "fixed": true
+        },
+        {
+          "id": "p43",
+          "type": "point",
+          "at": [
+            -4.75,
+            -2.615891145
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c44",
+          "type": "line",
+          "start": "p43",
+          "end": "p41",
+          "fixed": true
+        },
+        {
+          "id": "p45",
+          "type": "point",
+          "at": [
+            -5.75,
+            -2.615891145
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p46",
+          "type": "point",
+          "at": [
+            -4.925,
+            -2.050758417
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c47",
+          "type": "arc",
+          "center": "p45",
+          "start": "p43",
+          "end": "p46",
+          "fixed": true
+        },
+        {
+          "id": "p48",
+          "type": "point",
+          "at": [
+            -4.1,
+            -1.485625689
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p49",
+          "type": "point",
+          "at": [
+            -5.1,
+            -1.485625689
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c50",
+          "type": "arc",
+          "center": "p48",
+          "start": "p49",
+          "end": "p46",
+          "fixed": true
+        },
+        {
+          "id": "p51",
+          "type": "point",
+          "at": [
+            -5.1,
+            0.735947186
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c52",
+          "type": "line",
+          "start": "p51",
+          "end": "p49",
+          "fixed": true
+        },
+        {
+          "id": "p53",
+          "type": "point",
+          "at": [
+            -4.1,
+            0.735947186
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p54",
+          "type": "point",
+          "at": [
+            -4.807106781,
+            1.443053967
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c55",
+          "type": "arc",
+          "center": "p53",
+          "start": "p54",
+          "end": "p51",
+          "fixed": true
+        },
+        {
+          "id": "p56",
+          "type": "point",
+          "at": [
+            -4.292893219,
+            1.95726753
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c57",
+          "type": "line",
+          "start": "p56",
+          "end": "p54",
+          "fixed": true
+        },
+        {
+          "id": "p58",
+          "type": "point",
+          "at": [
+            -5.0,
+            2.664374311
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p59",
+          "type": "point",
+          "at": [
+            -4.0,
+            2.664374311
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c60",
+          "type": "arc",
+          "center": "p58",
+          "start": "p56",
+          "end": "p59",
+          "fixed": true
+        },
+        {
+          "id": "p61",
+          "type": "point",
+          "at": [
+            -4.0,
+            3.750160748
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c62",
+          "type": "line",
+          "start": "p61",
+          "end": "p59",
+          "fixed": true
+        },
+        {
+          "id": "p63",
+          "type": "point",
+          "at": [
+            -3.500000013,
+            3.750276092
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p64",
+          "type": "point",
+          "at": [
+            -3.4,
+            4.240174038
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c65",
+          "type": "arc",
+          "center": "p63",
+          "start": "p64",
+          "end": "p61",
+          "fixed": true
+        },
+        {
+          "id": "p66",
+          "type": "point",
+          "at": [
+            -0.00033356,
+            23.949112824
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p67",
+          "type": "point",
+          "at": [
+            3.414634146,
+            4.242819526
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c68",
+          "type": "arc",
+          "center": "p66",
+          "start": "p64",
+          "end": "p67",
+          "fixed": true
+        },
+        {
+          "id": "p69",
+          "type": "point",
+          "at": [
+            3.500039815,
+            3.750167649
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p70",
+          "type": "point",
+          "at": [
+            3.999960168,
+            3.741243501
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c71",
+          "type": "arc",
+          "center": "p69",
+          "start": "p70",
+          "end": "p67",
+          "fixed": true
+        },
+        {
+          "id": "p72",
+          "type": "point",
+          "at": [
+            3.999988935,
+            2.664358662
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c73",
+          "type": "line",
+          "start": "p72",
+          "end": "p70",
+          "fixed": true
+        },
+        {
+          "id": "p74",
+          "type": "point",
+          "at": [
+            4.999988935,
+            2.664385376
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p75",
+          "type": "point",
+          "at": [
+            4.292882154,
+            1.957278595
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c76",
+          "type": "arc",
+          "center": "p74",
+          "start": "p72",
+          "end": "p75",
+          "fixed": true
+        },
+        {
+          "id": "p77",
+          "type": "point",
+          "at": [
+            4.807106781,
+            1.443053967
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c78",
+          "type": "line",
+          "start": "p77",
+          "end": "p75",
+          "fixed": true
+        },
+        {
+          "id": "p79",
+          "type": "point",
+          "at": [
+            4.1,
+            0.735947186
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p80",
+          "type": "point",
+          "at": [
+            5.1,
+            0.735947186
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c81",
+          "type": "arc",
+          "center": "p79",
+          "start": "p80",
+          "end": "p77",
+          "fixed": true
+        },
+        {
+          "id": "p82",
+          "type": "point",
+          "at": [
+            5.1,
+            -1.485625689
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c83",
+          "type": "line",
+          "start": "p82",
+          "end": "p80",
+          "fixed": true
+        },
+        {
+          "id": "p84",
+          "type": "point",
+          "at": [
+            4.1,
+            -1.485625689
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p85",
+          "type": "point",
+          "at": [
+            4.925,
+            -2.050758417
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c86",
+          "type": "arc",
+          "center": "p84",
+          "start": "p85",
+          "end": "p82",
+          "fixed": true
+        },
+        {
+          "id": "p87",
+          "type": "point",
+          "at": [
+            5.75,
+            -2.615891145
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c88",
+          "type": "arc",
+          "center": "p87",
+          "start": "p85",
+          "end": "p2",
+          "fixed": true
+        }
+      ]
+    },
+    {
+      "uid": "F2",
+      "name": "Profile",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F1",
+          "region": "r{c3[c5,c88],c5[c7,c3],c7[c10,c5],c10[c12,c7],c12[c15,c10],c15[c12,c17],c17[c19,c15],c19[c21,c17],c21[c24,c19],c24[c26,c21],c26[c28,c24],c28[c30,c26],c30[c33,c28],c33[c30,c35],c35[c38,c33],c38[c40,c35],c40[c42,c38],c42[c44,c40],c44[c47,c42],c47[c44,c50],c50[c52,c47],c52[c55,c50],c55[c57,c52],c57[c60,c55],c60[c57,c62],c62[c65,c60],c65[c68,c62],c68[c65,c71],c71[c73,c68],c73[c76,c71],c76[c73,c78],c78[c81,c76],c81[c83,c78],c83[c86,c81],c86[c88,c83],c88[c86,c3]}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "L"
+      },
+      "operation": "new_body"
+    },
+    {
+      "uid": "F3",
+      "name": "mount:end_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F4",
+      "name": "End B plane",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": "xy",
+        "distance": "L"
+      }
+    },
+    {
+      "uid": "F5",
+      "name": "mount:end_b",
+      "type": "joint_origin",
+      "geometry": "F4"
+    },
+    {
+      "uid": "F6",
+      "name": "mount:slot",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          4.25,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F2.b0",
+      "name": "Body1"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "W",
+      "expression": "20 mm",
+      "unit": "mm",
+      "value": 20.0,
+      "comment": ""
+    },
+    {
+      "name": "T",
+      "expression": "3 mm",
+      "unit": "mm",
+      "value": 3.0,
+      "comment": ""
+    },
+    {
+      "name": "L",
+      "expression": "80 mm",
+      "unit": "mm",
+      "value": 80.0,
+      "comment": ""
+    },
+    {
+      "name": "d1",
+      "expression": "-W / 2",
+      "unit": "mm",
+      "value": -10.0,
+      "comment": "Centred x",
+      "owner": "F2"
+    },
+    {
+      "name": "d2",
+      "expression": "0 mm",
+      "unit": "mm",
+      "value": 0.0,
+      "comment": "Centred y",
+      "owner": "F2"
+    },
+    {
+      "name": "d3",
+      "expression": "0 mm",
+      "unit": "mm",
+      "value": 0.0,
+      "comment": "Centred z",
+      "owner": "F2"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Plate",
+      "type": "box",
+      "plane": "xy",
+      "corner": [
+        0.0,
+        0.0
+      ],
+      "length": "W",
+      "width": "T",
+      "height": "L",
+      "operation": "new_body"
+    },
+    {
+      "uid": "F2",
+      "name": "Centred",
+      "type": "move",
+      "bodies": [
+        "F1.b0"
+      ],
+      "transform": {
+        "type": "translate_xyz",
+        "x": "d1",
+        "y": "d2",
+        "z": "d3"
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "mount:mount_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          10.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "uid": "F4",
+      "name": "mount:mount_b",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          70.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Body1"
+    }
+  ]
+}

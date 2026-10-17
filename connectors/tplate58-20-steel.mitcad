@@ -1,0 +1,83 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base1",
+      "type": "base",
+      "bodies": [
+        {
+          "name": "20-VT-58 Steel 3 mm",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 20330,
+            "data": "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"
+          }
+        }
+      ],
+      "source": "Motedis_LP20111SB.stp"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:mount_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          0.0,
+          39.0,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "mount:mount_b",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          0.0,
+          9.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "20-VT-58 Steel 3 mm"
+    }
+  ]
+}

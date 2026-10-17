@@ -1,0 +1,83 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base1",
+      "type": "base",
+      "bodies": [
+        {
+          "name": "Motedis-LP30104",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 19328,
+            "data": "eJztWltzHEcVPtO7Xsvru2PH1zhrO/FFvsmX+G7vOLaVEOQ4iYUDBgUL+RKDkYRlBRwM3gDhR/BA8cYjVbw6lZ0fAC+8UPwBqvICLp6ooiiY2e3v9Ex3n+1RyatyqjKVuHu7z/T5ztfdp/ucUf3K9K3JxoXzVy+cv3ipMTo1PXVv6s7DxrWj+xq7J/Y0ur3jMxPjN2/VR6Ymxh/cnZqcaQzVL8ze/+jW4ZszjZPH6tHW/RdH/7NtY0ydZ0CXT9ukH9UtzuiOy/GfTz++/dvf/b0plO1//C97/tmMhjojf8EjFZ+n7ahTxmOxKLC5iy2xOppzxdbGb8Y23MXWFFQ3I1uVIHA5tkGjpgXOJp2iBUEzYjT1+ydfPPnvupj8KjQ/rZGAAGMYcFUIGByQcVHAwTDmdFgj/PszS0Cco0SaG2eOLGyJoLrHFJRdP4mFrS1ga9vYkiI2o+HZ8ZZobLGEScBmP87IB+Ji+dTeqK1iez2e88jJMx856fvIcZ9Gbg3HfRs5eeYjx30fOS498qbOLt6jX5BPqKRbijvF9TCf//FPn58a3hKTgD18Csz/jOuU7CjCPjxxRijLj+4QPbDrSeZ/Qs2f4a6KMD/dDvcIa5a+4STdUjwF+nGL+Mu2I48f/W17LAps6KhYEhIIzn7Q2/OI3TLddwuPLbEFngNsyZcAmyPw3GCT/fzzgC2xBZ4DbPGXAJsjIGLrVsIRih6ZL/ks0IlVZxpHT9SdYK84pgPCOf7RYx9/NvgiJie+cBUJyMQXmgKyln3QCMi0olZYkRAAGgH7FWgQXnA0tAUN7hqyNEjntRkZNef6Qr0hNaX5lVjHe8JadBHZyJI5ImsHkIkrMvEjM4ISspjmhszeK20JmXC7kBXpsh2Qs/rrsXBV6J+ipFj2X1FMC6KIvXf/FSXUZ0XxQiuKqb+K7A0bPNzagcNNOkLOWopEpM4LSeCFtuCsbFOCDr70wW67UdtZtahoCh+fCZU0JS4iE19oCoebY7voqBP/CwaSZGPZq0OikSVUypT4cNxtCLsn4SiQTSmW8sDF37hUGmRJaADh7OgXstaupKgojCxZaGRxaADhdOo3shIuVjjO+o8sCQ0gnH/93gFzQBYvNLI4NIBwwvYLmXO7d0NSPO9M3Xt4Z2ryyMX0i6muX5kcvX93fPLO7D3+lnp19v7t8Yk0Qj0kRqgyxnnGgfYjktYslvy0imUwLLcHdJ5W2X7BAumZvwUx9RyYfwfWlVG00CHWwsW/SbdZjDIdhH45nhuyLUlobpbMO16OqacFjuKgc/kq7P0q7BUVJdRnRfFCK4qpT4qc47Q+evXD8ensOD1ytL74zT989pt//fXjc11xO+2ZHXcRRel/g5YkB2yuZA2SUaeh+8zq75xP9NdKlXVInVXuUShV7oct3tGcdfxaC0Sf6koIdUfYg1pR/hlIUFOVHGq7s6rQU4F4NffDFmfUABv9UkDtS0b7UEOTw/UiKsN1FahruR8i1wAbfQLUBSxV8j0DsVpMNoOm0zC4CFgGcj9sccYCCBEWwOAi0mvvVxD/BSotVB5DuEqMnEePuiv355CxpyTpjhWakiJ0vYvTr/lVNopZX+JYasRVPSdpdzINjwDkk5KopU1bK2jKLf+l6T9SZ1UBPSTUMsckz/L/GD8Bv4hlcf711oh+/2nbMMg+YrmtLieuVuQk7U7XgQAUL6QIqyX6KSoPUfkJhM1CMjD0QvoxZCSPlJB5xTMlA5R/9OTHY+lCwrJgp7OShLWSiqtVZHsk0+nu7VkBtS+/50O9RPc5Hml12rhY6DQmQUKtoRIeaSaIOimHuk4efjqbFhgwG+oFkvelWpuTtDtd1D8SUPvSwj7USwV+1Lq0UZoIYxIk1ItUguup0qjj3qiXkYefwrrGbKj11GNdb8hJ2p0u6h8CdQHLcsFqtZGMU5MZZLe3qQyDjxws7GpaMOEBZO6jZRotk2i5h5YfoAUOypoSb57ZNyUrdB/+pgF//KA2p41LhU5DAyTUlhwNtjjhfL4LIHdtGujDkB1JbztWSna8lDYuC9oBCbW1jB23AeS2Y8ctvx3eHLbPjlWSHS+njcuDdkBCNcrYMQEgE44d3wvZEfe2Y7Vkx7a0cUXQDkio7WXsuAEgNxw7vtvbjkIs5rNjjWTHjrRxZdAOSKhXytgxBiBjjh3fCdmR9LbjBcmOV9PGVUE7IKF2lrHjOoBcd+z4lt8Ob+7dZ8dayY5daePqoB2QULvL2PE+gLzv2HEtZEfc2451kh170sY1QTsgoQbL2DEKIKOOHVfRYq6z5tjtXmej7+PnHVRuojKOygeofBuVb6LyDVTe83PmXB+kSOVF/b5zZO+lXkc2H9Uo91GJ9MI7QM3RQQHLevI9aci7n+yoyXRWFXr4nnOA7KuMEWcsuDVEAGXm7wrEEaAQXw3ehrCZWgNMRyqXIRO4h0pTsoEKkBPU1EEyt0y7s6pgMd9Dh8imwRM8fh0/cbUrYtmYfz0e0+9nwSOzjfKQrS4nrg6TFTzmOt3lAVDmRgfeI76tvYXK1yBspsTA0FPyJmQCwaOcrrMDNmnyNmlNzn46Qr0CNg7UUB6lEvtpGFZegn0FLJsp/+QW0ms5LHZnVaGHY7RjZIdhnoUECNGMF8sW8j3p3j7uYDGdBgvH5ifIDr+NOGNB/BqBILO3L0L8AiocGrwOYbOQDDC9kM6Tz7iX8jgKu4Rxozxp48/vklNUYpfwpH9qGxchRRfhc1cEm6IHrnEV27hzkAmE/dLa36rfd9b+aeoVQLPDQnmGSqz9M8DOzqKA5WXyPel6O0u2EzWdVYUeXvvnyF77RpyxIIaPAMqst9MQh78iDjxPQdhMiQGmp+QkZAKhqDQlDfJDr2QrJHu3tlSQYOM4wDwOLAUN23Src+nKtooc7HKQi/L13A/x0nXcwcJEHwP01yDDLRwHG6KN1Zroo5AJxMoS0dvJT2Ml8zOZ06ktEySYaI6ADwNLQcMOgRyVeV45GucoHOUwlSD6sIOFiT4E6EOQ4RYO1A3RxmpN9EHIBIJ5iehXyE9j5Q3qnvO15YIEE80h+n5gKWh4VSBHZTcNOV3AaQKUb1EJovc7WJjofYC+FzLcwpkEQ7SxWhM9CJlAtkEieif5aaxkDnck/b+2QpBgom8A0W5gKWjYJZCjshu0nM/gPAbKt6kE0bsdLEw0cBBMZmQm1WGINlZrorFeQukQiejd5KexksUh2Z24tlKQYKI5yQEnUdSwRyBHvUu9Ei6caEH5HpUgeoeDhYlmJ4lDw7hNzsUYoo3VmugGZAL5GonoQfLTWMkC9iyMr60SJJhozsLgrlPUsFcgR2XxupwR4kwQymtUguitDhYmmi+kuHabKyoniwzRxmpNNAKHUEJJIpr9lEVjJcv5ZDmM2mpBgonmNBEi0KKG/QI5KjNPTllxqgrldSpB9EYHCxPNsTpyFyZ652yWIdpYrYlG9iWU8ZKIPkB+GitZxijbUrU1ggQTzXksZAGLGg4K5KjM5cg5Nc6lofyAShC91sHCRCPXyiNz9tWXbjNWa6JXe40botxT+DTO93+U2UEwIIirG1Ti0zgHLJds4yLEovzFJUJsEE27xg3Yxq1wBuQ/2sCX9YhzWkiXRByZsFKOjZv2gHypNi1DTstep2Wn07LNadnitKx3Wta4JCibBL5o8tWes0AcVTFzHNdz8o7/3gCZ2sEKtP8MXR9B47toGUHlDVRiVM6icgJvHUEFu5bPZb7UctjKeSROavNXLL5och5hUHVXmFmEg2ig/wPklkEW"
+          }
+        }
+      ],
+      "source": "Motedis-LP30104.stp"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:mount_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          0.0,
+          -30.0,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "mount:mount_b",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          0.0,
+          30.0,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Motedis-LP30104"
+    }
+  ]
+}

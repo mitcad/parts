@@ -1,0 +1,83 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base1",
+      "type": "base",
+      "bodies": [
+        {
+          "name": "Motedis-LP30102",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 13247,
+            "data": "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"
+          }
+        }
+      ],
+      "source": "Motedis-LP30103.stp"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:mount_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          15.0,
+          15.0
+        ],
+        "x_axis": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "mount:mount_b",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          75.0,
+          15.0
+        ],
+        "x_axis": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Motedis-LP30102"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base1",
+      "type": "base",
+      "bodies": [
+        {
+          "name": "Transport wheel PP D100, bore 10 mm 1",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 14689,
+            "data": "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"
+          }
+        },
+        {
+          "name": "Transport wheel PP D100, bore 10 mm 2",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 4540,
+            "data": "eJy9l81PE0EUwGc/WmD5tFShirjlYLRIgq3hZOwSqtHEBBMaL56agkgkXULFBGMi/4M3OXHQK0cvJN2LZ9SYGP8ETxJjjIqJTnf3vd2dD9qUDRPKzs68eR+/93Zm15hfW6qZc7MLc7Olm2bZXrNX7eVN8/61K+al6mXTm63Uq5XFJeOuXa08WbFrdXPamNtYf7qUX6yb+WlDGZ0qlQ+zGce/WsRtB0XiNxT48a/ZZhyJQA+jAdpBAwSsFgIZ52O28OL5lxTng+r+37rFrixG78lWZJzKo+YJd2TUIbLoZJoxOiJsoehaCADh30VxdGbJYVdKNLLRHYe8R3zCkplqFV1RYVVGnCSdRmeWLEbzdSciQDqtCqrZrf+6eXXaUBlR8tUtctMiYuca0aussS7csdDXxzuf3r7+8GvPm8hafx6kCxff7OyJFR8Uo/OtDKYtVSwwaUkWdhYRDYQz9M1D55A4DVF0CnTe7+/vbr889FFMOTIFMgROrJ4hAj6pTtxJ9RDQyn23Xez7m//ZCkHjZBBQh06m3Kihe/bq5rJdK5To+eX352vl9ZVKbXljFU+2hY31h5UqfbZnjIRYc9aK1TPcfaRPnjxJ0WubBvGB4Pa9+JjL0DlxGXBbCB3Wd3SBtFy5IxRURq/sUcG1mHNDA+Aq0igvPKqs0Yos5I2u27t7r75/fnbDEw92tODUUYhC/3JJkFTcAa/BUQxnttqckE6qobDZSR11BmB8QybcQicX9Zrb7SYlXrPI4e1H0+iNTn9JRSLh6iNhX8bBl4gFTRZ64gguQeiwXE2Gblhx5DLO+ZLwp5QLEMB56IyBMIzkdIKegxBd7PbPESHoUHkEJ6sItC7D0EXkFaB2+1kQM4JleuCshyEDtxlhSmDn8F+3Lf+bwdJ66K1Bf0lVIoFJRwsmB3oUnBmBDqBXRnjQKgv6jBg0X9GOGHRSxrL3SJYwA2zUvtCNtN7S4HtaCLrLH4UvJnjB1/rp4EATtC6RQNBoIcOBHgZyKegAeiXFg9ZZ0KfEoLn3l9DW0UrSEaekm4QbfiI0tEF6GWpiSEokEMMg+D4gBN0DANikN4OUVYSOM5j0FGkj6QNH+2LIfBluyxfc8NKkjQ0PuUAHy4P0w1QfdGCE9IJwUB5BBvzyMDiFw+wIag7pSTB6MPn4MATLxzgTAsc0ViFYwEc2p8HysyB6GjpDIAwVgvsDHkw5FY4h2ItyeC79Bxt4XsQ="
+          }
+        }
+      ],
+      "source": "Transport_wheel_PP_D100_bore_hole_10mm.stp"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:bore",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Transport wheel PP D100, bore 10 mm 1"
+    },
+    {
+      "uid": "F1.b1",
+      "name": "Transport wheel PP D100, bore 10 mm 2"
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "L",
+      "expression": "1000 mm",
+      "unit": "mm",
+      "value": 1000.0,
+      "comment": "Length"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Section",
+      "type": "sketch",
+      "plane": "xy",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            -4.0,
+            -0.032222222
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p2",
+          "type": "point",
+          "at": [
+            -4.55,
+            -0.35
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c3",
+          "type": "line",
+          "start": "p1",
+          "end": "p2",
+          "fixed": true
+        },
+        {
+          "id": "p4",
+          "type": "point",
+          "at": [
+            -4.0,
+            1.45
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c5",
+          "type": "line",
+          "start": "p4",
+          "end": "p1",
+          "fixed": true
+        },
+        {
+          "id": "p6",
+          "type": "point",
+          "at": [
+            -4.5,
+            1.45
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c7",
+          "type": "line",
+          "start": "p6",
+          "end": "p4",
+          "fixed": true
+        },
+        {
+          "id": "p8",
+          "type": "point",
+          "at": [
+            -4.5,
+            1.95
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c9",
+          "type": "line",
+          "start": "p8",
+          "end": "p6",
+          "fixed": true
+        },
+        {
+          "id": "p10",
+          "type": "point",
+          "at": [
+            4.5,
+            1.95
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c11",
+          "type": "line",
+          "start": "p10",
+          "end": "p8",
+          "fixed": true
+        },
+        {
+          "id": "p12",
+          "type": "point",
+          "at": [
+            4.5,
+            1.45
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c13",
+          "type": "line",
+          "start": "p12",
+          "end": "p10",
+          "fixed": true
+        },
+        {
+          "id": "p14",
+          "type": "point",
+          "at": [
+            4.0,
+            1.45
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c15",
+          "type": "line",
+          "start": "p14",
+          "end": "p12",
+          "fixed": true
+        },
+        {
+          "id": "p16",
+          "type": "point",
+          "at": [
+            4.0,
+            -0.032222222
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c17",
+          "type": "line",
+          "start": "p16",
+          "end": "p14",
+          "fixed": true
+        },
+        {
+          "id": "p18",
+          "type": "point",
+          "at": [
+            4.55,
+            -0.35
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c19",
+          "type": "line",
+          "start": "p18",
+          "end": "p16",
+          "fixed": true
+        },
+        {
+          "id": "p20",
+          "type": "point",
+          "at": [
+            3.7,
+            -1.95
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c21",
+          "type": "line",
+          "start": "p20",
+          "end": "p18",
+          "fixed": true
+        },
+        {
+          "id": "p22",
+          "type": "point",
+          "at": [
+            3.35,
+            -1.95
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c23",
+          "type": "line",
+          "start": "p22",
+          "end": "p20",
+          "fixed": true
+        },
+        {
+          "id": "p24",
+          "type": "point",
+          "at": [
+            3.35,
+            -1.51
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c25",
+          "type": "line",
+          "start": "p24",
+          "end": "p22",
+          "fixed": true
+        },
+        {
+          "id": "p26",
+          "type": "point",
+          "at": [
+            3.86,
+            -0.53
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c27",
+          "type": "line",
+          "start": "p26",
+          "end": "p24",
+          "fixed": true
+        },
+        {
+          "id": "p28",
+          "type": "point",
+          "at": [
+            3.35,
+            -0.23
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c29",
+          "type": "line",
+          "start": "p28",
+          "end": "p26",
+          "fixed": true
+        },
+        {
+          "id": "p30",
+          "type": "point",
+          "at": [
+            3.35,
+            1.25
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c31",
+          "type": "line",
+          "start": "p30",
+          "end": "p28",
+          "fixed": true
+        },
+        {
+          "id": "p32",
+          "type": "point",
+          "at": [
+            -3.35,
+            1.25
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c33",
+          "type": "line",
+          "start": "p32",
+          "end": "p30",
+          "fixed": true
+        },
+        {
+          "id": "p34",
+          "type": "point",
+          "at": [
+            -3.35,
+            -0.23
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c35",
+          "type": "line",
+          "start": "p34",
+          "end": "p32",
+          "fixed": true
+        },
+        {
+          "id": "p36",
+          "type": "point",
+          "at": [
+            -3.86,
+            -0.53
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c37",
+          "type": "line",
+          "start": "p36",
+          "end": "p34",
+          "fixed": true
+        },
+        {
+          "id": "p38",
+          "type": "point",
+          "at": [
+            -3.35,
+            -1.51
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c39",
+          "type": "line",
+          "start": "p38",
+          "end": "p36",
+          "fixed": true
+        },
+        {
+          "id": "p40",
+          "type": "point",
+          "at": [
+            -3.35,
+            -1.95
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c41",
+          "type": "line",
+          "start": "p40",
+          "end": "p38",
+          "fixed": true
+        },
+        {
+          "id": "p42",
+          "type": "point",
+          "at": [
+            -3.7,
+            -1.95
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c43",
+          "type": "line",
+          "start": "p42",
+          "end": "p40",
+          "fixed": true
+        },
+        {
+          "id": "c44",
+          "type": "line",
+          "start": "p2",
+          "end": "p42",
+          "fixed": true
+        }
+      ]
+    },
+    {
+      "uid": "F2",
+      "name": "Profile",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F1",
+          "region": "r{c3[c5,c44],c5[c7,c3],c7[c9,c5],c9[c11,c7],c11[c13,c9],c13[c15,c11],c15[c17,c13],c17[c19,c15],c19[c21,c17],c21[c23,c19],c23[c25,c21],c25[c27,c23],c27[c29,c25],c29[c31,c27],c31[c33,c29],c33[c35,c31],c35[c37,c33],c37[c39,c35],c39[c41,c37],c41[c43,c39],c43[c44,c41],c44[c3,c43]}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "L"
+      },
+      "operation": "new_body"
+    },
+    {
+      "uid": "F3",
+      "name": "mount:end_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F4",
+      "name": "End B plane",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": "xy",
+        "distance": "L"
+      }
+    },
+    {
+      "uid": "F5",
+      "name": "mount:end_b",
+      "type": "joint_origin",
+      "geometry": "F4"
+    },
+    {
+      "uid": "F6",
+      "name": "mount:slot",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          1.95,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F2.b0",
+      "name": "Body1"
+    }
+  ]
+}

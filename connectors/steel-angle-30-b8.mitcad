@@ -1,0 +1,112 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base1",
+      "type": "base",
+      "bodies": [
+        {
+          "name": "Motedis_BR30STS",
+          "color": [
+            0.745098,
+            0.737255,
+            0.729412
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 14491,
+            "data": "eJy9Wl1sHUcVPju+8c+N4zZ/rd02yfVPG/vGdlLbsZvGvd7UcRNKIYG4AQpFspI0FCI7SkilVJFiCfEAEqjwhECkfUCobwh4qrjlLjygPvBAAcnQByJARPQJi1JkSqt07+58Z3bn5+4mufXI1s7sfDPzzTnfzJ6dvcVj588slmYPnZg9dHiuNL90func0tnLpZMTw6XBU0OluHbh4qmF02eKTy2dWvjq80uLF0v7irOXLrxwZuz0xdLUWNH7fe/41St/7vMpSr+rUiqtznjdI4fn/9/bkQUY8t86d/23L6yRBK7WABHxpSwrRgGYIWtCwx7fw63/xD0HekPZ87Cv9Vwje88z/7xZTx3+esz6vWisfp1b/ln/qVmzjq9F1bMdQCQBgz64zy+9+Icf/OVH0xjB0YPqyfsgajnpOwHpGxX/1jmkXZM5hAUQe3+Ln9HDlBsQc+jxtVnomh/w0yrI8hH5Ws8MaELPGQBYvhzEPe/2Aej72UtfHz790+m8vmvUQzS7/7kWQQ7fuSqQw24TxFesktXaSsRprSqvrKfuOONnzq5ZPVsmtTJ8W2Yx94Tg3YjDHv96dH2nmgau1nB/xN6zc9Z33LNzUtN+BsCsQE4CzJ3w2o+//OZ779SqeRXboIfu9VIsOAwbJGVaTt+/Bd/dac96aqLvYPHh4Jttv3pp11fmqo4enL5r0MPguvsueL++CK6vgkMNDbT7t+672+3ZMqm2kTvdbUSKG3bE1dpatAf8vSqvvBPKdjn22NvtOYppL5bGJ4tevAGtySopj2A8ePPg1eeuvXKj9sdvt/zylXe/V31DlsW9EaI9SDWg0UAnJ59iVTzNyGEejZtMPX48OR+uMgbiBi/Hm880rhkDobz8NsLbuDgQpAdaq8kpz8AEMIlIM0GD9iAdfOkjKsYOnGkCfaD/1hlf/Ws1vXb1DlRHEpdhkjDW3RhltgXpCjjZZI4dzdHAHEkbAVpuMEJjSpYR7rUCtjkbCDslo4EjVtTrXe8q5Av7VJo/kMME04FrDWoNYILcDdQIOhA5keae3QDhoVZvSBvhY0yIfG0gNZVmDyR3TH1GlcA1kHjG2uAxZwO9jFgxHUsqxoghtYFgguYPFK/+oPN1yjkj7/Jvnu7+zvHXjB4ROOr3tQbqldHZ4FuOEVyUHMJ0N9DScrreHSU6hNn8gTy94x/eePXaL17/rnEag5xsoLvNBOJxozXAVHI3cCXDK4aSMoyl6hHfpeM8vR17RZ9K8weSJqjknpFkpjauf0Sr8V/OBgj27AOogdLBIO+YGKjif1QDHV86d/ns0uL44fA0VeaPLc5feH5h8eylc3zOeuLShecWToVR6cMTxRZrVGqJ/fCcyhlkcuwXX7b626Pg/u2s59qdD+jcAfWGMoqtvuzY6FwDtsQXPShdq8mAKtNrjYNXpITJXAFaswZ0bh6No1pzF5LFZccAo9oAevn2d+Z1W8raTLCbNXEmOUNY1wCoN2aiJX/94sV1i8p0Jo5yswKNj/7ZaWzdxfkTX1o4H27dByaKbUd/Uv3+v1derOBdNW4l9yN/LKivOy/8KzPSeqLg71fIViC96EacbsgPPvik1FKvqNug1YWI+qtXfFECvGdlJj2CNCTh0wk+f4n6Hus5Kgtcg+aikCjocDk3omcbc2lxcdmQiwuai9ZEwcmF7YJMeQOqviDv0OeB4TvPAFwgZo66sHGU/xww7PSouLw7iO+P+vGnsJ9Pm/KIkb2MjK91udjkUZAjvaXLo63eKPxvdSFYHp8B95Nkc8kGhxlFR3iz4HQJatBcFBMFp0tONubS6uKyMRcXNBediYKTC9sFGSWPp+UdmgeG75wAWMkDw7M8Pg0MO919+mOVh/UkyiaPtjSM8AW2wK4AQmwi5R8dLroSSL2ShXQcszxmzC/NOnkcZmPdTrZU8cVdFIvaVllgpQIh7rZMSTGQrEHW+4TB2n2IZ2PdoY1h2hoIsZka2HpLAqlXMuuPG6xTXIpkn7XYGl5clcqCQIhtlMOC7HeQUgvlk4A/BcyTyHzMAGMxJZaOGlsunaMoHwHY8VxFqnuv8RM4eRJq8+tGss9fbKdGtmQb4npPoqDD2ZZz8pZ3GPNLcemUd/HhEZtX9Jmi6KgscA0LsDtR0OHMBRSUX1NcNrm49OTiwhvPfYmCkwvbBWJTspmVd+hxYCAt7xDASlHKYVJRPjAZQqpvXjZ5dJEtTYUzFfpM7yeXAqZ88QCZWywq2QwVcJ/LYJ08ELaxvouyWLNWdjRivZPMzcpgjRc3h6jvtrYPF9iu8OJafQWOW4EQJcqxwNiCIKWE9BjgUJR3EJlHDTACw4S01NhSWgdQfgRg9pb7VN3mrc1pGN2UPwkRvWRaCJUFrmEB9pGpsZv88xJpoUlMopLBGhpzsd7iYt2fizULcIBMjRmsJ8Ca/ZrispVsKdTYg+TWmHgovHQ6Kgv8YFAI3YIgpWSzH1AoyhtHZgxgpShFTCrqYWDSkZX124TNJdvSMMJvi8RuMme6wi5BDQtpkEwhregu2QvukwbreNPskqyTn25srLe7WA/lYs1CKpMpJIP1CFiz81Jc7iFbCrWyhxpoRaCG31CHEwUdbloQpJSQRgGHbLxhZPYArISUkGgspDIw7BL3FyWbS+S5EvW/+rdfX1n7mvTwdPj8wKRYKyOJmepwMZpA6pVshkFw32uwJsN0jVjLH93R9sKVN7qOfOM1kzVrZW+CtQ4X+xJIvZJZPwTW7LwUlx6ypVBI9TW+yVFZEOAEhBijHEJiC4KUEtJuwCEb70FkBgyw5fBDjS2l1Y9yH8Cat2yf7Gzeuo/SCcGhGCfTQqgscA0LcILMzUr9ck9aqIRJDGawTn4GtLG+38V6fy7WLMBJMjcrg/VOEGG/prg8QLYUamyKGmkMNXxe8kiioMNNC4KUks0uwKEobwcyoJhQlCImFQWT6i6xfWi1uWQH2VJ92WNSrJUDzpmGy/5RcoXoiWWPde2VMlhnCWknZbFmrRxsxHqaXCF6gjX2c+W8FJdd1vahkOoxc5ejsiDACQhRoRxCYguClBISNnCCbPh5zEGCAluO4tTYUlocECFA1L1l+5Jt81YpDaMhLPsZMi00xMseNSxAn0yNDenLHu8D/BBxsc56IPa6WB/KxZoF+DiZGjNY451T+TXFpY9sKdTYLLk1JuqvlO4jQTRTCN2CIKVkw6+jUBT3wkceCUUpYlJRndbJ9VM6tcPQcxb+7Wxo1LA8niBTHu26oflIc7OVy4CLy5FcXNjpR8l0usEF55MWQ/NRDMzKR6gejgsThk64MDZ0u9Ehk2GncLTOjwAEN4RwmfACRnjb54MketKk0aHTaNVp8Mmfh9NPPofycMTg4T3QQxzvIQ7jvZajVT4gSdBo02jwh6ByC2h8FoBPAfoE7vA30Slk9iEzhAxvDRyG8fs8v5YyC5zT8ge8siD5VQynImXcoA8BN9bVXQ=="
+          }
+        }
+      ],
+      "source": "Motedis_BR30STS.stp"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:mount_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          15.0,
+          -15.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "mount:mount_b",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          -15.0,
+          15.0,
+          0.0
+        ],
+        "x_axis": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Motedis_BR30STS"
+    }
+  ],
+  "configurations": {
+    "selectors": [
+      "Finish"
+    ],
+    "parameters": [],
+    "default": "galvanised",
+    "rows": [
+      {
+        "name": "galvanised",
+        "select": {
+          "Finish": "galvanised"
+        },
+        "values": {},
+        "designation": "Steel connection angle 30 B-type slot 8, galvanised",
+        "part_number": "BR30STS",
+        "supplier_url": "https://www.motedis.com/en/Connection-Angle-30-B-Type-slot-8"
+      },
+      {
+        "name": "black",
+        "select": {
+          "Finish": "black"
+        },
+        "values": {},
+        "designation": "Steel connection angle 30 B-type slot 8, black",
+        "part_number": "BR30STB",
+        "supplier_url": "https://www.motedis.com/en/Connection-Angle-30-Black-B-Type"
+      }
+    ]
+  }
+}

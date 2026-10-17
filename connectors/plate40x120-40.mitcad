@@ -1,0 +1,83 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base1",
+      "type": "base",
+      "bodies": [
+        {
+          "name": "3CONN 1TO1 [120 40 5] 40 H3 D 8-5",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 13247,
+            "data": "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"
+          }
+        }
+      ],
+      "source": "Motedis_LP40103.stp"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:mount_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          20.0,
+          20.0
+        ],
+        "x_axis": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "mount:mount_b",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          100.0,
+          20.0
+        ],
+        "x_axis": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "3CONN 1TO1 [120 40 5] 40 H3 D 8-5"
+    }
+  ]
+}

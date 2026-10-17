@@ -1,0 +1,83 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base1",
+      "type": "base",
+      "bodies": [
+        {
+          "name": "Motedis_LP40106",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 19328,
+            "data": "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"
+          }
+        }
+      ],
+      "source": "Motedis_LP40106.stp"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:mount_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          39.0,
+          38.0,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "mount:mount_b",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          39.0,
+          118.0,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Motedis_LP40106"
+    }
+  ]
+}

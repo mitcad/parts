@@ -1,0 +1,83 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base1",
+      "type": "base",
+      "bodies": [
+        {
+          "name": "20-V-18x40 [Alu 3 mm]",
+          "color": [
+            0.956863,
+            0.956863,
+            0.956863
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 12031,
+            "data": "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"
+          }
+        }
+      ],
+      "source": "20-V-18x40 [Alu 3 mm].stp"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:mount_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          0.0,
+          -10.0,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "mount:mount_b",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          0.0,
+          10.0,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "20-V-18x40 [Alu 3 mm]"
+    }
+  ]
+}

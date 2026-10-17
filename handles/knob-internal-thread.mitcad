@@ -1,0 +1,212 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "D",
+      "expression": "25 mm",
+      "unit": "mm",
+      "value": 25.0,
+      "comment": ""
+    },
+    {
+      "name": "H",
+      "expression": "9 mm",
+      "unit": "mm",
+      "value": 9.0,
+      "comment": ""
+    },
+    {
+      "name": "B",
+      "expression": "17.5 mm",
+      "unit": "mm",
+      "value": 17.5,
+      "comment": ""
+    },
+    {
+      "name": "K",
+      "expression": "9 mm",
+      "unit": "mm",
+      "value": 9.0,
+      "comment": ""
+    },
+    {
+      "name": "T",
+      "expression": "6 mm",
+      "unit": "mm",
+      "value": 6.0,
+      "comment": ""
+    },
+    {
+      "name": "F",
+      "expression": "9 mm",
+      "unit": "mm",
+      "value": 9.0,
+      "comment": ""
+    },
+    {
+      "name": "d1",
+      "expression": "K + H",
+      "unit": "mm",
+      "value": 18.0,
+      "comment": "Base height",
+      "owner": "F1"
+    },
+    {
+      "name": "d2",
+      "expression": "D + 2",
+      "unit": "mm",
+      "value": 27.0,
+      "comment": "Above the base diameter",
+      "owner": "F2"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "D",
+      "height": "d1",
+      "operation": "new_body"
+    },
+    {
+      "uid": "F2",
+      "name": "Above the base",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "d2",
+      "height": "K",
+      "operation": "cut"
+    },
+    {
+      "uid": "F3",
+      "name": "Boss",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "B",
+      "height": "K",
+      "operation": "join"
+    },
+    {
+      "uid": "F4",
+      "name": "Thread",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "T",
+      "height": "F",
+      "operation": "cut"
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Body1"
+    }
+  ],
+  "configurations": {
+    "selectors": [
+      "Size"
+    ],
+    "parameters": [
+      "D",
+      "H",
+      "B",
+      "K",
+      "T",
+      "F"
+    ],
+    "default": "D25-M6",
+    "rows": [
+      {
+        "name": "D16-M4",
+        "select": {
+          "Size": "D16-M4"
+        },
+        "values": {
+          "B": "12 mm",
+          "D": "16 mm",
+          "F": "9 mm",
+          "H": "8 mm",
+          "K": "3 mm",
+          "T": "4 mm"
+        },
+        "designation": "Knob with internal thread D16 M4",
+        "part_number": "D16M4KNOBCI",
+        "supplier_url": "https://www.motedis.com/en/Handle-with-internal-thread-D16-M4"
+      },
+      {
+        "name": "D18-M5",
+        "select": {
+          "Size": "D18-M5"
+        },
+        "values": {
+          "B": "13 mm",
+          "D": "18.5 mm",
+          "F": "8 mm",
+          "H": "8 mm",
+          "K": "3 mm",
+          "T": "5 mm"
+        },
+        "designation": "Knob with internal thread D18 M5",
+        "part_number": "D18M5KNOBCI",
+        "supplier_url": "https://www.motedis.com/en/Handle-with-internal-thread-D18-M5"
+      },
+      {
+        "name": "D25-M6",
+        "select": {
+          "Size": "D25-M6"
+        },
+        "values": {
+          "B": "17.5 mm",
+          "D": "25 mm",
+          "F": "9 mm",
+          "H": "9 mm",
+          "K": "9 mm",
+          "T": "6 mm"
+        },
+        "designation": "Knob with internal thread D25 M6",
+        "part_number": "D25M6KNOBCI",
+        "supplier_url": "https://www.motedis.com/en/Handle-with-internal-thread-D25-M6"
+      },
+      {
+        "name": "D32-M8",
+        "select": {
+          "Size": "D32-M8"
+        },
+        "values": {
+          "B": "22 mm",
+          "D": "32 mm",
+          "F": "15 mm",
+          "H": "11 mm",
+          "K": "9 mm",
+          "T": "8 mm"
+        },
+        "designation": "Knob with internal thread D32 M8",
+        "part_number": "D32M8KNOBCI",
+        "supplier_url": "https://www.motedis.com/en/Handle-with-internal-thread-D32-M8"
+      }
+    ]
+  }
+}

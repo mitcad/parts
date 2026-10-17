@@ -1,0 +1,92 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "D",
+      "expression": "29 mm",
+      "unit": "mm",
+      "value": 29.0,
+      "comment": ""
+    },
+    {
+      "name": "H",
+      "expression": "10.4 mm",
+      "unit": "mm",
+      "value": 10.4,
+      "comment": ""
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "D",
+      "height": "H",
+      "operation": "new_body"
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Body1"
+    }
+  ],
+  "configurations": {
+    "selectors": [
+      "Size"
+    ],
+    "parameters": [
+      "D"
+    ],
+    "default": "30",
+    "rows": [
+      {
+        "name": "20",
+        "select": {
+          "Size": "20"
+        },
+        "values": {
+          "D": "19 mm"
+        },
+        "designation": "Base 20 for swivel feet, series 10",
+        "part_number": "4699",
+        "supplier_url": "https://www.motedis.com/en/Base-20-for-Swivel-Feet-PA-Series-10"
+      },
+      {
+        "name": "30",
+        "select": {
+          "Size": "30"
+        },
+        "values": {
+          "D": "29 mm"
+        },
+        "designation": "Base 30 for swivel feet, series 10",
+        "part_number": "4701",
+        "supplier_url": "https://www.motedis.com/en/Base-30-for-Swivel-Feet-PA-Series-10"
+      },
+      {
+        "name": "40",
+        "select": {
+          "Size": "40"
+        },
+        "values": {
+          "D": "39 mm"
+        },
+        "designation": "Base 40 for swivel feet, series 10",
+        "part_number": "4702",
+        "supplier_url": "https://www.motedis.com/en/Base-40-for-Swivel-Feet-PA-Series-10"
+      }
+    ]
+  }
+}

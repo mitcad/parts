@@ -1,0 +1,83 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base1",
+      "type": "base",
+      "bodies": [
+        {
+          "name": "Part3",
+          "color": [
+            0.74902,
+            0.74902,
+            0.74902
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 14463,
+            "data": "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"
+          }
+        }
+      ],
+      "source": "Motedis_LP40105SB.stp"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:mount_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          38.0,
+          18.0,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "mount:mount_b",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          38.0,
+          58.0,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Part3"
+    }
+  ]
+}

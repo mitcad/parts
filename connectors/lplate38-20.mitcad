@@ -1,0 +1,83 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base1",
+      "type": "base",
+      "bodies": [
+        {
+          "name": "20-VL-38 [Alu 3 mm]",
+          "color": [
+            0.956863,
+            0.956863,
+            0.956863
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 15524,
+            "data": "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"
+          }
+        }
+      ],
+      "source": "20-VL-38 [Alu 3 mm].stp"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:mount_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          9.0,
+          29.0,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "mount:mount_b",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          29.0,
+          9.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "20-VL-38 [Alu 3 mm]"
+    }
+  ]
+}

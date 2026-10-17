@@ -1,0 +1,83 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Base1",
+      "type": "base",
+      "bodies": [
+        {
+          "name": "Motedis LP40107",
+          "color": [
+            0.411765,
+            0.411765,
+            0.411765
+          ],
+          "brep": {
+            "format": "occt",
+            "compression": "zlib",
+            "size": 17956,
+            "data": "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"
+          }
+        }
+      ],
+      "source": "Motedis_LP40107.stp"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:mount_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          18.0,
+          78.0,
+          0.0
+        ],
+        "x_axis": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "mount:mount_b",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          78.0,
+          18.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Motedis LP40107"
+    }
+  ]
+}
