@@ -1,0 +1,105 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "D",
+      "expression": "6 mm",
+      "unit": "mm",
+      "value": 6.0,
+      "comment": ""
+    },
+    {
+      "name": "L",
+      "expression": "1000 mm",
+      "unit": "mm",
+      "value": 1000.0,
+      "comment": ""
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Rod",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "D",
+      "height": "L",
+      "operation": "new_body"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:end_a",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F3",
+      "name": "End B plane",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": "xy",
+        "distance": "L"
+      }
+    },
+    {
+      "uid": "F4",
+      "name": "mount:end_b",
+      "type": "joint_origin",
+      "geometry": "F3"
+    },
+    {
+      "uid": "F5",
+      "name": "mount:shaft",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Body1"
+    }
+  ]
+}

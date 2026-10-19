@@ -7,53 +7,48 @@
   },
   "parameters": [
     {
+      "name": "D",
+      "expression": "5 mm",
+      "unit": "mm",
+      "value": 5.0,
+      "comment": ""
+    },
+    {
       "name": "L",
       "expression": "1000 mm",
       "unit": "mm",
       "value": 1000.0,
-      "comment": "Length"
+      "comment": ""
     }
   ],
   "features": [
     {
       "uid": "F1",
-      "name": "Section",
-      "type": "sketch",
+      "name": "Rod",
+      "type": "cylinder",
       "plane": "xy",
-      "entities": [
-        {
-          "id": "p1",
-          "type": "point",
-          "at": [
-            0.0,
-            0.0
-          ],
-          "fixed": true
-        },
-        {
-          "id": "c2",
-          "type": "circle",
-          "center": "p1",
-          "radius": 2.5,
-          "fixed": true
-        }
-      ]
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "D",
+      "height": "L",
+      "operation": "new_body"
     },
     {
       "uid": "F2",
-      "name": "Profile",
-      "type": "extrude",
-      "profiles": [
+      "name": "Thread",
+      "type": "thread",
+      "faces": [
         {
-          "sketch": "F1",
-          "region": "r{c2}"
+          "body": "F1.b0",
+          "face": "F1:side0"
         }
       ],
-      "extent": {
-        "type": "distance",
-        "distance": "L"
-      },
-      "operation": "new_body"
+      "thread": {
+        "designation": "M5",
+        "class": "6g"
+      }
     },
     {
       "uid": "F3",
@@ -118,7 +113,7 @@
   ],
   "bodies": [
     {
-      "uid": "F2.b0",
+      "uid": "F1.b0",
       "name": "Body1"
     }
   ]
