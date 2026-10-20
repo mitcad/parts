@@ -1,0 +1,443 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "D",
+      "expression": "6 mm",
+      "unit": "mm",
+      "value": 6.0,
+      "comment": ""
+    },
+    {
+      "name": "L",
+      "expression": "120 mm",
+      "unit": "mm",
+      "value": 120.0,
+      "comment": ""
+    },
+    {
+      "name": "DK",
+      "expression": "15 mm",
+      "unit": "mm",
+      "value": 15.0,
+      "comment": ""
+    },
+    {
+      "name": "K",
+      "expression": "4 mm",
+      "unit": "mm",
+      "value": 4.0,
+      "comment": ""
+    },
+    {
+      "name": "d1",
+      "expression": "-K",
+      "unit": "mm",
+      "value": -4.0,
+      "comment": "Head height",
+      "owner": "F2"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Shank",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "D",
+      "height": "L",
+      "operation": "new_body"
+    },
+    {
+      "uid": "F2",
+      "name": "Head",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "DK",
+      "height": "d1",
+      "operation": "join"
+    },
+    {
+      "uid": "F3",
+      "name": "mount:axis",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Body1",
+      "appearance": "steel_satin"
+    }
+  ],
+  "configurations": {
+    "selectors": [
+      "Diameter",
+      "Length"
+    ],
+    "parameters": [
+      "D",
+      "L",
+      "DK",
+      "K"
+    ],
+    "default": "6.0x120",
+    "rows": [
+      {
+        "name": "6.0x80",
+        "select": {
+          "Diameter": "6.0",
+          "Length": "80"
+        },
+        "values": {
+          "D": "6 mm",
+          "DK": "15 mm",
+          "K": "4 mm",
+          "L": "80 mm"
+        }
+      },
+      {
+        "name": "6.0x100",
+        "select": {
+          "Diameter": "6.0",
+          "Length": "100"
+        },
+        "values": {
+          "D": "6 mm",
+          "DK": "15 mm",
+          "K": "4 mm",
+          "L": "100 mm"
+        }
+      },
+      {
+        "name": "6.0x120",
+        "select": {
+          "Diameter": "6.0",
+          "Length": "120"
+        },
+        "values": {
+          "D": "6 mm",
+          "DK": "15 mm",
+          "K": "4 mm",
+          "L": "120 mm"
+        }
+      },
+      {
+        "name": "6.0x140",
+        "select": {
+          "Diameter": "6.0",
+          "Length": "140"
+        },
+        "values": {
+          "D": "6 mm",
+          "DK": "15 mm",
+          "K": "4 mm",
+          "L": "140 mm"
+        }
+      },
+      {
+        "name": "6.0x160",
+        "select": {
+          "Diameter": "6.0",
+          "Length": "160"
+        },
+        "values": {
+          "D": "6 mm",
+          "DK": "15 mm",
+          "K": "4 mm",
+          "L": "160 mm"
+        }
+      },
+      {
+        "name": "6.0x180",
+        "select": {
+          "Diameter": "6.0",
+          "Length": "180"
+        },
+        "values": {
+          "D": "6 mm",
+          "DK": "15 mm",
+          "K": "4 mm",
+          "L": "180 mm"
+        }
+      },
+      {
+        "name": "6.0x200",
+        "select": {
+          "Diameter": "6.0",
+          "Length": "200"
+        },
+        "values": {
+          "D": "6 mm",
+          "DK": "15 mm",
+          "K": "4 mm",
+          "L": "200 mm"
+        }
+      },
+      {
+        "name": "6.0x220",
+        "select": {
+          "Diameter": "6.0",
+          "Length": "220"
+        },
+        "values": {
+          "D": "6 mm",
+          "DK": "15 mm",
+          "K": "4 mm",
+          "L": "220 mm"
+        }
+      },
+      {
+        "name": "6.0x240",
+        "select": {
+          "Diameter": "6.0",
+          "Length": "240"
+        },
+        "values": {
+          "D": "6 mm",
+          "DK": "15 mm",
+          "K": "4 mm",
+          "L": "240 mm"
+        }
+      },
+      {
+        "name": "6.0x260",
+        "select": {
+          "Diameter": "6.0",
+          "Length": "260"
+        },
+        "values": {
+          "D": "6 mm",
+          "DK": "15 mm",
+          "K": "4 mm",
+          "L": "260 mm"
+        }
+      },
+      {
+        "name": "6.0x280",
+        "select": {
+          "Diameter": "6.0",
+          "Length": "280"
+        },
+        "values": {
+          "D": "6 mm",
+          "DK": "15 mm",
+          "K": "4 mm",
+          "L": "280 mm"
+        }
+      },
+      {
+        "name": "6.0x300",
+        "select": {
+          "Diameter": "6.0",
+          "Length": "300"
+        },
+        "values": {
+          "D": "6 mm",
+          "DK": "15 mm",
+          "K": "4 mm",
+          "L": "300 mm"
+        }
+      },
+      {
+        "name": "8.0x100",
+        "select": {
+          "Diameter": "8.0",
+          "Length": "100"
+        },
+        "values": {
+          "D": "8 mm",
+          "DK": "20 mm",
+          "K": "5 mm",
+          "L": "100 mm"
+        }
+      },
+      {
+        "name": "8.0x120",
+        "select": {
+          "Diameter": "8.0",
+          "Length": "120"
+        },
+        "values": {
+          "D": "8 mm",
+          "DK": "20 mm",
+          "K": "5 mm",
+          "L": "120 mm"
+        }
+      },
+      {
+        "name": "8.0x140",
+        "select": {
+          "Diameter": "8.0",
+          "Length": "140"
+        },
+        "values": {
+          "D": "8 mm",
+          "DK": "20 mm",
+          "K": "5 mm",
+          "L": "140 mm"
+        }
+      },
+      {
+        "name": "8.0x160",
+        "select": {
+          "Diameter": "8.0",
+          "Length": "160"
+        },
+        "values": {
+          "D": "8 mm",
+          "DK": "20 mm",
+          "K": "5 mm",
+          "L": "160 mm"
+        }
+      },
+      {
+        "name": "8.0x180",
+        "select": {
+          "Diameter": "8.0",
+          "Length": "180"
+        },
+        "values": {
+          "D": "8 mm",
+          "DK": "20 mm",
+          "K": "5 mm",
+          "L": "180 mm"
+        }
+      },
+      {
+        "name": "8.0x200",
+        "select": {
+          "Diameter": "8.0",
+          "Length": "200"
+        },
+        "values": {
+          "D": "8 mm",
+          "DK": "20 mm",
+          "K": "5 mm",
+          "L": "200 mm"
+        }
+      },
+      {
+        "name": "8.0x220",
+        "select": {
+          "Diameter": "8.0",
+          "Length": "220"
+        },
+        "values": {
+          "D": "8 mm",
+          "DK": "20 mm",
+          "K": "5 mm",
+          "L": "220 mm"
+        }
+      },
+      {
+        "name": "8.0x240",
+        "select": {
+          "Diameter": "8.0",
+          "Length": "240"
+        },
+        "values": {
+          "D": "8 mm",
+          "DK": "20 mm",
+          "K": "5 mm",
+          "L": "240 mm"
+        }
+      },
+      {
+        "name": "8.0x260",
+        "select": {
+          "Diameter": "8.0",
+          "Length": "260"
+        },
+        "values": {
+          "D": "8 mm",
+          "DK": "20 mm",
+          "K": "5 mm",
+          "L": "260 mm"
+        }
+      },
+      {
+        "name": "8.0x280",
+        "select": {
+          "Diameter": "8.0",
+          "Length": "280"
+        },
+        "values": {
+          "D": "8 mm",
+          "DK": "20 mm",
+          "K": "5 mm",
+          "L": "280 mm"
+        }
+      },
+      {
+        "name": "8.0x300",
+        "select": {
+          "Diameter": "8.0",
+          "Length": "300"
+        },
+        "values": {
+          "D": "8 mm",
+          "DK": "20 mm",
+          "K": "5 mm",
+          "L": "300 mm"
+        }
+      },
+      {
+        "name": "8.0x350",
+        "select": {
+          "Diameter": "8.0",
+          "Length": "350"
+        },
+        "values": {
+          "D": "8 mm",
+          "DK": "20 mm",
+          "K": "5 mm",
+          "L": "350 mm"
+        }
+      },
+      {
+        "name": "8.0x400",
+        "select": {
+          "Diameter": "8.0",
+          "Length": "400"
+        },
+        "values": {
+          "D": "8 mm",
+          "DK": "20 mm",
+          "K": "5 mm",
+          "L": "400 mm"
+        }
+      }
+    ]
+  }
+}

@@ -4,7 +4,7 @@
   "id": "mitcad-parts",
   "name": "Mitcad parts",
   "description": "Mitcad's parts: ISO metric screws, nuts and washers, and slot profiles, connectors, nuts, caps, panels and linear parts for the BUILD tab.",
-  "library_version": "2.3.0",
+  "library_version": "2.4.0",
   "license": "MIT",
   "authors": [
     "Mitcad contributors"
@@ -81,6 +81,22 @@
     {
       "id": "profiles",
       "name": "Profiles"
+    },
+    {
+      "id": "timber-connectors",
+      "name": "Timber connectors"
+    },
+    {
+      "id": "timber",
+      "name": "Timber"
+    },
+    {
+      "id": "wood-fasteners",
+      "name": "Wood fasteners"
+    },
+    {
+      "id": "sheets",
+      "name": "Sheets"
     },
     {
       "id": "tubes",
@@ -32834,6 +32850,6014 @@
           }
         ]
       }
+    },
+    {
+      "id": "angle-bracket-40",
+      "path": "timber-connectors/angle-bracket-40.mitcad",
+      "category": "timber-connectors",
+      "name": "Angle bracket 40x40x40",
+      "keywords": [
+        "angle bracket",
+        "bracket",
+        "angle",
+        "timber"
+      ],
+      "license": "MIT",
+      "designation": "Angle bracket 40x40x40",
+      "preview": "previews/angle-bracket-40.png",
+      "build": {
+        "role": "connector",
+        "material": {
+          "product": "steel, galvanised",
+          "density": 7850
+        },
+        "connector": {
+          "placement": "outer",
+          "space": "outer",
+          "junctions": [
+            "L",
+            "T"
+          ],
+          "fit": {
+            "kind": "angle",
+            "width": [
+              19,
+              100
+            ]
+          },
+          "mates": [
+            {
+              "frame": "mount",
+              "to": "face"
+            }
+          ],
+          "fasteners": [
+            {
+              "on": "a",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x35"
+              },
+              "frames": [
+                "hole_a_1",
+                "hole_a_2"
+              ],
+              "count": 2
+            },
+            {
+              "on": "b",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x35"
+              },
+              "frames": [
+                "hole_b_1",
+                "hole_b_2"
+              ],
+              "count": 2
+            }
+          ]
+        },
+        "frames": [
+          {
+            "name": "mount",
+            "kind": "face"
+          },
+          {
+            "name": "hole_b_1",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_2",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_1",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_2",
+            "kind": "hole",
+            "diameter": "5 mm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "angle-bracket-60",
+      "path": "timber-connectors/angle-bracket-60.mitcad",
+      "category": "timber-connectors",
+      "name": "Angle bracket 60x60x45",
+      "keywords": [
+        "angle bracket",
+        "bracket",
+        "angle",
+        "timber"
+      ],
+      "license": "MIT",
+      "designation": "Angle bracket 60x60x45",
+      "preview": "previews/angle-bracket-60.png",
+      "build": {
+        "role": "connector",
+        "material": {
+          "product": "steel, galvanised",
+          "density": 7850
+        },
+        "connector": {
+          "placement": "outer",
+          "space": "outer",
+          "junctions": [
+            "L",
+            "T"
+          ],
+          "fit": {
+            "kind": "angle",
+            "width": [
+              28,
+              150
+            ]
+          },
+          "mates": [
+            {
+              "frame": "mount",
+              "to": "face"
+            }
+          ],
+          "fasteners": [
+            {
+              "on": "a",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x40"
+              },
+              "frames": [
+                "hole_a_1",
+                "hole_a_2",
+                "hole_a_3"
+              ],
+              "count": 3
+            },
+            {
+              "on": "b",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x40"
+              },
+              "frames": [
+                "hole_b_1",
+                "hole_b_2",
+                "hole_b_3"
+              ],
+              "count": 3
+            }
+          ]
+        },
+        "frames": [
+          {
+            "name": "mount",
+            "kind": "face"
+          },
+          {
+            "name": "hole_b_1",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_2",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_3",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_1",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_2",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_3",
+            "kind": "hole",
+            "diameter": "5 mm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "angle-bracket-90",
+      "path": "timber-connectors/angle-bracket-90.mitcad",
+      "category": "timber-connectors",
+      "name": "Angle bracket 90x90x65",
+      "keywords": [
+        "angle bracket",
+        "bracket",
+        "angle",
+        "timber"
+      ],
+      "license": "MIT",
+      "designation": "Angle bracket 90x90x65",
+      "preview": "previews/angle-bracket-90.png",
+      "build": {
+        "role": "connector",
+        "material": {
+          "product": "steel, galvanised",
+          "density": 7850
+        },
+        "connector": {
+          "placement": "outer",
+          "space": "outer",
+          "junctions": [
+            "L",
+            "T"
+          ],
+          "fit": {
+            "kind": "angle",
+            "width": [
+              42,
+              250
+            ]
+          },
+          "mates": [
+            {
+              "frame": "mount",
+              "to": "face"
+            }
+          ],
+          "fasteners": [
+            {
+              "on": "a",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x40"
+              },
+              "frames": [
+                "hole_a_1",
+                "hole_a_2",
+                "hole_a_3",
+                "hole_a_4"
+              ],
+              "count": 4
+            },
+            {
+              "on": "b",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x40"
+              },
+              "frames": [
+                "hole_b_1",
+                "hole_b_2",
+                "hole_b_3",
+                "hole_b_4"
+              ],
+              "count": 4
+            }
+          ]
+        },
+        "frames": [
+          {
+            "name": "mount",
+            "kind": "face"
+          },
+          {
+            "name": "hole_b_1",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_2",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_3",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_4",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_1",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_2",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_3",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_4",
+            "kind": "hole",
+            "diameter": "5 mm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "joist-hanger-48x98",
+      "path": "timber-connectors/joist-hanger-48x98.mitcad",
+      "category": "timber-connectors",
+      "name": "Joist hanger 48x98",
+      "keywords": [
+        "joist hanger",
+        "hanger",
+        "joist",
+        "timber"
+      ],
+      "license": "MIT",
+      "designation": "Joist hanger 48x98",
+      "preview": "previews/joist-hanger-48x98.png",
+      "build": {
+        "role": "connector",
+        "material": {
+          "product": "steel, galvanised",
+          "density": 7850
+        },
+        "connector": {
+          "placement": "outer",
+          "space": "outer",
+          "junctions": [
+            "T"
+          ],
+          "fit": {
+            "kind": "hanger",
+            "section": [
+              48,
+              98
+            ]
+          },
+          "mates": [
+            {
+              "frame": "mount",
+              "to": "face"
+            }
+          ],
+          "fasteners": [
+            {
+              "on": "a",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x40"
+              },
+              "frames": [
+                "hole_a_1",
+                "hole_a_2",
+                "hole_a_3",
+                "hole_a_4"
+              ],
+              "count": 4
+            },
+            {
+              "on": "b",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x40"
+              },
+              "frames": [
+                "hole_b_1",
+                "hole_b_2",
+                "hole_b_3",
+                "hole_b_4"
+              ],
+              "count": 4
+            }
+          ]
+        },
+        "frames": [
+          {
+            "name": "mount",
+            "kind": "face"
+          },
+          {
+            "name": "hole_b_1",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_2",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_3",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_4",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_1",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_2",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_3",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_4",
+            "kind": "hole",
+            "diameter": "5 mm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "joist-hanger-48x123",
+      "path": "timber-connectors/joist-hanger-48x123.mitcad",
+      "category": "timber-connectors",
+      "name": "Joist hanger 48x123",
+      "keywords": [
+        "joist hanger",
+        "hanger",
+        "joist",
+        "timber"
+      ],
+      "license": "MIT",
+      "designation": "Joist hanger 48x123",
+      "preview": "previews/joist-hanger-48x123.png",
+      "build": {
+        "role": "connector",
+        "material": {
+          "product": "steel, galvanised",
+          "density": 7850
+        },
+        "connector": {
+          "placement": "outer",
+          "space": "outer",
+          "junctions": [
+            "T"
+          ],
+          "fit": {
+            "kind": "hanger",
+            "section": [
+              48,
+              123
+            ]
+          },
+          "mates": [
+            {
+              "frame": "mount",
+              "to": "face"
+            }
+          ],
+          "fasteners": [
+            {
+              "on": "a",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x40"
+              },
+              "frames": [
+                "hole_a_1",
+                "hole_a_2",
+                "hole_a_3",
+                "hole_a_4"
+              ],
+              "count": 4
+            },
+            {
+              "on": "b",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x40"
+              },
+              "frames": [
+                "hole_b_1",
+                "hole_b_2",
+                "hole_b_3",
+                "hole_b_4"
+              ],
+              "count": 4
+            }
+          ]
+        },
+        "frames": [
+          {
+            "name": "mount",
+            "kind": "face"
+          },
+          {
+            "name": "hole_b_1",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_2",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_3",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_4",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_1",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_2",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_3",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_4",
+            "kind": "hole",
+            "diameter": "5 mm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "joist-hanger-48x148",
+      "path": "timber-connectors/joist-hanger-48x148.mitcad",
+      "category": "timber-connectors",
+      "name": "Joist hanger 48x148",
+      "keywords": [
+        "joist hanger",
+        "hanger",
+        "joist",
+        "timber"
+      ],
+      "license": "MIT",
+      "designation": "Joist hanger 48x148",
+      "preview": "previews/joist-hanger-48x148.png",
+      "build": {
+        "role": "connector",
+        "material": {
+          "product": "steel, galvanised",
+          "density": 7850
+        },
+        "connector": {
+          "placement": "outer",
+          "space": "outer",
+          "junctions": [
+            "T"
+          ],
+          "fit": {
+            "kind": "hanger",
+            "section": [
+              48,
+              148
+            ]
+          },
+          "mates": [
+            {
+              "frame": "mount",
+              "to": "face"
+            }
+          ],
+          "fasteners": [
+            {
+              "on": "a",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x40"
+              },
+              "frames": [
+                "hole_a_1",
+                "hole_a_2",
+                "hole_a_3",
+                "hole_a_4"
+              ],
+              "count": 4
+            },
+            {
+              "on": "b",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x40"
+              },
+              "frames": [
+                "hole_b_1",
+                "hole_b_2",
+                "hole_b_3",
+                "hole_b_4",
+                "hole_b_5",
+                "hole_b_6"
+              ],
+              "count": 6
+            }
+          ]
+        },
+        "frames": [
+          {
+            "name": "mount",
+            "kind": "face"
+          },
+          {
+            "name": "hole_b_1",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_2",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_3",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_4",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_5",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_6",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_1",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_2",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_3",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_4",
+            "kind": "hole",
+            "diameter": "5 mm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "joist-hanger-48x173",
+      "path": "timber-connectors/joist-hanger-48x173.mitcad",
+      "category": "timber-connectors",
+      "name": "Joist hanger 48x173",
+      "keywords": [
+        "joist hanger",
+        "hanger",
+        "joist",
+        "timber"
+      ],
+      "license": "MIT",
+      "designation": "Joist hanger 48x173",
+      "preview": "previews/joist-hanger-48x173.png",
+      "build": {
+        "role": "connector",
+        "material": {
+          "product": "steel, galvanised",
+          "density": 7850
+        },
+        "connector": {
+          "placement": "outer",
+          "space": "outer",
+          "junctions": [
+            "T"
+          ],
+          "fit": {
+            "kind": "hanger",
+            "section": [
+              48,
+              173
+            ]
+          },
+          "mates": [
+            {
+              "frame": "mount",
+              "to": "face"
+            }
+          ],
+          "fasteners": [
+            {
+              "on": "a",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x40"
+              },
+              "frames": [
+                "hole_a_1",
+                "hole_a_2",
+                "hole_a_3",
+                "hole_a_4"
+              ],
+              "count": 4
+            },
+            {
+              "on": "b",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x40"
+              },
+              "frames": [
+                "hole_b_1",
+                "hole_b_2",
+                "hole_b_3",
+                "hole_b_4",
+                "hole_b_5",
+                "hole_b_6"
+              ],
+              "count": 6
+            }
+          ]
+        },
+        "frames": [
+          {
+            "name": "mount",
+            "kind": "face"
+          },
+          {
+            "name": "hole_b_1",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_2",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_3",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_4",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_5",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_6",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_1",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_2",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_3",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_4",
+            "kind": "hole",
+            "diameter": "5 mm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "joist-hanger-48x198",
+      "path": "timber-connectors/joist-hanger-48x198.mitcad",
+      "category": "timber-connectors",
+      "name": "Joist hanger 48x198",
+      "keywords": [
+        "joist hanger",
+        "hanger",
+        "joist",
+        "timber"
+      ],
+      "license": "MIT",
+      "designation": "Joist hanger 48x198",
+      "preview": "previews/joist-hanger-48x198.png",
+      "build": {
+        "role": "connector",
+        "material": {
+          "product": "steel, galvanised",
+          "density": 7850
+        },
+        "connector": {
+          "placement": "outer",
+          "space": "outer",
+          "junctions": [
+            "T"
+          ],
+          "fit": {
+            "kind": "hanger",
+            "section": [
+              48,
+              198
+            ]
+          },
+          "mates": [
+            {
+              "frame": "mount",
+              "to": "face"
+            }
+          ],
+          "fasteners": [
+            {
+              "on": "a",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x40"
+              },
+              "frames": [
+                "hole_a_1",
+                "hole_a_2",
+                "hole_a_3",
+                "hole_a_4"
+              ],
+              "count": 4
+            },
+            {
+              "on": "b",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x40"
+              },
+              "frames": [
+                "hole_b_1",
+                "hole_b_2",
+                "hole_b_3",
+                "hole_b_4",
+                "hole_b_5",
+                "hole_b_6",
+                "hole_b_7",
+                "hole_b_8"
+              ],
+              "count": 8
+            }
+          ]
+        },
+        "frames": [
+          {
+            "name": "mount",
+            "kind": "face"
+          },
+          {
+            "name": "hole_b_1",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_2",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_3",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_4",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_5",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_6",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_7",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_8",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_1",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_2",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_3",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_4",
+            "kind": "hole",
+            "diameter": "5 mm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "joist-hanger-48x223",
+      "path": "timber-connectors/joist-hanger-48x223.mitcad",
+      "category": "timber-connectors",
+      "name": "Joist hanger 48x223",
+      "keywords": [
+        "joist hanger",
+        "hanger",
+        "joist",
+        "timber"
+      ],
+      "license": "MIT",
+      "designation": "Joist hanger 48x223",
+      "preview": "previews/joist-hanger-48x223.png",
+      "build": {
+        "role": "connector",
+        "material": {
+          "product": "steel, galvanised",
+          "density": 7850
+        },
+        "connector": {
+          "placement": "outer",
+          "space": "outer",
+          "junctions": [
+            "T"
+          ],
+          "fit": {
+            "kind": "hanger",
+            "section": [
+              48,
+              223
+            ]
+          },
+          "mates": [
+            {
+              "frame": "mount",
+              "to": "face"
+            }
+          ],
+          "fasteners": [
+            {
+              "on": "a",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x40"
+              },
+              "frames": [
+                "hole_a_1",
+                "hole_a_2",
+                "hole_a_3",
+                "hole_a_4"
+              ],
+              "count": 4
+            },
+            {
+              "on": "b",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x40"
+              },
+              "frames": [
+                "hole_b_1",
+                "hole_b_2",
+                "hole_b_3",
+                "hole_b_4",
+                "hole_b_5",
+                "hole_b_6",
+                "hole_b_7",
+                "hole_b_8",
+                "hole_b_9",
+                "hole_b_10"
+              ],
+              "count": 10
+            }
+          ]
+        },
+        "frames": [
+          {
+            "name": "mount",
+            "kind": "face"
+          },
+          {
+            "name": "hole_b_1",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_2",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_3",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_4",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_5",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_6",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_7",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_8",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_9",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_b_10",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_1",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_2",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_3",
+            "kind": "hole",
+            "diameter": "5 mm"
+          },
+          {
+            "name": "hole_a_4",
+            "kind": "hole",
+            "diameter": "5 mm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "post-base-98",
+      "path": "timber-connectors/post-base-98.mitcad",
+      "category": "timber-connectors",
+      "name": "Post base 98x98",
+      "keywords": [
+        "post base",
+        "post anchor",
+        "post",
+        "timber"
+      ],
+      "license": "MIT",
+      "designation": "Post base 98x98",
+      "preview": "previews/post-base-98.png",
+      "build": {
+        "role": "connector",
+        "material": {
+          "product": "steel, galvanised",
+          "density": 7850
+        },
+        "connector": {
+          "placement": "outer",
+          "space": "outer",
+          "junctions": [
+            "surface"
+          ],
+          "fit": {
+            "kind": "post_base",
+            "section": [
+              98,
+              98
+            ]
+          },
+          "mates": [
+            {
+              "frame": "mount",
+              "to": "end"
+            }
+          ],
+          "fasteners": [
+            {
+              "on": "a",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x50"
+              },
+              "frames": [
+                "hole_a_1",
+                "hole_a_2",
+                "hole_a_3",
+                "hole_a_4"
+              ],
+              "count": 4
+            }
+          ]
+        },
+        "frames": [
+          {
+            "name": "mount",
+            "kind": "face"
+          },
+          {
+            "name": "base",
+            "kind": "face"
+          },
+          {
+            "name": "hole_a_1",
+            "kind": "hole",
+            "diameter": "5.5 mm"
+          },
+          {
+            "name": "hole_a_2",
+            "kind": "hole",
+            "diameter": "5.5 mm"
+          },
+          {
+            "name": "hole_a_3",
+            "kind": "hole",
+            "diameter": "5.5 mm"
+          },
+          {
+            "name": "hole_a_4",
+            "kind": "hole",
+            "diameter": "5.5 mm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "post-base-123",
+      "path": "timber-connectors/post-base-123.mitcad",
+      "category": "timber-connectors",
+      "name": "Post base 123x123",
+      "keywords": [
+        "post base",
+        "post anchor",
+        "post",
+        "timber"
+      ],
+      "license": "MIT",
+      "designation": "Post base 123x123",
+      "preview": "previews/post-base-123.png",
+      "build": {
+        "role": "connector",
+        "material": {
+          "product": "steel, galvanised",
+          "density": 7850
+        },
+        "connector": {
+          "placement": "outer",
+          "space": "outer",
+          "junctions": [
+            "surface"
+          ],
+          "fit": {
+            "kind": "post_base",
+            "section": [
+              123,
+              123
+            ]
+          },
+          "mates": [
+            {
+              "frame": "mount",
+              "to": "end"
+            }
+          ],
+          "fasteners": [
+            {
+              "on": "a",
+              "screw": {
+                "library": "mitcad-parts",
+                "component": "connector-screw",
+                "config": "5.0x50"
+              },
+              "frames": [
+                "hole_a_1",
+                "hole_a_2",
+                "hole_a_3",
+                "hole_a_4"
+              ],
+              "count": 4
+            }
+          ]
+        },
+        "frames": [
+          {
+            "name": "mount",
+            "kind": "face"
+          },
+          {
+            "name": "base",
+            "kind": "face"
+          },
+          {
+            "name": "hole_a_1",
+            "kind": "hole",
+            "diameter": "5.5 mm"
+          },
+          {
+            "name": "hole_a_2",
+            "kind": "hole",
+            "diameter": "5.5 mm"
+          },
+          {
+            "name": "hole_a_3",
+            "kind": "hole",
+            "diameter": "5.5 mm"
+          },
+          {
+            "name": "hole_a_4",
+            "kind": "hole",
+            "diameter": "5.5 mm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "timber-dimensioned",
+      "path": "timber/timber-dimensioned.mitcad",
+      "category": "timber",
+      "name": "Dimensioned timber",
+      "description": "Machine-surfaced spruce and pine for framing in the standard sizes 20x95 to 48x223 and the less common ones.",
+      "keywords": [
+        "timber",
+        "lumber",
+        "dimensioned",
+        "framing",
+        "stud",
+        "joist",
+        "rafter",
+        "spruce",
+        "pine"
+      ],
+      "license": "MIT",
+      "designation": "Dimensioned timber {Thickness}x{Width} L={L}",
+      "preview": "previews/timber-dimensioned.png",
+      "build": {
+        "role": "profile",
+        "kind": "timber",
+        "material": {
+          "species": "spruce",
+          "finish": "dimensioned",
+          "grade": "",
+          "density": 450,
+          "moisture": 20
+        },
+        "availability": "standard",
+        "length": {
+          "parameter": "L",
+          "min": 100,
+          "max": 6000,
+          "default": 3000,
+          "stock": [
+            2700,
+            3000,
+            3300,
+            3600,
+            3900,
+            4200,
+            4500,
+            4800,
+            5100,
+            5400
+          ]
+        },
+        "section": {
+          "width": "98 mm",
+          "height": "48 mm"
+        },
+        "nominal": {
+          "width": "98 mm",
+          "height": "48 mm"
+        },
+        "tolerance": {
+          "thickness": [
+            -1.0,
+            1.0
+          ],
+          "width": [
+            -1.0,
+            1.0
+          ]
+        },
+        "rows": {
+          "20x95": {
+            "section": {
+              "width": "95 mm",
+              "height": "20 mm"
+            },
+            "nominal": {
+              "width": "95 mm",
+              "height": "20 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "20x120": {
+            "section": {
+              "width": "120 mm",
+              "height": "20 mm"
+            },
+            "nominal": {
+              "width": "120 mm",
+              "height": "20 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "20x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "20 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "20 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "42x66": {
+            "section": {
+              "width": "66 mm",
+              "height": "42 mm"
+            },
+            "nominal": {
+              "width": "66 mm",
+              "height": "42 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "42x73": {
+            "section": {
+              "width": "73 mm",
+              "height": "42 mm"
+            },
+            "nominal": {
+              "width": "73 mm",
+              "height": "42 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "42x98": {
+            "section": {
+              "width": "98 mm",
+              "height": "42 mm"
+            },
+            "nominal": {
+              "width": "98 mm",
+              "height": "42 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "42x123": {
+            "section": {
+              "width": "123 mm",
+              "height": "42 mm"
+            },
+            "nominal": {
+              "width": "123 mm",
+              "height": "42 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "42x148": {
+            "section": {
+              "width": "148 mm",
+              "height": "42 mm"
+            },
+            "nominal": {
+              "width": "148 mm",
+              "height": "42 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "42x173": {
+            "section": {
+              "width": "173 mm",
+              "height": "42 mm"
+            },
+            "nominal": {
+              "width": "173 mm",
+              "height": "42 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "42x198": {
+            "section": {
+              "width": "198 mm",
+              "height": "42 mm"
+            },
+            "nominal": {
+              "width": "198 mm",
+              "height": "42 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "42x223": {
+            "section": {
+              "width": "223 mm",
+              "height": "42 mm"
+            },
+            "nominal": {
+              "width": "223 mm",
+              "height": "42 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "48x48": {
+            "section": {
+              "width": "48 mm",
+              "height": "48 mm"
+            },
+            "nominal": {
+              "width": "48 mm",
+              "height": "48 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "48x73": {
+            "section": {
+              "width": "73 mm",
+              "height": "48 mm"
+            },
+            "nominal": {
+              "width": "73 mm",
+              "height": "48 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "48x98": {
+            "section": {
+              "width": "98 mm",
+              "height": "48 mm"
+            },
+            "nominal": {
+              "width": "98 mm",
+              "height": "48 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "48x123": {
+            "section": {
+              "width": "123 mm",
+              "height": "48 mm"
+            },
+            "nominal": {
+              "width": "123 mm",
+              "height": "48 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "48x148": {
+            "section": {
+              "width": "148 mm",
+              "height": "48 mm"
+            },
+            "nominal": {
+              "width": "148 mm",
+              "height": "48 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "48x173": {
+            "section": {
+              "width": "173 mm",
+              "height": "48 mm"
+            },
+            "nominal": {
+              "width": "173 mm",
+              "height": "48 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "48x198": {
+            "section": {
+              "width": "198 mm",
+              "height": "48 mm"
+            },
+            "nominal": {
+              "width": "198 mm",
+              "height": "48 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "48x223": {
+            "section": {
+              "width": "223 mm",
+              "height": "48 mm"
+            },
+            "nominal": {
+              "width": "223 mm",
+              "height": "48 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "48x248": {
+            "section": {
+              "width": "248 mm",
+              "height": "48 mm"
+            },
+            "nominal": {
+              "width": "248 mm",
+              "height": "48 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          }
+        },
+        "frames": [
+          {
+            "name": "end_a",
+            "kind": "end"
+          },
+          {
+            "name": "end_b",
+            "kind": "end"
+          },
+          {
+            "name": "face_xp",
+            "kind": "face"
+          },
+          {
+            "name": "face_xn",
+            "kind": "face"
+          },
+          {
+            "name": "face_yp",
+            "kind": "face"
+          },
+          {
+            "name": "face_yn",
+            "kind": "face"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wood-screw",
+      "path": "wood-fasteners/wood-screw.mitcad",
+      "category": "wood-fasteners",
+      "name": "Wood screw, countersunk",
+      "keywords": [
+        "screw",
+        "wood screw",
+        "chipboard screw",
+        "countersunk",
+        "timber"
+      ],
+      "license": "MIT",
+      "designation": "Wood screw {Diameter}x{Length}",
+      "preview": "previews/wood-screw.png",
+      "build": {
+        "role": "fastener",
+        "wood": {
+          "kind": "screw",
+          "head": "countersunk",
+          "diameter": "5 mm",
+          "length": "50 mm"
+        },
+        "material": {
+          "product": "steel, zinc plated",
+          "density": 7850
+        },
+        "rows": {
+          "4.0x30": {
+            "wood": {
+              "diameter": "4 mm",
+              "length": "30 mm"
+            }
+          },
+          "4.0x35": {
+            "wood": {
+              "diameter": "4 mm",
+              "length": "35 mm"
+            }
+          },
+          "4.0x40": {
+            "wood": {
+              "diameter": "4 mm",
+              "length": "40 mm"
+            }
+          },
+          "4.0x45": {
+            "wood": {
+              "diameter": "4 mm",
+              "length": "45 mm"
+            }
+          },
+          "4.0x50": {
+            "wood": {
+              "diameter": "4 mm",
+              "length": "50 mm"
+            }
+          },
+          "4.0x60": {
+            "wood": {
+              "diameter": "4 mm",
+              "length": "60 mm"
+            }
+          },
+          "4.5x40": {
+            "wood": {
+              "diameter": "4.5 mm",
+              "length": "40 mm"
+            }
+          },
+          "4.5x45": {
+            "wood": {
+              "diameter": "4.5 mm",
+              "length": "45 mm"
+            }
+          },
+          "4.5x50": {
+            "wood": {
+              "diameter": "4.5 mm",
+              "length": "50 mm"
+            }
+          },
+          "4.5x60": {
+            "wood": {
+              "diameter": "4.5 mm",
+              "length": "60 mm"
+            }
+          },
+          "4.5x70": {
+            "wood": {
+              "diameter": "4.5 mm",
+              "length": "70 mm"
+            }
+          },
+          "5.0x40": {
+            "wood": {
+              "diameter": "5 mm",
+              "length": "40 mm"
+            }
+          },
+          "5.0x50": {
+            "wood": {
+              "diameter": "5 mm",
+              "length": "50 mm"
+            }
+          },
+          "5.0x60": {
+            "wood": {
+              "diameter": "5 mm",
+              "length": "60 mm"
+            }
+          },
+          "5.0x70": {
+            "wood": {
+              "diameter": "5 mm",
+              "length": "70 mm"
+            }
+          },
+          "5.0x80": {
+            "wood": {
+              "diameter": "5 mm",
+              "length": "80 mm"
+            }
+          },
+          "5.0x90": {
+            "wood": {
+              "diameter": "5 mm",
+              "length": "90 mm"
+            }
+          },
+          "5.0x100": {
+            "wood": {
+              "diameter": "5 mm",
+              "length": "100 mm"
+            }
+          },
+          "6.0x60": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "60 mm"
+            }
+          },
+          "6.0x70": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "70 mm"
+            }
+          },
+          "6.0x80": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "80 mm"
+            }
+          },
+          "6.0x90": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "90 mm"
+            }
+          },
+          "6.0x100": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "100 mm"
+            }
+          },
+          "6.0x120": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "120 mm"
+            }
+          },
+          "6.0x140": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "140 mm"
+            }
+          },
+          "6.0x160": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "160 mm"
+            }
+          }
+        },
+        "frames": [
+          {
+            "name": "axis",
+            "kind": "shaft"
+          }
+        ]
+      },
+      "description": "26 sizes, 4.0x30 to 6.0x160."
+    },
+    {
+      "id": "connector-screw",
+      "path": "wood-fasteners/connector-screw.mitcad",
+      "category": "wood-fasteners",
+      "name": "Connector screw",
+      "keywords": [
+        "screw",
+        "connector screw",
+        "bracket",
+        "hanger",
+        "timber"
+      ],
+      "license": "MIT",
+      "designation": "Connector screw {Diameter}x{Length}",
+      "preview": "previews/connector-screw.png",
+      "build": {
+        "role": "fastener",
+        "wood": {
+          "kind": "screw",
+          "head": "pan",
+          "diameter": "5 mm",
+          "length": "40 mm"
+        },
+        "material": {
+          "product": "steel, zinc plated",
+          "density": 7850
+        },
+        "rows": {
+          "5.0x25": {
+            "wood": {
+              "diameter": "5 mm",
+              "length": "25 mm"
+            }
+          },
+          "5.0x35": {
+            "wood": {
+              "diameter": "5 mm",
+              "length": "35 mm"
+            }
+          },
+          "5.0x40": {
+            "wood": {
+              "diameter": "5 mm",
+              "length": "40 mm"
+            }
+          },
+          "5.0x50": {
+            "wood": {
+              "diameter": "5 mm",
+              "length": "50 mm"
+            }
+          },
+          "5.0x60": {
+            "wood": {
+              "diameter": "5 mm",
+              "length": "60 mm"
+            }
+          }
+        },
+        "frames": [
+          {
+            "name": "axis",
+            "kind": "shaft"
+          }
+        ]
+      },
+      "description": "5 sizes, 5.0x25 to 5.0x60."
+    },
+    {
+      "id": "ring-nail",
+      "path": "wood-fasteners/ring-nail.mitcad",
+      "category": "wood-fasteners",
+      "name": "Ring shank nail",
+      "keywords": [
+        "nail",
+        "ring nail",
+        "anchor nail",
+        "timber"
+      ],
+      "license": "MIT",
+      "designation": "Ring shank nail {Diameter}x{Length}",
+      "preview": "previews/ring-nail.png",
+      "build": {
+        "role": "fastener",
+        "wood": {
+          "kind": "nail",
+          "head": "flat",
+          "diameter": "3.1 mm",
+          "length": "75 mm"
+        },
+        "material": {
+          "product": "steel, zinc plated",
+          "density": 7850
+        },
+        "rows": {
+          "2.8x50": {
+            "wood": {
+              "diameter": "2.8 mm",
+              "length": "50 mm"
+            }
+          },
+          "2.8x63": {
+            "wood": {
+              "diameter": "2.8 mm",
+              "length": "63 mm"
+            }
+          },
+          "3.1x75": {
+            "wood": {
+              "diameter": "3.1 mm",
+              "length": "75 mm"
+            }
+          },
+          "3.1x90": {
+            "wood": {
+              "diameter": "3.1 mm",
+              "length": "90 mm"
+            }
+          },
+          "4.0x40": {
+            "wood": {
+              "diameter": "4 mm",
+              "length": "40 mm"
+            }
+          },
+          "4.0x50": {
+            "wood": {
+              "diameter": "4 mm",
+              "length": "50 mm"
+            }
+          },
+          "4.0x60": {
+            "wood": {
+              "diameter": "4 mm",
+              "length": "60 mm"
+            }
+          }
+        },
+        "frames": [
+          {
+            "name": "axis",
+            "kind": "shaft"
+          }
+        ]
+      },
+      "description": "7 sizes, 2.8x50 to 4.0x60."
+    },
+    {
+      "id": "structural-screw",
+      "path": "wood-fasteners/structural-screw.mitcad",
+      "category": "wood-fasteners",
+      "name": "Structural screw, washer head",
+      "keywords": [
+        "screw",
+        "structural screw",
+        "construction screw",
+        "washer head",
+        "timber"
+      ],
+      "license": "MIT",
+      "designation": "Structural screw {Diameter}x{Length}",
+      "preview": "previews/structural-screw.png",
+      "build": {
+        "role": "fastener",
+        "wood": {
+          "kind": "screw",
+          "head": "washer",
+          "diameter": "6 mm",
+          "length": "120 mm"
+        },
+        "material": {
+          "product": "steel, zinc plated",
+          "density": 7850
+        },
+        "rows": {
+          "6.0x80": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "80 mm"
+            }
+          },
+          "6.0x100": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "100 mm"
+            }
+          },
+          "6.0x120": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "120 mm"
+            }
+          },
+          "6.0x140": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "140 mm"
+            }
+          },
+          "6.0x160": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "160 mm"
+            }
+          },
+          "6.0x180": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "180 mm"
+            }
+          },
+          "6.0x200": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "200 mm"
+            }
+          },
+          "6.0x220": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "220 mm"
+            }
+          },
+          "6.0x240": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "240 mm"
+            }
+          },
+          "6.0x260": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "260 mm"
+            }
+          },
+          "6.0x280": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "280 mm"
+            }
+          },
+          "6.0x300": {
+            "wood": {
+              "diameter": "6 mm",
+              "length": "300 mm"
+            }
+          },
+          "8.0x100": {
+            "wood": {
+              "diameter": "8 mm",
+              "length": "100 mm"
+            }
+          },
+          "8.0x120": {
+            "wood": {
+              "diameter": "8 mm",
+              "length": "120 mm"
+            }
+          },
+          "8.0x140": {
+            "wood": {
+              "diameter": "8 mm",
+              "length": "140 mm"
+            }
+          },
+          "8.0x160": {
+            "wood": {
+              "diameter": "8 mm",
+              "length": "160 mm"
+            }
+          },
+          "8.0x180": {
+            "wood": {
+              "diameter": "8 mm",
+              "length": "180 mm"
+            }
+          },
+          "8.0x200": {
+            "wood": {
+              "diameter": "8 mm",
+              "length": "200 mm"
+            }
+          },
+          "8.0x220": {
+            "wood": {
+              "diameter": "8 mm",
+              "length": "220 mm"
+            }
+          },
+          "8.0x240": {
+            "wood": {
+              "diameter": "8 mm",
+              "length": "240 mm"
+            }
+          },
+          "8.0x260": {
+            "wood": {
+              "diameter": "8 mm",
+              "length": "260 mm"
+            }
+          },
+          "8.0x280": {
+            "wood": {
+              "diameter": "8 mm",
+              "length": "280 mm"
+            }
+          },
+          "8.0x300": {
+            "wood": {
+              "diameter": "8 mm",
+              "length": "300 mm"
+            }
+          },
+          "8.0x350": {
+            "wood": {
+              "diameter": "8 mm",
+              "length": "350 mm"
+            }
+          },
+          "8.0x400": {
+            "wood": {
+              "diameter": "8 mm",
+              "length": "400 mm"
+            }
+          }
+        },
+        "frames": [
+          {
+            "name": "axis",
+            "kind": "shaft"
+          }
+        ]
+      },
+      "description": "25 sizes, 6.0x80 to 8.0x400."
+    },
+    {
+      "id": "timber-planed",
+      "path": "timber/timber-planed.mitcad",
+      "category": "timber",
+      "name": "Planed timber",
+      "description": "Spruce and pine planed all round in the standard sizes 8x21 to 70x70 and the less common ones.",
+      "keywords": [
+        "timber",
+        "lumber",
+        "planed",
+        "spruce",
+        "pine",
+        "batten",
+        "board",
+        "moulding"
+      ],
+      "license": "MIT",
+      "designation": "Planed timber {Thickness}x{Width} L={L}",
+      "preview": "previews/timber-planed.png",
+      "build": {
+        "role": "profile",
+        "kind": "timber",
+        "material": {
+          "species": "pine",
+          "finish": "planed",
+          "grade": "",
+          "density": 520,
+          "moisture": 20
+        },
+        "availability": "standard",
+        "length": {
+          "parameter": "L",
+          "min": 100,
+          "max": 6000,
+          "default": 3000,
+          "stock": [
+            2700,
+            3000,
+            3300,
+            3600,
+            3900,
+            4200,
+            4500,
+            4800,
+            5100,
+            5400
+          ]
+        },
+        "section": {
+          "width": "95 mm",
+          "height": "21 mm"
+        },
+        "nominal": {
+          "width": "95 mm",
+          "height": "21 mm"
+        },
+        "tolerance": {
+          "thickness": [
+            -1.0,
+            1.0
+          ],
+          "width": [
+            -1.0,
+            1.0
+          ]
+        },
+        "rows": {
+          "8x21": {
+            "section": {
+              "width": "21 mm",
+              "height": "8 mm"
+            },
+            "nominal": {
+              "width": "21 mm",
+              "height": "8 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "8x28": {
+            "section": {
+              "width": "28 mm",
+              "height": "8 mm"
+            },
+            "nominal": {
+              "width": "28 mm",
+              "height": "8 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "8x33": {
+            "section": {
+              "width": "33 mm",
+              "height": "8 mm"
+            },
+            "nominal": {
+              "width": "33 mm",
+              "height": "8 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "8x45": {
+            "section": {
+              "width": "45 mm",
+              "height": "8 mm"
+            },
+            "nominal": {
+              "width": "45 mm",
+              "height": "8 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "8x70": {
+            "section": {
+              "width": "70 mm",
+              "height": "8 mm"
+            },
+            "nominal": {
+              "width": "70 mm",
+              "height": "8 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "8x95": {
+            "section": {
+              "width": "95 mm",
+              "height": "8 mm"
+            },
+            "nominal": {
+              "width": "95 mm",
+              "height": "8 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "12x33": {
+            "section": {
+              "width": "33 mm",
+              "height": "12 mm"
+            },
+            "nominal": {
+              "width": "33 mm",
+              "height": "12 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "12x45": {
+            "section": {
+              "width": "45 mm",
+              "height": "12 mm"
+            },
+            "nominal": {
+              "width": "45 mm",
+              "height": "12 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "12x70": {
+            "section": {
+              "width": "70 mm",
+              "height": "12 mm"
+            },
+            "nominal": {
+              "width": "70 mm",
+              "height": "12 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "12x95": {
+            "section": {
+              "width": "95 mm",
+              "height": "12 mm"
+            },
+            "nominal": {
+              "width": "95 mm",
+              "height": "12 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "15x15": {
+            "section": {
+              "width": "15 mm",
+              "height": "15 mm"
+            },
+            "nominal": {
+              "width": "15 mm",
+              "height": "15 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "15x21": {
+            "section": {
+              "width": "21 mm",
+              "height": "15 mm"
+            },
+            "nominal": {
+              "width": "21 mm",
+              "height": "15 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "15x33": {
+            "section": {
+              "width": "33 mm",
+              "height": "15 mm"
+            },
+            "nominal": {
+              "width": "33 mm",
+              "height": "15 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "15x45": {
+            "section": {
+              "width": "45 mm",
+              "height": "15 mm"
+            },
+            "nominal": {
+              "width": "45 mm",
+              "height": "15 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "15x70": {
+            "section": {
+              "width": "70 mm",
+              "height": "15 mm"
+            },
+            "nominal": {
+              "width": "70 mm",
+              "height": "15 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "15x95": {
+            "section": {
+              "width": "95 mm",
+              "height": "15 mm"
+            },
+            "nominal": {
+              "width": "95 mm",
+              "height": "15 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "15x120": {
+            "section": {
+              "width": "120 mm",
+              "height": "15 mm"
+            },
+            "nominal": {
+              "width": "120 mm",
+              "height": "15 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "15x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "15 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "15 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "15x170": {
+            "section": {
+              "width": "170 mm",
+              "height": "15 mm"
+            },
+            "nominal": {
+              "width": "170 mm",
+              "height": "15 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "18x45": {
+            "section": {
+              "width": "45 mm",
+              "height": "18 mm"
+            },
+            "nominal": {
+              "width": "45 mm",
+              "height": "18 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "18x70": {
+            "section": {
+              "width": "70 mm",
+              "height": "18 mm"
+            },
+            "nominal": {
+              "width": "70 mm",
+              "height": "18 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "18x95": {
+            "section": {
+              "width": "95 mm",
+              "height": "18 mm"
+            },
+            "nominal": {
+              "width": "95 mm",
+              "height": "18 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "18x120": {
+            "section": {
+              "width": "120 mm",
+              "height": "18 mm"
+            },
+            "nominal": {
+              "width": "120 mm",
+              "height": "18 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "18x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "18 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "18 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "18x170": {
+            "section": {
+              "width": "170 mm",
+              "height": "18 mm"
+            },
+            "nominal": {
+              "width": "170 mm",
+              "height": "18 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "18x195": {
+            "section": {
+              "width": "195 mm",
+              "height": "18 mm"
+            },
+            "nominal": {
+              "width": "195 mm",
+              "height": "18 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "21x21": {
+            "section": {
+              "width": "21 mm",
+              "height": "21 mm"
+            },
+            "nominal": {
+              "width": "21 mm",
+              "height": "21 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "21x45": {
+            "section": {
+              "width": "45 mm",
+              "height": "21 mm"
+            },
+            "nominal": {
+              "width": "45 mm",
+              "height": "21 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "21x70": {
+            "section": {
+              "width": "70 mm",
+              "height": "21 mm"
+            },
+            "nominal": {
+              "width": "70 mm",
+              "height": "21 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "21x95": {
+            "section": {
+              "width": "95 mm",
+              "height": "21 mm"
+            },
+            "nominal": {
+              "width": "95 mm",
+              "height": "21 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "21x120": {
+            "section": {
+              "width": "120 mm",
+              "height": "21 mm"
+            },
+            "nominal": {
+              "width": "120 mm",
+              "height": "21 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "21x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "21 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "21 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "21x170": {
+            "section": {
+              "width": "170 mm",
+              "height": "21 mm"
+            },
+            "nominal": {
+              "width": "170 mm",
+              "height": "21 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "21x195": {
+            "section": {
+              "width": "195 mm",
+              "height": "21 mm"
+            },
+            "nominal": {
+              "width": "195 mm",
+              "height": "21 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "28x28": {
+            "section": {
+              "width": "28 mm",
+              "height": "28 mm"
+            },
+            "nominal": {
+              "width": "28 mm",
+              "height": "28 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "28x45": {
+            "section": {
+              "width": "45 mm",
+              "height": "28 mm"
+            },
+            "nominal": {
+              "width": "45 mm",
+              "height": "28 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "28x95": {
+            "section": {
+              "width": "95 mm",
+              "height": "28 mm"
+            },
+            "nominal": {
+              "width": "95 mm",
+              "height": "28 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "28x120": {
+            "section": {
+              "width": "120 mm",
+              "height": "28 mm"
+            },
+            "nominal": {
+              "width": "120 mm",
+              "height": "28 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "28x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "28 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "28 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "33x21": {
+            "section": {
+              "width": "21 mm",
+              "height": "33 mm"
+            },
+            "nominal": {
+              "width": "21 mm",
+              "height": "33 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "33x33": {
+            "section": {
+              "width": "33 mm",
+              "height": "33 mm"
+            },
+            "nominal": {
+              "width": "33 mm",
+              "height": "33 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "33x45": {
+            "section": {
+              "width": "45 mm",
+              "height": "33 mm"
+            },
+            "nominal": {
+              "width": "45 mm",
+              "height": "33 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "33x70": {
+            "section": {
+              "width": "70 mm",
+              "height": "33 mm"
+            },
+            "nominal": {
+              "width": "70 mm",
+              "height": "33 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "33x95": {
+            "section": {
+              "width": "95 mm",
+              "height": "33 mm"
+            },
+            "nominal": {
+              "width": "95 mm",
+              "height": "33 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "33x120": {
+            "section": {
+              "width": "120 mm",
+              "height": "33 mm"
+            },
+            "nominal": {
+              "width": "120 mm",
+              "height": "33 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "33x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "33 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "33 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "45x33": {
+            "section": {
+              "width": "33 mm",
+              "height": "45 mm"
+            },
+            "nominal": {
+              "width": "33 mm",
+              "height": "45 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "45x45": {
+            "section": {
+              "width": "45 mm",
+              "height": "45 mm"
+            },
+            "nominal": {
+              "width": "45 mm",
+              "height": "45 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "45x70": {
+            "section": {
+              "width": "70 mm",
+              "height": "45 mm"
+            },
+            "nominal": {
+              "width": "70 mm",
+              "height": "45 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "45x95": {
+            "section": {
+              "width": "95 mm",
+              "height": "45 mm"
+            },
+            "nominal": {
+              "width": "95 mm",
+              "height": "45 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "45x120": {
+            "section": {
+              "width": "120 mm",
+              "height": "45 mm"
+            },
+            "nominal": {
+              "width": "120 mm",
+              "height": "45 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "45x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "45 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "45 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "45x170": {
+            "section": {
+              "width": "170 mm",
+              "height": "45 mm"
+            },
+            "nominal": {
+              "width": "170 mm",
+              "height": "45 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "45x195": {
+            "section": {
+              "width": "195 mm",
+              "height": "45 mm"
+            },
+            "nominal": {
+              "width": "195 mm",
+              "height": "45 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "70x70": {
+            "section": {
+              "width": "70 mm",
+              "height": "70 mm"
+            },
+            "nominal": {
+              "width": "70 mm",
+              "height": "70 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          "70x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "70 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "70 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          },
+          "70x195": {
+            "section": {
+              "width": "195 mm",
+              "height": "70 mm"
+            },
+            "nominal": {
+              "width": "195 mm",
+              "height": "70 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            }
+          }
+        },
+        "frames": [
+          {
+            "name": "end_a",
+            "kind": "end"
+          },
+          {
+            "name": "end_b",
+            "kind": "end"
+          },
+          {
+            "name": "face_xp",
+            "kind": "face"
+          },
+          {
+            "name": "face_xn",
+            "kind": "face"
+          },
+          {
+            "name": "face_yp",
+            "kind": "face"
+          },
+          {
+            "name": "face_yn",
+            "kind": "face"
+          }
+        ]
+      }
+    },
+    {
+      "id": "timber-sawn",
+      "path": "timber/timber-sawn.mitcad",
+      "category": "timber",
+      "name": "Sawn timber",
+      "description": "Sawn spruce and pine in the standard sizes 19x100 to 150x150 and the less common ones; re-sawn sizes 2 mm under nominal.",
+      "keywords": [
+        "timber",
+        "lumber",
+        "sawn",
+        "spruce",
+        "pine",
+        "joist",
+        "post",
+        "board"
+      ],
+      "license": "MIT",
+      "designation": "Sawn timber {Thickness}x{Width} L={L}",
+      "preview": "previews/timber-sawn.png",
+      "build": {
+        "role": "profile",
+        "kind": "timber",
+        "material": {
+          "species": "spruce",
+          "finish": "sawn",
+          "grade": "",
+          "density": 450,
+          "moisture": 20
+        },
+        "availability": "standard",
+        "length": {
+          "parameter": "L",
+          "min": 100,
+          "max": 6000,
+          "default": 3000,
+          "stock": [
+            2700,
+            3000,
+            3300,
+            3600,
+            3900,
+            4200,
+            4500,
+            4800,
+            5100,
+            5400
+          ]
+        },
+        "section": {
+          "width": "100 mm",
+          "height": "22 mm"
+        },
+        "nominal": {
+          "width": "100 mm",
+          "height": "22 mm"
+        },
+        "tolerance": {
+          "thickness": [
+            -1,
+            3
+          ],
+          "width": [
+            -1,
+            3
+          ]
+        },
+        "rows": {
+          "19x100": {
+            "section": {
+              "width": "100 mm",
+              "height": "19 mm"
+            },
+            "nominal": {
+              "width": "100 mm",
+              "height": "19 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -1,
+                3
+              ]
+            }
+          },
+          "19x125": {
+            "section": {
+              "width": "125 mm",
+              "height": "19 mm"
+            },
+            "nominal": {
+              "width": "125 mm",
+              "height": "19 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "19x150": {
+            "section": {
+              "width": "150 mm",
+              "height": "19 mm"
+            },
+            "nominal": {
+              "width": "150 mm",
+              "height": "19 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "22x50": {
+            "section": {
+              "width": "48 mm",
+              "height": "22 mm"
+            },
+            "nominal": {
+              "width": "50 mm",
+              "height": "22 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -1,
+                3
+              ]
+            }
+          },
+          "22x75": {
+            "section": {
+              "width": "73 mm",
+              "height": "22 mm"
+            },
+            "nominal": {
+              "width": "75 mm",
+              "height": "22 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -1,
+                3
+              ]
+            }
+          },
+          "22x100": {
+            "section": {
+              "width": "100 mm",
+              "height": "22 mm"
+            },
+            "nominal": {
+              "width": "100 mm",
+              "height": "22 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -1,
+                3
+              ]
+            }
+          },
+          "22x125": {
+            "section": {
+              "width": "125 mm",
+              "height": "22 mm"
+            },
+            "nominal": {
+              "width": "125 mm",
+              "height": "22 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "22x150": {
+            "section": {
+              "width": "150 mm",
+              "height": "22 mm"
+            },
+            "nominal": {
+              "width": "150 mm",
+              "height": "22 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "22x175": {
+            "section": {
+              "width": "175 mm",
+              "height": "22 mm"
+            },
+            "nominal": {
+              "width": "175 mm",
+              "height": "22 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "22x200": {
+            "section": {
+              "width": "200 mm",
+              "height": "22 mm"
+            },
+            "nominal": {
+              "width": "200 mm",
+              "height": "22 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "25x50": {
+            "section": {
+              "width": "50 mm",
+              "height": "25 mm"
+            },
+            "nominal": {
+              "width": "50 mm",
+              "height": "25 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -1,
+                3
+              ]
+            }
+          },
+          "25x75": {
+            "section": {
+              "width": "75 mm",
+              "height": "25 mm"
+            },
+            "nominal": {
+              "width": "75 mm",
+              "height": "25 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -1,
+                3
+              ]
+            }
+          },
+          "25x100": {
+            "section": {
+              "width": "100 mm",
+              "height": "25 mm"
+            },
+            "nominal": {
+              "width": "100 mm",
+              "height": "25 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -1,
+                3
+              ]
+            }
+          },
+          "25x125": {
+            "section": {
+              "width": "125 mm",
+              "height": "25 mm"
+            },
+            "nominal": {
+              "width": "125 mm",
+              "height": "25 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "25x150": {
+            "section": {
+              "width": "150 mm",
+              "height": "25 mm"
+            },
+            "nominal": {
+              "width": "150 mm",
+              "height": "25 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "25x175": {
+            "section": {
+              "width": "175 mm",
+              "height": "25 mm"
+            },
+            "nominal": {
+              "width": "175 mm",
+              "height": "25 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "25x200": {
+            "section": {
+              "width": "200 mm",
+              "height": "25 mm"
+            },
+            "nominal": {
+              "width": "200 mm",
+              "height": "25 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "25x225": {
+            "section": {
+              "width": "225 mm",
+              "height": "25 mm"
+            },
+            "nominal": {
+              "width": "225 mm",
+              "height": "25 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "32x75": {
+            "section": {
+              "width": "75 mm",
+              "height": "32 mm"
+            },
+            "nominal": {
+              "width": "75 mm",
+              "height": "32 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -1,
+                3
+              ]
+            }
+          },
+          "32x100": {
+            "section": {
+              "width": "100 mm",
+              "height": "32 mm"
+            },
+            "nominal": {
+              "width": "100 mm",
+              "height": "32 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -1,
+                3
+              ]
+            }
+          },
+          "32x125": {
+            "section": {
+              "width": "125 mm",
+              "height": "32 mm"
+            },
+            "nominal": {
+              "width": "125 mm",
+              "height": "32 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "32x150": {
+            "section": {
+              "width": "150 mm",
+              "height": "32 mm"
+            },
+            "nominal": {
+              "width": "150 mm",
+              "height": "32 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "32x175": {
+            "section": {
+              "width": "175 mm",
+              "height": "32 mm"
+            },
+            "nominal": {
+              "width": "175 mm",
+              "height": "32 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "32x200": {
+            "section": {
+              "width": "200 mm",
+              "height": "32 mm"
+            },
+            "nominal": {
+              "width": "200 mm",
+              "height": "32 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "32x225": {
+            "section": {
+              "width": "225 mm",
+              "height": "32 mm"
+            },
+            "nominal": {
+              "width": "225 mm",
+              "height": "32 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "38x100": {
+            "section": {
+              "width": "100 mm",
+              "height": "38 mm"
+            },
+            "nominal": {
+              "width": "100 mm",
+              "height": "38 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -1,
+                3
+              ]
+            }
+          },
+          "38x125": {
+            "section": {
+              "width": "125 mm",
+              "height": "38 mm"
+            },
+            "nominal": {
+              "width": "125 mm",
+              "height": "38 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "38x150": {
+            "section": {
+              "width": "150 mm",
+              "height": "38 mm"
+            },
+            "nominal": {
+              "width": "150 mm",
+              "height": "38 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "38x175": {
+            "section": {
+              "width": "175 mm",
+              "height": "38 mm"
+            },
+            "nominal": {
+              "width": "175 mm",
+              "height": "38 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "38x200": {
+            "section": {
+              "width": "200 mm",
+              "height": "38 mm"
+            },
+            "nominal": {
+              "width": "200 mm",
+              "height": "38 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "38x225": {
+            "section": {
+              "width": "225 mm",
+              "height": "38 mm"
+            },
+            "nominal": {
+              "width": "225 mm",
+              "height": "38 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "44x100": {
+            "section": {
+              "width": "100 mm",
+              "height": "44 mm"
+            },
+            "nominal": {
+              "width": "100 mm",
+              "height": "44 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -1,
+                3
+              ]
+            }
+          },
+          "44x125": {
+            "section": {
+              "width": "125 mm",
+              "height": "44 mm"
+            },
+            "nominal": {
+              "width": "125 mm",
+              "height": "44 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "44x150": {
+            "section": {
+              "width": "150 mm",
+              "height": "44 mm"
+            },
+            "nominal": {
+              "width": "150 mm",
+              "height": "44 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "44x175": {
+            "section": {
+              "width": "175 mm",
+              "height": "44 mm"
+            },
+            "nominal": {
+              "width": "175 mm",
+              "height": "44 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "44x200": {
+            "section": {
+              "width": "200 mm",
+              "height": "44 mm"
+            },
+            "nominal": {
+              "width": "200 mm",
+              "height": "44 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "44x225": {
+            "section": {
+              "width": "225 mm",
+              "height": "44 mm"
+            },
+            "nominal": {
+              "width": "225 mm",
+              "height": "44 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "44x250": {
+            "section": {
+              "width": "250 mm",
+              "height": "44 mm"
+            },
+            "nominal": {
+              "width": "250 mm",
+              "height": "44 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "50x75": {
+            "section": {
+              "width": "73 mm",
+              "height": "50 mm"
+            },
+            "nominal": {
+              "width": "75 mm",
+              "height": "50 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -1,
+                3
+              ]
+            }
+          },
+          "50x100": {
+            "section": {
+              "width": "100 mm",
+              "height": "50 mm"
+            },
+            "nominal": {
+              "width": "100 mm",
+              "height": "50 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -1,
+                3
+              ]
+            }
+          },
+          "50x125": {
+            "section": {
+              "width": "125 mm",
+              "height": "50 mm"
+            },
+            "nominal": {
+              "width": "125 mm",
+              "height": "50 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "50x150": {
+            "section": {
+              "width": "150 mm",
+              "height": "50 mm"
+            },
+            "nominal": {
+              "width": "150 mm",
+              "height": "50 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "50x175": {
+            "section": {
+              "width": "175 mm",
+              "height": "50 mm"
+            },
+            "nominal": {
+              "width": "175 mm",
+              "height": "50 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "50x200": {
+            "section": {
+              "width": "200 mm",
+              "height": "50 mm"
+            },
+            "nominal": {
+              "width": "200 mm",
+              "height": "50 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "50x225": {
+            "section": {
+              "width": "225 mm",
+              "height": "50 mm"
+            },
+            "nominal": {
+              "width": "225 mm",
+              "height": "50 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "63x100": {
+            "section": {
+              "width": "100 mm",
+              "height": "63 mm"
+            },
+            "nominal": {
+              "width": "100 mm",
+              "height": "63 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -1,
+                3
+              ]
+            }
+          },
+          "63x125": {
+            "section": {
+              "width": "125 mm",
+              "height": "63 mm"
+            },
+            "nominal": {
+              "width": "125 mm",
+              "height": "63 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "63x150": {
+            "section": {
+              "width": "150 mm",
+              "height": "63 mm"
+            },
+            "nominal": {
+              "width": "150 mm",
+              "height": "63 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "63x175": {
+            "section": {
+              "width": "175 mm",
+              "height": "63 mm"
+            },
+            "nominal": {
+              "width": "175 mm",
+              "height": "63 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "63x200": {
+            "section": {
+              "width": "200 mm",
+              "height": "63 mm"
+            },
+            "nominal": {
+              "width": "200 mm",
+              "height": "63 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "63x225": {
+            "section": {
+              "width": "225 mm",
+              "height": "63 mm"
+            },
+            "nominal": {
+              "width": "225 mm",
+              "height": "63 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "75x75": {
+            "section": {
+              "width": "73 mm",
+              "height": "75 mm"
+            },
+            "nominal": {
+              "width": "75 mm",
+              "height": "75 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -1,
+                3
+              ]
+            }
+          },
+          "75x100": {
+            "section": {
+              "width": "100 mm",
+              "height": "75 mm"
+            },
+            "nominal": {
+              "width": "100 mm",
+              "height": "75 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -1,
+                3
+              ]
+            }
+          },
+          "75x125": {
+            "section": {
+              "width": "125 mm",
+              "height": "75 mm"
+            },
+            "nominal": {
+              "width": "125 mm",
+              "height": "75 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "75x150": {
+            "section": {
+              "width": "150 mm",
+              "height": "75 mm"
+            },
+            "nominal": {
+              "width": "150 mm",
+              "height": "75 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "75x175": {
+            "section": {
+              "width": "175 mm",
+              "height": "75 mm"
+            },
+            "nominal": {
+              "width": "175 mm",
+              "height": "75 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "75x200": {
+            "section": {
+              "width": "200 mm",
+              "height": "75 mm"
+            },
+            "nominal": {
+              "width": "200 mm",
+              "height": "75 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "75x225": {
+            "section": {
+              "width": "225 mm",
+              "height": "75 mm"
+            },
+            "nominal": {
+              "width": "225 mm",
+              "height": "75 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "100x100": {
+            "section": {
+              "width": "100 mm",
+              "height": "100 mm"
+            },
+            "nominal": {
+              "width": "100 mm",
+              "height": "100 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -1,
+                3
+              ]
+            }
+          },
+          "100x125": {
+            "section": {
+              "width": "125 mm",
+              "height": "100 mm"
+            },
+            "nominal": {
+              "width": "125 mm",
+              "height": "100 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "100x150": {
+            "section": {
+              "width": "150 mm",
+              "height": "100 mm"
+            },
+            "nominal": {
+              "width": "150 mm",
+              "height": "100 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "100x175": {
+            "section": {
+              "width": "175 mm",
+              "height": "100 mm"
+            },
+            "nominal": {
+              "width": "175 mm",
+              "height": "100 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "100x200": {
+            "section": {
+              "width": "200 mm",
+              "height": "100 mm"
+            },
+            "nominal": {
+              "width": "200 mm",
+              "height": "100 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "100x225": {
+            "section": {
+              "width": "225 mm",
+              "height": "100 mm"
+            },
+            "nominal": {
+              "width": "225 mm",
+              "height": "100 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "125x125": {
+            "section": {
+              "width": "125 mm",
+              "height": "125 mm"
+            },
+            "nominal": {
+              "width": "125 mm",
+              "height": "125 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -2,
+                4
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          },
+          "150x150": {
+            "section": {
+              "width": "150 mm",
+              "height": "150 mm"
+            },
+            "nominal": {
+              "width": "150 mm",
+              "height": "150 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -2,
+                4
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            }
+          }
+        },
+        "frames": [
+          {
+            "name": "end_a",
+            "kind": "end"
+          },
+          {
+            "name": "end_b",
+            "kind": "end"
+          },
+          {
+            "name": "face_xp",
+            "kind": "face"
+          },
+          {
+            "name": "face_xn",
+            "kind": "face"
+          },
+          {
+            "name": "face_yp",
+            "kind": "face"
+          },
+          {
+            "name": "face_yn",
+            "kind": "face"
+          }
+        ]
+      }
+    },
+    {
+      "id": "plywood-spruce",
+      "path": "sheets/plywood-spruce.mitcad",
+      "category": "sheets",
+      "name": "Spruce plywood",
+      "keywords": [
+        "plywood",
+        "spruce",
+        "sheet",
+        "board",
+        "sheathing"
+      ],
+      "license": "MIT",
+      "designation": "Spruce plywood {Thickness} mm",
+      "preview": "previews/plywood-spruce.png",
+      "build": {
+        "role": "panel",
+        "availability": "standard",
+        "material": {
+          "product": "plywood",
+          "species": "spruce",
+          "finish": "unsanded",
+          "grade": "",
+          "density": 460
+        },
+        "panel": {
+          "mount": "face",
+          "thickness": "T",
+          "width": "W",
+          "height": "H",
+          "stock": [
+            [
+              1200,
+              2400
+            ],
+            [
+              1220,
+              2440
+            ],
+            [
+              1200,
+              2500
+            ]
+          ]
+        },
+        "rows": {
+          "9": {
+            "availability": "standard"
+          },
+          "12": {
+            "availability": "standard"
+          },
+          "15": {
+            "availability": "standard"
+          },
+          "18": {
+            "availability": "standard"
+          },
+          "21": {
+            "availability": "standard"
+          },
+          "24": {
+            "availability": "standard"
+          },
+          "27": {
+            "availability": "less common"
+          }
+        },
+        "frames": [
+          {
+            "name": "face",
+            "kind": "face"
+          }
+        ]
+      },
+      "description": "7 sizes, 9 to 27."
+    },
+    {
+      "id": "plywood-birch",
+      "path": "sheets/plywood-birch.mitcad",
+      "category": "sheets",
+      "name": "Birch plywood",
+      "keywords": [
+        "plywood",
+        "birch",
+        "sheet",
+        "board"
+      ],
+      "license": "MIT",
+      "designation": "Birch plywood {Thickness} mm",
+      "preview": "previews/plywood-birch.png",
+      "build": {
+        "role": "panel",
+        "availability": "standard",
+        "material": {
+          "product": "plywood",
+          "species": "birch",
+          "finish": "sanded",
+          "grade": "",
+          "density": 680
+        },
+        "panel": {
+          "mount": "face",
+          "thickness": "T",
+          "width": "W",
+          "height": "H",
+          "stock": [
+            [
+              1220,
+              2440
+            ],
+            [
+              1250,
+              2500
+            ],
+            [
+              1500,
+              3000
+            ]
+          ]
+        },
+        "rows": {
+          "4": {
+            "availability": "less common"
+          },
+          "6.5": {
+            "availability": "standard"
+          },
+          "9": {
+            "availability": "standard"
+          },
+          "12": {
+            "availability": "standard"
+          },
+          "15": {
+            "availability": "standard"
+          },
+          "18": {
+            "availability": "standard"
+          },
+          "21": {
+            "availability": "standard"
+          },
+          "24": {
+            "availability": "standard"
+          },
+          "30": {
+            "availability": "less common"
+          }
+        },
+        "frames": [
+          {
+            "name": "face",
+            "kind": "face"
+          }
+        ]
+      },
+      "description": "9 sizes, 4 to 30."
+    },
+    {
+      "id": "osb-3",
+      "path": "sheets/osb-3.mitcad",
+      "category": "sheets",
+      "name": "OSB/3 board",
+      "keywords": [
+        "osb",
+        "oriented strand board",
+        "sheet",
+        "board",
+        "sheathing"
+      ],
+      "license": "MIT",
+      "designation": "OSB/3 {Thickness} mm",
+      "preview": "previews/osb-3.png",
+      "build": {
+        "role": "panel",
+        "availability": "standard",
+        "material": {
+          "product": "osb",
+          "species": "",
+          "finish": "unsanded",
+          "grade": "",
+          "density": 620
+        },
+        "panel": {
+          "mount": "face",
+          "thickness": "T",
+          "width": "W",
+          "height": "H",
+          "stock": [
+            [
+              1200,
+              2400
+            ],
+            [
+              1220,
+              2440
+            ],
+            [
+              1250,
+              2500
+            ]
+          ]
+        },
+        "rows": {
+          "9": {
+            "availability": "less common"
+          },
+          "11": {
+            "availability": "less common"
+          },
+          "12": {
+            "availability": "standard"
+          },
+          "15": {
+            "availability": "standard"
+          },
+          "18": {
+            "availability": "standard"
+          },
+          "22": {
+            "availability": "standard"
+          },
+          "25": {
+            "availability": "less common"
+          }
+        },
+        "frames": [
+          {
+            "name": "face",
+            "kind": "face"
+          }
+        ]
+      },
+      "description": "7 sizes, 9 to 25."
+    },
+    {
+      "id": "chipboard-p5",
+      "path": "sheets/chipboard-p5.mitcad",
+      "category": "sheets",
+      "name": "Chipboard P5",
+      "keywords": [
+        "chipboard",
+        "particle board",
+        "sheet",
+        "board",
+        "flooring"
+      ],
+      "license": "MIT",
+      "designation": "Chipboard P5 {Thickness} mm",
+      "preview": "previews/chipboard-p5.png",
+      "build": {
+        "role": "panel",
+        "availability": "standard",
+        "material": {
+          "product": "chipboard",
+          "species": "",
+          "finish": "sanded",
+          "grade": "",
+          "density": 680
+        },
+        "panel": {
+          "mount": "face",
+          "thickness": "T",
+          "width": "W",
+          "height": "H",
+          "stock": [
+            [
+              1200,
+              2400
+            ],
+            [
+              600,
+              2400
+            ]
+          ]
+        },
+        "rows": {
+          "10": {
+            "availability": "less common"
+          },
+          "12": {
+            "availability": "standard"
+          },
+          "16": {
+            "availability": "standard"
+          },
+          "18": {
+            "availability": "standard"
+          },
+          "22": {
+            "availability": "standard"
+          },
+          "25": {
+            "availability": "less common"
+          }
+        },
+        "frames": [
+          {
+            "name": "face",
+            "kind": "face"
+          }
+        ]
+      },
+      "description": "6 sizes, 10 to 25."
     },
     {
       "id": "tube-d20-core",

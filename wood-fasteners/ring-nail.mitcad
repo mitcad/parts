@@ -1,0 +1,209 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "D",
+      "expression": "3.1 mm",
+      "unit": "mm",
+      "value": 3.1,
+      "comment": ""
+    },
+    {
+      "name": "L",
+      "expression": "75 mm",
+      "unit": "mm",
+      "value": 75.0,
+      "comment": ""
+    },
+    {
+      "name": "DK",
+      "expression": "7 mm",
+      "unit": "mm",
+      "value": 7.0,
+      "comment": ""
+    },
+    {
+      "name": "K",
+      "expression": "1.3 mm",
+      "unit": "mm",
+      "value": 1.3,
+      "comment": ""
+    },
+    {
+      "name": "d1",
+      "expression": "-K",
+      "unit": "mm",
+      "value": -1.3,
+      "comment": "Head height",
+      "owner": "F2"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Shank",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "D",
+      "height": "L",
+      "operation": "new_body"
+    },
+    {
+      "uid": "F2",
+      "name": "Head",
+      "type": "cylinder",
+      "plane": "xy",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "DK",
+      "height": "d1",
+      "operation": "join"
+    },
+    {
+      "uid": "F3",
+      "name": "mount:axis",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Body1",
+      "appearance": "steel_satin"
+    }
+  ],
+  "configurations": {
+    "selectors": [
+      "Diameter",
+      "Length"
+    ],
+    "parameters": [
+      "D",
+      "L",
+      "DK",
+      "K"
+    ],
+    "default": "3.1x75",
+    "rows": [
+      {
+        "name": "2.8x50",
+        "select": {
+          "Diameter": "2.8",
+          "Length": "50"
+        },
+        "values": {
+          "D": "2.8 mm",
+          "DK": "6.5 mm",
+          "K": "1.2 mm",
+          "L": "50 mm"
+        }
+      },
+      {
+        "name": "2.8x63",
+        "select": {
+          "Diameter": "2.8",
+          "Length": "63"
+        },
+        "values": {
+          "D": "2.8 mm",
+          "DK": "6.5 mm",
+          "K": "1.2 mm",
+          "L": "63 mm"
+        }
+      },
+      {
+        "name": "3.1x75",
+        "select": {
+          "Diameter": "3.1",
+          "Length": "75"
+        },
+        "values": {
+          "D": "3.1 mm",
+          "DK": "7 mm",
+          "K": "1.3 mm",
+          "L": "75 mm"
+        }
+      },
+      {
+        "name": "3.1x90",
+        "select": {
+          "Diameter": "3.1",
+          "Length": "90"
+        },
+        "values": {
+          "D": "3.1 mm",
+          "DK": "7 mm",
+          "K": "1.3 mm",
+          "L": "90 mm"
+        }
+      },
+      {
+        "name": "4.0x40",
+        "select": {
+          "Diameter": "4.0",
+          "Length": "40"
+        },
+        "values": {
+          "D": "4 mm",
+          "DK": "8 mm",
+          "K": "1.5 mm",
+          "L": "40 mm"
+        }
+      },
+      {
+        "name": "4.0x50",
+        "select": {
+          "Diameter": "4.0",
+          "Length": "50"
+        },
+        "values": {
+          "D": "4 mm",
+          "DK": "8 mm",
+          "K": "1.5 mm",
+          "L": "50 mm"
+        }
+      },
+      {
+        "name": "4.0x60",
+        "select": {
+          "Diameter": "4.0",
+          "Length": "60"
+        },
+        "values": {
+          "D": "4 mm",
+          "DK": "8 mm",
+          "K": "1.5 mm",
+          "L": "60 mm"
+        }
+      }
+    ]
+  }
+}

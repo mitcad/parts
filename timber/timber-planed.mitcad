@@ -1,0 +1,1036 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "W",
+      "expression": "95 mm",
+      "unit": "mm",
+      "value": 95.0,
+      "comment": ""
+    },
+    {
+      "name": "T",
+      "expression": "21 mm",
+      "unit": "mm",
+      "value": 21.0,
+      "comment": ""
+    },
+    {
+      "name": "L",
+      "expression": "3000 mm",
+      "unit": "mm",
+      "value": 3000.0,
+      "comment": ""
+    },
+    {
+      "name": "d1",
+      "expression": "W / 2",
+      "unit": "mm",
+      "value": 47.5,
+      "comment": "Plane of face_xp distance",
+      "owner": "F6"
+    },
+    {
+      "name": "d2",
+      "expression": "W / 2",
+      "unit": "mm",
+      "value": 47.5,
+      "comment": "Plane of face_xn distance",
+      "owner": "F8"
+    },
+    {
+      "name": "d3",
+      "expression": "T / 2",
+      "unit": "mm",
+      "value": 10.5,
+      "comment": "Plane of face_yp distance",
+      "owner": "F10"
+    },
+    {
+      "name": "d4",
+      "expression": "T / 2",
+      "unit": "mm",
+      "value": 10.5,
+      "comment": "Plane of face_yn distance",
+      "owner": "F12"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Section",
+      "type": "sketch",
+      "plane": "xy",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            -47.5,
+            -10.5
+          ]
+        },
+        {
+          "id": "p2",
+          "type": "point",
+          "at": [
+            47.5,
+            -10.5
+          ]
+        },
+        {
+          "id": "p3",
+          "type": "point",
+          "at": [
+            47.5,
+            10.5
+          ]
+        },
+        {
+          "id": "p4",
+          "type": "point",
+          "at": [
+            -47.5,
+            10.5
+          ]
+        },
+        {
+          "id": "p5",
+          "type": "point",
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c6",
+          "type": "line",
+          "start": "p1",
+          "end": "p2"
+        },
+        {
+          "id": "c7",
+          "type": "line",
+          "start": "p2",
+          "end": "p3"
+        },
+        {
+          "id": "c8",
+          "type": "line",
+          "start": "p3",
+          "end": "p4"
+        },
+        {
+          "id": "c9",
+          "type": "line",
+          "start": "p4",
+          "end": "p1"
+        },
+        {
+          "id": "c10",
+          "type": "line",
+          "start": "p1",
+          "end": "p3",
+          "construction": true
+        }
+      ],
+      "constraints": [
+        {
+          "id": "k11",
+          "type": "horizontal",
+          "line": "c6"
+        },
+        {
+          "id": "k12",
+          "type": "vertical",
+          "line": "c7"
+        },
+        {
+          "id": "k13",
+          "type": "horizontal",
+          "line": "c8"
+        },
+        {
+          "id": "k14",
+          "type": "vertical",
+          "line": "c9"
+        },
+        {
+          "id": "k15",
+          "type": "midpoint",
+          "point": "p5",
+          "curve": "c10"
+        }
+      ],
+      "dimensions": [
+        {
+          "id": "k16",
+          "type": "length",
+          "line": "c6",
+          "value": "W"
+        },
+        {
+          "id": "k17",
+          "type": "length",
+          "line": "c7",
+          "value": "T"
+        }
+      ]
+    },
+    {
+      "uid": "F2",
+      "name": "Profile",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F1",
+          "region": "r{c6[c9,c7],c7[c6,c8],c8[c7,c9],c9[c8,c6]}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "L"
+      },
+      "operation": "new_body"
+    },
+    {
+      "uid": "F3",
+      "name": "mount:end_a",
+      "type": "joint_origin",
+      "geometry": "xy",
+      "flip": true
+    },
+    {
+      "uid": "F4",
+      "name": "End B plane",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": "xy",
+        "distance": "L"
+      }
+    },
+    {
+      "uid": "F5",
+      "name": "mount:end_b",
+      "type": "joint_origin",
+      "geometry": "F4"
+    },
+    {
+      "uid": "F6",
+      "name": "Plane of face_xp",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": {
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x_axis": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "distance": "d1"
+      }
+    },
+    {
+      "uid": "F7",
+      "name": "mount:face_xp",
+      "type": "joint_origin",
+      "geometry": "F6"
+    },
+    {
+      "uid": "F8",
+      "name": "Plane of face_xn",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": {
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x_axis": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "distance": "d2"
+      }
+    },
+    {
+      "uid": "F9",
+      "name": "mount:face_xn",
+      "type": "joint_origin",
+      "geometry": "F8"
+    },
+    {
+      "uid": "F10",
+      "name": "Plane of face_yp",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": {
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x_axis": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "distance": "d3"
+      }
+    },
+    {
+      "uid": "F11",
+      "name": "mount:face_yp",
+      "type": "joint_origin",
+      "geometry": "F10"
+    },
+    {
+      "uid": "F12",
+      "name": "Plane of face_yn",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x_axis": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "distance": "d4"
+      }
+    },
+    {
+      "uid": "F13",
+      "name": "mount:face_yn",
+      "type": "joint_origin",
+      "geometry": "F12"
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F2.b0",
+      "name": "Body1",
+      "appearance": "timber-planed"
+    }
+  ],
+  "appearances": [
+    {
+      "id": "timber-planed",
+      "name": "Planed spruce",
+      "base_color": [
+        0.86,
+        0.74,
+        0.55
+      ],
+      "metalness": 0.0,
+      "roughness": 0.6,
+      "specular": 0.5,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "coat": 0.0,
+      "coat_roughness": 0.03,
+      "emission": 0.0,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "opacity": 1.0,
+      "texture": {
+        "path": "timber-planed-grain.png",
+        "size": [
+          60.0,
+          600.0
+        ],
+        "rotation": 0.0,
+        "projection": "box",
+        "data": "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"
+      }
+    }
+  ],
+  "configurations": {
+    "selectors": [
+      "Thickness",
+      "Width"
+    ],
+    "parameters": [
+      "W",
+      "T"
+    ],
+    "default": "21x95",
+    "rows": [
+      {
+        "name": "8x21",
+        "select": {
+          "Thickness": "8",
+          "Width": "21"
+        },
+        "values": {
+          "T": "8 mm",
+          "W": "21 mm"
+        }
+      },
+      {
+        "name": "8x28",
+        "select": {
+          "Thickness": "8",
+          "Width": "28"
+        },
+        "values": {
+          "T": "8 mm",
+          "W": "28 mm"
+        }
+      },
+      {
+        "name": "8x33",
+        "select": {
+          "Thickness": "8",
+          "Width": "33"
+        },
+        "values": {
+          "T": "8 mm",
+          "W": "33 mm"
+        }
+      },
+      {
+        "name": "8x45",
+        "select": {
+          "Thickness": "8",
+          "Width": "45"
+        },
+        "values": {
+          "T": "8 mm",
+          "W": "45 mm"
+        }
+      },
+      {
+        "name": "8x70",
+        "select": {
+          "Thickness": "8",
+          "Width": "70"
+        },
+        "values": {
+          "T": "8 mm",
+          "W": "70 mm"
+        }
+      },
+      {
+        "name": "8x95",
+        "select": {
+          "Thickness": "8",
+          "Width": "95"
+        },
+        "values": {
+          "T": "8 mm",
+          "W": "95 mm"
+        }
+      },
+      {
+        "name": "12x33",
+        "select": {
+          "Thickness": "12",
+          "Width": "33"
+        },
+        "values": {
+          "T": "12 mm",
+          "W": "33 mm"
+        }
+      },
+      {
+        "name": "12x45",
+        "select": {
+          "Thickness": "12",
+          "Width": "45"
+        },
+        "values": {
+          "T": "12 mm",
+          "W": "45 mm"
+        }
+      },
+      {
+        "name": "12x70",
+        "select": {
+          "Thickness": "12",
+          "Width": "70"
+        },
+        "values": {
+          "T": "12 mm",
+          "W": "70 mm"
+        }
+      },
+      {
+        "name": "12x95",
+        "select": {
+          "Thickness": "12",
+          "Width": "95"
+        },
+        "values": {
+          "T": "12 mm",
+          "W": "95 mm"
+        }
+      },
+      {
+        "name": "15x15",
+        "select": {
+          "Thickness": "15",
+          "Width": "15"
+        },
+        "values": {
+          "T": "15 mm",
+          "W": "15 mm"
+        }
+      },
+      {
+        "name": "15x21",
+        "select": {
+          "Thickness": "15",
+          "Width": "21"
+        },
+        "values": {
+          "T": "15 mm",
+          "W": "21 mm"
+        }
+      },
+      {
+        "name": "15x33",
+        "select": {
+          "Thickness": "15",
+          "Width": "33"
+        },
+        "values": {
+          "T": "15 mm",
+          "W": "33 mm"
+        }
+      },
+      {
+        "name": "15x45",
+        "select": {
+          "Thickness": "15",
+          "Width": "45"
+        },
+        "values": {
+          "T": "15 mm",
+          "W": "45 mm"
+        }
+      },
+      {
+        "name": "15x70",
+        "select": {
+          "Thickness": "15",
+          "Width": "70"
+        },
+        "values": {
+          "T": "15 mm",
+          "W": "70 mm"
+        }
+      },
+      {
+        "name": "15x95",
+        "select": {
+          "Thickness": "15",
+          "Width": "95"
+        },
+        "values": {
+          "T": "15 mm",
+          "W": "95 mm"
+        }
+      },
+      {
+        "name": "15x120",
+        "select": {
+          "Thickness": "15",
+          "Width": "120"
+        },
+        "values": {
+          "T": "15 mm",
+          "W": "120 mm"
+        }
+      },
+      {
+        "name": "15x145",
+        "select": {
+          "Thickness": "15",
+          "Width": "145"
+        },
+        "values": {
+          "T": "15 mm",
+          "W": "145 mm"
+        }
+      },
+      {
+        "name": "15x170",
+        "select": {
+          "Thickness": "15",
+          "Width": "170"
+        },
+        "values": {
+          "T": "15 mm",
+          "W": "170 mm"
+        }
+      },
+      {
+        "name": "18x45",
+        "select": {
+          "Thickness": "18",
+          "Width": "45"
+        },
+        "values": {
+          "T": "18 mm",
+          "W": "45 mm"
+        }
+      },
+      {
+        "name": "18x70",
+        "select": {
+          "Thickness": "18",
+          "Width": "70"
+        },
+        "values": {
+          "T": "18 mm",
+          "W": "70 mm"
+        }
+      },
+      {
+        "name": "18x95",
+        "select": {
+          "Thickness": "18",
+          "Width": "95"
+        },
+        "values": {
+          "T": "18 mm",
+          "W": "95 mm"
+        }
+      },
+      {
+        "name": "18x120",
+        "select": {
+          "Thickness": "18",
+          "Width": "120"
+        },
+        "values": {
+          "T": "18 mm",
+          "W": "120 mm"
+        }
+      },
+      {
+        "name": "18x145",
+        "select": {
+          "Thickness": "18",
+          "Width": "145"
+        },
+        "values": {
+          "T": "18 mm",
+          "W": "145 mm"
+        }
+      },
+      {
+        "name": "18x170",
+        "select": {
+          "Thickness": "18",
+          "Width": "170"
+        },
+        "values": {
+          "T": "18 mm",
+          "W": "170 mm"
+        }
+      },
+      {
+        "name": "18x195",
+        "select": {
+          "Thickness": "18",
+          "Width": "195"
+        },
+        "values": {
+          "T": "18 mm",
+          "W": "195 mm"
+        }
+      },
+      {
+        "name": "21x21",
+        "select": {
+          "Thickness": "21",
+          "Width": "21"
+        },
+        "values": {
+          "T": "21 mm",
+          "W": "21 mm"
+        }
+      },
+      {
+        "name": "21x45",
+        "select": {
+          "Thickness": "21",
+          "Width": "45"
+        },
+        "values": {
+          "T": "21 mm",
+          "W": "45 mm"
+        }
+      },
+      {
+        "name": "21x70",
+        "select": {
+          "Thickness": "21",
+          "Width": "70"
+        },
+        "values": {
+          "T": "21 mm",
+          "W": "70 mm"
+        }
+      },
+      {
+        "name": "21x95",
+        "select": {
+          "Thickness": "21",
+          "Width": "95"
+        },
+        "values": {
+          "T": "21 mm",
+          "W": "95 mm"
+        }
+      },
+      {
+        "name": "21x120",
+        "select": {
+          "Thickness": "21",
+          "Width": "120"
+        },
+        "values": {
+          "T": "21 mm",
+          "W": "120 mm"
+        }
+      },
+      {
+        "name": "21x145",
+        "select": {
+          "Thickness": "21",
+          "Width": "145"
+        },
+        "values": {
+          "T": "21 mm",
+          "W": "145 mm"
+        }
+      },
+      {
+        "name": "21x170",
+        "select": {
+          "Thickness": "21",
+          "Width": "170"
+        },
+        "values": {
+          "T": "21 mm",
+          "W": "170 mm"
+        }
+      },
+      {
+        "name": "21x195",
+        "select": {
+          "Thickness": "21",
+          "Width": "195"
+        },
+        "values": {
+          "T": "21 mm",
+          "W": "195 mm"
+        }
+      },
+      {
+        "name": "28x28",
+        "select": {
+          "Thickness": "28",
+          "Width": "28"
+        },
+        "values": {
+          "T": "28 mm",
+          "W": "28 mm"
+        }
+      },
+      {
+        "name": "28x45",
+        "select": {
+          "Thickness": "28",
+          "Width": "45"
+        },
+        "values": {
+          "T": "28 mm",
+          "W": "45 mm"
+        }
+      },
+      {
+        "name": "28x95",
+        "select": {
+          "Thickness": "28",
+          "Width": "95"
+        },
+        "values": {
+          "T": "28 mm",
+          "W": "95 mm"
+        }
+      },
+      {
+        "name": "28x120",
+        "select": {
+          "Thickness": "28",
+          "Width": "120"
+        },
+        "values": {
+          "T": "28 mm",
+          "W": "120 mm"
+        }
+      },
+      {
+        "name": "28x145",
+        "select": {
+          "Thickness": "28",
+          "Width": "145"
+        },
+        "values": {
+          "T": "28 mm",
+          "W": "145 mm"
+        }
+      },
+      {
+        "name": "33x21",
+        "select": {
+          "Thickness": "33",
+          "Width": "21"
+        },
+        "values": {
+          "T": "33 mm",
+          "W": "21 mm"
+        }
+      },
+      {
+        "name": "33x33",
+        "select": {
+          "Thickness": "33",
+          "Width": "33"
+        },
+        "values": {
+          "T": "33 mm",
+          "W": "33 mm"
+        }
+      },
+      {
+        "name": "33x45",
+        "select": {
+          "Thickness": "33",
+          "Width": "45"
+        },
+        "values": {
+          "T": "33 mm",
+          "W": "45 mm"
+        }
+      },
+      {
+        "name": "33x70",
+        "select": {
+          "Thickness": "33",
+          "Width": "70"
+        },
+        "values": {
+          "T": "33 mm",
+          "W": "70 mm"
+        }
+      },
+      {
+        "name": "33x95",
+        "select": {
+          "Thickness": "33",
+          "Width": "95"
+        },
+        "values": {
+          "T": "33 mm",
+          "W": "95 mm"
+        }
+      },
+      {
+        "name": "33x120",
+        "select": {
+          "Thickness": "33",
+          "Width": "120"
+        },
+        "values": {
+          "T": "33 mm",
+          "W": "120 mm"
+        }
+      },
+      {
+        "name": "33x145",
+        "select": {
+          "Thickness": "33",
+          "Width": "145"
+        },
+        "values": {
+          "T": "33 mm",
+          "W": "145 mm"
+        }
+      },
+      {
+        "name": "45x33",
+        "select": {
+          "Thickness": "45",
+          "Width": "33"
+        },
+        "values": {
+          "T": "45 mm",
+          "W": "33 mm"
+        }
+      },
+      {
+        "name": "45x45",
+        "select": {
+          "Thickness": "45",
+          "Width": "45"
+        },
+        "values": {
+          "T": "45 mm",
+          "W": "45 mm"
+        }
+      },
+      {
+        "name": "45x70",
+        "select": {
+          "Thickness": "45",
+          "Width": "70"
+        },
+        "values": {
+          "T": "45 mm",
+          "W": "70 mm"
+        }
+      },
+      {
+        "name": "45x95",
+        "select": {
+          "Thickness": "45",
+          "Width": "95"
+        },
+        "values": {
+          "T": "45 mm",
+          "W": "95 mm"
+        }
+      },
+      {
+        "name": "45x120",
+        "select": {
+          "Thickness": "45",
+          "Width": "120"
+        },
+        "values": {
+          "T": "45 mm",
+          "W": "120 mm"
+        }
+      },
+      {
+        "name": "45x145",
+        "select": {
+          "Thickness": "45",
+          "Width": "145"
+        },
+        "values": {
+          "T": "45 mm",
+          "W": "145 mm"
+        }
+      },
+      {
+        "name": "45x170",
+        "select": {
+          "Thickness": "45",
+          "Width": "170"
+        },
+        "values": {
+          "T": "45 mm",
+          "W": "170 mm"
+        }
+      },
+      {
+        "name": "45x195",
+        "select": {
+          "Thickness": "45",
+          "Width": "195"
+        },
+        "values": {
+          "T": "45 mm",
+          "W": "195 mm"
+        }
+      },
+      {
+        "name": "70x70",
+        "select": {
+          "Thickness": "70",
+          "Width": "70"
+        },
+        "values": {
+          "T": "70 mm",
+          "W": "70 mm"
+        }
+      },
+      {
+        "name": "70x145",
+        "select": {
+          "Thickness": "70",
+          "Width": "145"
+        },
+        "values": {
+          "T": "70 mm",
+          "W": "145 mm"
+        }
+      },
+      {
+        "name": "70x195",
+        "select": {
+          "Thickness": "70",
+          "Width": "195"
+        },
+        "values": {
+          "T": "70 mm",
+          "W": "195 mm"
+        }
+      }
+    ]
+  }
+}

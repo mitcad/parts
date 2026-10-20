@@ -1,0 +1,185 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "W",
+      "expression": "1250 mm",
+      "unit": "mm",
+      "value": 1250.0,
+      "comment": ""
+    },
+    {
+      "name": "H",
+      "expression": "2500 mm",
+      "unit": "mm",
+      "value": 2500.0,
+      "comment": ""
+    },
+    {
+      "name": "T",
+      "expression": "12 mm",
+      "unit": "mm",
+      "value": 12.0,
+      "comment": ""
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Sheet",
+      "type": "box",
+      "plane": "xy",
+      "corner": [
+        0.0,
+        0.0
+      ],
+      "length": "W",
+      "width": "H",
+      "height": "T",
+      "operation": "new_body"
+    },
+    {
+      "uid": "F2",
+      "name": "mount:face",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Body1",
+      "appearance": "osb"
+    }
+  ],
+  "appearances": [
+    {
+      "id": "osb",
+      "name": "OSB",
+      "base_color": [
+        0.8,
+        0.66,
+        0.42
+      ],
+      "metalness": 0.0,
+      "roughness": 0.8,
+      "specular": 0.5,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "coat": 0.0,
+      "coat_roughness": 0.03,
+      "emission": 0.0,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "opacity": 1.0,
+      "texture": {
+        "path": "osb-strands.png",
+        "size": [
+          300.0,
+          300.0
+        ],
+        "rotation": 0.0,
+        "projection": "box",
+        "data": "iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAIAAABt+uBvAAAESElEQVR42u3daU/UQBjAcb6jHIFwyH2ICBhA9KUHkgBRQYOg3IdcygoYYJXDgLcxaJBoTASMR/wUTvLgZDKdeTrttt22+yT/F4Rt2e2vQKfdbpv1erLWXe8enIF2x6p/bbQre3KnBG+6Mw96PlKF9GK8xqSl3mLW6NVsXXPdBXh782cXbxZCsJhZroFGrmTbFjYgaKGnQIyhiH1caIAIiIDMgJCXFxkg3tZQpRiISIUF6OtyM88p0PpAWSqFC2i2K99aeoF+PrsABQfEt9m6CIiACOh/X5aapTCgw7VWllMgUccFkOutGKdBgKxZRQyBmEzEgCY6csUiA8R2x3jiXLgOE8wIoL/bl6xlHJDtfz6nHa23EpD3QIdrLWLxB+KFFwi+IiBdgQL93mwPMgKyydYl04Emr+eytocrkXbGqvGxCAERUIpAy33FLFugzaEKse+rLTzlSJptpFj8LRQoYCCcxgSIyXgPtNZfqitgoMe9RXg+AiFDFQIiIN+AdBmOpG0X2GkEFCMgqcStImt+AOEHrQjIOyDDve3YAukCncPVFiTzcZA5kHIlhRHoeL3VaV4BPbpRCB0kmiDDZTYJJt64V84iIBsg3t5CA+QvkNSRPuS8GSUQxL8P/dm6KGYIJNEQUDqAtoYr/ShiQJ8Tjbp8BVrtP80jICOglxM11tIPxOeRYsMfAkoPkO2YPvUCAtKNpMVDrtZ1Ptudj0dA8QI6SDSyHO2LRRfoR7INCgLoONnGIqCTgMNaOIGUOgQUPqDZrnwXQOIIyHYc9H6mXpejEVCqQLwUxzhBAulyDPRqslaZRAO/nBkCJKYFUv71RgUIOZCCACmnDxpI6ulgGWu+p8CaCRDMzvIRCM4RQfIQaKYr32njHTmpJJ4zvL/YyLJdXilnQMqUmzBYseLadqETEyBlBERAxkDwGa7YAjnaikUaCNl+6RaNORCQK6A3U3ViMQOa6swziYDMgJSPSUAwNQ4k/QSvgKSUI2npQ2S6XALBqbypA0mvJoRA49dyIBMdfpLzCdDw5VNifgAhO1P4vhiEzG4OZHv9IPdAPOl8Mv5ZdusLUh4wk4IplUCMHkYisNqVs8NDmQsExRMoOViGF1ugjfvlJqUFCFlyAiIgAvIb6CDR5B4oOVDGCwbo08NzunwCYosWK6C303W8wIA4AgbEXlzYgL6tnLfG39IgIAIKBMjkWq42QMjevG4krXtTPxUgfkkYXvqB2MzhB0JmgZAlN7waMP+IvxbIdvfSMAIiIAIiIGdAu2PVoQWCfY5QADlt/W6p9BxwNXsCOsn6HP4BQUt9xawPc/XWMhdoZ7Qq/UD7i41hBrI95ExAChTpcoA+AsG5MwgETGD7BOZAK7dLWFYLZYZAntx4BM6QJiB/gJRvPStvXeMtkHS3CNd3RQgREAQK0NZQhVjEgODK9giQu5sfeQUU/M2PAgIyv2Q7AUUV6B/dPlCRt3y4EAAAAABJRU5ErkJggg=="
+      }
+    }
+  ],
+  "configurations": {
+    "selectors": [
+      "Thickness"
+    ],
+    "parameters": [
+      "T"
+    ],
+    "default": "12",
+    "rows": [
+      {
+        "name": "9",
+        "select": {
+          "Thickness": "9"
+        },
+        "values": {
+          "T": "9 mm"
+        }
+      },
+      {
+        "name": "11",
+        "select": {
+          "Thickness": "11"
+        },
+        "values": {
+          "T": "11 mm"
+        }
+      },
+      {
+        "name": "12",
+        "select": {
+          "Thickness": "12"
+        },
+        "values": {
+          "T": "12 mm"
+        }
+      },
+      {
+        "name": "15",
+        "select": {
+          "Thickness": "15"
+        },
+        "values": {
+          "T": "15 mm"
+        }
+      },
+      {
+        "name": "18",
+        "select": {
+          "Thickness": "18"
+        },
+        "values": {
+          "T": "18 mm"
+        }
+      },
+      {
+        "name": "22",
+        "select": {
+          "Thickness": "22"
+        },
+        "values": {
+          "T": "22 mm"
+        }
+      },
+      {
+        "name": "25",
+        "select": {
+          "Thickness": "25"
+        },
+        "values": {
+          "T": "25 mm"
+        }
+      }
+    ]
+  }
+}

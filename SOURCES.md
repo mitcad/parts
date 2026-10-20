@@ -868,6 +868,28 @@ bought. Check critical dimensions against the supplier's data.
 - pr40-80-45g-i8 (Profile R40/80 45deg I-type slot 8): aluminium-profiles/Profile-8-R40-80-45G-I-Type-Slot-8/Motedis_40RR45 I-Type slot 8.stp; Motedis I8 40RR45; https://www.motedis.com/en/Profile-8-R40-80-45G-I-Type-Slot-8
 - pr40-80-60g-i8 (Profile R40/80 60deg I-type slot 8): aluminium-profiles/Profile-8-R40-80-60G-I-Type-Slot-8/Motedis_40RR60 I-Type slot 8.stp; Motedis I8 40RR60; https://www.motedis.com/en/Profile-8-R40-80-60G-I-Type-Slot-8
 - pr40-80-90g-i8 (Profile R40/80 90deg I-type slot 8): aluminium-profiles/Profile-8-R40-80-90G-I-Type-Slot-8/Motedis_40RR90 I-Type slot 8.stp; Motedis I8 40RR90; https://www.motedis.com/en/Profile-8-R40-80-90G-I-Type-Slot-8
+- angle-bracket-40 (Angle bracket 40x40x40): common sizes of angle brackets for timber
+- angle-bracket-60 (Angle bracket 60x60x45): common sizes of angle brackets for timber
+- angle-bracket-90 (Angle bracket 90x90x65): common sizes of angle brackets for timber
+- joist-hanger-48x98 (Joist hanger 48x98): common sizes of face-fixed joist hangers
+- joist-hanger-48x123 (Joist hanger 48x123): common sizes of face-fixed joist hangers
+- joist-hanger-48x148 (Joist hanger 48x148): common sizes of face-fixed joist hangers
+- joist-hanger-48x173 (Joist hanger 48x173): common sizes of face-fixed joist hangers
+- joist-hanger-48x198 (Joist hanger 48x198): common sizes of face-fixed joist hangers
+- joist-hanger-48x223 (Joist hanger 48x223): common sizes of face-fixed joist hangers
+- post-base-98 (Post base 98x98): common sizes of U post bases
+- post-base-123 (Post base 123x123): common sizes of U post bases
+- timber-dimensioned (Dimensioned timber): industry-standard sizes of dimensioned timber (at 20 % moisture)
+- wood-screw (Wood screw, countersunk): common sizes of countersunk wood screws
+- connector-screw (Connector screw): common sizes of connector screws for brackets and hangers
+- ring-nail (Ring shank nail): common sizes of ring shank nails and anchor nails
+- structural-screw (Structural screw, washer head): common sizes of structural timber screws
+- timber-planed (Planed timber): industry-standard sizes of planed timber (at 20 % moisture)
+- timber-sawn (Sawn timber): industry-standard sizes of sawn timber (nominal at 20 % moisture)
+- plywood-spruce (Spruce plywood): common thicknesses and sheet sizes of spruce plywood
+- plywood-birch (Birch plywood): common thicknesses and sheet sizes of birch plywood
+- osb-3 (OSB/3 board): common thicknesses and sheet sizes of OSB/3
+- chipboard-p5 (Chipboard P5): common thicknesses and sheet sizes of moisture-resistant chipboard (P5)
 - tube-d20-core (Circular tube with core for thread, aluminium anodized, D19.98): laser-cut-plates-semi-finished-products-tube-systems-cable-conduit/Circular-tube-with-core-for-thread-aluminium-anodized-1998mm/Motedis-Tube19-98/Motedis_Tube19,98.stp; Motedis Tube19,98; https://www.motedis.com/en/Circular-tube-with-core-for-thread-aluminium-anodized-1998mm
 - spacer-m4-l10 (Spacer for screw M4, L=10 mm): laser-cut-plates-semi-finished-products-tube-systems-cable-conduit/Spacer-for-screw-M4-with-L-10-mm/Motedis_5345.stp; Motedis 5345; https://www.motedis.com/en/Spacer-for-screw-M4-with-L-10-mm
 - spacer-m5-l3 (Spacer for screw M5, L=3 mm): laser-cut-plates-semi-finished-products-tube-systems-cable-conduit/Spacer-for-screw-M5-with-L-3-mm/Motedis_5329.stp; Motedis 5329; https://www.motedis.com/en/Spacer-for-screw-M5-with-L-3-mm

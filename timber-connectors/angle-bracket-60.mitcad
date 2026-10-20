@@ -1,0 +1,551 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "d1",
+      "expression": "60 mm",
+      "unit": "mm",
+      "value": 60.0,
+      "comment": "Arm on the carrier length",
+      "owner": "F1"
+    },
+    {
+      "name": "d2",
+      "expression": "45 mm",
+      "unit": "mm",
+      "value": 45.0,
+      "comment": "Arm on the carrier width",
+      "owner": "F1"
+    },
+    {
+      "name": "d3",
+      "expression": "2 mm",
+      "unit": "mm",
+      "value": 2.0,
+      "comment": "Arm on the carrier height",
+      "owner": "F1"
+    },
+    {
+      "name": "d4",
+      "expression": "2 mm",
+      "unit": "mm",
+      "value": 2.0,
+      "comment": "Arm on the member length",
+      "owner": "F2"
+    },
+    {
+      "name": "d5",
+      "expression": "45 mm",
+      "unit": "mm",
+      "value": 45.0,
+      "comment": "Arm on the member width",
+      "owner": "F2"
+    },
+    {
+      "name": "d6",
+      "expression": "60 mm",
+      "unit": "mm",
+      "value": 60.0,
+      "comment": "Arm on the member height",
+      "owner": "F2"
+    },
+    {
+      "name": "d7",
+      "expression": "5 mm",
+      "unit": "mm",
+      "value": 5.0,
+      "comment": "Hole 1 diameter",
+      "owner": "F3"
+    },
+    {
+      "name": "d8",
+      "expression": "-4 mm",
+      "unit": "mm",
+      "value": -4.0,
+      "comment": "Hole 1 height",
+      "owner": "F3"
+    },
+    {
+      "name": "d9",
+      "expression": "5 mm",
+      "unit": "mm",
+      "value": 5.0,
+      "comment": "Hole 2 diameter",
+      "owner": "F4"
+    },
+    {
+      "name": "d10",
+      "expression": "-4 mm",
+      "unit": "mm",
+      "value": -4.0,
+      "comment": "Hole 2 height",
+      "owner": "F4"
+    },
+    {
+      "name": "d11",
+      "expression": "5 mm",
+      "unit": "mm",
+      "value": 5.0,
+      "comment": "Hole 3 diameter",
+      "owner": "F5"
+    },
+    {
+      "name": "d12",
+      "expression": "-4 mm",
+      "unit": "mm",
+      "value": -4.0,
+      "comment": "Hole 3 height",
+      "owner": "F5"
+    },
+    {
+      "name": "d13",
+      "expression": "5 mm",
+      "unit": "mm",
+      "value": 5.0,
+      "comment": "Hole 4 diameter",
+      "owner": "F6"
+    },
+    {
+      "name": "d14",
+      "expression": "-4 mm",
+      "unit": "mm",
+      "value": -4.0,
+      "comment": "Hole 4 height",
+      "owner": "F6"
+    },
+    {
+      "name": "d15",
+      "expression": "5 mm",
+      "unit": "mm",
+      "value": 5.0,
+      "comment": "Hole 5 diameter",
+      "owner": "F7"
+    },
+    {
+      "name": "d16",
+      "expression": "-4 mm",
+      "unit": "mm",
+      "value": -4.0,
+      "comment": "Hole 5 height",
+      "owner": "F7"
+    },
+    {
+      "name": "d17",
+      "expression": "5 mm",
+      "unit": "mm",
+      "value": 5.0,
+      "comment": "Hole 6 diameter",
+      "owner": "F8"
+    },
+    {
+      "name": "d18",
+      "expression": "-4 mm",
+      "unit": "mm",
+      "value": -4.0,
+      "comment": "Hole 6 height",
+      "owner": "F8"
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Arm on the carrier",
+      "type": "box",
+      "plane": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          -2.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "corner": [
+        0.0,
+        -22.5
+      ],
+      "length": "d1",
+      "width": "d2",
+      "height": "d3",
+      "operation": "new_body"
+    },
+    {
+      "uid": "F2",
+      "name": "Arm on the member",
+      "type": "box",
+      "plane": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          -60.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "corner": [
+        0.0,
+        -22.5
+      ],
+      "length": "d4",
+      "width": "d5",
+      "height": "d6",
+      "operation": "join"
+    },
+    {
+      "uid": "F3",
+      "name": "Hole 1",
+      "type": "cylinder",
+      "plane": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          20.0,
+          -12.0,
+          -2.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "d7",
+      "height": "d8",
+      "operation": "cut"
+    },
+    {
+      "uid": "F4",
+      "name": "Hole 2",
+      "type": "cylinder",
+      "plane": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          20.0,
+          12.0,
+          -2.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "d9",
+      "height": "d10",
+      "operation": "cut"
+    },
+    {
+      "uid": "F5",
+      "name": "Hole 3",
+      "type": "cylinder",
+      "plane": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          45.0,
+          0.0,
+          -2.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "d11",
+      "height": "d12",
+      "operation": "cut"
+    },
+    {
+      "uid": "F6",
+      "name": "Hole 4",
+      "type": "cylinder",
+      "plane": {
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin": [
+          2.0,
+          -12.0,
+          -20.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "d13",
+      "height": "d14",
+      "operation": "cut"
+    },
+    {
+      "uid": "F7",
+      "name": "Hole 5",
+      "type": "cylinder",
+      "plane": {
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin": [
+          2.0,
+          12.0,
+          -20.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "d15",
+      "height": "d16",
+      "operation": "cut"
+    },
+    {
+      "uid": "F8",
+      "name": "Hole 6",
+      "type": "cylinder",
+      "plane": {
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin": [
+          2.0,
+          0.0,
+          -45.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "center": [
+        0.0,
+        0.0
+      ],
+      "diameter": "d17",
+      "height": "d18",
+      "operation": "cut"
+    },
+    {
+      "uid": "F9",
+      "name": "mount:mount",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F10",
+      "name": "mount:hole_b_1",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          20.0,
+          -12.0,
+          -2.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F11",
+      "name": "mount:hole_b_2",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          20.0,
+          12.0,
+          -2.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F12",
+      "name": "mount:hole_b_3",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          45.0,
+          0.0,
+          -2.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "uid": "F13",
+      "name": "mount:hole_a_1",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin": [
+          2.0,
+          -12.0,
+          -20.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "uid": "F14",
+      "name": "mount:hole_a_2",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin": [
+          2.0,
+          12.0,
+          -20.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "uid": "F15",
+      "name": "mount:hole_a_3",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin": [
+          2.0,
+          0.0,
+          -45.0
+        ],
+        "x_axis": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F1.b0",
+      "name": "Body1",
+      "appearance": "steel_satin"
+    }
+  ]
+}
