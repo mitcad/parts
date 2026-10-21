@@ -4,7 +4,7 @@
   "id": "mitcad-parts",
   "name": "Mitcad parts",
   "description": "Mitcad's parts: ISO metric screws, nuts and washers, and slot profiles, connectors, nuts, caps, panels and linear parts for the BUILD tab.",
-  "library_version": "2.4.1",
+  "library_version": "2.5.0",
   "license": "MIT",
   "authors": [
     "Mitcad contributors"
@@ -83,8 +83,16 @@
       "name": "Profiles"
     },
     {
+      "id": "cladding",
+      "name": "Cladding boards"
+    },
+    {
       "id": "timber-connectors",
       "name": "Timber connectors"
+    },
+    {
+      "id": "decking",
+      "name": "Deck boards"
     },
     {
       "id": "dimensioned-timber",
@@ -105,6 +113,10 @@
     {
       "id": "sheets",
       "name": "Sheets"
+    },
+    {
+      "id": "tongue-and-groove",
+      "name": "Tongue and groove boards"
     },
     {
       "id": "tubes",
@@ -32860,6 +32872,519 @@
       }
     },
     {
+      "id": "cladding-shiplap",
+      "path": "cladding/cladding-shiplap.mitcad",
+      "category": "cladding",
+      "name": "Cladding board, shiplap",
+      "description": "Spruce shiplap (rebated) cladding boards for exterior walls, 22x120 to 28x170.",
+      "keywords": [
+        "timber",
+        "cladding",
+        "siding",
+        "weatherboard",
+        "shiplap",
+        "rebated",
+        "spruce",
+        "profiled"
+      ],
+      "license": "MIT",
+      "designation": "Shiplap cladding {Thickness}x{Width} L={L}",
+      "preview": "previews/cladding-shiplap.png",
+      "row_previews": {
+        "22x120": "previews/cladding-shiplap-22x120.png",
+        "22x145": "previews/cladding-shiplap-22x145.png",
+        "22x170": "previews/cladding-shiplap-22x170.png",
+        "28x145": "previews/cladding-shiplap-28x145.png",
+        "28x170": "previews/cladding-shiplap-28x170.png"
+      },
+      "build": {
+        "role": "profile",
+        "kind": "timber",
+        "material": {
+          "species": "spruce",
+          "finish": "planed",
+          "grade": "",
+          "density": 450,
+          "moisture": 20
+        },
+        "availability": "standard",
+        "length": {
+          "parameter": "L",
+          "min": 100,
+          "max": 6000,
+          "default": 3000,
+          "stock": [
+            2700,
+            3000,
+            3300,
+            3600,
+            3900,
+            4200,
+            4500,
+            4800,
+            5100,
+            5400
+          ]
+        },
+        "section": {
+          "width": "145 mm",
+          "height": "22 mm"
+        },
+        "nominal": {
+          "width": "145 mm",
+          "height": "22 mm"
+        },
+        "tolerance": {
+          "thickness": [
+            -1.0,
+            1.0
+          ],
+          "width": [
+            -1.5,
+            1.5
+          ]
+        },
+        "board": {
+          "profile": "shiplap",
+          "cover": "133 mm",
+          "area": 2926.0,
+          "overlap": "12 mm"
+        },
+        "rows": {
+          "22x120": {
+            "section": {
+              "width": "120 mm",
+              "height": "22 mm"
+            },
+            "nominal": {
+              "width": "120 mm",
+              "height": "22 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "shiplap",
+              "cover": "108 mm",
+              "area": 2376.0,
+              "overlap": "12 mm"
+            }
+          },
+          "22x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "22 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "22 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "shiplap",
+              "cover": "133 mm",
+              "area": 2926.0,
+              "overlap": "12 mm"
+            }
+          },
+          "22x170": {
+            "section": {
+              "width": "170 mm",
+              "height": "22 mm"
+            },
+            "nominal": {
+              "width": "170 mm",
+              "height": "22 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "shiplap",
+              "cover": "158 mm",
+              "area": 3476.0,
+              "overlap": "12 mm"
+            }
+          },
+          "28x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "28 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "28 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "shiplap",
+              "cover": "133 mm",
+              "area": 3724.0,
+              "overlap": "12 mm"
+            }
+          },
+          "28x170": {
+            "section": {
+              "width": "170 mm",
+              "height": "28 mm"
+            },
+            "nominal": {
+              "width": "170 mm",
+              "height": "28 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "shiplap",
+              "cover": "158 mm",
+              "area": 4424.0,
+              "overlap": "12 mm"
+            }
+          }
+        },
+        "frames": [
+          {
+            "name": "end_a",
+            "kind": "end"
+          },
+          {
+            "name": "end_b",
+            "kind": "end"
+          },
+          {
+            "name": "face_xp",
+            "kind": "face"
+          },
+          {
+            "name": "face_xn",
+            "kind": "face"
+          },
+          {
+            "name": "face_yp",
+            "kind": "face"
+          },
+          {
+            "name": "face_yn",
+            "kind": "face"
+          },
+          {
+            "name": "groove",
+            "kind": "groove"
+          },
+          {
+            "name": "tongue",
+            "kind": "tongue"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cladding-feather-edge",
+      "path": "cladding/cladding-feather-edge.mitcad",
+      "category": "cladding",
+      "name": "Cladding board, feather-edge",
+      "description": "Sawn spruce feather-edge boards, 22x100 to 22x175, thin edge 6 mm, overlapping by 25 to 35 mm.",
+      "keywords": [
+        "timber",
+        "cladding",
+        "siding",
+        "feather edge",
+        "featheredge",
+        "bevel",
+        "spruce",
+        "profiled",
+        "fence"
+      ],
+      "license": "MIT",
+      "designation": "Feather-edge cladding {Thickness}x{Width} L={L}",
+      "preview": "previews/cladding-feather-edge.png",
+      "row_previews": {
+        "22x100": "previews/cladding-feather-edge-22x100.png",
+        "22x125": "previews/cladding-feather-edge-22x125.png",
+        "22x150": "previews/cladding-feather-edge-22x150.png",
+        "22x175": "previews/cladding-feather-edge-22x175.png"
+      },
+      "build": {
+        "role": "profile",
+        "kind": "timber",
+        "material": {
+          "species": "spruce",
+          "finish": "sawn",
+          "grade": "",
+          "density": 450,
+          "moisture": 20
+        },
+        "availability": "standard",
+        "length": {
+          "parameter": "L",
+          "min": 100,
+          "max": 6000,
+          "default": 3000,
+          "stock": [
+            2700,
+            3000,
+            3300,
+            3600,
+            3900,
+            4200,
+            4500,
+            4800,
+            5100,
+            5400
+          ]
+        },
+        "section": {
+          "width": "150 mm",
+          "height": "22 mm"
+        },
+        "nominal": {
+          "width": "150 mm",
+          "height": "22 mm"
+        },
+        "tolerance": {
+          "thickness": [
+            -1,
+            3
+          ],
+          "width": [
+            -2,
+            4
+          ]
+        },
+        "board": {
+          "profile": "feather_edge",
+          "cover": "120.3521 mm",
+          "area": 2100.0,
+          "overlap": "30 mm"
+        },
+        "rows": {
+          "22x100": {
+            "section": {
+              "width": "100 mm",
+              "height": "22 mm"
+            },
+            "nominal": {
+              "width": "100 mm",
+              "height": "22 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -1,
+                3
+              ]
+            },
+            "board": {
+              "profile": "feather_edge",
+              "cover": "75.6637 mm",
+              "area": 1400.0,
+              "overlap": "25 mm"
+            }
+          },
+          "22x125": {
+            "section": {
+              "width": "125 mm",
+              "height": "22 mm"
+            },
+            "nominal": {
+              "width": "125 mm",
+              "height": "22 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            },
+            "board": {
+              "profile": "feather_edge",
+              "cover": "100.4223 mm",
+              "area": 1750.0,
+              "overlap": "25 mm"
+            }
+          },
+          "22x150": {
+            "section": {
+              "width": "150 mm",
+              "height": "22 mm"
+            },
+            "nominal": {
+              "width": "150 mm",
+              "height": "22 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            },
+            "board": {
+              "profile": "feather_edge",
+              "cover": "120.3521 mm",
+              "area": 2100.0,
+              "overlap": "30 mm"
+            }
+          },
+          "22x175": {
+            "section": {
+              "width": "175 mm",
+              "height": "22 mm"
+            },
+            "nominal": {
+              "width": "175 mm",
+              "height": "22 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -1,
+                3
+              ],
+              "width": [
+                -2,
+                4
+              ]
+            },
+            "board": {
+              "profile": "feather_edge",
+              "cover": "140.302 mm",
+              "area": 2450.0,
+              "overlap": "35 mm"
+            }
+          }
+        },
+        "frames": [
+          {
+            "name": "end_a",
+            "kind": "end"
+          },
+          {
+            "name": "end_b",
+            "kind": "end"
+          },
+          {
+            "name": "face_xp",
+            "kind": "face"
+          },
+          {
+            "name": "face_xn",
+            "kind": "face"
+          },
+          {
+            "name": "face_yp",
+            "kind": "face"
+          },
+          {
+            "name": "face_yn",
+            "kind": "face"
+          },
+          {
+            "name": "groove",
+            "kind": "groove"
+          },
+          {
+            "name": "tongue",
+            "kind": "tongue"
+          }
+        ]
+      }
+    },
+    {
       "id": "angle-bracket-40",
       "path": "timber-connectors/angle-bracket-40.mitcad",
       "category": "timber-connectors",
@@ -34164,6 +34689,481 @@
             "name": "hole_a_4",
             "kind": "hole",
             "diameter": "5.5 mm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deck-board",
+      "path": "decking/deck-board.mitcad",
+      "category": "decking",
+      "name": "Deck board",
+      "description": "Pine deck boards with rounded edges, 28x95 to 34x145.",
+      "keywords": [
+        "timber",
+        "deck",
+        "decking",
+        "terrace",
+        "pine",
+        "pressure-treated",
+        "rounded",
+        "profiled"
+      ],
+      "license": "MIT",
+      "designation": "Deck board {Thickness}x{Width} L={L}",
+      "preview": "previews/deck-board.png",
+      "row_previews": {
+        "28x95": "previews/deck-board-28x95.png",
+        "28x120": "previews/deck-board-28x120.png",
+        "28x145": "previews/deck-board-28x145.png",
+        "34x120": "previews/deck-board-34x120.png",
+        "34x145": "previews/deck-board-34x145.png"
+      },
+      "build": {
+        "role": "profile",
+        "kind": "timber",
+        "material": {
+          "species": "pine",
+          "finish": "planed",
+          "grade": "",
+          "density": 520,
+          "moisture": 20
+        },
+        "availability": "standard",
+        "length": {
+          "parameter": "L",
+          "min": 100,
+          "max": 6000,
+          "default": 3000,
+          "stock": [
+            2700,
+            3000,
+            3300,
+            3600,
+            3900,
+            4200,
+            4500,
+            4800,
+            5100,
+            5400
+          ]
+        },
+        "section": {
+          "width": "120 mm",
+          "height": "28 mm"
+        },
+        "nominal": {
+          "width": "120 mm",
+          "height": "28 mm"
+        },
+        "tolerance": {
+          "thickness": [
+            -1.0,
+            1.0
+          ],
+          "width": [
+            -1.5,
+            1.5
+          ]
+        },
+        "board": {
+          "profile": "deck",
+          "cover": "120 mm",
+          "area": 3338.54,
+          "edge_radius": "5 mm",
+          "grooves": 0
+        },
+        "rows": {
+          "28x95": {
+            "section": {
+              "width": "95 mm",
+              "height": "28 mm"
+            },
+            "nominal": {
+              "width": "95 mm",
+              "height": "28 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            },
+            "board": {
+              "profile": "deck",
+              "cover": "95 mm",
+              "area": 2638.54,
+              "edge_radius": "5 mm",
+              "grooves": 0
+            }
+          },
+          "28x120": {
+            "section": {
+              "width": "120 mm",
+              "height": "28 mm"
+            },
+            "nominal": {
+              "width": "120 mm",
+              "height": "28 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "deck",
+              "cover": "120 mm",
+              "area": 3338.54,
+              "edge_radius": "5 mm",
+              "grooves": 0
+            }
+          },
+          "28x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "28 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "28 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "deck",
+              "cover": "145 mm",
+              "area": 4038.54,
+              "edge_radius": "5 mm",
+              "grooves": 0
+            }
+          },
+          "34x120": {
+            "section": {
+              "width": "120 mm",
+              "height": "34 mm"
+            },
+            "nominal": {
+              "width": "120 mm",
+              "height": "34 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "deck",
+              "cover": "120 mm",
+              "area": 4058.54,
+              "edge_radius": "5 mm",
+              "grooves": 0
+            }
+          },
+          "34x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "34 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "34 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "deck",
+              "cover": "145 mm",
+              "area": 4908.54,
+              "edge_radius": "5 mm",
+              "grooves": 0
+            }
+          }
+        },
+        "frames": [
+          {
+            "name": "end_a",
+            "kind": "end"
+          },
+          {
+            "name": "end_b",
+            "kind": "end"
+          },
+          {
+            "name": "face_xp",
+            "kind": "face"
+          },
+          {
+            "name": "face_xn",
+            "kind": "face"
+          },
+          {
+            "name": "face_yp",
+            "kind": "face"
+          },
+          {
+            "name": "face_yn",
+            "kind": "face"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deck-board-grooved",
+      "path": "decking/deck-board-grooved.mitcad",
+      "category": "decking",
+      "name": "Deck board, grooved",
+      "description": "Pine deck boards with rounded edges and a grooved face, 28x120 to 34x145.",
+      "keywords": [
+        "timber",
+        "deck",
+        "decking",
+        "terrace",
+        "grooved",
+        "ribbed",
+        "pine",
+        "pressure-treated",
+        "profiled"
+      ],
+      "license": "MIT",
+      "designation": "Grooved deck board {Thickness}x{Width} L={L}",
+      "preview": "previews/deck-board-grooved.png",
+      "row_previews": {
+        "28x120": "previews/deck-board-grooved-28x120.png",
+        "28x145": "previews/deck-board-grooved-28x145.png",
+        "34x145": "previews/deck-board-grooved-34x145.png"
+      },
+      "build": {
+        "role": "profile",
+        "kind": "timber",
+        "material": {
+          "species": "pine",
+          "finish": "planed",
+          "grade": "",
+          "density": 520,
+          "moisture": 20
+        },
+        "availability": "standard",
+        "length": {
+          "parameter": "L",
+          "min": 100,
+          "max": 6000,
+          "default": 3000,
+          "stock": [
+            2700,
+            3000,
+            3300,
+            3600,
+            3900,
+            4200,
+            4500,
+            4800,
+            5100,
+            5400
+          ]
+        },
+        "section": {
+          "width": "120 mm",
+          "height": "28 mm"
+        },
+        "nominal": {
+          "width": "120 mm",
+          "height": "28 mm"
+        },
+        "tolerance": {
+          "thickness": [
+            -1.0,
+            1.0
+          ],
+          "width": [
+            -1.5,
+            1.5
+          ]
+        },
+        "board": {
+          "profile": "deck",
+          "cover": "120 mm",
+          "area": 3233.54,
+          "edge_radius": "5 mm",
+          "grooves": 7
+        },
+        "rows": {
+          "28x120": {
+            "section": {
+              "width": "120 mm",
+              "height": "28 mm"
+            },
+            "nominal": {
+              "width": "120 mm",
+              "height": "28 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "deck",
+              "cover": "120 mm",
+              "area": 3233.54,
+              "edge_radius": "5 mm",
+              "grooves": 7
+            }
+          },
+          "28x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "28 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "28 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "deck",
+              "cover": "145 mm",
+              "area": 3933.54,
+              "edge_radius": "5 mm",
+              "grooves": 7
+            }
+          },
+          "34x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "34 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "34 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "deck",
+              "cover": "145 mm",
+              "area": 4803.54,
+              "edge_radius": "5 mm",
+              "grooves": 7
+            }
+          }
+        },
+        "frames": [
+          {
+            "name": "end_a",
+            "kind": "end"
+          },
+          {
+            "name": "end_b",
+            "kind": "end"
+          },
+          {
+            "name": "face_xp",
+            "kind": "face"
+          },
+          {
+            "name": "face_xn",
+            "kind": "face"
+          },
+          {
+            "name": "face_yp",
+            "kind": "face"
+          },
+          {
+            "name": "face_yn",
+            "kind": "face"
           }
         ]
       }
@@ -39015,6 +40015,796 @@
         ]
       },
       "description": "6 sizes, 10 to 25."
+    },
+    {
+      "id": "floorboard-tg",
+      "path": "tongue-and-groove/floorboard-tg.mitcad",
+      "category": "tongue-and-groove",
+      "name": "Floorboard, tongue and groove",
+      "description": "Pine floorboards with a tongue and groove, 21x95 to 28x170; the tongue below the middle for the wear.",
+      "keywords": [
+        "timber",
+        "floorboard",
+        "flooring",
+        "tongue and groove",
+        "T&G",
+        "pine",
+        "profiled"
+      ],
+      "license": "MIT",
+      "designation": "Floorboard {Thickness}x{Width} L={L}",
+      "preview": "previews/floorboard-tg.png",
+      "row_previews": {
+        "21x95": "previews/floorboard-tg-21x95.png",
+        "21x120": "previews/floorboard-tg-21x120.png",
+        "21x145": "previews/floorboard-tg-21x145.png",
+        "28x95": "previews/floorboard-tg-28x95.png",
+        "28x120": "previews/floorboard-tg-28x120.png",
+        "28x145": "previews/floorboard-tg-28x145.png",
+        "28x170": "previews/floorboard-tg-28x170.png",
+        "33x145": "previews/floorboard-tg-33x145.png"
+      },
+      "build": {
+        "role": "profile",
+        "kind": "timber",
+        "material": {
+          "species": "pine",
+          "finish": "planed",
+          "grade": "",
+          "density": 520,
+          "moisture": 20
+        },
+        "availability": "standard",
+        "length": {
+          "parameter": "L",
+          "min": 100,
+          "max": 6000,
+          "default": 3000,
+          "stock": [
+            2700,
+            3000,
+            3300,
+            3600,
+            3900,
+            4200,
+            4500,
+            4800,
+            5100,
+            5400
+          ]
+        },
+        "section": {
+          "width": "120 mm",
+          "height": "28 mm"
+        },
+        "nominal": {
+          "width": "120 mm",
+          "height": "28 mm"
+        },
+        "tolerance": {
+          "thickness": [
+            -1.0,
+            1.0
+          ],
+          "width": [
+            -1.5,
+            1.5
+          ]
+        },
+        "board": {
+          "profile": "tongue_and_groove",
+          "cover": "112 mm",
+          "area": 3123.5,
+          "tongue": {
+            "length": "8 mm",
+            "thickness": "8 mm"
+          }
+        },
+        "rows": {
+          "21x95": {
+            "section": {
+              "width": "95 mm",
+              "height": "21 mm"
+            },
+            "nominal": {
+              "width": "95 mm",
+              "height": "21 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            },
+            "board": {
+              "profile": "tongue_and_groove",
+              "cover": "87 mm",
+              "area": 1816.5,
+              "tongue": {
+                "length": "8 mm",
+                "thickness": "6 mm"
+              }
+            }
+          },
+          "21x120": {
+            "section": {
+              "width": "120 mm",
+              "height": "21 mm"
+            },
+            "nominal": {
+              "width": "120 mm",
+              "height": "21 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "tongue_and_groove",
+              "cover": "112 mm",
+              "area": 2341.5,
+              "tongue": {
+                "length": "8 mm",
+                "thickness": "6 mm"
+              }
+            }
+          },
+          "21x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "21 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "21 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "tongue_and_groove",
+              "cover": "137 mm",
+              "area": 2866.5,
+              "tongue": {
+                "length": "8 mm",
+                "thickness": "6 mm"
+              }
+            }
+          },
+          "28x95": {
+            "section": {
+              "width": "95 mm",
+              "height": "28 mm"
+            },
+            "nominal": {
+              "width": "95 mm",
+              "height": "28 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            },
+            "board": {
+              "profile": "tongue_and_groove",
+              "cover": "87 mm",
+              "area": 2423.5,
+              "tongue": {
+                "length": "8 mm",
+                "thickness": "8 mm"
+              }
+            }
+          },
+          "28x120": {
+            "section": {
+              "width": "120 mm",
+              "height": "28 mm"
+            },
+            "nominal": {
+              "width": "120 mm",
+              "height": "28 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "tongue_and_groove",
+              "cover": "112 mm",
+              "area": 3123.5,
+              "tongue": {
+                "length": "8 mm",
+                "thickness": "8 mm"
+              }
+            }
+          },
+          "28x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "28 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "28 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "tongue_and_groove",
+              "cover": "137 mm",
+              "area": 3823.5,
+              "tongue": {
+                "length": "8 mm",
+                "thickness": "8 mm"
+              }
+            }
+          },
+          "28x170": {
+            "section": {
+              "width": "170 mm",
+              "height": "28 mm"
+            },
+            "nominal": {
+              "width": "170 mm",
+              "height": "28 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "tongue_and_groove",
+              "cover": "162 mm",
+              "area": 4523.5,
+              "tongue": {
+                "length": "8 mm",
+                "thickness": "8 mm"
+              }
+            }
+          },
+          "33x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "33 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "33 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "pine",
+              "density": 520
+            },
+            "tolerance": {
+              "thickness": [
+                -1.0,
+                1.0
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "tongue_and_groove",
+              "cover": "137 mm",
+              "area": 4507.5,
+              "tongue": {
+                "length": "8 mm",
+                "thickness": "9 mm"
+              }
+            }
+          }
+        },
+        "frames": [
+          {
+            "name": "end_a",
+            "kind": "end"
+          },
+          {
+            "name": "end_b",
+            "kind": "end"
+          },
+          {
+            "name": "face_xp",
+            "kind": "face"
+          },
+          {
+            "name": "face_xn",
+            "kind": "face"
+          },
+          {
+            "name": "face_yp",
+            "kind": "face"
+          },
+          {
+            "name": "face_yn",
+            "kind": "face"
+          },
+          {
+            "name": "groove",
+            "kind": "groove"
+          },
+          {
+            "name": "tongue",
+            "kind": "tongue"
+          }
+        ]
+      }
+    },
+    {
+      "id": "panel-board-tg",
+      "path": "tongue-and-groove/panel-board-tg.mitcad",
+      "category": "tongue-and-groove",
+      "name": "Panel board, tongue and groove",
+      "description": "Spruce panel boards for walls and ceilings with a tongue and groove and a V-joint, 12x95 to 20x145.",
+      "keywords": [
+        "timber",
+        "panel",
+        "panelling",
+        "ceiling",
+        "tongue and groove",
+        "T&G",
+        "V-joint",
+        "spruce",
+        "profiled"
+      ],
+      "license": "MIT",
+      "designation": "Panel board {Thickness}x{Width} L={L}",
+      "preview": "previews/panel-board-tg.png",
+      "row_previews": {
+        "12x70": "previews/panel-board-tg-12x70.png",
+        "12x95": "previews/panel-board-tg-12x95.png",
+        "15x95": "previews/panel-board-tg-15x95.png",
+        "15x120": "previews/panel-board-tg-15x120.png",
+        "15x145": "previews/panel-board-tg-15x145.png",
+        "20x95": "previews/panel-board-tg-20x95.png",
+        "20x120": "previews/panel-board-tg-20x120.png",
+        "20x145": "previews/panel-board-tg-20x145.png"
+      },
+      "build": {
+        "role": "profile",
+        "kind": "timber",
+        "material": {
+          "species": "spruce",
+          "finish": "planed",
+          "grade": "",
+          "density": 450,
+          "moisture": 20
+        },
+        "availability": "standard",
+        "length": {
+          "parameter": "L",
+          "min": 100,
+          "max": 6000,
+          "default": 3000,
+          "stock": [
+            2700,
+            3000,
+            3300,
+            3600,
+            3900,
+            4200,
+            4500,
+            4800,
+            5100,
+            5400
+          ]
+        },
+        "section": {
+          "width": "95 mm",
+          "height": "15 mm"
+        },
+        "nominal": {
+          "width": "95 mm",
+          "height": "15 mm"
+        },
+        "tolerance": {
+          "thickness": [
+            -0.5,
+            0.5
+          ],
+          "width": [
+            -1.0,
+            1.0
+          ]
+        },
+        "board": {
+          "profile": "tongue_and_groove",
+          "cover": "86 mm",
+          "area": 1276.0,
+          "tongue": {
+            "length": "9 mm",
+            "thickness": "5 mm"
+          }
+        },
+        "rows": {
+          "12x70": {
+            "section": {
+              "width": "70 mm",
+              "height": "12 mm"
+            },
+            "nominal": {
+              "width": "70 mm",
+              "height": "12 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            },
+            "board": {
+              "profile": "tongue_and_groove",
+              "cover": "61 mm",
+              "area": 719.0,
+              "tongue": {
+                "length": "9 mm",
+                "thickness": "4 mm"
+              }
+            }
+          },
+          "12x95": {
+            "section": {
+              "width": "95 mm",
+              "height": "12 mm"
+            },
+            "nominal": {
+              "width": "95 mm",
+              "height": "12 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            },
+            "board": {
+              "profile": "tongue_and_groove",
+              "cover": "86 mm",
+              "area": 1019.0,
+              "tongue": {
+                "length": "9 mm",
+                "thickness": "4 mm"
+              }
+            }
+          },
+          "15x95": {
+            "section": {
+              "width": "95 mm",
+              "height": "15 mm"
+            },
+            "nominal": {
+              "width": "95 mm",
+              "height": "15 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            },
+            "board": {
+              "profile": "tongue_and_groove",
+              "cover": "86 mm",
+              "area": 1276.0,
+              "tongue": {
+                "length": "9 mm",
+                "thickness": "5 mm"
+              }
+            }
+          },
+          "15x120": {
+            "section": {
+              "width": "120 mm",
+              "height": "15 mm"
+            },
+            "nominal": {
+              "width": "120 mm",
+              "height": "15 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "tongue_and_groove",
+              "cover": "111 mm",
+              "area": 1651.0,
+              "tongue": {
+                "length": "9 mm",
+                "thickness": "5 mm"
+              }
+            }
+          },
+          "15x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "15 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "15 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "tongue_and_groove",
+              "cover": "136 mm",
+              "area": 2026.0,
+              "tongue": {
+                "length": "9 mm",
+                "thickness": "5 mm"
+              }
+            }
+          },
+          "20x95": {
+            "section": {
+              "width": "95 mm",
+              "height": "20 mm"
+            },
+            "nominal": {
+              "width": "95 mm",
+              "height": "20 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.0,
+                1.0
+              ]
+            },
+            "board": {
+              "profile": "tongue_and_groove",
+              "cover": "86 mm",
+              "area": 1705.0,
+              "tongue": {
+                "length": "9 mm",
+                "thickness": "6 mm"
+              }
+            }
+          },
+          "20x120": {
+            "section": {
+              "width": "120 mm",
+              "height": "20 mm"
+            },
+            "nominal": {
+              "width": "120 mm",
+              "height": "20 mm"
+            },
+            "availability": "standard",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "tongue_and_groove",
+              "cover": "111 mm",
+              "area": 2205.0,
+              "tongue": {
+                "length": "9 mm",
+                "thickness": "6 mm"
+              }
+            }
+          },
+          "20x145": {
+            "section": {
+              "width": "145 mm",
+              "height": "20 mm"
+            },
+            "nominal": {
+              "width": "145 mm",
+              "height": "20 mm"
+            },
+            "availability": "less common",
+            "material": {
+              "species": "spruce",
+              "density": 450
+            },
+            "tolerance": {
+              "thickness": [
+                -0.5,
+                0.5
+              ],
+              "width": [
+                -1.5,
+                1.5
+              ]
+            },
+            "board": {
+              "profile": "tongue_and_groove",
+              "cover": "136 mm",
+              "area": 2705.0,
+              "tongue": {
+                "length": "9 mm",
+                "thickness": "6 mm"
+              }
+            }
+          }
+        },
+        "frames": [
+          {
+            "name": "end_a",
+            "kind": "end"
+          },
+          {
+            "name": "end_b",
+            "kind": "end"
+          },
+          {
+            "name": "face_xp",
+            "kind": "face"
+          },
+          {
+            "name": "face_xn",
+            "kind": "face"
+          },
+          {
+            "name": "face_yp",
+            "kind": "face"
+          },
+          {
+            "name": "face_yn",
+            "kind": "face"
+          },
+          {
+            "name": "groove",
+            "kind": "groove"
+          },
+          {
+            "name": "tongue",
+            "kind": "tongue"
+          }
+        ]
+      }
     },
     {
       "id": "tube-d20-core",
