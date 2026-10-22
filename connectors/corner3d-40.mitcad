@@ -178,6 +178,41 @@
           0.0
         ]
       }
+    },
+    {
+      "uid": "F5",
+      "name": "Thread",
+      "type": "thread",
+      "faces": [
+        {
+          "body": "F1.b1",
+          "face": "F1:import(65)"
+        },
+        {
+          "body": "F1.b2",
+          "face": "F1:import(77)"
+        },
+        {
+          "body": "F1.b3",
+          "face": "F1:import(89)"
+        },
+        {
+          "body": "F1.b4",
+          "face": "F1:import(101)"
+        },
+        {
+          "body": "F1.b5",
+          "face": "F1:import(113)"
+        },
+        {
+          "body": "F1.b6",
+          "face": "F1:import(125)"
+        }
+      ],
+      "thread": {
+        "designation": "M6"
+      },
+      "chamfer": "both"
     }
   ],
   "bodies": [

@@ -4,7 +4,7 @@
   "id": "mitcad-parts",
   "name": "Mitcad parts",
   "description": "Mitcad's parts: ISO metric screws, nuts and washers, and slot profiles, connectors, nuts, caps, panels and linear parts for the BUILD tab.",
-  "library_version": "2.5.0",
+  "library_version": "2.6.0",
   "license": "MIT",
   "authors": [
     "Mitcad contributors"
@@ -23,112 +23,120 @@
   "units": "mm",
   "categories": [
     {
-      "id": "caps",
-      "name": "Caps"
-    },
-    {
-      "id": "connectors",
-      "name": "Connectors"
-    },
-    {
-      "id": "covers",
-      "name": "Covers"
-    },
-    {
-      "id": "linear",
-      "name": "Linear"
-    },
-    {
-      "id": "motors",
-      "name": "Motors"
-    },
-    {
-      "id": "nuts",
-      "name": "Nuts"
-    },
-    {
-      "id": "screws",
-      "name": "Screws"
-    },
-    {
-      "id": "bearings",
-      "name": "Ball bearings"
-    },
-    {
-      "id": "castors",
-      "name": "Castors and wheels"
-    },
-    {
-      "id": "feet",
-      "name": "Feet and base plates"
-    },
-    {
-      "id": "handles",
-      "name": "Handles and knobs"
-    },
-    {
-      "id": "accessories",
-      "name": "Accessories"
-    },
-    {
-      "id": "panels",
-      "name": "Panels"
-    },
-    {
-      "id": "plates",
-      "name": "Plates"
-    },
-    {
-      "id": "profiles",
-      "name": "Profiles"
-    },
-    {
-      "id": "cladding",
-      "name": "Cladding boards"
-    },
-    {
-      "id": "timber-connectors",
-      "name": "Timber connectors"
-    },
-    {
-      "id": "decking",
-      "name": "Deck boards"
-    },
-    {
-      "id": "dimensioned-timber",
-      "name": "Dimensioned timber"
-    },
-    {
-      "id": "wood-fasteners",
-      "name": "Wood fasteners"
+      "id": "sawn-timber",
+      "name": "Wood/Sawn timber"
     },
     {
       "id": "planed-timber",
-      "name": "Planed timber"
+      "name": "Wood/Planed timber"
     },
     {
-      "id": "sawn-timber",
-      "name": "Sawn timber"
-    },
-    {
-      "id": "sheets",
-      "name": "Sheets"
+      "id": "dimensioned-timber",
+      "name": "Wood/Dimensioned timber"
     },
     {
       "id": "tongue-and-groove",
-      "name": "Tongue and groove boards"
+      "name": "Wood/Tongue and groove boards"
+    },
+    {
+      "id": "cladding",
+      "name": "Wood/Cladding boards"
+    },
+    {
+      "id": "decking",
+      "name": "Wood/Deck boards"
+    },
+    {
+      "id": "sheets",
+      "name": "Wood/Sheets"
+    },
+    {
+      "id": "wood-fasteners",
+      "name": "Wood/Wood fasteners"
+    },
+    {
+      "id": "timber-connectors",
+      "name": "Wood/Timber connectors"
+    },
+    {
+      "id": "profiles",
+      "name": "Slot profile/Profiles"
+    },
+    {
+      "id": "connectors",
+      "name": "Slot profile/Connectors"
+    },
+    {
+      "id": "plates",
+      "name": "Slot profile/Plates"
+    },
+    {
+      "id": "panels",
+      "name": "Slot profile/Panels"
+    },
+    {
+      "id": "caps",
+      "name": "Slot profile/Caps"
+    },
+    {
+      "id": "covers",
+      "name": "Slot profile/Covers"
     },
     {
       "id": "tubes",
-      "name": "Tubes"
+      "name": "Slot profile/Tubes"
+    },
+    {
+      "id": "accessories",
+      "name": "Slot profile/Accessories"
+    },
+    {
+      "id": "slot-nuts",
+      "name": "Slot profile/Slot nuts"
+    },
+    {
+      "id": "slot-screws",
+      "name": "Slot profile/Slot screws"
+    },
+    {
+      "id": "linear",
+      "name": "Motion/Linear"
+    },
+    {
+      "id": "bearings",
+      "name": "Motion/Ball bearings"
+    },
+    {
+      "id": "motors",
+      "name": "Motion/Motors"
+    },
+    {
+      "id": "screws",
+      "name": "General fasteners/Screws"
+    },
+    {
+      "id": "nuts",
+      "name": "General fasteners/Nuts"
+    },
+    {
+      "id": "washers",
+      "name": "General fasteners/Washers"
+    },
+    {
+      "id": "handles",
+      "name": "Hardware/Handles and knobs"
+    },
+    {
+      "id": "feet",
+      "name": "Hardware/Feet and base plates"
+    },
+    {
+      "id": "castors",
+      "name": "Hardware/Castors and wheels"
     },
     {
       "id": "workshop",
       "name": "Workshop"
-    },
-    {
-      "id": "washers",
-      "name": "Washers"
     }
   ],
   "components": [
@@ -4313,8 +4321,8 @@
     },
     {
       "id": "tnut-b8-heavy",
-      "path": "nuts/tnut-b8-heavy.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/tnut-b8-heavy.mitcad",
+      "category": "slot-nuts",
       "name": "Slotted block heavy B-type slot 8",
       "designation": "Slotted block heavy B-type slot 8 {Thread}",
       "supplier": "Motedis",
@@ -4340,8 +4348,8 @@
     },
     {
       "id": "snut-b10-spring",
-      "path": "nuts/snut-b10-spring.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/snut-b10-spring.mitcad",
+      "category": "slot-nuts",
       "name": "Slotted block with spring B-type slot 10",
       "designation": "Slotted block with spring B-type slot 10 {Thread}",
       "supplier": "Motedis",
@@ -4367,8 +4375,8 @@
     },
     {
       "id": "snut-b8-spring",
-      "path": "nuts/snut-b8-spring.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/snut-b8-spring.mitcad",
+      "category": "slot-nuts",
       "name": "Slotted block with spring B-type slot 8",
       "designation": "Slotted block with spring B-type slot 8 {Thread}",
       "supplier": "Motedis",
@@ -4394,8 +4402,8 @@
     },
     {
       "id": "threaded-plate-b6",
-      "path": "nuts/threaded-plate-b6.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/threaded-plate-b6.mitcad",
+      "category": "slot-nuts",
       "name": "Threaded plate B-type slot 6",
       "designation": "Threaded plate B-type slot 6 {Thread}",
       "supplier": "Motedis",
@@ -4421,8 +4429,8 @@
     },
     {
       "id": "t-block-b10",
-      "path": "nuts/t-block-b10.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/t-block-b10.mitcad",
+      "category": "slot-nuts",
       "name": "T-block B-type slot 10 for plastic joints",
       "designation": "T-block B-type slot 10 for plastic joints",
       "supplier": "Motedis",
@@ -4447,8 +4455,8 @@
     },
     {
       "id": "t-block-i8",
-      "path": "nuts/t-block-i8.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/t-block-i8.mitcad",
+      "category": "slot-nuts",
       "name": "T-block I-type slot 8 for plastic joints",
       "designation": "T-block I-type slot 8 for plastic joints",
       "supplier": "Motedis",
@@ -4473,8 +4481,8 @@
     },
     {
       "id": "square-nut-o",
-      "path": "nuts/square-nut-o.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/square-nut-o.mitcad",
+      "category": "slot-nuts",
       "name": "Square nut type O",
       "designation": "Square nut type O {Thread}",
       "supplier": "Motedis",
@@ -4485,8 +4493,8 @@
     },
     {
       "id": "square-nut-o-spring",
-      "path": "nuts/square-nut-o-spring.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/square-nut-o-spring.mitcad",
+      "category": "slot-nuts",
       "name": "Square nut with spring type O",
       "designation": "Square nut with spring type O {Thread}",
       "supplier": "Motedis",
@@ -4497,8 +4505,8 @@
     },
     {
       "id": "flange-nut-din6923",
-      "path": "nuts/flange-nut-din6923.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/flange-nut-din6923.mitcad",
+      "category": "slot-nuts",
       "name": "Flange nut DIN 6923",
       "standard": "DIN 6923",
       "designation": "Flange nut DIN 6923 {Thread}",
@@ -4510,8 +4518,8 @@
     },
     {
       "id": "hammer-screw-b10-m8x20",
-      "path": "screws/hammer-screw-b10-m8x20.mitcad",
-      "category": "screws",
+      "path": "slot-screws/hammer-screw-b10-m8x20.mitcad",
+      "category": "slot-screws",
       "name": "Hammer head screw B-type slot 10 M8x20",
       "designation": "Hammer head screw B-type slot 10 M8x20",
       "supplier": "Motedis",
@@ -4536,8 +4544,8 @@
     },
     {
       "id": "hammer-screw-b10-m8x25",
-      "path": "screws/hammer-screw-b10-m8x25.mitcad",
-      "category": "screws",
+      "path": "slot-screws/hammer-screw-b10-m8x25.mitcad",
+      "category": "slot-screws",
       "name": "Hammer head screw B-type slot 10 M8x25",
       "designation": "Hammer head screw B-type slot 10 M8x25, {Version}",
       "supplier": "Motedis",
@@ -4563,8 +4571,8 @@
     },
     {
       "id": "hammer-screw-b10-m8x30",
-      "path": "screws/hammer-screw-b10-m8x30.mitcad",
-      "category": "screws",
+      "path": "slot-screws/hammer-screw-b10-m8x30.mitcad",
+      "category": "slot-screws",
       "name": "Hammer head screw B-type slot 10 M8x30",
       "designation": "Hammer head screw B-type slot 10 M8x30",
       "supplier": "Motedis",
@@ -4589,8 +4597,8 @@
     },
     {
       "id": "central-screw-m12x30-sw8-b10",
-      "path": "screws/central-screw-m12x30-sw8-b10.mitcad",
-      "category": "screws",
+      "path": "slot-screws/central-screw-m12x30-sw8-b10.mitcad",
+      "category": "slot-screws",
       "name": "Central screw M12x30 SW8 for 45 B-type slot 10",
       "designation": "Central screw M12x30 SW8 for 45 B-type slot 10",
       "supplier": "Motedis",
@@ -4610,8 +4618,8 @@
     },
     {
       "id": "central-screw-m12x30-t50-b10",
-      "path": "screws/central-screw-m12x30-t50-b10.mitcad",
-      "category": "screws",
+      "path": "slot-screws/central-screw-m12x30-t50-b10.mitcad",
+      "category": "slot-screws",
       "name": "Central screw M12x30 T50 for 45 B-type slot 10",
       "designation": "Central screw M12x30 T50 for 45 B-type slot 10",
       "supplier": "Motedis",
@@ -4631,8 +4639,8 @@
     },
     {
       "id": "self-forming-screw-s12x30-b10",
-      "path": "screws/self-forming-screw-s12x30-b10.mitcad",
-      "category": "screws",
+      "path": "slot-screws/self-forming-screw-s12x30-b10.mitcad",
+      "category": "slot-screws",
       "name": "Self-forming screw S12x30 T50 for 45 B-type slot 10",
       "designation": "Self-forming screw S12x30 T50 for 45 B-type slot 10",
       "supplier": "Motedis",
@@ -4652,8 +4660,8 @@
     },
     {
       "id": "self-forming-screw-s7x25-i8",
-      "path": "screws/self-forming-screw-s7x25-i8.mitcad",
-      "category": "screws",
+      "path": "slot-screws/self-forming-screw-s7x25-i8.mitcad",
+      "category": "slot-screws",
       "name": "Self-forming screw S7x25 T40 I-type slot 8",
       "designation": "Self-forming screw S7x25 T40 I-type slot 8",
       "supplier": "Motedis",
@@ -4673,8 +4681,8 @@
     },
     {
       "id": "auto-connector-screw-m4x30-i5",
-      "path": "screws/auto-connector-screw-m4x30-i5.mitcad",
-      "category": "screws",
+      "path": "slot-screws/auto-connector-screw-m4x30-i5.mitcad",
+      "category": "slot-screws",
       "name": "Special screw for automatic connector DIN 912 M4x30, I-type slot 5",
       "designation": "Special screw for automatic connector DIN 912 M4x30, I-type slot 5",
       "supplier": "Motedis",
@@ -4694,8 +4702,8 @@
     },
     {
       "id": "auto-connector-screw-m4x35-i5",
-      "path": "screws/auto-connector-screw-m4x35-i5.mitcad",
-      "category": "screws",
+      "path": "slot-screws/auto-connector-screw-m4x35-i5.mitcad",
+      "category": "slot-screws",
       "name": "Special screw for automatic connector DIN 912 M4x35, I-type slot 5",
       "designation": "Special screw for automatic connector DIN 912 M4x35, I-type slot 5",
       "supplier": "Motedis",
@@ -4715,8 +4723,8 @@
     },
     {
       "id": "shut-off-connector-screw-m4x40-i5",
-      "path": "screws/shut-off-connector-screw-m4x40-i5.mitcad",
-      "category": "screws",
+      "path": "slot-screws/shut-off-connector-screw-m4x40-i5.mitcad",
+      "category": "slot-screws",
       "name": "Special screw for shut-off connector 180\u00b0 DIN 912 M4x40, I-type slot 5",
       "designation": "Special screw for shut-off connector 180\u00b0 DIN 912 M4x40, I-type slot 5",
       "supplier": "Motedis",
@@ -19796,8 +19804,8 @@
     },
     {
       "id": "tnut-b8-m6-a2",
-      "path": "nuts/tnut-b8-m6-a2.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/tnut-b8-m6-a2.mitcad",
+      "category": "slot-nuts",
       "name": "T-nut B-type slot 8 M6, stainless steel",
       "designation": "T-nut B-type slot 8 M6, stainless steel A2",
       "supplier": "Motedis",
@@ -19822,8 +19830,8 @@
     },
     {
       "id": "square-nut-spring-s8-m5",
-      "path": "nuts/square-nut-spring-s8-m5.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/square-nut-spring-s8-m5.mitcad",
+      "category": "slot-nuts",
       "name": "Square nut with spring, type O, slot 8, M5",
       "designation": "Square nut with spring, type O, slot 8, M5",
       "supplier": "Motedis",
@@ -19852,8 +19860,8 @@
     },
     {
       "id": "tnut-b6",
-      "path": "nuts/tnut-b6.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/tnut-b6.mitcad",
+      "category": "slot-nuts",
       "name": "T-nut B-type slot 6",
       "designation": "T-nut B-type slot 6 {Thread}",
       "supplier": "Motedis",
@@ -19879,8 +19887,8 @@
     },
     {
       "id": "tnut-b6-heavy",
-      "path": "nuts/tnut-b6-heavy.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/tnut-b6-heavy.mitcad",
+      "category": "slot-nuts",
       "name": "T-nut heavy duty steel B-type slot 6",
       "designation": "T-nut heavy duty steel B-type slot 6 {Thread}",
       "supplier": "Motedis",
@@ -19906,8 +19914,8 @@
     },
     {
       "id": "tnut-b8",
-      "path": "nuts/tnut-b8.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/tnut-b8.mitcad",
+      "category": "slot-nuts",
       "name": "T-nut B-type slot 8",
       "designation": "T-nut B-type slot 8 {Thread}",
       "supplier": "Motedis",
@@ -19933,8 +19941,8 @@
     },
     {
       "id": "tnut-i8",
-      "path": "nuts/tnut-i8.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/tnut-i8.mitcad",
+      "category": "slot-nuts",
       "name": "T-nut I-type slot 8",
       "designation": "T-nut I-type slot 8 {Thread}",
       "supplier": "Motedis",
@@ -19960,8 +19968,8 @@
     },
     {
       "id": "tnut-i8-guided",
-      "path": "nuts/tnut-i8-guided.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/tnut-i8-guided.mitcad",
+      "category": "slot-nuts",
       "name": "T-nut guided I-type slot 8",
       "designation": "T-nut guided I-type slot 8 {Thread}",
       "supplier": "Motedis",
@@ -19987,8 +19995,8 @@
     },
     {
       "id": "tnut-i5-spring",
-      "path": "nuts/tnut-i5-spring.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/tnut-i5-spring.mitcad",
+      "category": "slot-nuts",
       "name": "T-nut with spring ball I-type slot 5",
       "designation": "T-nut with spring ball I-type slot 5 {Thread}",
       "supplier": "Motedis",
@@ -20014,8 +20022,8 @@
     },
     {
       "id": "tnut-i5-spring-guided",
-      "path": "nuts/tnut-i5-spring-guided.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/tnut-i5-spring-guided.mitcad",
+      "category": "slot-nuts",
       "name": "T-nut with spring ball, guided, I-type slot 5",
       "designation": "T-nut with spring ball, guided, I-type slot 5 {Thread}",
       "supplier": "Motedis",
@@ -20041,8 +20049,8 @@
     },
     {
       "id": "tnut-i6-spring-guided",
-      "path": "nuts/tnut-i6-spring-guided.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/tnut-i6-spring-guided.mitcad",
+      "category": "slot-nuts",
       "name": "T-nut with spring ball, guided, I-type slot 6",
       "designation": "T-nut with spring ball, guided, I-type slot 6 {Thread}",
       "supplier": "Motedis",
@@ -20068,8 +20076,8 @@
     },
     {
       "id": "tnut-b10",
-      "path": "nuts/tnut-b10.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/tnut-b10.mitcad",
+      "category": "slot-nuts",
       "name": "T-nut B-type slot 10",
       "designation": "T-nut B-type slot 10 {Thread}",
       "supplier": "Motedis",
@@ -20095,8 +20103,8 @@
     },
     {
       "id": "tnut-b10-heavy",
-      "path": "nuts/tnut-b10-heavy.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/tnut-b10-heavy.mitcad",
+      "category": "slot-nuts",
       "name": "Heavy slot nut B-type slot 10",
       "designation": "Heavy slot nut B-type slot 10 {Thread}",
       "supplier": "Motedis",
@@ -20122,8 +20130,8 @@
     },
     {
       "id": "snut-b10",
-      "path": "nuts/snut-b10.mitcad",
-      "category": "nuts",
+      "path": "slot-nuts/snut-b10.mitcad",
+      "category": "slot-nuts",
       "name": "Square nut B-type slot 10",
       "designation": "Square nut B-type slot 10 {Thread}",
       "supplier": "Motedis",
@@ -35807,6 +35815,8 @@
         "wood": {
           "kind": "screw",
           "head": "countersunk",
+          "seat": "head_top",
+          "default": true,
           "diameter": "5 mm",
           "length": "50 mm"
         },
@@ -36001,6 +36011,7 @@
         "wood": {
           "kind": "screw",
           "head": "pan",
+          "seat": "head_underside",
           "diameter": "5 mm",
           "length": "40 mm"
         },
@@ -36068,6 +36079,7 @@
         "wood": {
           "kind": "nail",
           "head": "flat",
+          "seat": "head_top",
           "diameter": "3.1 mm",
           "length": "75 mm"
         },
@@ -36148,6 +36160,7 @@
         "wood": {
           "kind": "screw",
           "head": "washer",
+          "seat": "head_underside",
           "diameter": "6 mm",
           "length": "120 mm"
         },

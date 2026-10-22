@@ -19,7 +19,9 @@ copied):
   diameter (maximum), thickness (nominal).
 - ISO 261 and ISO 724: the coarse thread pitches (parameter P).
 
-The geometry is simplified for assemblies: no threads, chamfers, fillets
+The geometry is simplified for assemblies: the screws' threads are
+cosmetic (a thread feature without geometry but the chamfer at the tip),
+their heads' top edges rounded or chamfered, no other chamfers, fillets
 or under-head radii. Check critical dimensions against the standard you
 work to.
 

@@ -48,6 +48,22 @@
       "value": -20.0,
       "comment": "Shank height",
       "owner": "F3"
+    },
+    {
+      "name": "d2",
+      "expression": "0.06 * s",
+      "unit": "mm",
+      "value": 0.48,
+      "comment": "Head chamfer distance",
+      "owner": "F4"
+    },
+    {
+      "name": "d3",
+      "expression": "d - 1.182532 * P",
+      "unit": "mm",
+      "value": 4.0539743999999995,
+      "comment": "Thread chamfer_diameter",
+      "owner": "F5"
     }
   ],
   "features": [
@@ -281,12 +297,72 @@
       "diameter": "d",
       "height": "d1",
       "operation": "join"
+    },
+    {
+      "uid": "F4",
+      "name": "Head chamfer",
+      "type": "chamfer",
+      "body": "F2.b0",
+      "edges": [
+        "E{F2:end(r{c1[c6,c2],c2[c1,c3],c3[c2,c4],c4[c3,c5],c5[c4,c6],c6[c5,c1]})|F2:side(c1[c6,c2])}",
+        "E{F2:end(r{c1[c6,c2],c2[c1,c3],c3[c2,c4],c4[c3,c5],c5[c4,c6],c6[c5,c1]})|F2:side(c6[c5,c1])}",
+        "E{F2:end(r{c1[c6,c2],c2[c1,c3],c3[c2,c4],c4[c3,c5],c5[c4,c6],c6[c5,c1]})|F2:side(c2[c1,c3])}",
+        "E{F2:end(r{c1[c6,c2],c2[c1,c3],c3[c2,c4],c4[c3,c5],c5[c4,c6],c6[c5,c1]})|F2:side(c3[c2,c4])}",
+        "E{F2:end(r{c1[c6,c2],c2[c1,c3],c3[c2,c4],c4[c3,c5],c5[c4,c6],c6[c5,c1]})|F2:side(c4[c3,c5])}",
+        "E{F2:end(r{c1[c6,c2],c2[c1,c3],c3[c2,c4],c4[c3,c5],c5[c4,c6],c6[c5,c1]})|F2:side(c5[c4,c6])}"
+      ],
+      "size": {
+        "type": "equal_distance",
+        "distance": "d2"
+      }
+    },
+    {
+      "uid": "F5",
+      "name": "Thread",
+      "type": "thread",
+      "faces": [
+        {
+          "body": "F2.b0",
+          "face": "F3:side0"
+        }
+      ],
+      "thread": {
+        "designation": "M5"
+      },
+      "chamfer": "both",
+      "chamfer_diameter": "d3"
     }
   ],
   "bodies": [
     {
       "uid": "F2.b0",
-      "name": "Body1"
+      "name": "Body1",
+      "appearance": "zinc_plated"
+    }
+  ],
+  "appearances": [
+    {
+      "id": "zinc_plated",
+      "name": "Steel - Zinc plated",
+      "base_color": [
+        0.74,
+        0.76,
+        0.79
+      ],
+      "metalness": 1.0,
+      "roughness": 0.27,
+      "specular": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "coat": 0.0,
+      "coat_roughness": 0.03,
+      "emission": 0.0,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "opacity": 1.0
     }
   ],
   "configurations": {

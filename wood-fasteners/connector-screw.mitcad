@@ -41,6 +41,22 @@
       "value": -3.0,
       "comment": "Head height",
       "owner": "F2"
+    },
+    {
+      "name": "d2",
+      "expression": "0.08 * DK",
+      "unit": "mm",
+      "value": 0.64,
+      "comment": "Head rounding radius",
+      "owner": "F4"
+    },
+    {
+      "name": "d3",
+      "expression": "0.58 * D",
+      "unit": "mm",
+      "value": 2.9,
+      "comment": "Thread chamfer_diameter",
+      "owner": "F5"
     }
   ],
   "features": [
@@ -91,13 +107,65 @@
           0.0
         ]
       }
+    },
+    {
+      "uid": "F4",
+      "name": "Head rounding",
+      "type": "fillet",
+      "body": "F1.b0",
+      "edges": [
+        "E{F2:bottom|F2:side0}"
+      ],
+      "radius": "d2"
+    },
+    {
+      "uid": "F5",
+      "name": "Thread",
+      "type": "thread",
+      "faces": [
+        {
+          "body": "F1.b0",
+          "face": "F1:side0"
+        }
+      ],
+      "thread": {
+        "standard": "forming_screw",
+        "designation": "ST4.8"
+      },
+      "chamfer": "both",
+      "chamfer_diameter": "d3"
     }
   ],
   "bodies": [
     {
       "uid": "F1.b0",
       "name": "Body1",
-      "appearance": "steel_satin"
+      "appearance": "zinc_plated"
+    }
+  ],
+  "appearances": [
+    {
+      "id": "zinc_plated",
+      "name": "Steel - Zinc plated",
+      "base_color": [
+        0.74,
+        0.76,
+        0.79
+      ],
+      "metalness": 1.0,
+      "roughness": 0.27,
+      "specular": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "coat": 0.0,
+      "coat_roughness": 0.03,
+      "emission": 0.0,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "opacity": 1.0
     }
   ],
   "configurations": {

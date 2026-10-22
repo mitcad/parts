@@ -97,7 +97,32 @@
     {
       "uid": "F1.b0",
       "name": "Body1",
-      "appearance": "steel_satin"
+      "appearance": "zinc_plated"
+    }
+  ],
+  "appearances": [
+    {
+      "id": "zinc_plated",
+      "name": "Steel - Zinc plated",
+      "base_color": [
+        0.74,
+        0.76,
+        0.79
+      ],
+      "metalness": 1.0,
+      "roughness": 0.27,
+      "specular": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "coat": 0.0,
+      "coat_roughness": 0.03,
+      "emission": 0.0,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "opacity": 1.0
     }
   ],
   "configurations": {

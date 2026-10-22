@@ -70,6 +70,30 @@
       "value": -16.0,
       "comment": "Shank height",
       "owner": "F5"
+    },
+    {
+      "name": "d3",
+      "expression": "0.03 * dk",
+      "unit": "mm",
+      "value": 0.33599999999999997,
+      "comment": "Head rounding radius",
+      "owner": "F8"
+    },
+    {
+      "name": "d4",
+      "expression": "min(L - k, 2 * d + 12 mm)",
+      "unit": "mm",
+      "value": 12.9,
+      "comment": "Thread length",
+      "owner": "F9"
+    },
+    {
+      "name": "d5",
+      "expression": "d - 1.182532 * P",
+      "unit": "mm",
+      "value": 4.0539743999999995,
+      "comment": "Thread chamfer_diameter",
+      "owner": "F9"
     }
   ],
   "features": [
@@ -395,12 +419,66 @@
       },
       "flip": true,
       "operation": "cut"
+    },
+    {
+      "uid": "F8",
+      "name": "Head rounding",
+      "type": "fillet",
+      "body": "F4.b0",
+      "edges": [
+        "E{F4:side(c1)|F4:start(r{c1})}"
+      ],
+      "radius": "d3"
+    },
+    {
+      "uid": "F9",
+      "name": "Thread",
+      "type": "thread",
+      "faces": [
+        {
+          "body": "F4.b0",
+          "face": "F5:side0"
+        }
+      ],
+      "thread": {
+        "designation": "M5"
+      },
+      "length": "d4",
+      "location": "low_end",
+      "chamfer": "both",
+      "chamfer_diameter": "d5"
     }
   ],
   "bodies": [
     {
       "uid": "F4.b0",
-      "name": "Body1"
+      "name": "Body1",
+      "appearance": "black_oxide"
+    }
+  ],
+  "appearances": [
+    {
+      "id": "black_oxide",
+      "name": "Steel - Black oxide",
+      "base_color": [
+        0.24,
+        0.24,
+        0.25
+      ],
+      "metalness": 1.0,
+      "roughness": 0.22,
+      "specular": 1.0,
+      "transmission": 0.0,
+      "ior": 1.5,
+      "coat": 0.0,
+      "coat_roughness": 0.03,
+      "emission": 0.0,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "opacity": 1.0
     }
   ],
   "configurations": {
