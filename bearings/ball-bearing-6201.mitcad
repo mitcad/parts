@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Type",
+      "expression": "'6201-2RS'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -95,58 +103,54 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Type"
     ],
+    "closed": true,
     "parameters": [],
     "default": "6201-2RS",
     "rows": [
       {
         "name": "6201-2RS",
-        "select": {
-          "Type": "6201-2RS"
+        "values": {
+          "Type": "'6201-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6201-2RS 12x32x10",
         "part_number": "1461",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-6201-2RS-12x32x10mm"
       },
       {
         "name": "6201-2RS-C3",
-        "select": {
-          "Type": "6201-2RS-C3"
+        "values": {
+          "Type": "'6201-2RS-C3'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6201-2RS/C3 12x32x10",
         "part_number": "9589",
         "supplier_url": "https://www.motedis.com/en/Deepgrooveballbearings6201-2RS2FC312x32x10"
       },
       {
         "name": "6201-2Z",
-        "select": {
-          "Type": "6201-2Z"
+        "values": {
+          "Type": "'6201-2Z'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6201-2Z 12x32x10",
         "part_number": "9579",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-6201-2Z-12x32x10"
       },
       {
         "name": "6201-2Z-C3",
-        "select": {
-          "Type": "6201-2Z-C3"
+        "values": {
+          "Type": "'6201-2Z-C3'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6201-2Z/C3 12x32x10",
         "part_number": "9581",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-6201-2Z-C3-12x32x10"
       },
       {
         "name": "SS6201-2RS",
-        "select": {
-          "Type": "SS6201-2RS"
+        "values": {
+          "Type": "'SS6201-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing SS6201-2RS 12x32x10, stainless steel",
         "part_number": "9585",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-SS6201-2RS-12x32x10"

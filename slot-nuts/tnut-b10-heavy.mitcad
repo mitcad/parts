@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Thread",
+      "expression": "'M4'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -85,42 +93,39 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Thread"
     ],
+    "closed": true,
     "parameters": [],
     "default": "M4",
     "rows": [
       {
         "name": "M4",
-        "select": {
-          "Thread": "M4"
+        "values": {
+          "Thread": "'M4'"
         },
-        "values": {},
         "part_number": "S10BHESNM4"
       },
       {
         "name": "M5",
-        "select": {
-          "Thread": "M5"
+        "values": {
+          "Thread": "'M5'"
         },
-        "values": {},
         "part_number": "S10BHESNM5"
       },
       {
         "name": "M6",
-        "select": {
-          "Thread": "M6"
+        "values": {
+          "Thread": "'M6'"
         },
-        "values": {},
         "part_number": "S10BHESNM6"
       },
       {
         "name": "M8",
-        "select": {
-          "Thread": "M8"
+        "values": {
+          "Thread": "'M8'"
         },
-        "values": {},
         "part_number": "S10BHESNM8",
         "supplier_url": "https://www.motedis.com/en/Sliding-block-heavy-B-type-slot-10-M8"
       }

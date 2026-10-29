@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Type",
+      "expression": "'607-2RS'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -95,38 +103,36 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Type"
     ],
+    "closed": true,
     "parameters": [],
     "default": "607-2RS",
     "rows": [
       {
         "name": "607-2RS",
-        "select": {
-          "Type": "607-2RS"
+        "values": {
+          "Type": "'607-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 607-2RS 7x19x6",
         "part_number": "9559",
         "supplier_url": "https://www.motedis.com/en/Deepgrooveballbearings607-2RS7x19x6"
       },
       {
         "name": "607-2Z",
-        "select": {
-          "Type": "607-2Z"
+        "values": {
+          "Type": "'607-2Z'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 607-2Z 7x19x6",
         "part_number": "9555",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-607-2Z-7x19x6"
       },
       {
         "name": "SS607-2RS",
-        "select": {
-          "Type": "SS607-2RS"
+        "values": {
+          "Type": "'SS607-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing SS607-2RS 7x19x6, stainless steel",
         "part_number": "9558",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-SS607-2RS-7x19x6"

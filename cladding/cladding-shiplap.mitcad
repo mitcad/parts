@@ -216,6 +216,20 @@
       "value": 60.5,
       "comment": "Plane of tongue distance",
       "owner": "F16"
+    },
+    {
+      "name": "Thickness",
+      "expression": "'22'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    },
+    {
+      "name": "Width",
+      "expression": "'145'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -790,10 +804,11 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Thickness",
       "Width"
     ],
+    "closed": true,
     "parameters": [
       "W",
       "T",
@@ -804,67 +819,57 @@
     "rows": [
       {
         "name": "22x120",
-        "select": {
-          "Thickness": "22",
-          "Width": "120"
-        },
         "values": {
           "LT": "9 mm",
           "LW": "12 mm",
           "T": "22 mm",
-          "W": "120 mm"
+          "Thickness": "'22'",
+          "W": "120 mm",
+          "Width": "'120'"
         }
       },
       {
         "name": "22x145",
-        "select": {
-          "Thickness": "22",
-          "Width": "145"
-        },
         "values": {
           "LT": "9 mm",
           "LW": "12 mm",
           "T": "22 mm",
-          "W": "145 mm"
+          "Thickness": "'22'",
+          "W": "145 mm",
+          "Width": "'145'"
         }
       },
       {
         "name": "22x170",
-        "select": {
-          "Thickness": "22",
-          "Width": "170"
-        },
         "values": {
           "LT": "9 mm",
           "LW": "12 mm",
           "T": "22 mm",
-          "W": "170 mm"
+          "Thickness": "'22'",
+          "W": "170 mm",
+          "Width": "'170'"
         }
       },
       {
         "name": "28x145",
-        "select": {
-          "Thickness": "28",
-          "Width": "145"
-        },
         "values": {
           "LT": "12 mm",
           "LW": "12 mm",
           "T": "28 mm",
-          "W": "145 mm"
+          "Thickness": "'28'",
+          "W": "145 mm",
+          "Width": "'145'"
         }
       },
       {
         "name": "28x170",
-        "select": {
-          "Thickness": "28",
-          "Width": "170"
-        },
         "values": {
           "LT": "12 mm",
           "LW": "12 mm",
           "T": "28 mm",
-          "W": "170 mm"
+          "Thickness": "'28'",
+          "W": "170 mm",
+          "Width": "'170'"
         }
       }
     ]

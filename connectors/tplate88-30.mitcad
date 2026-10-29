@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Finish",
+      "expression": "'Raw'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -81,26 +89,25 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Finish"
     ],
+    "closed": true,
     "parameters": [],
     "default": "Raw",
     "rows": [
       {
         "name": "Raw",
-        "select": {
-          "Finish": "Raw"
+        "values": {
+          "Finish": "'Raw'"
         },
-        "values": {},
         "part_number": "LP30110"
       },
       {
         "name": "Black",
-        "select": {
-          "Finish": "Black"
+        "values": {
+          "Finish": "'Black'"
         },
-        "values": {},
         "part_number": "LP30110B"
       }
     ]

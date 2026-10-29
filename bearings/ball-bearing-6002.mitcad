@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Type",
+      "expression": "'6002-2RS'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -95,58 +103,54 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Type"
     ],
+    "closed": true,
     "parameters": [],
     "default": "6002-2RS",
     "rows": [
       {
         "name": "6002-2RS",
-        "select": {
-          "Type": "6002-2RS"
+        "values": {
+          "Type": "'6002-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6002-2RS 15x32x9",
         "part_number": "9605",
         "supplier_url": "https://www.motedis.com/en/Deepgrooveballbearings6002-2RS15x32x9"
       },
       {
         "name": "6002-2RS-C3",
-        "select": {
-          "Type": "6002-2RS-C3"
+        "values": {
+          "Type": "'6002-2RS-C3'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6002-2RS/C3 15x32x9",
         "part_number": "9609",
         "supplier_url": "https://www.motedis.com/en/Deepgrooveballbearings6002-2RS2FC315x32x9"
       },
       {
         "name": "6002-2Z",
-        "select": {
-          "Type": "6002-2Z"
+        "values": {
+          "Type": "'6002-2Z'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6002-2Z 15x32x9",
         "part_number": "9594",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-6002-2Z-15x32x9"
       },
       {
         "name": "6002-2Z-C3",
-        "select": {
-          "Type": "6002-2Z-C3"
+        "values": {
+          "Type": "'6002-2Z-C3'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6002-2Z/C3 15x32x9",
         "part_number": "9593",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-6002-2Z-C3-15x32x9"
       },
       {
         "name": "SS6002-2RS",
-        "select": {
-          "Type": "SS6002-2RS"
+        "values": {
+          "Type": "'SS6002-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing SS6002-2RS 15x32x9, stainless steel",
         "part_number": "9600",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-SS6002-2RS-15x32x9"

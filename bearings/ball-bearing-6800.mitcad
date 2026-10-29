@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Type",
+      "expression": "'6800-2RS'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -95,28 +103,27 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Type"
     ],
+    "closed": true,
     "parameters": [],
     "default": "6800-2RS",
     "rows": [
       {
         "name": "6800-2RS",
-        "select": {
-          "Type": "6800-2RS"
+        "values": {
+          "Type": "'6800-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6800-2RS 10x19x5",
         "part_number": "9575",
         "supplier_url": "https://www.motedis.com/en/Deepgrooveballbearings6800-2RS10x19x5"
       },
       {
         "name": "SS61800-2RS",
-        "select": {
-          "Type": "SS61800-2RS"
+        "values": {
+          "Type": "'SS61800-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing SS61800-2RS 10x19x5, stainless steel",
         "part_number": "9571",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-SS61800-2RS-10x19x5"

@@ -58,6 +58,20 @@
       "value": 11.0,
       "comment": "Plane of face_yn distance",
       "owner": "F12"
+    },
+    {
+      "name": "Thickness",
+      "expression": "'22'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    },
+    {
+      "name": "Width",
+      "expression": "'100'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -431,10 +445,11 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Thickness",
       "Width"
     ],
+    "closed": true,
     "parameters": [
       "W",
       "T"
@@ -443,728 +458,596 @@
     "rows": [
       {
         "name": "19x100",
-        "select": {
-          "Thickness": "19",
-          "Width": "100"
-        },
         "values": {
           "T": "19 mm",
-          "W": "100 mm"
+          "Thickness": "'19'",
+          "W": "100 mm",
+          "Width": "'100'"
         }
       },
       {
         "name": "19x125",
-        "select": {
-          "Thickness": "19",
-          "Width": "125"
-        },
         "values": {
           "T": "19 mm",
-          "W": "125 mm"
+          "Thickness": "'19'",
+          "W": "125 mm",
+          "Width": "'125'"
         }
       },
       {
         "name": "19x150",
-        "select": {
-          "Thickness": "19",
-          "Width": "150"
-        },
         "values": {
           "T": "19 mm",
-          "W": "150 mm"
+          "Thickness": "'19'",
+          "W": "150 mm",
+          "Width": "'150'"
         }
       },
       {
         "name": "22x50",
-        "select": {
-          "Thickness": "22",
-          "Width": "50"
-        },
         "values": {
           "T": "22 mm",
-          "W": "48 mm"
+          "Thickness": "'22'",
+          "W": "48 mm",
+          "Width": "'50'"
         }
       },
       {
         "name": "22x75",
-        "select": {
-          "Thickness": "22",
-          "Width": "75"
-        },
         "values": {
           "T": "22 mm",
-          "W": "73 mm"
+          "Thickness": "'22'",
+          "W": "73 mm",
+          "Width": "'75'"
         }
       },
       {
         "name": "22x100",
-        "select": {
-          "Thickness": "22",
-          "Width": "100"
-        },
         "values": {
           "T": "22 mm",
-          "W": "100 mm"
+          "Thickness": "'22'",
+          "W": "100 mm",
+          "Width": "'100'"
         }
       },
       {
         "name": "22x125",
-        "select": {
-          "Thickness": "22",
-          "Width": "125"
-        },
         "values": {
           "T": "22 mm",
-          "W": "125 mm"
+          "Thickness": "'22'",
+          "W": "125 mm",
+          "Width": "'125'"
         }
       },
       {
         "name": "22x150",
-        "select": {
-          "Thickness": "22",
-          "Width": "150"
-        },
         "values": {
           "T": "22 mm",
-          "W": "150 mm"
+          "Thickness": "'22'",
+          "W": "150 mm",
+          "Width": "'150'"
         }
       },
       {
         "name": "22x175",
-        "select": {
-          "Thickness": "22",
-          "Width": "175"
-        },
         "values": {
           "T": "22 mm",
-          "W": "175 mm"
+          "Thickness": "'22'",
+          "W": "175 mm",
+          "Width": "'175'"
         }
       },
       {
         "name": "22x200",
-        "select": {
-          "Thickness": "22",
-          "Width": "200"
-        },
         "values": {
           "T": "22 mm",
-          "W": "200 mm"
+          "Thickness": "'22'",
+          "W": "200 mm",
+          "Width": "'200'"
         }
       },
       {
         "name": "25x50",
-        "select": {
-          "Thickness": "25",
-          "Width": "50"
-        },
         "values": {
           "T": "25 mm",
-          "W": "50 mm"
+          "Thickness": "'25'",
+          "W": "50 mm",
+          "Width": "'50'"
         }
       },
       {
         "name": "25x75",
-        "select": {
-          "Thickness": "25",
-          "Width": "75"
-        },
         "values": {
           "T": "25 mm",
-          "W": "75 mm"
+          "Thickness": "'25'",
+          "W": "75 mm",
+          "Width": "'75'"
         }
       },
       {
         "name": "25x100",
-        "select": {
-          "Thickness": "25",
-          "Width": "100"
-        },
         "values": {
           "T": "25 mm",
-          "W": "100 mm"
+          "Thickness": "'25'",
+          "W": "100 mm",
+          "Width": "'100'"
         }
       },
       {
         "name": "25x125",
-        "select": {
-          "Thickness": "25",
-          "Width": "125"
-        },
         "values": {
           "T": "25 mm",
-          "W": "125 mm"
+          "Thickness": "'25'",
+          "W": "125 mm",
+          "Width": "'125'"
         }
       },
       {
         "name": "25x150",
-        "select": {
-          "Thickness": "25",
-          "Width": "150"
-        },
         "values": {
           "T": "25 mm",
-          "W": "150 mm"
+          "Thickness": "'25'",
+          "W": "150 mm",
+          "Width": "'150'"
         }
       },
       {
         "name": "25x175",
-        "select": {
-          "Thickness": "25",
-          "Width": "175"
-        },
         "values": {
           "T": "25 mm",
-          "W": "175 mm"
+          "Thickness": "'25'",
+          "W": "175 mm",
+          "Width": "'175'"
         }
       },
       {
         "name": "25x200",
-        "select": {
-          "Thickness": "25",
-          "Width": "200"
-        },
         "values": {
           "T": "25 mm",
-          "W": "200 mm"
+          "Thickness": "'25'",
+          "W": "200 mm",
+          "Width": "'200'"
         }
       },
       {
         "name": "25x225",
-        "select": {
-          "Thickness": "25",
-          "Width": "225"
-        },
         "values": {
           "T": "25 mm",
-          "W": "225 mm"
+          "Thickness": "'25'",
+          "W": "225 mm",
+          "Width": "'225'"
         }
       },
       {
         "name": "32x75",
-        "select": {
-          "Thickness": "32",
-          "Width": "75"
-        },
         "values": {
           "T": "32 mm",
-          "W": "75 mm"
+          "Thickness": "'32'",
+          "W": "75 mm",
+          "Width": "'75'"
         }
       },
       {
         "name": "32x100",
-        "select": {
-          "Thickness": "32",
-          "Width": "100"
-        },
         "values": {
           "T": "32 mm",
-          "W": "100 mm"
+          "Thickness": "'32'",
+          "W": "100 mm",
+          "Width": "'100'"
         }
       },
       {
         "name": "32x125",
-        "select": {
-          "Thickness": "32",
-          "Width": "125"
-        },
         "values": {
           "T": "32 mm",
-          "W": "125 mm"
+          "Thickness": "'32'",
+          "W": "125 mm",
+          "Width": "'125'"
         }
       },
       {
         "name": "32x150",
-        "select": {
-          "Thickness": "32",
-          "Width": "150"
-        },
         "values": {
           "T": "32 mm",
-          "W": "150 mm"
+          "Thickness": "'32'",
+          "W": "150 mm",
+          "Width": "'150'"
         }
       },
       {
         "name": "32x175",
-        "select": {
-          "Thickness": "32",
-          "Width": "175"
-        },
         "values": {
           "T": "32 mm",
-          "W": "175 mm"
+          "Thickness": "'32'",
+          "W": "175 mm",
+          "Width": "'175'"
         }
       },
       {
         "name": "32x200",
-        "select": {
-          "Thickness": "32",
-          "Width": "200"
-        },
         "values": {
           "T": "32 mm",
-          "W": "200 mm"
+          "Thickness": "'32'",
+          "W": "200 mm",
+          "Width": "'200'"
         }
       },
       {
         "name": "32x225",
-        "select": {
-          "Thickness": "32",
-          "Width": "225"
-        },
         "values": {
           "T": "32 mm",
-          "W": "225 mm"
+          "Thickness": "'32'",
+          "W": "225 mm",
+          "Width": "'225'"
         }
       },
       {
         "name": "38x100",
-        "select": {
-          "Thickness": "38",
-          "Width": "100"
-        },
         "values": {
           "T": "38 mm",
-          "W": "100 mm"
+          "Thickness": "'38'",
+          "W": "100 mm",
+          "Width": "'100'"
         }
       },
       {
         "name": "38x125",
-        "select": {
-          "Thickness": "38",
-          "Width": "125"
-        },
         "values": {
           "T": "38 mm",
-          "W": "125 mm"
+          "Thickness": "'38'",
+          "W": "125 mm",
+          "Width": "'125'"
         }
       },
       {
         "name": "38x150",
-        "select": {
-          "Thickness": "38",
-          "Width": "150"
-        },
         "values": {
           "T": "38 mm",
-          "W": "150 mm"
+          "Thickness": "'38'",
+          "W": "150 mm",
+          "Width": "'150'"
         }
       },
       {
         "name": "38x175",
-        "select": {
-          "Thickness": "38",
-          "Width": "175"
-        },
         "values": {
           "T": "38 mm",
-          "W": "175 mm"
+          "Thickness": "'38'",
+          "W": "175 mm",
+          "Width": "'175'"
         }
       },
       {
         "name": "38x200",
-        "select": {
-          "Thickness": "38",
-          "Width": "200"
-        },
         "values": {
           "T": "38 mm",
-          "W": "200 mm"
+          "Thickness": "'38'",
+          "W": "200 mm",
+          "Width": "'200'"
         }
       },
       {
         "name": "38x225",
-        "select": {
-          "Thickness": "38",
-          "Width": "225"
-        },
         "values": {
           "T": "38 mm",
-          "W": "225 mm"
+          "Thickness": "'38'",
+          "W": "225 mm",
+          "Width": "'225'"
         }
       },
       {
         "name": "44x100",
-        "select": {
-          "Thickness": "44",
-          "Width": "100"
-        },
         "values": {
           "T": "44 mm",
-          "W": "100 mm"
+          "Thickness": "'44'",
+          "W": "100 mm",
+          "Width": "'100'"
         }
       },
       {
         "name": "44x125",
-        "select": {
-          "Thickness": "44",
-          "Width": "125"
-        },
         "values": {
           "T": "44 mm",
-          "W": "125 mm"
+          "Thickness": "'44'",
+          "W": "125 mm",
+          "Width": "'125'"
         }
       },
       {
         "name": "44x150",
-        "select": {
-          "Thickness": "44",
-          "Width": "150"
-        },
         "values": {
           "T": "44 mm",
-          "W": "150 mm"
+          "Thickness": "'44'",
+          "W": "150 mm",
+          "Width": "'150'"
         }
       },
       {
         "name": "44x175",
-        "select": {
-          "Thickness": "44",
-          "Width": "175"
-        },
         "values": {
           "T": "44 mm",
-          "W": "175 mm"
+          "Thickness": "'44'",
+          "W": "175 mm",
+          "Width": "'175'"
         }
       },
       {
         "name": "44x200",
-        "select": {
-          "Thickness": "44",
-          "Width": "200"
-        },
         "values": {
           "T": "44 mm",
-          "W": "200 mm"
+          "Thickness": "'44'",
+          "W": "200 mm",
+          "Width": "'200'"
         }
       },
       {
         "name": "44x225",
-        "select": {
-          "Thickness": "44",
-          "Width": "225"
-        },
         "values": {
           "T": "44 mm",
-          "W": "225 mm"
+          "Thickness": "'44'",
+          "W": "225 mm",
+          "Width": "'225'"
         }
       },
       {
         "name": "44x250",
-        "select": {
-          "Thickness": "44",
-          "Width": "250"
-        },
         "values": {
           "T": "44 mm",
-          "W": "250 mm"
+          "Thickness": "'44'",
+          "W": "250 mm",
+          "Width": "'250'"
         }
       },
       {
         "name": "50x75",
-        "select": {
-          "Thickness": "50",
-          "Width": "75"
-        },
         "values": {
           "T": "50 mm",
-          "W": "73 mm"
+          "Thickness": "'50'",
+          "W": "73 mm",
+          "Width": "'75'"
         }
       },
       {
         "name": "50x100",
-        "select": {
-          "Thickness": "50",
-          "Width": "100"
-        },
         "values": {
           "T": "50 mm",
-          "W": "100 mm"
+          "Thickness": "'50'",
+          "W": "100 mm",
+          "Width": "'100'"
         }
       },
       {
         "name": "50x125",
-        "select": {
-          "Thickness": "50",
-          "Width": "125"
-        },
         "values": {
           "T": "50 mm",
-          "W": "125 mm"
+          "Thickness": "'50'",
+          "W": "125 mm",
+          "Width": "'125'"
         }
       },
       {
         "name": "50x150",
-        "select": {
-          "Thickness": "50",
-          "Width": "150"
-        },
         "values": {
           "T": "50 mm",
-          "W": "150 mm"
+          "Thickness": "'50'",
+          "W": "150 mm",
+          "Width": "'150'"
         }
       },
       {
         "name": "50x175",
-        "select": {
-          "Thickness": "50",
-          "Width": "175"
-        },
         "values": {
           "T": "50 mm",
-          "W": "175 mm"
+          "Thickness": "'50'",
+          "W": "175 mm",
+          "Width": "'175'"
         }
       },
       {
         "name": "50x200",
-        "select": {
-          "Thickness": "50",
-          "Width": "200"
-        },
         "values": {
           "T": "50 mm",
-          "W": "200 mm"
+          "Thickness": "'50'",
+          "W": "200 mm",
+          "Width": "'200'"
         }
       },
       {
         "name": "50x225",
-        "select": {
-          "Thickness": "50",
-          "Width": "225"
-        },
         "values": {
           "T": "50 mm",
-          "W": "225 mm"
+          "Thickness": "'50'",
+          "W": "225 mm",
+          "Width": "'225'"
         }
       },
       {
         "name": "63x100",
-        "select": {
-          "Thickness": "63",
-          "Width": "100"
-        },
         "values": {
           "T": "63 mm",
-          "W": "100 mm"
+          "Thickness": "'63'",
+          "W": "100 mm",
+          "Width": "'100'"
         }
       },
       {
         "name": "63x125",
-        "select": {
-          "Thickness": "63",
-          "Width": "125"
-        },
         "values": {
           "T": "63 mm",
-          "W": "125 mm"
+          "Thickness": "'63'",
+          "W": "125 mm",
+          "Width": "'125'"
         }
       },
       {
         "name": "63x150",
-        "select": {
-          "Thickness": "63",
-          "Width": "150"
-        },
         "values": {
           "T": "63 mm",
-          "W": "150 mm"
+          "Thickness": "'63'",
+          "W": "150 mm",
+          "Width": "'150'"
         }
       },
       {
         "name": "63x175",
-        "select": {
-          "Thickness": "63",
-          "Width": "175"
-        },
         "values": {
           "T": "63 mm",
-          "W": "175 mm"
+          "Thickness": "'63'",
+          "W": "175 mm",
+          "Width": "'175'"
         }
       },
       {
         "name": "63x200",
-        "select": {
-          "Thickness": "63",
-          "Width": "200"
-        },
         "values": {
           "T": "63 mm",
-          "W": "200 mm"
+          "Thickness": "'63'",
+          "W": "200 mm",
+          "Width": "'200'"
         }
       },
       {
         "name": "63x225",
-        "select": {
-          "Thickness": "63",
-          "Width": "225"
-        },
         "values": {
           "T": "63 mm",
-          "W": "225 mm"
+          "Thickness": "'63'",
+          "W": "225 mm",
+          "Width": "'225'"
         }
       },
       {
         "name": "75x75",
-        "select": {
-          "Thickness": "75",
-          "Width": "75"
-        },
         "values": {
           "T": "75 mm",
-          "W": "73 mm"
+          "Thickness": "'75'",
+          "W": "73 mm",
+          "Width": "'75'"
         }
       },
       {
         "name": "75x100",
-        "select": {
-          "Thickness": "75",
-          "Width": "100"
-        },
         "values": {
           "T": "75 mm",
-          "W": "100 mm"
+          "Thickness": "'75'",
+          "W": "100 mm",
+          "Width": "'100'"
         }
       },
       {
         "name": "75x125",
-        "select": {
-          "Thickness": "75",
-          "Width": "125"
-        },
         "values": {
           "T": "75 mm",
-          "W": "125 mm"
+          "Thickness": "'75'",
+          "W": "125 mm",
+          "Width": "'125'"
         }
       },
       {
         "name": "75x150",
-        "select": {
-          "Thickness": "75",
-          "Width": "150"
-        },
         "values": {
           "T": "75 mm",
-          "W": "150 mm"
+          "Thickness": "'75'",
+          "W": "150 mm",
+          "Width": "'150'"
         }
       },
       {
         "name": "75x175",
-        "select": {
-          "Thickness": "75",
-          "Width": "175"
-        },
         "values": {
           "T": "75 mm",
-          "W": "175 mm"
+          "Thickness": "'75'",
+          "W": "175 mm",
+          "Width": "'175'"
         }
       },
       {
         "name": "75x200",
-        "select": {
-          "Thickness": "75",
-          "Width": "200"
-        },
         "values": {
           "T": "75 mm",
-          "W": "200 mm"
+          "Thickness": "'75'",
+          "W": "200 mm",
+          "Width": "'200'"
         }
       },
       {
         "name": "75x225",
-        "select": {
-          "Thickness": "75",
-          "Width": "225"
-        },
         "values": {
           "T": "75 mm",
-          "W": "225 mm"
+          "Thickness": "'75'",
+          "W": "225 mm",
+          "Width": "'225'"
         }
       },
       {
         "name": "100x100",
-        "select": {
-          "Thickness": "100",
-          "Width": "100"
-        },
         "values": {
           "T": "100 mm",
-          "W": "100 mm"
+          "Thickness": "'100'",
+          "W": "100 mm",
+          "Width": "'100'"
         }
       },
       {
         "name": "100x125",
-        "select": {
-          "Thickness": "100",
-          "Width": "125"
-        },
         "values": {
           "T": "100 mm",
-          "W": "125 mm"
+          "Thickness": "'100'",
+          "W": "125 mm",
+          "Width": "'125'"
         }
       },
       {
         "name": "100x150",
-        "select": {
-          "Thickness": "100",
-          "Width": "150"
-        },
         "values": {
           "T": "100 mm",
-          "W": "150 mm"
+          "Thickness": "'100'",
+          "W": "150 mm",
+          "Width": "'150'"
         }
       },
       {
         "name": "100x175",
-        "select": {
-          "Thickness": "100",
-          "Width": "175"
-        },
         "values": {
           "T": "100 mm",
-          "W": "175 mm"
+          "Thickness": "'100'",
+          "W": "175 mm",
+          "Width": "'175'"
         }
       },
       {
         "name": "100x200",
-        "select": {
-          "Thickness": "100",
-          "Width": "200"
-        },
         "values": {
           "T": "100 mm",
-          "W": "200 mm"
+          "Thickness": "'100'",
+          "W": "200 mm",
+          "Width": "'200'"
         }
       },
       {
         "name": "100x225",
-        "select": {
-          "Thickness": "100",
-          "Width": "225"
-        },
         "values": {
           "T": "100 mm",
-          "W": "225 mm"
+          "Thickness": "'100'",
+          "W": "225 mm",
+          "Width": "'225'"
         }
       },
       {
         "name": "125x125",
-        "select": {
-          "Thickness": "125",
-          "Width": "125"
-        },
         "values": {
           "T": "125 mm",
-          "W": "125 mm"
+          "Thickness": "'125'",
+          "W": "125 mm",
+          "Width": "'125'"
         }
       },
       {
         "name": "150x150",
-        "select": {
-          "Thickness": "150",
-          "Width": "150"
-        },
         "values": {
           "T": "150 mm",
-          "W": "150 mm"
+          "Thickness": "'150'",
+          "W": "150 mm",
+          "Width": "'150'"
         }
       }
     ]

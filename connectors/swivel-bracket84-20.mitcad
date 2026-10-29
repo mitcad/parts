@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Finish",
+      "expression": "'Galvanised'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -81,26 +89,25 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Finish"
     ],
+    "closed": true,
     "parameters": [],
     "default": "Galvanised",
     "rows": [
       {
         "name": "Galvanised",
-        "select": {
-          "Finish": "Galvanised"
+        "values": {
+          "Finish": "'Galvanised'"
         },
-        "values": {},
         "part_number": "LP20101SB"
       },
       {
         "name": "Black",
-        "select": {
-          "Finish": "Black"
+        "values": {
+          "Finish": "'Black'"
         },
-        "values": {},
         "part_number": "LP20101",
         "supplier_url": "https://www.motedis.com/en/Pivot-Angle-84x2-Steel-Galvanized-Black"
       }

@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Colour",
+      "expression": "'Black'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -37,26 +45,25 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Colour"
     ],
+    "closed": true,
     "parameters": [],
     "default": "Black",
     "rows": [
       {
         "name": "Black",
-        "select": {
-          "Colour": "Black"
+        "values": {
+          "Colour": "'Black'"
         },
-        "values": {},
         "part_number": "PTS8O45x90"
       },
       {
         "name": "Grey",
-        "select": {
-          "Colour": "Grey"
+        "values": {
+          "Colour": "'Grey'"
         },
-        "values": {},
         "part_number": "PTS8O45x90",
         "supplier_url": "https://www.motedis.com/en/Cover-caps-45x90-O-Type-slot-8-Grey"
       }

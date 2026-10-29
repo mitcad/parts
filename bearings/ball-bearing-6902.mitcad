@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Type",
+      "expression": "'6902-2RS'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -95,28 +103,27 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Type"
     ],
+    "closed": true,
     "parameters": [],
     "default": "6902-2RS",
     "rows": [
       {
         "name": "6902-2RS",
-        "select": {
-          "Type": "6902-2RS"
+        "values": {
+          "Type": "'6902-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6902-2RS 15x28x7",
         "part_number": "9405",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-6902-2RS-15x28x7"
       },
       {
         "name": "SS61902-2RS",
-        "select": {
-          "Type": "SS61902-2RS"
+        "values": {
+          "Type": "'SS61902-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing SS61902-2RS 15x28x7, stainless steel",
         "part_number": "9601",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-SS61902-2RS-15x28x7"

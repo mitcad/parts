@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Thread",
+      "expression": "'M5'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -85,18 +93,18 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Thread"
     ],
+    "closed": true,
     "parameters": [],
     "default": "M5",
     "rows": [
       {
         "name": "M5",
-        "select": {
-          "Thread": "M5"
+        "values": {
+          "Thread": "'M5'"
         },
-        "values": {},
         "part_number": "4544"
       }
     ]

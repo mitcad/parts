@@ -147,6 +147,20 @@
       "value": 45.34227267076345,
       "comment": "Plane of tongue distance",
       "owner": "F16"
+    },
+    {
+      "name": "Thickness",
+      "expression": "'22'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    },
+    {
+      "name": "Width",
+      "expression": "'150'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -601,10 +615,11 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Thickness",
       "Width"
     ],
+    "closed": true,
     "parameters": [
       "W",
       "T",
@@ -615,54 +630,46 @@
     "rows": [
       {
         "name": "22x100",
-        "select": {
-          "Thickness": "22",
-          "Width": "100"
-        },
         "values": {
           "O": "25 mm",
           "T": "22 mm",
           "TN": "6 mm",
-          "W": "100 mm"
+          "Thickness": "'22'",
+          "W": "100 mm",
+          "Width": "'100'"
         }
       },
       {
         "name": "22x125",
-        "select": {
-          "Thickness": "22",
-          "Width": "125"
-        },
         "values": {
           "O": "25 mm",
           "T": "22 mm",
           "TN": "6 mm",
-          "W": "125 mm"
+          "Thickness": "'22'",
+          "W": "125 mm",
+          "Width": "'125'"
         }
       },
       {
         "name": "22x150",
-        "select": {
-          "Thickness": "22",
-          "Width": "150"
-        },
         "values": {
           "O": "30 mm",
           "T": "22 mm",
           "TN": "6 mm",
-          "W": "150 mm"
+          "Thickness": "'22'",
+          "W": "150 mm",
+          "Width": "'150'"
         }
       },
       {
         "name": "22x175",
-        "select": {
-          "Thickness": "22",
-          "Width": "175"
-        },
         "values": {
           "O": "35 mm",
           "T": "22 mm",
           "TN": "6 mm",
-          "W": "175 mm"
+          "Thickness": "'22'",
+          "W": "175 mm",
+          "Width": "'175'"
         }
       }
     ]

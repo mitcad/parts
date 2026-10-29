@@ -1,0 +1,1385 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "L",
+      "expression": "1000 mm",
+      "unit": "mm",
+      "value": 1000.0,
+      "comment": ""
+    },
+    {
+      "name": "D",
+      "expression": "48.3 mm",
+      "unit": "mm",
+      "value": 48.3,
+      "comment": ""
+    },
+    {
+      "name": "T",
+      "expression": "3.2 mm",
+      "unit": "mm",
+      "value": 3.2,
+      "comment": ""
+    },
+    {
+      "name": "d1",
+      "expression": "D - 2 * T",
+      "unit": "mm",
+      "value": 41.9,
+      "comment": "Bore section diameter",
+      "owner": "F3"
+    },
+    {
+      "name": "Diameter",
+      "expression": "'48.3'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    },
+    {
+      "name": "Thickness",
+      "expression": "'3.2'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Section",
+      "type": "sketch",
+      "plane": "xy",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c2",
+          "type": "circle",
+          "center": "p1",
+          "radius": 24.15
+        }
+      ],
+      "dimensions": [
+        {
+          "id": "k3",
+          "type": "diameter",
+          "curve": "c2",
+          "value": "D"
+        }
+      ]
+    },
+    {
+      "uid": "F2",
+      "name": "Tube",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F1",
+          "region": "r{c2}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "L"
+      },
+      "operation": "new_body"
+    },
+    {
+      "uid": "F3",
+      "name": "Bore section",
+      "type": "sketch",
+      "plane": "xy",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "c2",
+          "type": "circle",
+          "center": "p1",
+          "radius": 20.95
+        }
+      ],
+      "dimensions": [
+        {
+          "id": "k3",
+          "type": "diameter",
+          "curve": "c2",
+          "value": "d1"
+        }
+      ]
+    },
+    {
+      "uid": "F4",
+      "name": "Bore",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F3",
+          "region": "r{c2}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "L"
+      },
+      "operation": "cut"
+    },
+    {
+      "uid": "F5",
+      "name": "mount:end_a",
+      "type": "joint_origin",
+      "geometry": "xy",
+      "flip": true
+    },
+    {
+      "uid": "F6",
+      "name": "End B plane",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": "xy",
+        "distance": "L"
+      }
+    },
+    {
+      "uid": "F7",
+      "name": "mount:end_b",
+      "type": "joint_origin",
+      "geometry": "F6"
+    },
+    {
+      "uid": "F8",
+      "name": "mount:axis",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F2.b0",
+      "name": "Body1",
+      "appearance": "steel_satin"
+    }
+  ],
+  "configurations": {
+    "options": [
+      "Diameter",
+      "Thickness"
+    ],
+    "closed": true,
+    "parameters": [
+      "D",
+      "T"
+    ],
+    "default": "48.3x3.2",
+    "rows": [
+      {
+        "name": "21.3x2",
+        "values": {
+          "D": "21.3 mm",
+          "Diameter": "'21.3'",
+          "T": "2 mm",
+          "Thickness": "'2'"
+        }
+      },
+      {
+        "name": "21.3x2.5",
+        "values": {
+          "D": "21.3 mm",
+          "Diameter": "'21.3'",
+          "T": "2.5 mm",
+          "Thickness": "'2.5'"
+        }
+      },
+      {
+        "name": "21.3x3",
+        "values": {
+          "D": "21.3 mm",
+          "Diameter": "'21.3'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "26.9x2",
+        "values": {
+          "D": "26.9 mm",
+          "Diameter": "'26.9'",
+          "T": "2 mm",
+          "Thickness": "'2'"
+        }
+      },
+      {
+        "name": "26.9x2.5",
+        "values": {
+          "D": "26.9 mm",
+          "Diameter": "'26.9'",
+          "T": "2.5 mm",
+          "Thickness": "'2.5'"
+        }
+      },
+      {
+        "name": "26.9x3",
+        "values": {
+          "D": "26.9 mm",
+          "Diameter": "'26.9'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "26.9x3.2",
+        "values": {
+          "D": "26.9 mm",
+          "Diameter": "'26.9'",
+          "T": "3.2 mm",
+          "Thickness": "'3.2'"
+        }
+      },
+      {
+        "name": "33.7x2",
+        "values": {
+          "D": "33.7 mm",
+          "Diameter": "'33.7'",
+          "T": "2 mm",
+          "Thickness": "'2'"
+        }
+      },
+      {
+        "name": "33.7x2.5",
+        "values": {
+          "D": "33.7 mm",
+          "Diameter": "'33.7'",
+          "T": "2.5 mm",
+          "Thickness": "'2.5'"
+        }
+      },
+      {
+        "name": "33.7x3",
+        "values": {
+          "D": "33.7 mm",
+          "Diameter": "'33.7'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "33.7x3.2",
+        "values": {
+          "D": "33.7 mm",
+          "Diameter": "'33.7'",
+          "T": "3.2 mm",
+          "Thickness": "'3.2'"
+        }
+      },
+      {
+        "name": "33.7x4",
+        "values": {
+          "D": "33.7 mm",
+          "Diameter": "'33.7'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "42.4x2",
+        "values": {
+          "D": "42.4 mm",
+          "Diameter": "'42.4'",
+          "T": "2 mm",
+          "Thickness": "'2'"
+        }
+      },
+      {
+        "name": "42.4x2.5",
+        "values": {
+          "D": "42.4 mm",
+          "Diameter": "'42.4'",
+          "T": "2.5 mm",
+          "Thickness": "'2.5'"
+        }
+      },
+      {
+        "name": "42.4x3",
+        "values": {
+          "D": "42.4 mm",
+          "Diameter": "'42.4'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "42.4x3.2",
+        "values": {
+          "D": "42.4 mm",
+          "Diameter": "'42.4'",
+          "T": "3.2 mm",
+          "Thickness": "'3.2'"
+        }
+      },
+      {
+        "name": "42.4x3.6",
+        "values": {
+          "D": "42.4 mm",
+          "Diameter": "'42.4'",
+          "T": "3.6 mm",
+          "Thickness": "'3.6'"
+        }
+      },
+      {
+        "name": "42.4x4",
+        "values": {
+          "D": "42.4 mm",
+          "Diameter": "'42.4'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "48.3x2",
+        "values": {
+          "D": "48.3 mm",
+          "Diameter": "'48.3'",
+          "T": "2 mm",
+          "Thickness": "'2'"
+        }
+      },
+      {
+        "name": "48.3x2.5",
+        "values": {
+          "D": "48.3 mm",
+          "Diameter": "'48.3'",
+          "T": "2.5 mm",
+          "Thickness": "'2.5'"
+        }
+      },
+      {
+        "name": "48.3x3",
+        "values": {
+          "D": "48.3 mm",
+          "Diameter": "'48.3'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "48.3x3.2",
+        "values": {
+          "D": "48.3 mm",
+          "Diameter": "'48.3'",
+          "T": "3.2 mm",
+          "Thickness": "'3.2'"
+        }
+      },
+      {
+        "name": "48.3x3.6",
+        "values": {
+          "D": "48.3 mm",
+          "Diameter": "'48.3'",
+          "T": "3.6 mm",
+          "Thickness": "'3.6'"
+        }
+      },
+      {
+        "name": "48.3x4",
+        "values": {
+          "D": "48.3 mm",
+          "Diameter": "'48.3'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "48.3x5",
+        "values": {
+          "D": "48.3 mm",
+          "Diameter": "'48.3'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "60.3x2",
+        "values": {
+          "D": "60.3 mm",
+          "Diameter": "'60.3'",
+          "T": "2 mm",
+          "Thickness": "'2'"
+        }
+      },
+      {
+        "name": "60.3x2.5",
+        "values": {
+          "D": "60.3 mm",
+          "Diameter": "'60.3'",
+          "T": "2.5 mm",
+          "Thickness": "'2.5'"
+        }
+      },
+      {
+        "name": "60.3x3",
+        "values": {
+          "D": "60.3 mm",
+          "Diameter": "'60.3'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "60.3x3.2",
+        "values": {
+          "D": "60.3 mm",
+          "Diameter": "'60.3'",
+          "T": "3.2 mm",
+          "Thickness": "'3.2'"
+        }
+      },
+      {
+        "name": "60.3x3.6",
+        "values": {
+          "D": "60.3 mm",
+          "Diameter": "'60.3'",
+          "T": "3.6 mm",
+          "Thickness": "'3.6'"
+        }
+      },
+      {
+        "name": "60.3x4",
+        "values": {
+          "D": "60.3 mm",
+          "Diameter": "'60.3'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "60.3x5",
+        "values": {
+          "D": "60.3 mm",
+          "Diameter": "'60.3'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "76.1x2",
+        "values": {
+          "D": "76.1 mm",
+          "Diameter": "'76.1'",
+          "T": "2 mm",
+          "Thickness": "'2'"
+        }
+      },
+      {
+        "name": "76.1x2.5",
+        "values": {
+          "D": "76.1 mm",
+          "Diameter": "'76.1'",
+          "T": "2.5 mm",
+          "Thickness": "'2.5'"
+        }
+      },
+      {
+        "name": "76.1x3",
+        "values": {
+          "D": "76.1 mm",
+          "Diameter": "'76.1'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "76.1x3.2",
+        "values": {
+          "D": "76.1 mm",
+          "Diameter": "'76.1'",
+          "T": "3.2 mm",
+          "Thickness": "'3.2'"
+        }
+      },
+      {
+        "name": "76.1x3.6",
+        "values": {
+          "D": "76.1 mm",
+          "Diameter": "'76.1'",
+          "T": "3.6 mm",
+          "Thickness": "'3.6'"
+        }
+      },
+      {
+        "name": "76.1x4",
+        "values": {
+          "D": "76.1 mm",
+          "Diameter": "'76.1'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "76.1x5",
+        "values": {
+          "D": "76.1 mm",
+          "Diameter": "'76.1'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "76.1x6",
+        "values": {
+          "D": "76.1 mm",
+          "Diameter": "'76.1'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "76.1x6.3",
+        "values": {
+          "D": "76.1 mm",
+          "Diameter": "'76.1'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "88.9x2",
+        "values": {
+          "D": "88.9 mm",
+          "Diameter": "'88.9'",
+          "T": "2 mm",
+          "Thickness": "'2'"
+        }
+      },
+      {
+        "name": "88.9x2.5",
+        "values": {
+          "D": "88.9 mm",
+          "Diameter": "'88.9'",
+          "T": "2.5 mm",
+          "Thickness": "'2.5'"
+        }
+      },
+      {
+        "name": "88.9x3",
+        "values": {
+          "D": "88.9 mm",
+          "Diameter": "'88.9'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "88.9x3.2",
+        "values": {
+          "D": "88.9 mm",
+          "Diameter": "'88.9'",
+          "T": "3.2 mm",
+          "Thickness": "'3.2'"
+        }
+      },
+      {
+        "name": "88.9x4",
+        "values": {
+          "D": "88.9 mm",
+          "Diameter": "'88.9'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "88.9x5",
+        "values": {
+          "D": "88.9 mm",
+          "Diameter": "'88.9'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "88.9x6",
+        "values": {
+          "D": "88.9 mm",
+          "Diameter": "'88.9'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "88.9x6.3",
+        "values": {
+          "D": "88.9 mm",
+          "Diameter": "'88.9'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "101.6x2",
+        "values": {
+          "D": "101.6 mm",
+          "Diameter": "'101.6'",
+          "T": "2 mm",
+          "Thickness": "'2'"
+        }
+      },
+      {
+        "name": "101.6x2.5",
+        "values": {
+          "D": "101.6 mm",
+          "Diameter": "'101.6'",
+          "T": "2.5 mm",
+          "Thickness": "'2.5'"
+        }
+      },
+      {
+        "name": "101.6x3",
+        "values": {
+          "D": "101.6 mm",
+          "Diameter": "'101.6'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "101.6x4",
+        "values": {
+          "D": "101.6 mm",
+          "Diameter": "'101.6'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "101.6x5",
+        "values": {
+          "D": "101.6 mm",
+          "Diameter": "'101.6'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "101.6x6",
+        "values": {
+          "D": "101.6 mm",
+          "Diameter": "'101.6'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "101.6x6.3",
+        "values": {
+          "D": "101.6 mm",
+          "Diameter": "'101.6'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "114.3x2.5",
+        "values": {
+          "D": "114.3 mm",
+          "Diameter": "'114.3'",
+          "T": "2.5 mm",
+          "Thickness": "'2.5'"
+        }
+      },
+      {
+        "name": "114.3x3",
+        "values": {
+          "D": "114.3 mm",
+          "Diameter": "'114.3'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "114.3x3.2",
+        "values": {
+          "D": "114.3 mm",
+          "Diameter": "'114.3'",
+          "T": "3.2 mm",
+          "Thickness": "'3.2'"
+        }
+      },
+      {
+        "name": "114.3x3.6",
+        "values": {
+          "D": "114.3 mm",
+          "Diameter": "'114.3'",
+          "T": "3.6 mm",
+          "Thickness": "'3.6'"
+        }
+      },
+      {
+        "name": "114.3x5",
+        "values": {
+          "D": "114.3 mm",
+          "Diameter": "'114.3'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "114.3x6",
+        "values": {
+          "D": "114.3 mm",
+          "Diameter": "'114.3'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "114.3x6.3",
+        "values": {
+          "D": "114.3 mm",
+          "Diameter": "'114.3'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "114.3x8",
+        "values": {
+          "D": "114.3 mm",
+          "Diameter": "'114.3'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "139.7x3",
+        "values": {
+          "D": "139.7 mm",
+          "Diameter": "'139.7'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "139.7x4",
+        "values": {
+          "D": "139.7 mm",
+          "Diameter": "'139.7'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "139.7x5",
+        "values": {
+          "D": "139.7 mm",
+          "Diameter": "'139.7'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "139.7x6",
+        "values": {
+          "D": "139.7 mm",
+          "Diameter": "'139.7'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "139.7x6.3",
+        "values": {
+          "D": "139.7 mm",
+          "Diameter": "'139.7'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "139.7x8",
+        "values": {
+          "D": "139.7 mm",
+          "Diameter": "'139.7'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "139.7x10",
+        "values": {
+          "D": "139.7 mm",
+          "Diameter": "'139.7'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "168.3x3",
+        "values": {
+          "D": "168.3 mm",
+          "Diameter": "'168.3'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "168.3x4",
+        "values": {
+          "D": "168.3 mm",
+          "Diameter": "'168.3'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "168.3x5",
+        "values": {
+          "D": "168.3 mm",
+          "Diameter": "'168.3'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "168.3x6",
+        "values": {
+          "D": "168.3 mm",
+          "Diameter": "'168.3'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "168.3x6.3",
+        "values": {
+          "D": "168.3 mm",
+          "Diameter": "'168.3'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "168.3x8",
+        "values": {
+          "D": "168.3 mm",
+          "Diameter": "'168.3'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "168.3x10",
+        "values": {
+          "D": "168.3 mm",
+          "Diameter": "'168.3'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "168.3x12.5",
+        "values": {
+          "D": "168.3 mm",
+          "Diameter": "'168.3'",
+          "T": "12.5 mm",
+          "Thickness": "'12.5'"
+        }
+      },
+      {
+        "name": "177.8x4",
+        "values": {
+          "D": "177.8 mm",
+          "Diameter": "'177.8'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "177.8x5",
+        "values": {
+          "D": "177.8 mm",
+          "Diameter": "'177.8'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "177.8x6",
+        "values": {
+          "D": "177.8 mm",
+          "Diameter": "'177.8'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "177.8x6.3",
+        "values": {
+          "D": "177.8 mm",
+          "Diameter": "'177.8'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "177.8x8",
+        "values": {
+          "D": "177.8 mm",
+          "Diameter": "'177.8'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "177.8x10",
+        "values": {
+          "D": "177.8 mm",
+          "Diameter": "'177.8'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "177.8x12",
+        "values": {
+          "D": "177.8 mm",
+          "Diameter": "'177.8'",
+          "T": "12 mm",
+          "Thickness": "'12'"
+        }
+      },
+      {
+        "name": "177.8x12.5",
+        "values": {
+          "D": "177.8 mm",
+          "Diameter": "'177.8'",
+          "T": "12.5 mm",
+          "Thickness": "'12.5'"
+        }
+      },
+      {
+        "name": "193.7x4",
+        "values": {
+          "D": "193.7 mm",
+          "Diameter": "'193.7'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "193.7x4.5",
+        "values": {
+          "D": "193.7 mm",
+          "Diameter": "'193.7'",
+          "T": "4.5 mm",
+          "Thickness": "'4.5'"
+        }
+      },
+      {
+        "name": "193.7x5",
+        "values": {
+          "D": "193.7 mm",
+          "Diameter": "'193.7'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "193.7x6",
+        "values": {
+          "D": "193.7 mm",
+          "Diameter": "'193.7'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "193.7x6.3",
+        "values": {
+          "D": "193.7 mm",
+          "Diameter": "'193.7'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "193.7x8",
+        "values": {
+          "D": "193.7 mm",
+          "Diameter": "'193.7'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "193.7x10",
+        "values": {
+          "D": "193.7 mm",
+          "Diameter": "'193.7'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "193.7x12",
+        "values": {
+          "D": "193.7 mm",
+          "Diameter": "'193.7'",
+          "T": "12 mm",
+          "Thickness": "'12'"
+        }
+      },
+      {
+        "name": "193.7x12.5",
+        "values": {
+          "D": "193.7 mm",
+          "Diameter": "'193.7'",
+          "T": "12.5 mm",
+          "Thickness": "'12.5'"
+        }
+      },
+      {
+        "name": "219.1x4",
+        "values": {
+          "D": "219.1 mm",
+          "Diameter": "'219.1'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "219.1x4.5",
+        "values": {
+          "D": "219.1 mm",
+          "Diameter": "'219.1'",
+          "T": "4.5 mm",
+          "Thickness": "'4.5'"
+        }
+      },
+      {
+        "name": "219.1x5",
+        "values": {
+          "D": "219.1 mm",
+          "Diameter": "'219.1'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "219.1x6",
+        "values": {
+          "D": "219.1 mm",
+          "Diameter": "'219.1'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "219.1x6.3",
+        "values": {
+          "D": "219.1 mm",
+          "Diameter": "'219.1'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "219.1x8",
+        "values": {
+          "D": "219.1 mm",
+          "Diameter": "'219.1'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "219.1x10",
+        "values": {
+          "D": "219.1 mm",
+          "Diameter": "'219.1'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "219.1x12",
+        "values": {
+          "D": "219.1 mm",
+          "Diameter": "'219.1'",
+          "T": "12 mm",
+          "Thickness": "'12'"
+        }
+      },
+      {
+        "name": "219.1x12.5",
+        "values": {
+          "D": "219.1 mm",
+          "Diameter": "'219.1'",
+          "T": "12.5 mm",
+          "Thickness": "'12.5'"
+        }
+      },
+      {
+        "name": "219.1x16",
+        "values": {
+          "D": "219.1 mm",
+          "Diameter": "'219.1'",
+          "T": "16 mm",
+          "Thickness": "'16'"
+        }
+      },
+      {
+        "name": "244.5x5",
+        "values": {
+          "D": "244.5 mm",
+          "Diameter": "'244.5'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "244.5x6",
+        "values": {
+          "D": "244.5 mm",
+          "Diameter": "'244.5'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "244.5x6.3",
+        "values": {
+          "D": "244.5 mm",
+          "Diameter": "'244.5'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "244.5x8",
+        "values": {
+          "D": "244.5 mm",
+          "Diameter": "'244.5'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "244.5x10",
+        "values": {
+          "D": "244.5 mm",
+          "Diameter": "'244.5'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "244.5x12",
+        "values": {
+          "D": "244.5 mm",
+          "Diameter": "'244.5'",
+          "T": "12 mm",
+          "Thickness": "'12'"
+        }
+      },
+      {
+        "name": "244.5x12.5",
+        "values": {
+          "D": "244.5 mm",
+          "Diameter": "'244.5'",
+          "T": "12.5 mm",
+          "Thickness": "'12.5'"
+        }
+      },
+      {
+        "name": "244.5x16",
+        "values": {
+          "D": "244.5 mm",
+          "Diameter": "'244.5'",
+          "T": "16 mm",
+          "Thickness": "'16'"
+        }
+      },
+      {
+        "name": "273x5",
+        "values": {
+          "D": "273 mm",
+          "Diameter": "'273'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "273x6",
+        "values": {
+          "D": "273 mm",
+          "Diameter": "'273'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "273x6.3",
+        "values": {
+          "D": "273 mm",
+          "Diameter": "'273'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "273x8",
+        "values": {
+          "D": "273 mm",
+          "Diameter": "'273'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "273x10",
+        "values": {
+          "D": "273 mm",
+          "Diameter": "'273'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "273x12",
+        "values": {
+          "D": "273 mm",
+          "Diameter": "'273'",
+          "T": "12 mm",
+          "Thickness": "'12'"
+        }
+      },
+      {
+        "name": "273x12.5",
+        "values": {
+          "D": "273 mm",
+          "Diameter": "'273'",
+          "T": "12.5 mm",
+          "Thickness": "'12.5'"
+        }
+      },
+      {
+        "name": "273x16",
+        "values": {
+          "D": "273 mm",
+          "Diameter": "'273'",
+          "T": "16 mm",
+          "Thickness": "'16'"
+        }
+      },
+      {
+        "name": "323.9x5",
+        "values": {
+          "D": "323.9 mm",
+          "Diameter": "'323.9'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "323.9x6",
+        "values": {
+          "D": "323.9 mm",
+          "Diameter": "'323.9'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "323.9x6.3",
+        "values": {
+          "D": "323.9 mm",
+          "Diameter": "'323.9'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "323.9x8",
+        "values": {
+          "D": "323.9 mm",
+          "Diameter": "'323.9'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "323.9x10",
+        "values": {
+          "D": "323.9 mm",
+          "Diameter": "'323.9'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "323.9x12",
+        "values": {
+          "D": "323.9 mm",
+          "Diameter": "'323.9'",
+          "T": "12 mm",
+          "Thickness": "'12'"
+        }
+      },
+      {
+        "name": "323.9x12.5",
+        "values": {
+          "D": "323.9 mm",
+          "Diameter": "'323.9'",
+          "T": "12.5 mm",
+          "Thickness": "'12.5'"
+        }
+      },
+      {
+        "name": "323.9x16",
+        "values": {
+          "D": "323.9 mm",
+          "Diameter": "'323.9'",
+          "T": "16 mm",
+          "Thickness": "'16'"
+        }
+      }
+    ]
+  }
+}

@@ -719,6 +719,20 @@
       "value": 14.0,
       "comment": "Plane of face_yn distance",
       "owner": "F12"
+    },
+    {
+      "name": "Thickness",
+      "expression": "'28'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    },
+    {
+      "name": "Width",
+      "expression": "'120'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -2169,10 +2183,11 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Thickness",
       "Width"
     ],
+    "closed": true,
     "parameters": [
       "W",
       "T",
@@ -2184,44 +2199,38 @@
     "rows": [
       {
         "name": "28x120",
-        "select": {
-          "Thickness": "28",
-          "Width": "120"
-        },
         "values": {
           "GD": "3 mm",
           "GG": "5 mm",
           "R": "5 mm",
           "T": "28 mm",
-          "W": "120 mm"
+          "Thickness": "'28'",
+          "W": "120 mm",
+          "Width": "'120'"
         }
       },
       {
         "name": "28x145",
-        "select": {
-          "Thickness": "28",
-          "Width": "145"
-        },
         "values": {
           "GD": "3 mm",
           "GG": "5 mm",
           "R": "5 mm",
           "T": "28 mm",
-          "W": "145 mm"
+          "Thickness": "'28'",
+          "W": "145 mm",
+          "Width": "'145'"
         }
       },
       {
         "name": "34x145",
-        "select": {
-          "Thickness": "34",
-          "Width": "145"
-        },
         "values": {
           "GD": "3 mm",
           "GG": "5 mm",
           "R": "5 mm",
           "T": "34 mm",
-          "W": "145 mm"
+          "Thickness": "'34'",
+          "W": "145 mm",
+          "Width": "'145'"
         }
       }
     ]

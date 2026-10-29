@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Thread",
+      "expression": "'M3'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -85,42 +93,39 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Thread"
     ],
+    "closed": true,
     "parameters": [],
     "default": "M3",
     "rows": [
       {
         "name": "M3",
-        "select": {
-          "Thread": "M3"
+        "values": {
+          "Thread": "'M3'"
         },
-        "values": {},
         "part_number": "S6ISMONM3G"
       },
       {
         "name": "M4",
-        "select": {
-          "Thread": "M4"
+        "values": {
+          "Thread": "'M4'"
         },
-        "values": {},
         "part_number": "S6ISMONM4G"
       },
       {
         "name": "M5",
-        "select": {
-          "Thread": "M5"
+        "values": {
+          "Thread": "'M5'"
         },
-        "values": {},
         "part_number": "S6ISMONM5G"
       },
       {
         "name": "M6",
-        "select": {
-          "Thread": "M6"
+        "values": {
+          "Thread": "'M6'"
         },
-        "values": {},
         "part_number": "S6ISMONM6G"
       }
     ]

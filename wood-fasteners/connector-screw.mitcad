@@ -57,6 +57,20 @@
       "value": 2.9,
       "comment": "Thread chamfer_diameter",
       "owner": "F5"
+    },
+    {
+      "name": "Diameter",
+      "expression": "'5.0'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    },
+    {
+      "name": "Length",
+      "expression": "'40'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -169,10 +183,11 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Diameter",
       "Length"
     ],
+    "closed": true,
     "parameters": [
       "D",
       "L",
@@ -183,67 +198,57 @@
     "rows": [
       {
         "name": "5.0x25",
-        "select": {
-          "Diameter": "5.0",
-          "Length": "25"
-        },
         "values": {
           "D": "5 mm",
           "DK": "8 mm",
+          "Diameter": "'5.0'",
           "K": "3 mm",
-          "L": "25 mm"
+          "L": "25 mm",
+          "Length": "'25'"
         }
       },
       {
         "name": "5.0x35",
-        "select": {
-          "Diameter": "5.0",
-          "Length": "35"
-        },
         "values": {
           "D": "5 mm",
           "DK": "8 mm",
+          "Diameter": "'5.0'",
           "K": "3 mm",
-          "L": "35 mm"
+          "L": "35 mm",
+          "Length": "'35'"
         }
       },
       {
         "name": "5.0x40",
-        "select": {
-          "Diameter": "5.0",
-          "Length": "40"
-        },
         "values": {
           "D": "5 mm",
           "DK": "8 mm",
+          "Diameter": "'5.0'",
           "K": "3 mm",
-          "L": "40 mm"
+          "L": "40 mm",
+          "Length": "'40'"
         }
       },
       {
         "name": "5.0x50",
-        "select": {
-          "Diameter": "5.0",
-          "Length": "50"
-        },
         "values": {
           "D": "5 mm",
           "DK": "8 mm",
+          "Diameter": "'5.0'",
           "K": "3 mm",
-          "L": "50 mm"
+          "L": "50 mm",
+          "Length": "'50'"
         }
       },
       {
         "name": "5.0x60",
-        "select": {
-          "Diameter": "5.0",
-          "Length": "60"
-        },
         "values": {
           "D": "5 mm",
           "DK": "8 mm",
+          "Diameter": "'5.0'",
           "K": "3 mm",
-          "L": "60 mm"
+          "L": "60 mm",
+          "Length": "'60'"
         }
       }
     ]

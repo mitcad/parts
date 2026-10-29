@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Type",
+      "expression": "'6202-2RS'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -95,48 +103,45 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Type"
     ],
+    "closed": true,
     "parameters": [],
     "default": "6202-2RS",
     "rows": [
       {
         "name": "6202-2RS",
-        "select": {
-          "Type": "6202-2RS"
+        "values": {
+          "Type": "'6202-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6202-2RS 15x35x11",
         "part_number": "9607",
         "supplier_url": "https://www.motedis.com/en/Deepgrooveballbearings6202-2RS15x35x11"
       },
       {
         "name": "6202-2Z",
-        "select": {
-          "Type": "6202-2Z"
+        "values": {
+          "Type": "'6202-2Z'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6202-2Z 15x35x11",
         "part_number": "9597",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-6202-2Z-15x35x11"
       },
       {
         "name": "6202-2Z-C3",
-        "select": {
-          "Type": "6202-2Z-C3"
+        "values": {
+          "Type": "'6202-2Z-C3'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6202-2Z/C3 15x35x11",
         "part_number": "9598",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-6202-2Z-C3-15x35x11"
       },
       {
         "name": "SS6202-2RS",
-        "select": {
-          "Type": "SS6202-2RS"
+        "values": {
+          "Type": "'SS6202-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing SS6202-2RS 15x35x11, stainless steel",
         "part_number": "9599",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-SS6202-2RS-15x35x11"

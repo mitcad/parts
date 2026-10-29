@@ -24,7 +24,7 @@
     {
       "name": "d2",
       "expression": "max(1, floor((L - 12.5 mm) / (25 mm)) + 1)",
-      "unit": "mm",
+      "unit": "",
       "value": 12.0,
       "comment": "Holes at the pitch quantity",
       "owner": "F5"
@@ -36,6 +36,13 @@
       "value": 25.0,
       "comment": "Holes at the pitch distance",
       "owner": "F5"
+    },
+    {
+      "name": "Stock",
+      "expression": "'300'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -549,42 +556,39 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Stock"
     ],
+    "closed": true,
     "parameters": [],
     "default": "300",
     "rows": [
       {
         "name": "300",
-        "select": {
-          "Stock": "300"
+        "values": {
+          "Stock": "'300'"
         },
-        "values": {},
         "part_number": "MR12M-N-300"
       },
       {
         "name": "400",
-        "select": {
-          "Stock": "400"
+        "values": {
+          "Stock": "'400'"
         },
-        "values": {},
         "part_number": "MR12M-N-400"
       },
       {
         "name": "500",
-        "select": {
-          "Stock": "500"
+        "values": {
+          "Stock": "'500'"
         },
-        "values": {},
         "part_number": "MR12M-N-500"
       },
       {
         "name": "600",
-        "select": {
-          "Stock": "600"
+        "values": {
+          "Stock": "'600'"
         },
-        "values": {},
         "part_number": "MR12M-N-600"
       }
     ]

@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Type",
+      "expression": "'627-2RS'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -95,28 +103,27 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Type"
     ],
+    "closed": true,
     "parameters": [],
     "default": "627-2RS",
     "rows": [
       {
         "name": "627-2RS",
-        "select": {
-          "Type": "627-2RS"
+        "values": {
+          "Type": "'627-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 627-2RS 7x22x7",
         "part_number": "9560",
         "supplier_url": "https://www.motedis.com/en/Deepgrooveballbearings627-2RS7x22x7"
       },
       {
         "name": "627-2Z",
-        "select": {
-          "Type": "627-2Z"
+        "values": {
+          "Type": "'627-2Z'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 627-2Z 7x22x7",
         "part_number": "9556",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-627-2Z-7x22x7"

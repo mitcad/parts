@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Type",
+      "expression": "'6802-2RS'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -95,28 +103,27 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Type"
     ],
+    "closed": true,
     "parameters": [],
     "default": "6802-2RS",
     "rows": [
       {
         "name": "6802-2RS",
-        "select": {
-          "Type": "6802-2RS"
+        "values": {
+          "Type": "'6802-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6802-2RS 15x24x5",
         "part_number": "9606",
         "supplier_url": "https://www.motedis.com/en/Deepgrooveballbearings6802-2RS15x24x5"
       },
       {
         "name": "SS61802-2RS",
-        "select": {
-          "Type": "SS61802-2RS"
+        "values": {
+          "Type": "'SS61802-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing SS61802-2RS 15x24x5, stainless steel",
         "part_number": "9604",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-SS61802-2RS-15x24x5"

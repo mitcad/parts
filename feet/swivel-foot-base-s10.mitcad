@@ -19,6 +19,13 @@
       "unit": "mm",
       "value": 10.4,
       "comment": ""
+    },
+    {
+      "name": "Size",
+      "expression": "'30'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -43,9 +50,10 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Size"
     ],
+    "closed": true,
     "parameters": [
       "D"
     ],
@@ -53,11 +61,9 @@
     "rows": [
       {
         "name": "20",
-        "select": {
-          "Size": "20"
-        },
         "values": {
-          "D": "19 mm"
+          "D": "19 mm",
+          "Size": "'20'"
         },
         "designation": "Base 20 for swivel feet, series 10",
         "part_number": "4699",
@@ -65,11 +71,9 @@
       },
       {
         "name": "30",
-        "select": {
-          "Size": "30"
-        },
         "values": {
-          "D": "29 mm"
+          "D": "29 mm",
+          "Size": "'30'"
         },
         "designation": "Base 30 for swivel feet, series 10",
         "part_number": "4701",
@@ -77,11 +81,9 @@
       },
       {
         "name": "40",
-        "select": {
-          "Size": "40"
-        },
         "values": {
-          "D": "39 mm"
+          "D": "39 mm",
+          "Size": "'40'"
         },
         "designation": "Base 40 for swivel feet, series 10",
         "part_number": "4702",

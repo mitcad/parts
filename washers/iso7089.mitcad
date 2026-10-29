@@ -26,6 +26,13 @@
       "unit": "mm",
       "value": 1.0,
       "comment": "Thickness"
+    },
+    {
+      "name": "Size",
+      "expression": "'M5'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -89,9 +96,10 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Size"
     ],
+    "closed": true,
     "parameters": [
       "d1",
       "d2",
@@ -101,10 +109,8 @@
     "rows": [
       {
         "name": "M3",
-        "select": {
-          "Size": "M3"
-        },
         "values": {
+          "Size": "'M3'",
           "d1": "3.2 mm",
           "d2": "7 mm",
           "h": "0.5 mm"
@@ -112,10 +118,8 @@
       },
       {
         "name": "M4",
-        "select": {
-          "Size": "M4"
-        },
         "values": {
+          "Size": "'M4'",
           "d1": "4.3 mm",
           "d2": "9 mm",
           "h": "0.8 mm"
@@ -123,10 +127,8 @@
       },
       {
         "name": "M5",
-        "select": {
-          "Size": "M5"
-        },
         "values": {
+          "Size": "'M5'",
           "d1": "5.3 mm",
           "d2": "10 mm",
           "h": "1 mm"
@@ -134,10 +136,8 @@
       },
       {
         "name": "M6",
-        "select": {
-          "Size": "M6"
-        },
         "values": {
+          "Size": "'M6'",
           "d1": "6.4 mm",
           "d2": "12 mm",
           "h": "1.6 mm"
@@ -145,10 +145,8 @@
       },
       {
         "name": "M8",
-        "select": {
-          "Size": "M8"
-        },
         "values": {
+          "Size": "'M8'",
           "d1": "8.4 mm",
           "d2": "16 mm",
           "h": "1.6 mm"
@@ -156,10 +154,8 @@
       },
       {
         "name": "M10",
-        "select": {
-          "Size": "M10"
-        },
         "values": {
+          "Size": "'M10'",
           "d1": "10.5 mm",
           "d2": "20 mm",
           "h": "2 mm"
@@ -167,10 +163,8 @@
       },
       {
         "name": "M12",
-        "select": {
-          "Size": "M12"
-        },
         "values": {
+          "Size": "'M12'",
           "d1": "13 mm",
           "d2": "24 mm",
           "h": "2.5 mm"

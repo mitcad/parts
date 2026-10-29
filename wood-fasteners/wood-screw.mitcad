@@ -57,6 +57,20 @@
       "value": 2.9,
       "comment": "Thread chamfer_diameter",
       "owner": "F5"
+    },
+    {
+      "name": "Diameter",
+      "expression": "'5.0'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    },
+    {
+      "name": "Length",
+      "expression": "'50'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -170,10 +184,11 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Diameter",
       "Length"
     ],
+    "closed": true,
     "parameters": [
       "D",
       "L",
@@ -184,340 +199,288 @@
     "rows": [
       {
         "name": "4.0x30",
-        "select": {
-          "Diameter": "4.0",
-          "Length": "30"
-        },
         "values": {
           "D": "4 mm",
           "DK": "8 mm",
+          "Diameter": "'4.0'",
           "K": "2.4 mm",
-          "L": "30 mm"
+          "L": "30 mm",
+          "Length": "'30'"
         }
       },
       {
         "name": "4.0x35",
-        "select": {
-          "Diameter": "4.0",
-          "Length": "35"
-        },
         "values": {
           "D": "4 mm",
           "DK": "8 mm",
+          "Diameter": "'4.0'",
           "K": "2.4 mm",
-          "L": "35 mm"
+          "L": "35 mm",
+          "Length": "'35'"
         }
       },
       {
         "name": "4.0x40",
-        "select": {
-          "Diameter": "4.0",
-          "Length": "40"
-        },
         "values": {
           "D": "4 mm",
           "DK": "8 mm",
+          "Diameter": "'4.0'",
           "K": "2.4 mm",
-          "L": "40 mm"
+          "L": "40 mm",
+          "Length": "'40'"
         }
       },
       {
         "name": "4.0x45",
-        "select": {
-          "Diameter": "4.0",
-          "Length": "45"
-        },
         "values": {
           "D": "4 mm",
           "DK": "8 mm",
+          "Diameter": "'4.0'",
           "K": "2.4 mm",
-          "L": "45 mm"
+          "L": "45 mm",
+          "Length": "'45'"
         }
       },
       {
         "name": "4.0x50",
-        "select": {
-          "Diameter": "4.0",
-          "Length": "50"
-        },
         "values": {
           "D": "4 mm",
           "DK": "8 mm",
+          "Diameter": "'4.0'",
           "K": "2.4 mm",
-          "L": "50 mm"
+          "L": "50 mm",
+          "Length": "'50'"
         }
       },
       {
         "name": "4.0x60",
-        "select": {
-          "Diameter": "4.0",
-          "Length": "60"
-        },
         "values": {
           "D": "4 mm",
           "DK": "8 mm",
+          "Diameter": "'4.0'",
           "K": "2.4 mm",
-          "L": "60 mm"
+          "L": "60 mm",
+          "Length": "'60'"
         }
       },
       {
         "name": "4.5x40",
-        "select": {
-          "Diameter": "4.5",
-          "Length": "40"
-        },
         "values": {
           "D": "4.5 mm",
           "DK": "9 mm",
+          "Diameter": "'4.5'",
           "K": "2.7 mm",
-          "L": "40 mm"
+          "L": "40 mm",
+          "Length": "'40'"
         }
       },
       {
         "name": "4.5x45",
-        "select": {
-          "Diameter": "4.5",
-          "Length": "45"
-        },
         "values": {
           "D": "4.5 mm",
           "DK": "9 mm",
+          "Diameter": "'4.5'",
           "K": "2.7 mm",
-          "L": "45 mm"
+          "L": "45 mm",
+          "Length": "'45'"
         }
       },
       {
         "name": "4.5x50",
-        "select": {
-          "Diameter": "4.5",
-          "Length": "50"
-        },
         "values": {
           "D": "4.5 mm",
           "DK": "9 mm",
+          "Diameter": "'4.5'",
           "K": "2.7 mm",
-          "L": "50 mm"
+          "L": "50 mm",
+          "Length": "'50'"
         }
       },
       {
         "name": "4.5x60",
-        "select": {
-          "Diameter": "4.5",
-          "Length": "60"
-        },
         "values": {
           "D": "4.5 mm",
           "DK": "9 mm",
+          "Diameter": "'4.5'",
           "K": "2.7 mm",
-          "L": "60 mm"
+          "L": "60 mm",
+          "Length": "'60'"
         }
       },
       {
         "name": "4.5x70",
-        "select": {
-          "Diameter": "4.5",
-          "Length": "70"
-        },
         "values": {
           "D": "4.5 mm",
           "DK": "9 mm",
+          "Diameter": "'4.5'",
           "K": "2.7 mm",
-          "L": "70 mm"
+          "L": "70 mm",
+          "Length": "'70'"
         }
       },
       {
         "name": "5.0x40",
-        "select": {
-          "Diameter": "5.0",
-          "Length": "40"
-        },
         "values": {
           "D": "5 mm",
           "DK": "10 mm",
+          "Diameter": "'5.0'",
           "K": "3 mm",
-          "L": "40 mm"
+          "L": "40 mm",
+          "Length": "'40'"
         }
       },
       {
         "name": "5.0x50",
-        "select": {
-          "Diameter": "5.0",
-          "Length": "50"
-        },
         "values": {
           "D": "5 mm",
           "DK": "10 mm",
+          "Diameter": "'5.0'",
           "K": "3 mm",
-          "L": "50 mm"
+          "L": "50 mm",
+          "Length": "'50'"
         }
       },
       {
         "name": "5.0x60",
-        "select": {
-          "Diameter": "5.0",
-          "Length": "60"
-        },
         "values": {
           "D": "5 mm",
           "DK": "10 mm",
+          "Diameter": "'5.0'",
           "K": "3 mm",
-          "L": "60 mm"
+          "L": "60 mm",
+          "Length": "'60'"
         }
       },
       {
         "name": "5.0x70",
-        "select": {
-          "Diameter": "5.0",
-          "Length": "70"
-        },
         "values": {
           "D": "5 mm",
           "DK": "10 mm",
+          "Diameter": "'5.0'",
           "K": "3 mm",
-          "L": "70 mm"
+          "L": "70 mm",
+          "Length": "'70'"
         }
       },
       {
         "name": "5.0x80",
-        "select": {
-          "Diameter": "5.0",
-          "Length": "80"
-        },
         "values": {
           "D": "5 mm",
           "DK": "10 mm",
+          "Diameter": "'5.0'",
           "K": "3 mm",
-          "L": "80 mm"
+          "L": "80 mm",
+          "Length": "'80'"
         }
       },
       {
         "name": "5.0x90",
-        "select": {
-          "Diameter": "5.0",
-          "Length": "90"
-        },
         "values": {
           "D": "5 mm",
           "DK": "10 mm",
+          "Diameter": "'5.0'",
           "K": "3 mm",
-          "L": "90 mm"
+          "L": "90 mm",
+          "Length": "'90'"
         }
       },
       {
         "name": "5.0x100",
-        "select": {
-          "Diameter": "5.0",
-          "Length": "100"
-        },
         "values": {
           "D": "5 mm",
           "DK": "10 mm",
+          "Diameter": "'5.0'",
           "K": "3 mm",
-          "L": "100 mm"
+          "L": "100 mm",
+          "Length": "'100'"
         }
       },
       {
         "name": "6.0x60",
-        "select": {
-          "Diameter": "6.0",
-          "Length": "60"
-        },
         "values": {
           "D": "6 mm",
           "DK": "12 mm",
+          "Diameter": "'6.0'",
           "K": "3.6 mm",
-          "L": "60 mm"
+          "L": "60 mm",
+          "Length": "'60'"
         }
       },
       {
         "name": "6.0x70",
-        "select": {
-          "Diameter": "6.0",
-          "Length": "70"
-        },
         "values": {
           "D": "6 mm",
           "DK": "12 mm",
+          "Diameter": "'6.0'",
           "K": "3.6 mm",
-          "L": "70 mm"
+          "L": "70 mm",
+          "Length": "'70'"
         }
       },
       {
         "name": "6.0x80",
-        "select": {
-          "Diameter": "6.0",
-          "Length": "80"
-        },
         "values": {
           "D": "6 mm",
           "DK": "12 mm",
+          "Diameter": "'6.0'",
           "K": "3.6 mm",
-          "L": "80 mm"
+          "L": "80 mm",
+          "Length": "'80'"
         }
       },
       {
         "name": "6.0x90",
-        "select": {
-          "Diameter": "6.0",
-          "Length": "90"
-        },
         "values": {
           "D": "6 mm",
           "DK": "12 mm",
+          "Diameter": "'6.0'",
           "K": "3.6 mm",
-          "L": "90 mm"
+          "L": "90 mm",
+          "Length": "'90'"
         }
       },
       {
         "name": "6.0x100",
-        "select": {
-          "Diameter": "6.0",
-          "Length": "100"
-        },
         "values": {
           "D": "6 mm",
           "DK": "12 mm",
+          "Diameter": "'6.0'",
           "K": "3.6 mm",
-          "L": "100 mm"
+          "L": "100 mm",
+          "Length": "'100'"
         }
       },
       {
         "name": "6.0x120",
-        "select": {
-          "Diameter": "6.0",
-          "Length": "120"
-        },
         "values": {
           "D": "6 mm",
           "DK": "12 mm",
+          "Diameter": "'6.0'",
           "K": "3.6 mm",
-          "L": "120 mm"
+          "L": "120 mm",
+          "Length": "'120'"
         }
       },
       {
         "name": "6.0x140",
-        "select": {
-          "Diameter": "6.0",
-          "Length": "140"
-        },
         "values": {
           "D": "6 mm",
           "DK": "12 mm",
+          "Diameter": "'6.0'",
           "K": "3.6 mm",
-          "L": "140 mm"
+          "L": "140 mm",
+          "Length": "'140'"
         }
       },
       {
         "name": "6.0x160",
-        "select": {
-          "Diameter": "6.0",
-          "Length": "160"
-        },
         "values": {
           "D": "6 mm",
           "DK": "12 mm",
+          "Diameter": "'6.0'",
           "K": "3.6 mm",
-          "L": "160 mm"
+          "L": "160 mm",
+          "Length": "'160'"
         }
       }
     ]

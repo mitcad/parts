@@ -50,6 +50,13 @@
       "value": 0.0,
       "comment": "Centred z",
       "owner": "F2"
+    },
+    {
+      "name": "Width",
+      "expression": "'80'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -133,9 +140,10 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Width"
     ],
+    "closed": true,
     "parameters": [
       "W"
     ],
@@ -143,61 +151,49 @@
     "rows": [
       {
         "name": "80",
-        "select": {
-          "Width": "80"
-        },
         "values": {
-          "W": "80 mm"
+          "W": "80 mm",
+          "Width": "'80'"
         },
         "part_number": "Alu DIN/EN-Platte (5083) 4mm - Breite 80"
       },
       {
         "name": "90",
-        "select": {
-          "Width": "90"
-        },
         "values": {
-          "W": "90 mm"
+          "W": "90 mm",
+          "Width": "'90'"
         },
         "part_number": "Alu DIN/EN-Platte (5083) 4mm - Breite 90"
       },
       {
         "name": "100",
-        "select": {
-          "Width": "100"
-        },
         "values": {
-          "W": "100 mm"
+          "W": "100 mm",
+          "Width": "'100'"
         },
         "part_number": "Alu DIN/EN-Platte (5083) 4mm - Breite 100"
       },
       {
         "name": "120",
-        "select": {
-          "Width": "120"
-        },
         "values": {
-          "W": "120 mm"
+          "W": "120 mm",
+          "Width": "'120'"
         },
         "part_number": "Alu DIN/EN-Platte (5083) 4mm - Breite 120"
       },
       {
         "name": "160",
-        "select": {
-          "Width": "160"
-        },
         "values": {
-          "W": "160 mm"
+          "W": "160 mm",
+          "Width": "'160'"
         },
         "part_number": "Alu DIN/EN-Platte (5083) 4mm - Breite 160"
       },
       {
         "name": "200",
-        "select": {
-          "Width": "200"
-        },
         "values": {
-          "W": "200 mm"
+          "W": "200 mm",
+          "Width": "'200'"
         },
         "part_number": "Alu DIN/EN-Platte (5083) 4mm - Breite 200"
       }

@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Type",
+      "expression": "'6000-2RS'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -95,48 +103,45 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Type"
     ],
+    "closed": true,
     "parameters": [],
     "default": "6000-2RS",
     "rows": [
       {
         "name": "6000-2RS",
-        "select": {
-          "Type": "6000-2RS"
+        "values": {
+          "Type": "'6000-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6000-2RS 10x26x8",
         "part_number": "1463",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-6000-2RS-10x26x8mm"
       },
       {
         "name": "6000-2Z",
-        "select": {
-          "Type": "6000-2Z"
+        "values": {
+          "Type": "'6000-2Z'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6000-2Z 10x26x8",
         "part_number": "9566",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-6000-2Z-10x26x8"
       },
       {
         "name": "6000-2Z-C3",
-        "select": {
-          "Type": "6000-2Z-C3"
+        "values": {
+          "Type": "'6000-2Z-C3'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6000-2Z/C3 10x26x8",
         "part_number": "9569",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-6000-2Z-C3-10x26x8"
       },
       {
         "name": "SS6000-2RS",
-        "select": {
-          "Type": "SS6000-2RS"
+        "values": {
+          "Type": "'SS6000-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing SS6000-2RS 10x26x8, stainless steel",
         "part_number": "9572",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-SS6000-2RS-10x26x8"

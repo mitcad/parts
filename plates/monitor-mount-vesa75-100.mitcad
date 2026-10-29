@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Material",
+      "expression": "'Aluminium'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -59,26 +67,25 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Material"
     ],
+    "closed": true,
     "parameters": [],
     "default": "Aluminium",
     "rows": [
       {
         "name": "Aluminium",
-        "select": {
-          "Material": "Aluminium"
+        "values": {
+          "Material": "'Aluminium'"
         },
-        "values": {},
         "part_number": "LP50136"
       },
       {
         "name": "Steel",
-        "select": {
-          "Material": "Steel"
+        "values": {
+          "Material": "'Steel'"
         },
-        "values": {},
         "part_number": "LP50136SB",
         "supplier_url": "https://www.motedis.com/en/Monitor-Mount-lasered-VESA-75-100-STEEL"
       }

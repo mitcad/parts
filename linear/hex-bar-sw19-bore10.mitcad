@@ -12,6 +12,13 @@
       "unit": "mm",
       "value": 42.0,
       "comment": "Length"
+    },
+    {
+      "name": "Length",
+      "expression": "'42 mm'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -219,9 +226,10 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Length"
     ],
+    "closed": true,
     "parameters": [
       "L"
     ],
@@ -229,21 +237,17 @@
     "rows": [
       {
         "name": "42 mm",
-        "select": {
-          "Length": "42 mm"
-        },
         "values": {
-          "L": "42 mm"
+          "L": "42 mm",
+          "Length": "'42 mm'"
         },
         "part_number": "AHSW19-42-10,3"
       },
       {
         "name": "77 mm",
-        "select": {
-          "Length": "77 mm"
-        },
         "values": {
-          "L": "77 mm"
+          "L": "77 mm",
+          "Length": "'77 mm'"
         },
         "part_number": "AHSW19-77-10,3",
         "supplier_url": "https://www.motedis.com/en/Aluminium-hexagon-SW19-length-77mm-103-all-the-way-through"

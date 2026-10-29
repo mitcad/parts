@@ -1,0 +1,2908 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "L",
+      "expression": "1000 mm",
+      "unit": "mm",
+      "value": 1000.0,
+      "comment": ""
+    },
+    {
+      "name": "B",
+      "expression": "40 mm",
+      "unit": "mm",
+      "value": 40.0,
+      "comment": ""
+    },
+    {
+      "name": "T",
+      "expression": "3 mm",
+      "unit": "mm",
+      "value": 3.0,
+      "comment": ""
+    },
+    {
+      "name": "RO",
+      "expression": "6 mm",
+      "unit": "mm",
+      "value": 6.0,
+      "comment": ""
+    },
+    {
+      "name": "RI",
+      "expression": "3 mm",
+      "unit": "mm",
+      "value": 3.0,
+      "comment": ""
+    },
+    {
+      "name": "d1",
+      "expression": "-B / 2 + RO",
+      "unit": "mm",
+      "value": -14.0,
+      "comment": "Section horizontal_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d2",
+      "expression": "-B / 2",
+      "unit": "mm",
+      "value": -20.0,
+      "comment": "Section vertical_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d3",
+      "expression": "B / 2 - RO",
+      "unit": "mm",
+      "value": 14.0,
+      "comment": "Section horizontal_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d4",
+      "expression": "-B / 2",
+      "unit": "mm",
+      "value": -20.0,
+      "comment": "Section vertical_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d5",
+      "expression": "B / 2",
+      "unit": "mm",
+      "value": 20.0,
+      "comment": "Section horizontal_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d6",
+      "expression": "-B / 2 + RO",
+      "unit": "mm",
+      "value": -14.0,
+      "comment": "Section vertical_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d7",
+      "expression": "B / 2",
+      "unit": "mm",
+      "value": 20.0,
+      "comment": "Section horizontal_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d8",
+      "expression": "B / 2 - RO",
+      "unit": "mm",
+      "value": 14.0,
+      "comment": "Section vertical_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d9",
+      "expression": "B / 2 - RO",
+      "unit": "mm",
+      "value": 14.0,
+      "comment": "Section horizontal_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d10",
+      "expression": "B / 2",
+      "unit": "mm",
+      "value": 20.0,
+      "comment": "Section vertical_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d11",
+      "expression": "-B / 2 + RO",
+      "unit": "mm",
+      "value": -14.0,
+      "comment": "Section horizontal_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d12",
+      "expression": "B / 2",
+      "unit": "mm",
+      "value": 20.0,
+      "comment": "Section vertical_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d13",
+      "expression": "-B / 2",
+      "unit": "mm",
+      "value": -20.0,
+      "comment": "Section horizontal_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d14",
+      "expression": "B / 2 - RO",
+      "unit": "mm",
+      "value": 14.0,
+      "comment": "Section vertical_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d15",
+      "expression": "-B / 2",
+      "unit": "mm",
+      "value": -20.0,
+      "comment": "Section horizontal_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d16",
+      "expression": "-B / 2 + RO",
+      "unit": "mm",
+      "value": -14.0,
+      "comment": "Section vertical_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d17",
+      "expression": "-B / 2 + RO",
+      "unit": "mm",
+      "value": -14.0,
+      "comment": "Section horizontal_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d18",
+      "expression": "-B / 2 + RO",
+      "unit": "mm",
+      "value": -14.0,
+      "comment": "Section vertical_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d19",
+      "expression": "B / 2 - RO",
+      "unit": "mm",
+      "value": 14.0,
+      "comment": "Section horizontal_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d20",
+      "expression": "-B / 2 + RO",
+      "unit": "mm",
+      "value": -14.0,
+      "comment": "Section vertical_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d21",
+      "expression": "B / 2 - RO",
+      "unit": "mm",
+      "value": 14.0,
+      "comment": "Section horizontal_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d22",
+      "expression": "B / 2 - RO",
+      "unit": "mm",
+      "value": 14.0,
+      "comment": "Section vertical_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d23",
+      "expression": "-B / 2 + RO",
+      "unit": "mm",
+      "value": -14.0,
+      "comment": "Section horizontal_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d24",
+      "expression": "B / 2 - RO",
+      "unit": "mm",
+      "value": 14.0,
+      "comment": "Section vertical_distance",
+      "owner": "F1"
+    },
+    {
+      "name": "d25",
+      "expression": "T - B / 2 + RI",
+      "unit": "mm",
+      "value": -14.0,
+      "comment": "Bore section horizontal_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d26",
+      "expression": "T - B / 2",
+      "unit": "mm",
+      "value": -17.0,
+      "comment": "Bore section vertical_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d27",
+      "expression": "B / 2 - T - RI",
+      "unit": "mm",
+      "value": 14.0,
+      "comment": "Bore section horizontal_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d28",
+      "expression": "T - B / 2",
+      "unit": "mm",
+      "value": -17.0,
+      "comment": "Bore section vertical_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d29",
+      "expression": "B / 2 - T",
+      "unit": "mm",
+      "value": 17.0,
+      "comment": "Bore section horizontal_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d30",
+      "expression": "T - B / 2 + RI",
+      "unit": "mm",
+      "value": -14.0,
+      "comment": "Bore section vertical_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d31",
+      "expression": "B / 2 - T",
+      "unit": "mm",
+      "value": 17.0,
+      "comment": "Bore section horizontal_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d32",
+      "expression": "B / 2 - T - RI",
+      "unit": "mm",
+      "value": 14.0,
+      "comment": "Bore section vertical_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d33",
+      "expression": "B / 2 - T - RI",
+      "unit": "mm",
+      "value": 14.0,
+      "comment": "Bore section horizontal_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d34",
+      "expression": "B / 2 - T",
+      "unit": "mm",
+      "value": 17.0,
+      "comment": "Bore section vertical_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d35",
+      "expression": "T - B / 2 + RI",
+      "unit": "mm",
+      "value": -14.0,
+      "comment": "Bore section horizontal_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d36",
+      "expression": "B / 2 - T",
+      "unit": "mm",
+      "value": 17.0,
+      "comment": "Bore section vertical_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d37",
+      "expression": "T - B / 2",
+      "unit": "mm",
+      "value": -17.0,
+      "comment": "Bore section horizontal_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d38",
+      "expression": "B / 2 - T - RI",
+      "unit": "mm",
+      "value": 14.0,
+      "comment": "Bore section vertical_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d39",
+      "expression": "T - B / 2",
+      "unit": "mm",
+      "value": -17.0,
+      "comment": "Bore section horizontal_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d40",
+      "expression": "T - B / 2 + RI",
+      "unit": "mm",
+      "value": -14.0,
+      "comment": "Bore section vertical_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d41",
+      "expression": "T - B / 2 + RI",
+      "unit": "mm",
+      "value": -14.0,
+      "comment": "Bore section horizontal_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d42",
+      "expression": "T - B / 2 + RI",
+      "unit": "mm",
+      "value": -14.0,
+      "comment": "Bore section vertical_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d43",
+      "expression": "B / 2 - T - RI",
+      "unit": "mm",
+      "value": 14.0,
+      "comment": "Bore section horizontal_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d44",
+      "expression": "T - B / 2 + RI",
+      "unit": "mm",
+      "value": -14.0,
+      "comment": "Bore section vertical_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d45",
+      "expression": "B / 2 - T - RI",
+      "unit": "mm",
+      "value": 14.0,
+      "comment": "Bore section horizontal_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d46",
+      "expression": "B / 2 - T - RI",
+      "unit": "mm",
+      "value": 14.0,
+      "comment": "Bore section vertical_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d47",
+      "expression": "T - B / 2 + RI",
+      "unit": "mm",
+      "value": -14.0,
+      "comment": "Bore section horizontal_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d48",
+      "expression": "B / 2 - T - RI",
+      "unit": "mm",
+      "value": 14.0,
+      "comment": "Bore section vertical_distance",
+      "owner": "F3"
+    },
+    {
+      "name": "d49",
+      "expression": "B / 2",
+      "unit": "mm",
+      "value": 20.0,
+      "comment": "Plane of face_xp distance",
+      "owner": "F8"
+    },
+    {
+      "name": "d50",
+      "expression": "B / 2",
+      "unit": "mm",
+      "value": 20.0,
+      "comment": "Plane of face_xn distance",
+      "owner": "F10"
+    },
+    {
+      "name": "d51",
+      "expression": "B / 2",
+      "unit": "mm",
+      "value": 20.0,
+      "comment": "Plane of face_yp distance",
+      "owner": "F12"
+    },
+    {
+      "name": "d52",
+      "expression": "B / 2",
+      "unit": "mm",
+      "value": 20.0,
+      "comment": "Plane of face_yn distance",
+      "owner": "F14"
+    },
+    {
+      "name": "Size",
+      "expression": "'40'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    },
+    {
+      "name": "Thickness",
+      "expression": "'3'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
+  "features": [
+    {
+      "uid": "F1",
+      "name": "Section",
+      "type": "sketch",
+      "plane": "xy",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p2",
+          "type": "point",
+          "at": [
+            -14.0,
+            -20.0
+          ]
+        },
+        {
+          "id": "p5",
+          "type": "point",
+          "at": [
+            14.0,
+            -20.0
+          ]
+        },
+        {
+          "id": "p8",
+          "type": "point",
+          "at": [
+            20.0,
+            -14.0
+          ]
+        },
+        {
+          "id": "p11",
+          "type": "point",
+          "at": [
+            20.0,
+            14.0
+          ]
+        },
+        {
+          "id": "p14",
+          "type": "point",
+          "at": [
+            14.0,
+            20.0
+          ]
+        },
+        {
+          "id": "p17",
+          "type": "point",
+          "at": [
+            -14.0,
+            20.0
+          ]
+        },
+        {
+          "id": "p20",
+          "type": "point",
+          "at": [
+            -20.0,
+            14.0
+          ]
+        },
+        {
+          "id": "p23",
+          "type": "point",
+          "at": [
+            -20.0,
+            -14.0
+          ]
+        },
+        {
+          "id": "p26",
+          "type": "point",
+          "at": [
+            -14.0,
+            -14.0
+          ]
+        },
+        {
+          "id": "c29",
+          "type": "arc",
+          "center": "p26",
+          "start": "p23",
+          "end": "p2"
+        },
+        {
+          "id": "c30",
+          "type": "line",
+          "start": "p2",
+          "end": "p5"
+        },
+        {
+          "id": "p31",
+          "type": "point",
+          "at": [
+            14.0,
+            -14.0
+          ]
+        },
+        {
+          "id": "c34",
+          "type": "arc",
+          "center": "p31",
+          "start": "p5",
+          "end": "p8"
+        },
+        {
+          "id": "c35",
+          "type": "line",
+          "start": "p8",
+          "end": "p11"
+        },
+        {
+          "id": "p36",
+          "type": "point",
+          "at": [
+            14.0,
+            14.0
+          ]
+        },
+        {
+          "id": "c39",
+          "type": "arc",
+          "center": "p36",
+          "start": "p11",
+          "end": "p14"
+        },
+        {
+          "id": "c40",
+          "type": "line",
+          "start": "p14",
+          "end": "p17"
+        },
+        {
+          "id": "p41",
+          "type": "point",
+          "at": [
+            -14.0,
+            14.0
+          ]
+        },
+        {
+          "id": "c44",
+          "type": "arc",
+          "center": "p41",
+          "start": "p17",
+          "end": "p20"
+        },
+        {
+          "id": "c45",
+          "type": "line",
+          "start": "p20",
+          "end": "p23"
+        }
+      ],
+      "dimensions": [
+        {
+          "id": "k3",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p2",
+          "signed": true,
+          "value": "d1"
+        },
+        {
+          "id": "k4",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p2",
+          "signed": true,
+          "value": "d2"
+        },
+        {
+          "id": "k6",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p5",
+          "signed": true,
+          "value": "d3"
+        },
+        {
+          "id": "k7",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p5",
+          "signed": true,
+          "value": "d4"
+        },
+        {
+          "id": "k9",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p8",
+          "signed": true,
+          "value": "d5"
+        },
+        {
+          "id": "k10",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p8",
+          "signed": true,
+          "value": "d6"
+        },
+        {
+          "id": "k12",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p11",
+          "signed": true,
+          "value": "d7"
+        },
+        {
+          "id": "k13",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p11",
+          "signed": true,
+          "value": "d8"
+        },
+        {
+          "id": "k15",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p14",
+          "signed": true,
+          "value": "d9"
+        },
+        {
+          "id": "k16",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p14",
+          "signed": true,
+          "value": "d10"
+        },
+        {
+          "id": "k18",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p17",
+          "signed": true,
+          "value": "d11"
+        },
+        {
+          "id": "k19",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p17",
+          "signed": true,
+          "value": "d12"
+        },
+        {
+          "id": "k21",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p20",
+          "signed": true,
+          "value": "d13"
+        },
+        {
+          "id": "k22",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p20",
+          "signed": true,
+          "value": "d14"
+        },
+        {
+          "id": "k24",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p23",
+          "signed": true,
+          "value": "d15"
+        },
+        {
+          "id": "k25",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p23",
+          "signed": true,
+          "value": "d16"
+        },
+        {
+          "id": "k27",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p26",
+          "signed": true,
+          "value": "d17"
+        },
+        {
+          "id": "k28",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p26",
+          "signed": true,
+          "value": "d18"
+        },
+        {
+          "id": "k32",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p31",
+          "signed": true,
+          "value": "d19"
+        },
+        {
+          "id": "k33",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p31",
+          "signed": true,
+          "value": "d20"
+        },
+        {
+          "id": "k37",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p36",
+          "signed": true,
+          "value": "d21"
+        },
+        {
+          "id": "k38",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p36",
+          "signed": true,
+          "value": "d22"
+        },
+        {
+          "id": "k42",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p41",
+          "signed": true,
+          "value": "d23"
+        },
+        {
+          "id": "k43",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p41",
+          "signed": true,
+          "value": "d24"
+        }
+      ]
+    },
+    {
+      "uid": "F2",
+      "name": "Tube",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F1",
+          "region": "r{c29[c45,c30],c30[c29,c34],c34[c30,c35],c35[c34,c39],c39[c35,c40],c40[c39,c44],c44[c40,c45],c45[c44,c29]}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "L"
+      },
+      "operation": "new_body"
+    },
+    {
+      "uid": "F3",
+      "name": "Bore section",
+      "type": "sketch",
+      "plane": "xy",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p2",
+          "type": "point",
+          "at": [
+            -14.0,
+            -17.0
+          ]
+        },
+        {
+          "id": "p5",
+          "type": "point",
+          "at": [
+            14.0,
+            -17.0
+          ]
+        },
+        {
+          "id": "p8",
+          "type": "point",
+          "at": [
+            17.0,
+            -14.0
+          ]
+        },
+        {
+          "id": "p11",
+          "type": "point",
+          "at": [
+            17.0,
+            14.0
+          ]
+        },
+        {
+          "id": "p14",
+          "type": "point",
+          "at": [
+            14.0,
+            17.0
+          ]
+        },
+        {
+          "id": "p17",
+          "type": "point",
+          "at": [
+            -14.0,
+            17.0
+          ]
+        },
+        {
+          "id": "p20",
+          "type": "point",
+          "at": [
+            -17.0,
+            14.0
+          ]
+        },
+        {
+          "id": "p23",
+          "type": "point",
+          "at": [
+            -17.0,
+            -14.0
+          ]
+        },
+        {
+          "id": "p26",
+          "type": "point",
+          "at": [
+            -14.0,
+            -14.0
+          ]
+        },
+        {
+          "id": "c29",
+          "type": "arc",
+          "center": "p26",
+          "start": "p23",
+          "end": "p2"
+        },
+        {
+          "id": "c30",
+          "type": "line",
+          "start": "p2",
+          "end": "p5"
+        },
+        {
+          "id": "p31",
+          "type": "point",
+          "at": [
+            14.0,
+            -14.0
+          ]
+        },
+        {
+          "id": "c34",
+          "type": "arc",
+          "center": "p31",
+          "start": "p5",
+          "end": "p8"
+        },
+        {
+          "id": "c35",
+          "type": "line",
+          "start": "p8",
+          "end": "p11"
+        },
+        {
+          "id": "p36",
+          "type": "point",
+          "at": [
+            14.0,
+            14.0
+          ]
+        },
+        {
+          "id": "c39",
+          "type": "arc",
+          "center": "p36",
+          "start": "p11",
+          "end": "p14"
+        },
+        {
+          "id": "c40",
+          "type": "line",
+          "start": "p14",
+          "end": "p17"
+        },
+        {
+          "id": "p41",
+          "type": "point",
+          "at": [
+            -14.0,
+            14.0
+          ]
+        },
+        {
+          "id": "c44",
+          "type": "arc",
+          "center": "p41",
+          "start": "p17",
+          "end": "p20"
+        },
+        {
+          "id": "c45",
+          "type": "line",
+          "start": "p20",
+          "end": "p23"
+        }
+      ],
+      "dimensions": [
+        {
+          "id": "k3",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p2",
+          "signed": true,
+          "value": "d25"
+        },
+        {
+          "id": "k4",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p2",
+          "signed": true,
+          "value": "d26"
+        },
+        {
+          "id": "k6",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p5",
+          "signed": true,
+          "value": "d27"
+        },
+        {
+          "id": "k7",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p5",
+          "signed": true,
+          "value": "d28"
+        },
+        {
+          "id": "k9",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p8",
+          "signed": true,
+          "value": "d29"
+        },
+        {
+          "id": "k10",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p8",
+          "signed": true,
+          "value": "d30"
+        },
+        {
+          "id": "k12",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p11",
+          "signed": true,
+          "value": "d31"
+        },
+        {
+          "id": "k13",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p11",
+          "signed": true,
+          "value": "d32"
+        },
+        {
+          "id": "k15",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p14",
+          "signed": true,
+          "value": "d33"
+        },
+        {
+          "id": "k16",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p14",
+          "signed": true,
+          "value": "d34"
+        },
+        {
+          "id": "k18",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p17",
+          "signed": true,
+          "value": "d35"
+        },
+        {
+          "id": "k19",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p17",
+          "signed": true,
+          "value": "d36"
+        },
+        {
+          "id": "k21",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p20",
+          "signed": true,
+          "value": "d37"
+        },
+        {
+          "id": "k22",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p20",
+          "signed": true,
+          "value": "d38"
+        },
+        {
+          "id": "k24",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p23",
+          "signed": true,
+          "value": "d39"
+        },
+        {
+          "id": "k25",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p23",
+          "signed": true,
+          "value": "d40"
+        },
+        {
+          "id": "k27",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p26",
+          "signed": true,
+          "value": "d41"
+        },
+        {
+          "id": "k28",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p26",
+          "signed": true,
+          "value": "d42"
+        },
+        {
+          "id": "k32",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p31",
+          "signed": true,
+          "value": "d43"
+        },
+        {
+          "id": "k33",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p31",
+          "signed": true,
+          "value": "d44"
+        },
+        {
+          "id": "k37",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p36",
+          "signed": true,
+          "value": "d45"
+        },
+        {
+          "id": "k38",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p36",
+          "signed": true,
+          "value": "d46"
+        },
+        {
+          "id": "k42",
+          "type": "horizontal_distance",
+          "a": "p1",
+          "b": "p41",
+          "signed": true,
+          "value": "d47"
+        },
+        {
+          "id": "k43",
+          "type": "vertical_distance",
+          "a": "p1",
+          "b": "p41",
+          "signed": true,
+          "value": "d48"
+        }
+      ]
+    },
+    {
+      "uid": "F4",
+      "name": "Bore",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F3",
+          "region": "r{c29[c45,c30],c30[c29,c34],c34[c30,c35],c35[c34,c39],c39[c35,c40],c40[c39,c44],c44[c40,c45],c45[c44,c29]}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "L"
+      },
+      "operation": "cut"
+    },
+    {
+      "uid": "F5",
+      "name": "mount:end_a",
+      "type": "joint_origin",
+      "geometry": "xy",
+      "flip": true
+    },
+    {
+      "uid": "F6",
+      "name": "End B plane",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": "xy",
+        "distance": "L"
+      }
+    },
+    {
+      "uid": "F7",
+      "name": "mount:end_b",
+      "type": "joint_origin",
+      "geometry": "F6"
+    },
+    {
+      "uid": "F8",
+      "name": "Plane of face_xp",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": {
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x_axis": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "distance": "d49"
+      }
+    },
+    {
+      "uid": "F9",
+      "name": "mount:face_xp",
+      "type": "joint_origin",
+      "geometry": "F8"
+    },
+    {
+      "uid": "F10",
+      "name": "Plane of face_xn",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": {
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x_axis": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "distance": "d50"
+      }
+    },
+    {
+      "uid": "F11",
+      "name": "mount:face_xn",
+      "type": "joint_origin",
+      "geometry": "F10"
+    },
+    {
+      "uid": "F12",
+      "name": "Plane of face_yp",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": {
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x_axis": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "distance": "d51"
+      }
+    },
+    {
+      "uid": "F13",
+      "name": "mount:face_yp",
+      "type": "joint_origin",
+      "geometry": "F12"
+    },
+    {
+      "uid": "F14",
+      "name": "Plane of face_yn",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x_axis": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "distance": "d52"
+      }
+    },
+    {
+      "uid": "F15",
+      "name": "mount:face_yn",
+      "type": "joint_origin",
+      "geometry": "F14"
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F2.b0",
+      "name": "Body1",
+      "appearance": "steel_satin"
+    }
+  ],
+  "configurations": {
+    "options": [
+      "Size",
+      "Thickness"
+    ],
+    "closed": true,
+    "parameters": [
+      "B",
+      "T",
+      "RO",
+      "RI"
+    ],
+    "default": "40x40x3",
+    "rows": [
+      {
+        "name": "20x20x2",
+        "values": {
+          "B": "20 mm",
+          "RI": "2 mm",
+          "RO": "4 mm",
+          "Size": "'20'",
+          "T": "2 mm",
+          "Thickness": "'2'"
+        }
+      },
+      {
+        "name": "20x20x2.5",
+        "values": {
+          "B": "20 mm",
+          "RI": "2.5 mm",
+          "RO": "5 mm",
+          "Size": "'20'",
+          "T": "2.5 mm",
+          "Thickness": "'2.5'"
+        }
+      },
+      {
+        "name": "25x25x2",
+        "values": {
+          "B": "25 mm",
+          "RI": "2 mm",
+          "RO": "4 mm",
+          "Size": "'25'",
+          "T": "2 mm",
+          "Thickness": "'2'"
+        }
+      },
+      {
+        "name": "25x25x2.5",
+        "values": {
+          "B": "25 mm",
+          "RI": "2.5 mm",
+          "RO": "5 mm",
+          "Size": "'25'",
+          "T": "2.5 mm",
+          "Thickness": "'2.5'"
+        }
+      },
+      {
+        "name": "25x25x3",
+        "values": {
+          "B": "25 mm",
+          "RI": "3 mm",
+          "RO": "6 mm",
+          "Size": "'25'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "30x30x2",
+        "values": {
+          "B": "30 mm",
+          "RI": "2 mm",
+          "RO": "4 mm",
+          "Size": "'30'",
+          "T": "2 mm",
+          "Thickness": "'2'"
+        }
+      },
+      {
+        "name": "30x30x2.5",
+        "values": {
+          "B": "30 mm",
+          "RI": "2.5 mm",
+          "RO": "5 mm",
+          "Size": "'30'",
+          "T": "2.5 mm",
+          "Thickness": "'2.5'"
+        }
+      },
+      {
+        "name": "30x30x3",
+        "values": {
+          "B": "30 mm",
+          "RI": "3 mm",
+          "RO": "6 mm",
+          "Size": "'30'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "40x40x2",
+        "values": {
+          "B": "40 mm",
+          "RI": "2 mm",
+          "RO": "4 mm",
+          "Size": "'40'",
+          "T": "2 mm",
+          "Thickness": "'2'"
+        }
+      },
+      {
+        "name": "40x40x2.5",
+        "values": {
+          "B": "40 mm",
+          "RI": "2.5 mm",
+          "RO": "5 mm",
+          "Size": "'40'",
+          "T": "2.5 mm",
+          "Thickness": "'2.5'"
+        }
+      },
+      {
+        "name": "40x40x3",
+        "values": {
+          "B": "40 mm",
+          "RI": "3 mm",
+          "RO": "6 mm",
+          "Size": "'40'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "40x40x4",
+        "values": {
+          "B": "40 mm",
+          "RI": "4 mm",
+          "RO": "8 mm",
+          "Size": "'40'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "50x50x2",
+        "values": {
+          "B": "50 mm",
+          "RI": "2 mm",
+          "RO": "4 mm",
+          "Size": "'50'",
+          "T": "2 mm",
+          "Thickness": "'2'"
+        }
+      },
+      {
+        "name": "50x50x2.5",
+        "values": {
+          "B": "50 mm",
+          "RI": "2.5 mm",
+          "RO": "5 mm",
+          "Size": "'50'",
+          "T": "2.5 mm",
+          "Thickness": "'2.5'"
+        }
+      },
+      {
+        "name": "50x50x3",
+        "values": {
+          "B": "50 mm",
+          "RI": "3 mm",
+          "RO": "6 mm",
+          "Size": "'50'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "50x50x4",
+        "values": {
+          "B": "50 mm",
+          "RI": "4 mm",
+          "RO": "8 mm",
+          "Size": "'50'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "50x50x5",
+        "values": {
+          "B": "50 mm",
+          "RI": "5 mm",
+          "RO": "10 mm",
+          "Size": "'50'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "60x60x2",
+        "values": {
+          "B": "60 mm",
+          "RI": "2 mm",
+          "RO": "4 mm",
+          "Size": "'60'",
+          "T": "2 mm",
+          "Thickness": "'2'"
+        }
+      },
+      {
+        "name": "60x60x2.5",
+        "values": {
+          "B": "60 mm",
+          "RI": "2.5 mm",
+          "RO": "5 mm",
+          "Size": "'60'",
+          "T": "2.5 mm",
+          "Thickness": "'2.5'"
+        }
+      },
+      {
+        "name": "60x60x3",
+        "values": {
+          "B": "60 mm",
+          "RI": "3 mm",
+          "RO": "6 mm",
+          "Size": "'60'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "60x60x4",
+        "values": {
+          "B": "60 mm",
+          "RI": "4 mm",
+          "RO": "8 mm",
+          "Size": "'60'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "60x60x5",
+        "values": {
+          "B": "60 mm",
+          "RI": "5 mm",
+          "RO": "10 mm",
+          "Size": "'60'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "60x60x6",
+        "values": {
+          "B": "60 mm",
+          "RI": "6 mm",
+          "RO": "12 mm",
+          "Size": "'60'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "60x60x6.3",
+        "values": {
+          "B": "60 mm",
+          "RI": "9.45 mm",
+          "RO": "15.75 mm",
+          "Size": "'60'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "70x70x2.5",
+        "values": {
+          "B": "70 mm",
+          "RI": "2.5 mm",
+          "RO": "5 mm",
+          "Size": "'70'",
+          "T": "2.5 mm",
+          "Thickness": "'2.5'"
+        }
+      },
+      {
+        "name": "70x70x3",
+        "values": {
+          "B": "70 mm",
+          "RI": "3 mm",
+          "RO": "6 mm",
+          "Size": "'70'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "70x70x3.6",
+        "values": {
+          "B": "70 mm",
+          "RI": "3.6 mm",
+          "RO": "7.2 mm",
+          "Size": "'70'",
+          "T": "3.6 mm",
+          "Thickness": "'3.6'"
+        }
+      },
+      {
+        "name": "70x70x4",
+        "values": {
+          "B": "70 mm",
+          "RI": "4 mm",
+          "RO": "8 mm",
+          "Size": "'70'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "70x70x5",
+        "values": {
+          "B": "70 mm",
+          "RI": "5 mm",
+          "RO": "10 mm",
+          "Size": "'70'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "70x70x6",
+        "values": {
+          "B": "70 mm",
+          "RI": "6 mm",
+          "RO": "12 mm",
+          "Size": "'70'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "70x70x6.3",
+        "values": {
+          "B": "70 mm",
+          "RI": "9.45 mm",
+          "RO": "15.75 mm",
+          "Size": "'70'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "80x80x3",
+        "values": {
+          "B": "80 mm",
+          "RI": "3 mm",
+          "RO": "6 mm",
+          "Size": "'80'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "80x80x3.6",
+        "values": {
+          "B": "80 mm",
+          "RI": "3.6 mm",
+          "RO": "7.2 mm",
+          "Size": "'80'",
+          "T": "3.6 mm",
+          "Thickness": "'3.6'"
+        }
+      },
+      {
+        "name": "80x80x4",
+        "values": {
+          "B": "80 mm",
+          "RI": "4 mm",
+          "RO": "8 mm",
+          "Size": "'80'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "80x80x5",
+        "values": {
+          "B": "80 mm",
+          "RI": "5 mm",
+          "RO": "10 mm",
+          "Size": "'80'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "80x80x6",
+        "values": {
+          "B": "80 mm",
+          "RI": "6 mm",
+          "RO": "12 mm",
+          "Size": "'80'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "80x80x6.3",
+        "values": {
+          "B": "80 mm",
+          "RI": "9.45 mm",
+          "RO": "15.75 mm",
+          "Size": "'80'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "80x80x8",
+        "values": {
+          "B": "80 mm",
+          "RI": "12 mm",
+          "RO": "20 mm",
+          "Size": "'80'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "90x90x3",
+        "values": {
+          "B": "90 mm",
+          "RI": "3 mm",
+          "RO": "6 mm",
+          "Size": "'90'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "90x90x3.6",
+        "values": {
+          "B": "90 mm",
+          "RI": "3.6 mm",
+          "RO": "7.2 mm",
+          "Size": "'90'",
+          "T": "3.6 mm",
+          "Thickness": "'3.6'"
+        }
+      },
+      {
+        "name": "90x90x4",
+        "values": {
+          "B": "90 mm",
+          "RI": "4 mm",
+          "RO": "8 mm",
+          "Size": "'90'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "90x90x5",
+        "values": {
+          "B": "90 mm",
+          "RI": "5 mm",
+          "RO": "10 mm",
+          "Size": "'90'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "90x90x6",
+        "values": {
+          "B": "90 mm",
+          "RI": "6 mm",
+          "RO": "12 mm",
+          "Size": "'90'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "90x90x6.3",
+        "values": {
+          "B": "90 mm",
+          "RI": "9.45 mm",
+          "RO": "15.75 mm",
+          "Size": "'90'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "90x90x8",
+        "values": {
+          "B": "90 mm",
+          "RI": "12 mm",
+          "RO": "20 mm",
+          "Size": "'90'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "100x100x3",
+        "values": {
+          "B": "100 mm",
+          "RI": "3 mm",
+          "RO": "6 mm",
+          "Size": "'100'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "100x100x4",
+        "values": {
+          "B": "100 mm",
+          "RI": "4 mm",
+          "RO": "8 mm",
+          "Size": "'100'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "100x100x5",
+        "values": {
+          "B": "100 mm",
+          "RI": "5 mm",
+          "RO": "10 mm",
+          "Size": "'100'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "100x100x6",
+        "values": {
+          "B": "100 mm",
+          "RI": "6 mm",
+          "RO": "12 mm",
+          "Size": "'100'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "100x100x6.3",
+        "values": {
+          "B": "100 mm",
+          "RI": "9.45 mm",
+          "RO": "15.75 mm",
+          "Size": "'100'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "100x100x8",
+        "values": {
+          "B": "100 mm",
+          "RI": "12 mm",
+          "RO": "20 mm",
+          "Size": "'100'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "100x100x10",
+        "values": {
+          "B": "100 mm",
+          "RI": "15 mm",
+          "RO": "25 mm",
+          "Size": "'100'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "100x100x12",
+        "values": {
+          "B": "100 mm",
+          "RI": "24 mm",
+          "RO": "36 mm",
+          "Size": "'100'",
+          "T": "12 mm",
+          "Thickness": "'12'"
+        }
+      },
+      {
+        "name": "100x100x12.5",
+        "values": {
+          "B": "100 mm",
+          "RI": "25 mm",
+          "RO": "37.5 mm",
+          "Size": "'100'",
+          "T": "12.5 mm",
+          "Thickness": "'12.5'"
+        }
+      },
+      {
+        "name": "120x120x3",
+        "values": {
+          "B": "120 mm",
+          "RI": "3 mm",
+          "RO": "6 mm",
+          "Size": "'120'",
+          "T": "3 mm",
+          "Thickness": "'3'"
+        }
+      },
+      {
+        "name": "120x120x4",
+        "values": {
+          "B": "120 mm",
+          "RI": "4 mm",
+          "RO": "8 mm",
+          "Size": "'120'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "120x120x5",
+        "values": {
+          "B": "120 mm",
+          "RI": "5 mm",
+          "RO": "10 mm",
+          "Size": "'120'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "120x120x6",
+        "values": {
+          "B": "120 mm",
+          "RI": "6 mm",
+          "RO": "12 mm",
+          "Size": "'120'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "120x120x6.3",
+        "values": {
+          "B": "120 mm",
+          "RI": "9.45 mm",
+          "RO": "15.75 mm",
+          "Size": "'120'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "120x120x8",
+        "values": {
+          "B": "120 mm",
+          "RI": "12 mm",
+          "RO": "20 mm",
+          "Size": "'120'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "120x120x10",
+        "values": {
+          "B": "120 mm",
+          "RI": "15 mm",
+          "RO": "25 mm",
+          "Size": "'120'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "120x120x12",
+        "values": {
+          "B": "120 mm",
+          "RI": "24 mm",
+          "RO": "36 mm",
+          "Size": "'120'",
+          "T": "12 mm",
+          "Thickness": "'12'"
+        }
+      },
+      {
+        "name": "120x120x12.5",
+        "values": {
+          "B": "120 mm",
+          "RI": "25 mm",
+          "RO": "37.5 mm",
+          "Size": "'120'",
+          "T": "12.5 mm",
+          "Thickness": "'12.5'"
+        }
+      },
+      {
+        "name": "140x140x4",
+        "values": {
+          "B": "140 mm",
+          "RI": "4 mm",
+          "RO": "8 mm",
+          "Size": "'140'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "140x140x5",
+        "values": {
+          "B": "140 mm",
+          "RI": "5 mm",
+          "RO": "10 mm",
+          "Size": "'140'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "140x140x6",
+        "values": {
+          "B": "140 mm",
+          "RI": "6 mm",
+          "RO": "12 mm",
+          "Size": "'140'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "140x140x6.3",
+        "values": {
+          "B": "140 mm",
+          "RI": "9.45 mm",
+          "RO": "15.75 mm",
+          "Size": "'140'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "140x140x8",
+        "values": {
+          "B": "140 mm",
+          "RI": "12 mm",
+          "RO": "20 mm",
+          "Size": "'140'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "140x140x10",
+        "values": {
+          "B": "140 mm",
+          "RI": "15 mm",
+          "RO": "25 mm",
+          "Size": "'140'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "140x140x12",
+        "values": {
+          "B": "140 mm",
+          "RI": "24 mm",
+          "RO": "36 mm",
+          "Size": "'140'",
+          "T": "12 mm",
+          "Thickness": "'12'"
+        }
+      },
+      {
+        "name": "140x140x12.5",
+        "values": {
+          "B": "140 mm",
+          "RI": "25 mm",
+          "RO": "37.5 mm",
+          "Size": "'140'",
+          "T": "12.5 mm",
+          "Thickness": "'12.5'"
+        }
+      },
+      {
+        "name": "150x150x4",
+        "values": {
+          "B": "150 mm",
+          "RI": "4 mm",
+          "RO": "8 mm",
+          "Size": "'150'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "150x150x5",
+        "values": {
+          "B": "150 mm",
+          "RI": "5 mm",
+          "RO": "10 mm",
+          "Size": "'150'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "150x150x6",
+        "values": {
+          "B": "150 mm",
+          "RI": "6 mm",
+          "RO": "12 mm",
+          "Size": "'150'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "150x150x6.3",
+        "values": {
+          "B": "150 mm",
+          "RI": "9.45 mm",
+          "RO": "15.75 mm",
+          "Size": "'150'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "150x150x8",
+        "values": {
+          "B": "150 mm",
+          "RI": "12 mm",
+          "RO": "20 mm",
+          "Size": "'150'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "150x150x10",
+        "values": {
+          "B": "150 mm",
+          "RI": "15 mm",
+          "RO": "25 mm",
+          "Size": "'150'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "150x150x12",
+        "values": {
+          "B": "150 mm",
+          "RI": "24 mm",
+          "RO": "36 mm",
+          "Size": "'150'",
+          "T": "12 mm",
+          "Thickness": "'12'"
+        }
+      },
+      {
+        "name": "150x150x12.5",
+        "values": {
+          "B": "150 mm",
+          "RI": "25 mm",
+          "RO": "37.5 mm",
+          "Size": "'150'",
+          "T": "12.5 mm",
+          "Thickness": "'12.5'"
+        }
+      },
+      {
+        "name": "150x150x16",
+        "values": {
+          "B": "150 mm",
+          "RI": "32 mm",
+          "RO": "48 mm",
+          "Size": "'150'",
+          "T": "16 mm",
+          "Thickness": "'16'"
+        }
+      },
+      {
+        "name": "160x160x4",
+        "values": {
+          "B": "160 mm",
+          "RI": "4 mm",
+          "RO": "8 mm",
+          "Size": "'160'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "160x160x5",
+        "values": {
+          "B": "160 mm",
+          "RI": "5 mm",
+          "RO": "10 mm",
+          "Size": "'160'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "160x160x6",
+        "values": {
+          "B": "160 mm",
+          "RI": "6 mm",
+          "RO": "12 mm",
+          "Size": "'160'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "160x160x6.3",
+        "values": {
+          "B": "160 mm",
+          "RI": "9.45 mm",
+          "RO": "15.75 mm",
+          "Size": "'160'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "160x160x8",
+        "values": {
+          "B": "160 mm",
+          "RI": "12 mm",
+          "RO": "20 mm",
+          "Size": "'160'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "160x160x10",
+        "values": {
+          "B": "160 mm",
+          "RI": "15 mm",
+          "RO": "25 mm",
+          "Size": "'160'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "160x160x12",
+        "values": {
+          "B": "160 mm",
+          "RI": "24 mm",
+          "RO": "36 mm",
+          "Size": "'160'",
+          "T": "12 mm",
+          "Thickness": "'12'"
+        }
+      },
+      {
+        "name": "160x160x12.5",
+        "values": {
+          "B": "160 mm",
+          "RI": "25 mm",
+          "RO": "37.5 mm",
+          "Size": "'160'",
+          "T": "12.5 mm",
+          "Thickness": "'12.5'"
+        }
+      },
+      {
+        "name": "160x160x16",
+        "values": {
+          "B": "160 mm",
+          "RI": "32 mm",
+          "RO": "48 mm",
+          "Size": "'160'",
+          "T": "16 mm",
+          "Thickness": "'16'"
+        }
+      },
+      {
+        "name": "180x180x4",
+        "values": {
+          "B": "180 mm",
+          "RI": "4 mm",
+          "RO": "8 mm",
+          "Size": "'180'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "180x180x5",
+        "values": {
+          "B": "180 mm",
+          "RI": "5 mm",
+          "RO": "10 mm",
+          "Size": "'180'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "180x180x6",
+        "values": {
+          "B": "180 mm",
+          "RI": "6 mm",
+          "RO": "12 mm",
+          "Size": "'180'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "180x180x6.3",
+        "values": {
+          "B": "180 mm",
+          "RI": "9.45 mm",
+          "RO": "15.75 mm",
+          "Size": "'180'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "180x180x8",
+        "values": {
+          "B": "180 mm",
+          "RI": "12 mm",
+          "RO": "20 mm",
+          "Size": "'180'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "180x180x10",
+        "values": {
+          "B": "180 mm",
+          "RI": "15 mm",
+          "RO": "25 mm",
+          "Size": "'180'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "180x180x12",
+        "values": {
+          "B": "180 mm",
+          "RI": "24 mm",
+          "RO": "36 mm",
+          "Size": "'180'",
+          "T": "12 mm",
+          "Thickness": "'12'"
+        }
+      },
+      {
+        "name": "180x180x12.5",
+        "values": {
+          "B": "180 mm",
+          "RI": "25 mm",
+          "RO": "37.5 mm",
+          "Size": "'180'",
+          "T": "12.5 mm",
+          "Thickness": "'12.5'"
+        }
+      },
+      {
+        "name": "180x180x16",
+        "values": {
+          "B": "180 mm",
+          "RI": "32 mm",
+          "RO": "48 mm",
+          "Size": "'180'",
+          "T": "16 mm",
+          "Thickness": "'16'"
+        }
+      },
+      {
+        "name": "200x200x4",
+        "values": {
+          "B": "200 mm",
+          "RI": "4 mm",
+          "RO": "8 mm",
+          "Size": "'200'",
+          "T": "4 mm",
+          "Thickness": "'4'"
+        }
+      },
+      {
+        "name": "200x200x5",
+        "values": {
+          "B": "200 mm",
+          "RI": "5 mm",
+          "RO": "10 mm",
+          "Size": "'200'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "200x200x6",
+        "values": {
+          "B": "200 mm",
+          "RI": "6 mm",
+          "RO": "12 mm",
+          "Size": "'200'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "200x200x6.3",
+        "values": {
+          "B": "200 mm",
+          "RI": "9.45 mm",
+          "RO": "15.75 mm",
+          "Size": "'200'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "200x200x8",
+        "values": {
+          "B": "200 mm",
+          "RI": "12 mm",
+          "RO": "20 mm",
+          "Size": "'200'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "200x200x10",
+        "values": {
+          "B": "200 mm",
+          "RI": "15 mm",
+          "RO": "25 mm",
+          "Size": "'200'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "200x200x12",
+        "values": {
+          "B": "200 mm",
+          "RI": "24 mm",
+          "RO": "36 mm",
+          "Size": "'200'",
+          "T": "12 mm",
+          "Thickness": "'12'"
+        }
+      },
+      {
+        "name": "200x200x12.5",
+        "values": {
+          "B": "200 mm",
+          "RI": "25 mm",
+          "RO": "37.5 mm",
+          "Size": "'200'",
+          "T": "12.5 mm",
+          "Thickness": "'12.5'"
+        }
+      },
+      {
+        "name": "200x200x16",
+        "values": {
+          "B": "200 mm",
+          "RI": "32 mm",
+          "RO": "48 mm",
+          "Size": "'200'",
+          "T": "16 mm",
+          "Thickness": "'16'"
+        }
+      },
+      {
+        "name": "220x220x5",
+        "values": {
+          "B": "220 mm",
+          "RI": "5 mm",
+          "RO": "10 mm",
+          "Size": "'220'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "220x220x6",
+        "values": {
+          "B": "220 mm",
+          "RI": "6 mm",
+          "RO": "12 mm",
+          "Size": "'220'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "220x220x6.3",
+        "values": {
+          "B": "220 mm",
+          "RI": "9.45 mm",
+          "RO": "15.75 mm",
+          "Size": "'220'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "220x220x8",
+        "values": {
+          "B": "220 mm",
+          "RI": "12 mm",
+          "RO": "20 mm",
+          "Size": "'220'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "220x220x10",
+        "values": {
+          "B": "220 mm",
+          "RI": "15 mm",
+          "RO": "25 mm",
+          "Size": "'220'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "220x220x12",
+        "values": {
+          "B": "220 mm",
+          "RI": "24 mm",
+          "RO": "36 mm",
+          "Size": "'220'",
+          "T": "12 mm",
+          "Thickness": "'12'"
+        }
+      },
+      {
+        "name": "220x220x12.5",
+        "values": {
+          "B": "220 mm",
+          "RI": "25 mm",
+          "RO": "37.5 mm",
+          "Size": "'220'",
+          "T": "12.5 mm",
+          "Thickness": "'12.5'"
+        }
+      },
+      {
+        "name": "220x220x16",
+        "values": {
+          "B": "220 mm",
+          "RI": "32 mm",
+          "RO": "48 mm",
+          "Size": "'220'",
+          "T": "16 mm",
+          "Thickness": "'16'"
+        }
+      },
+      {
+        "name": "250x250x5",
+        "values": {
+          "B": "250 mm",
+          "RI": "5 mm",
+          "RO": "10 mm",
+          "Size": "'250'",
+          "T": "5 mm",
+          "Thickness": "'5'"
+        }
+      },
+      {
+        "name": "250x250x6",
+        "values": {
+          "B": "250 mm",
+          "RI": "6 mm",
+          "RO": "12 mm",
+          "Size": "'250'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "250x250x6.3",
+        "values": {
+          "B": "250 mm",
+          "RI": "9.45 mm",
+          "RO": "15.75 mm",
+          "Size": "'250'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "250x250x8",
+        "values": {
+          "B": "250 mm",
+          "RI": "12 mm",
+          "RO": "20 mm",
+          "Size": "'250'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "250x250x10",
+        "values": {
+          "B": "250 mm",
+          "RI": "15 mm",
+          "RO": "25 mm",
+          "Size": "'250'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "250x250x12",
+        "values": {
+          "B": "250 mm",
+          "RI": "24 mm",
+          "RO": "36 mm",
+          "Size": "'250'",
+          "T": "12 mm",
+          "Thickness": "'12'"
+        }
+      },
+      {
+        "name": "250x250x12.5",
+        "values": {
+          "B": "250 mm",
+          "RI": "25 mm",
+          "RO": "37.5 mm",
+          "Size": "'250'",
+          "T": "12.5 mm",
+          "Thickness": "'12.5'"
+        }
+      },
+      {
+        "name": "250x250x16",
+        "values": {
+          "B": "250 mm",
+          "RI": "32 mm",
+          "RO": "48 mm",
+          "Size": "'250'",
+          "T": "16 mm",
+          "Thickness": "'16'"
+        }
+      },
+      {
+        "name": "260x260x6",
+        "values": {
+          "B": "260 mm",
+          "RI": "6 mm",
+          "RO": "12 mm",
+          "Size": "'260'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "260x260x6.3",
+        "values": {
+          "B": "260 mm",
+          "RI": "9.45 mm",
+          "RO": "15.75 mm",
+          "Size": "'260'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "260x260x8",
+        "values": {
+          "B": "260 mm",
+          "RI": "12 mm",
+          "RO": "20 mm",
+          "Size": "'260'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "260x260x10",
+        "values": {
+          "B": "260 mm",
+          "RI": "15 mm",
+          "RO": "25 mm",
+          "Size": "'260'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "260x260x12",
+        "values": {
+          "B": "260 mm",
+          "RI": "24 mm",
+          "RO": "36 mm",
+          "Size": "'260'",
+          "T": "12 mm",
+          "Thickness": "'12'"
+        }
+      },
+      {
+        "name": "260x260x12.5",
+        "values": {
+          "B": "260 mm",
+          "RI": "25 mm",
+          "RO": "37.5 mm",
+          "Size": "'260'",
+          "T": "12.5 mm",
+          "Thickness": "'12.5'"
+        }
+      },
+      {
+        "name": "260x260x16",
+        "values": {
+          "B": "260 mm",
+          "RI": "32 mm",
+          "RO": "48 mm",
+          "Size": "'260'",
+          "T": "16 mm",
+          "Thickness": "'16'"
+        }
+      },
+      {
+        "name": "300x300x6",
+        "values": {
+          "B": "300 mm",
+          "RI": "6 mm",
+          "RO": "12 mm",
+          "Size": "'300'",
+          "T": "6 mm",
+          "Thickness": "'6'"
+        }
+      },
+      {
+        "name": "300x300x6.3",
+        "values": {
+          "B": "300 mm",
+          "RI": "9.45 mm",
+          "RO": "15.75 mm",
+          "Size": "'300'",
+          "T": "6.3 mm",
+          "Thickness": "'6.3'"
+        }
+      },
+      {
+        "name": "300x300x8",
+        "values": {
+          "B": "300 mm",
+          "RI": "12 mm",
+          "RO": "20 mm",
+          "Size": "'300'",
+          "T": "8 mm",
+          "Thickness": "'8'"
+        }
+      },
+      {
+        "name": "300x300x10",
+        "values": {
+          "B": "300 mm",
+          "RI": "15 mm",
+          "RO": "25 mm",
+          "Size": "'300'",
+          "T": "10 mm",
+          "Thickness": "'10'"
+        }
+      },
+      {
+        "name": "300x300x12",
+        "values": {
+          "B": "300 mm",
+          "RI": "24 mm",
+          "RO": "36 mm",
+          "Size": "'300'",
+          "T": "12 mm",
+          "Thickness": "'12'"
+        }
+      },
+      {
+        "name": "300x300x12.5",
+        "values": {
+          "B": "300 mm",
+          "RI": "25 mm",
+          "RO": "37.5 mm",
+          "Size": "'300'",
+          "T": "12.5 mm",
+          "Thickness": "'12.5'"
+        }
+      },
+      {
+        "name": "300x300x16",
+        "values": {
+          "B": "300 mm",
+          "RI": "32 mm",
+          "RO": "48 mm",
+          "Size": "'300'",
+          "T": "16 mm",
+          "Thickness": "'16'"
+        }
+      }
+    ]
+  }
+}

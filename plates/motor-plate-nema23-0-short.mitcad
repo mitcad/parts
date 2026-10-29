@@ -50,6 +50,13 @@
       "value": 0.0,
       "comment": "Centred z",
       "owner": "F2"
+    },
+    {
+      "name": "Finish",
+      "expression": "'Raw'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -89,26 +96,25 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Finish"
     ],
+    "closed": true,
     "parameters": [],
     "default": "Raw",
     "rows": [
       {
         "name": "Raw",
-        "select": {
-          "Finish": "Raw"
+        "values": {
+          "Finish": "'Raw'"
         },
-        "values": {},
         "part_number": "LP50211"
       },
       {
         "name": "Black",
-        "select": {
-          "Finish": "Black"
+        "values": {
+          "Finish": "'Black'"
         },
-        "values": {},
         "part_number": "LP50211B"
       }
     ]

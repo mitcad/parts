@@ -12,6 +12,13 @@
       "unit": "mm",
       "value": 1980.0,
       "comment": "Length"
+    },
+    {
+      "name": "Stock",
+      "expression": "'1980'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -203,35 +210,33 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Stock"
     ],
+    "closed": true,
     "parameters": [],
     "default": "1980",
     "rows": [
       {
         "name": "1980",
-        "select": {
-          "Stock": "1980"
+        "values": {
+          "Stock": "'1980'"
         },
-        "values": {},
         "part_number": "AHSW19-1980"
       },
       {
         "name": "1000",
-        "select": {
-          "Stock": "1000"
+        "values": {
+          "Stock": "'1000'"
         },
-        "values": {},
         "part_number": "AHSW19-1000",
         "supplier_url": "https://www.motedis.com/en/Aluminium-hexagon-SW19-length-1000-mm"
       },
       {
         "name": "250",
-        "select": {
-          "Stock": "250"
+        "values": {
+          "Stock": "'250'"
         },
-        "values": {},
         "part_number": "AHSW19-250",
         "supplier_url": "https://www.motedis.com/en/Aluminium-hexagon-SW19-length-250mm"
       }

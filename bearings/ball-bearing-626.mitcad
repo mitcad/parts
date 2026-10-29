@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Type",
+      "expression": "'626-2RS'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -95,48 +103,45 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Type"
     ],
+    "closed": true,
     "parameters": [],
     "default": "626-2RS",
     "rows": [
       {
         "name": "626-2RS",
-        "select": {
-          "Type": "626-2RS"
+        "values": {
+          "Type": "'626-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 626-2RS 6x19x6",
         "part_number": "5700",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-626-2RS-6x19x6"
       },
       {
         "name": "626-2RS-C3",
-        "select": {
-          "Type": "626-2RS-C3"
+        "values": {
+          "Type": "'626-2RS-C3'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 626-2RS/C3 6x19x6",
         "part_number": "9554",
         "supplier_url": "https://www.motedis.com/en/Deepgrooveballbearings626-2RS2FC36x19x6"
       },
       {
         "name": "626-2Z-C3",
-        "select": {
-          "Type": "626-2Z-C3"
+        "values": {
+          "Type": "'626-2Z-C3'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 626-2Z/C3 6x19x6",
         "part_number": "9550",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-626-2Z-C3-6x19x6"
       },
       {
         "name": "SS626-2RS",
-        "select": {
-          "Type": "SS626-2RS"
+        "values": {
+          "Type": "'SS626-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing SS626-2RS 6x19x6, stainless steel",
         "part_number": "9552",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-SS626-2RS-6x19x6"

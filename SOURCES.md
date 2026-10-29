@@ -34,7 +34,9 @@ cross-section of the supplier's CAD file extruded by its length; a connector,
 nut or other part keeps the solids of the supplier's CAD file; sheets and
 plates sold without a CAD file are modelled from the dimensions the supplier
 gives. Each part names its supplier and part number, so that it can be
-bought. Check critical dimensions against the supplier's data.
+bought. Check critical dimensions against the supplier's data. The timber
+parts and the steel tubes name no supplier: their sizes come from the
+standards and tables named below.
 
 - bracket-cap20 (Cover cap for bracket 20): slot-profile-accessories/Cover-Cap-Bracket-20/Motedis_S5I6BBR20C.stp; Motedis S5I6BBR20C; https://www.motedis.com/en/Cover-Cap-Bracket-20
 - bracket-cap20x40 (Cover cap for bracket 20x40): slot-profile-accessories/Bracket-Cover-Cap-20x40/Motedis-S5I6BBR2040C-1/Motedis_S5I6BBR2040C.stp; Motedis S5I6BBR2040C; https://www.motedis.com/en/Bracket-Cover-Cap-20x40
@@ -870,6 +872,12 @@ bought. Check critical dimensions against the supplier's data.
 - pr40-80-45g-i8 (Profile R40/80 45deg I-type slot 8): aluminium-profiles/Profile-8-R40-80-45G-I-Type-Slot-8/Motedis_40RR45 I-Type slot 8.stp; Motedis I8 40RR45; https://www.motedis.com/en/Profile-8-R40-80-45G-I-Type-Slot-8
 - pr40-80-60g-i8 (Profile R40/80 60deg I-type slot 8): aluminium-profiles/Profile-8-R40-80-60G-I-Type-Slot-8/Motedis_40RR60 I-Type slot 8.stp; Motedis I8 40RR60; https://www.motedis.com/en/Profile-8-R40-80-60G-I-Type-Slot-8
 - pr40-80-90g-i8 (Profile R40/80 90deg I-type slot 8): aluminium-profiles/Profile-8-R40-80-90G-I-Type-Slot-8/Motedis_40RR90 I-Type slot 8.stp; Motedis I8 40RR90; https://www.motedis.com/en/Profile-8-R40-80-90G-I-Type-Slot-8
+- chs-en10219 (Round steel tube EN 10219-2): EN 10219-2 cold-formed circular hollow sections (wall thicknesses), outside diameters of EN 10220 series 1
+- shs-en10219 (Square steel tube EN 10219-2): EN 10219-2 cold-formed square hollow sections (sizes, wall thicknesses and the corner radii for calculation)
+- square-tube-en10305 (Square tube EN 10305-5 (furniture tube)): EN 10305-5:2016 Table 6, welded cold-sized square precision tubes (sizes, corner radii and tolerances)
+- rhs-en10219 (Rectangular steel tube EN 10219-2): EN 10219-2 cold-formed rectangular hollow sections (sizes, wall thicknesses and the corner radii for calculation)
+- rect-tube-en10305 (Rectangular tube EN 10305-5 (furniture tube)): EN 10305-5:2016 Table 6, welded cold-sized rectangular precision tubes (sizes, corner radii and tolerances)
+- stainless-tube-iso1127 (Round stainless steel tube EN ISO 1127): EN ISO 1127 Table 3, the outside diameter and wall thickness combinations of austenitic stainless steel tubes (EN 10216-5 seamless, EN 10217-7 welded)
 - cladding-shiplap (Cladding board, shiplap): industry-standard sizes and cover widths of shiplap cladding boards (at 20 % moisture)
 - cladding-feather-edge (Cladding board, feather-edge): industry-standard sizes of feather-edge cladding boards (at 20 % moisture)
 - angle-bracket-40 (Angle bracket 40x40x40): common sizes of angle brackets for timber
@@ -931,3 +939,36 @@ The supplier's files not made into parts, and why:
 - mechanical-basics/Adjustable-feet-D40-M12-L80/BD40-12x80/BD40-12x80.stp: the file holds the foot with the 77.5 mm base (the geometry of foot-bd80-m12-l80's file), not a D40 one
 
 The generator: tools/libraries/make-profile-library.py in Mitcad's repository.
+
+## Materials and print profiles
+The base library of materials and print profiles (mitcad#640): one item
+file each in `materials/`, `print/printers/` and `print/processes/`, in
+MitCad's own format (`docs/libraries.md`, "Materials and print profiles").
+They are part of the library, under its MIT licence.
+
+### Materials
+
+The generic filaments PLA, PETG, ABS, ASA, TPU and PA (nylon). Their
+densities are common published figures for the polymers (PLA, ABS and nylon
+the same as MitCad's built-in materials of those ids); their temperatures,
+bed temperatures and fan speeds are MitCad's own starting points within the
+ranges filament makers publish for generic grades. None is copied from a
+slicer's system profiles. Each names one of MitCad's library appearances.
+
+### Printers
+
+The common Bambu Lab and QIDI printers with a 0.4 mm nozzle. Each carries
+only what MitCad uses: the bed (from 0, 0, as the slicers place it), the
+printable height and the filament slots, from the makers' published
+specifications of the build volume and of the filament systems sold with
+the printer (the Bambu Lab AMS and AMS lite give 4 slots); the printer
+model and the slicers' printer preset names are the names Bambu Studio,
+OrcaSlicer and QIDI Studio give those printers, so that a 3MF MitCad writes
+names a preset the slicer has. Machine settings (accelerations,
+retraction, G-code) stay with the slicers.
+
+### Processes
+
+Four process profiles for a 0.4 mm nozzle (draft 0.28 mm, standard 0.20
+mm, fine 0.12 mm and a strong 0.20 mm with more walls and infill): MitCad's
+own values.

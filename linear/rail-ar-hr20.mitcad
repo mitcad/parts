@@ -40,7 +40,7 @@
     {
       "name": "d4",
       "expression": "max(1, floor((L - 30 mm) / (60 mm)) + 1)",
-      "unit": "mm",
+      "unit": "",
       "value": 10.0,
       "comment": "Holes at the pitch quantity",
       "owner": "F5"
@@ -52,6 +52,13 @@
       "value": 60.0,
       "comment": "Holes at the pitch distance",
       "owner": "F5"
+    },
+    {
+      "name": "Stock",
+      "expression": "'600'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -658,42 +665,39 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Stock"
     ],
+    "closed": true,
     "parameters": [],
     "default": "600",
     "rows": [
       {
         "name": "600",
-        "select": {
-          "Stock": "600"
+        "values": {
+          "Stock": "'600'"
         },
-        "values": {},
         "part_number": "AR-HR20-N-600"
       },
       {
         "name": "960",
-        "select": {
-          "Stock": "960"
+        "values": {
+          "Stock": "'960'"
         },
-        "values": {},
         "part_number": "AR-HR20-N-960"
       },
       {
         "name": "1320",
-        "select": {
-          "Stock": "1320"
+        "values": {
+          "Stock": "'1320'"
         },
-        "values": {},
         "part_number": "AR-HR20-N-1320"
       },
       {
         "name": "1980",
-        "select": {
-          "Stock": "1980"
+        "values": {
+          "Stock": "'1980'"
         },
-        "values": {},
         "part_number": "AR-HR20-N-1980"
       }
     ]

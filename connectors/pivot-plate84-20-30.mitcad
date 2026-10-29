@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Material",
+      "expression": "'Steel'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -81,26 +89,25 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Material"
     ],
+    "closed": true,
     "parameters": [],
     "default": "Steel",
     "rows": [
       {
         "name": "Steel",
-        "select": {
-          "Material": "Steel"
+        "values": {
+          "Material": "'Steel'"
         },
-        "values": {},
         "part_number": "LP20301SB"
       },
       {
         "name": "Aluminium",
-        "select": {
-          "Material": "Aluminium"
+        "values": {
+          "Material": "'Aluminium'"
         },
-        "values": {},
         "part_number": "LP20301",
         "supplier_url": "https://www.motedis.com/en/NEW-Pivot-plate-84x3-2030-series-t3-Laser-cut"
       }

@@ -58,6 +58,20 @@
       "value": 10.5,
       "comment": "Plane of face_yn distance",
       "owner": "F12"
+    },
+    {
+      "name": "Thickness",
+      "expression": "'21'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    },
+    {
+      "name": "Width",
+      "expression": "'95'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -431,10 +445,11 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Thickness",
       "Width"
     ],
+    "closed": true,
     "parameters": [
       "W",
       "T"
@@ -443,629 +458,515 @@
     "rows": [
       {
         "name": "8x21",
-        "select": {
-          "Thickness": "8",
-          "Width": "21"
-        },
         "values": {
           "T": "8 mm",
-          "W": "21 mm"
+          "Thickness": "'8'",
+          "W": "21 mm",
+          "Width": "'21'"
         }
       },
       {
         "name": "8x28",
-        "select": {
-          "Thickness": "8",
-          "Width": "28"
-        },
         "values": {
           "T": "8 mm",
-          "W": "28 mm"
+          "Thickness": "'8'",
+          "W": "28 mm",
+          "Width": "'28'"
         }
       },
       {
         "name": "8x33",
-        "select": {
-          "Thickness": "8",
-          "Width": "33"
-        },
         "values": {
           "T": "8 mm",
-          "W": "33 mm"
+          "Thickness": "'8'",
+          "W": "33 mm",
+          "Width": "'33'"
         }
       },
       {
         "name": "8x45",
-        "select": {
-          "Thickness": "8",
-          "Width": "45"
-        },
         "values": {
           "T": "8 mm",
-          "W": "45 mm"
+          "Thickness": "'8'",
+          "W": "45 mm",
+          "Width": "'45'"
         }
       },
       {
         "name": "8x70",
-        "select": {
-          "Thickness": "8",
-          "Width": "70"
-        },
         "values": {
           "T": "8 mm",
-          "W": "70 mm"
+          "Thickness": "'8'",
+          "W": "70 mm",
+          "Width": "'70'"
         }
       },
       {
         "name": "8x95",
-        "select": {
-          "Thickness": "8",
-          "Width": "95"
-        },
         "values": {
           "T": "8 mm",
-          "W": "95 mm"
+          "Thickness": "'8'",
+          "W": "95 mm",
+          "Width": "'95'"
         }
       },
       {
         "name": "12x33",
-        "select": {
-          "Thickness": "12",
-          "Width": "33"
-        },
         "values": {
           "T": "12 mm",
-          "W": "33 mm"
+          "Thickness": "'12'",
+          "W": "33 mm",
+          "Width": "'33'"
         }
       },
       {
         "name": "12x45",
-        "select": {
-          "Thickness": "12",
-          "Width": "45"
-        },
         "values": {
           "T": "12 mm",
-          "W": "45 mm"
+          "Thickness": "'12'",
+          "W": "45 mm",
+          "Width": "'45'"
         }
       },
       {
         "name": "12x70",
-        "select": {
-          "Thickness": "12",
-          "Width": "70"
-        },
         "values": {
           "T": "12 mm",
-          "W": "70 mm"
+          "Thickness": "'12'",
+          "W": "70 mm",
+          "Width": "'70'"
         }
       },
       {
         "name": "12x95",
-        "select": {
-          "Thickness": "12",
-          "Width": "95"
-        },
         "values": {
           "T": "12 mm",
-          "W": "95 mm"
+          "Thickness": "'12'",
+          "W": "95 mm",
+          "Width": "'95'"
         }
       },
       {
         "name": "15x15",
-        "select": {
-          "Thickness": "15",
-          "Width": "15"
-        },
         "values": {
           "T": "15 mm",
-          "W": "15 mm"
+          "Thickness": "'15'",
+          "W": "15 mm",
+          "Width": "'15'"
         }
       },
       {
         "name": "15x21",
-        "select": {
-          "Thickness": "15",
-          "Width": "21"
-        },
         "values": {
           "T": "15 mm",
-          "W": "21 mm"
+          "Thickness": "'15'",
+          "W": "21 mm",
+          "Width": "'21'"
         }
       },
       {
         "name": "15x33",
-        "select": {
-          "Thickness": "15",
-          "Width": "33"
-        },
         "values": {
           "T": "15 mm",
-          "W": "33 mm"
+          "Thickness": "'15'",
+          "W": "33 mm",
+          "Width": "'33'"
         }
       },
       {
         "name": "15x45",
-        "select": {
-          "Thickness": "15",
-          "Width": "45"
-        },
         "values": {
           "T": "15 mm",
-          "W": "45 mm"
+          "Thickness": "'15'",
+          "W": "45 mm",
+          "Width": "'45'"
         }
       },
       {
         "name": "15x70",
-        "select": {
-          "Thickness": "15",
-          "Width": "70"
-        },
         "values": {
           "T": "15 mm",
-          "W": "70 mm"
+          "Thickness": "'15'",
+          "W": "70 mm",
+          "Width": "'70'"
         }
       },
       {
         "name": "15x95",
-        "select": {
-          "Thickness": "15",
-          "Width": "95"
-        },
         "values": {
           "T": "15 mm",
-          "W": "95 mm"
+          "Thickness": "'15'",
+          "W": "95 mm",
+          "Width": "'95'"
         }
       },
       {
         "name": "15x120",
-        "select": {
-          "Thickness": "15",
-          "Width": "120"
-        },
         "values": {
           "T": "15 mm",
-          "W": "120 mm"
+          "Thickness": "'15'",
+          "W": "120 mm",
+          "Width": "'120'"
         }
       },
       {
         "name": "15x145",
-        "select": {
-          "Thickness": "15",
-          "Width": "145"
-        },
         "values": {
           "T": "15 mm",
-          "W": "145 mm"
+          "Thickness": "'15'",
+          "W": "145 mm",
+          "Width": "'145'"
         }
       },
       {
         "name": "15x170",
-        "select": {
-          "Thickness": "15",
-          "Width": "170"
-        },
         "values": {
           "T": "15 mm",
-          "W": "170 mm"
+          "Thickness": "'15'",
+          "W": "170 mm",
+          "Width": "'170'"
         }
       },
       {
         "name": "18x45",
-        "select": {
-          "Thickness": "18",
-          "Width": "45"
-        },
         "values": {
           "T": "18 mm",
-          "W": "45 mm"
+          "Thickness": "'18'",
+          "W": "45 mm",
+          "Width": "'45'"
         }
       },
       {
         "name": "18x70",
-        "select": {
-          "Thickness": "18",
-          "Width": "70"
-        },
         "values": {
           "T": "18 mm",
-          "W": "70 mm"
+          "Thickness": "'18'",
+          "W": "70 mm",
+          "Width": "'70'"
         }
       },
       {
         "name": "18x95",
-        "select": {
-          "Thickness": "18",
-          "Width": "95"
-        },
         "values": {
           "T": "18 mm",
-          "W": "95 mm"
+          "Thickness": "'18'",
+          "W": "95 mm",
+          "Width": "'95'"
         }
       },
       {
         "name": "18x120",
-        "select": {
-          "Thickness": "18",
-          "Width": "120"
-        },
         "values": {
           "T": "18 mm",
-          "W": "120 mm"
+          "Thickness": "'18'",
+          "W": "120 mm",
+          "Width": "'120'"
         }
       },
       {
         "name": "18x145",
-        "select": {
-          "Thickness": "18",
-          "Width": "145"
-        },
         "values": {
           "T": "18 mm",
-          "W": "145 mm"
+          "Thickness": "'18'",
+          "W": "145 mm",
+          "Width": "'145'"
         }
       },
       {
         "name": "18x170",
-        "select": {
-          "Thickness": "18",
-          "Width": "170"
-        },
         "values": {
           "T": "18 mm",
-          "W": "170 mm"
+          "Thickness": "'18'",
+          "W": "170 mm",
+          "Width": "'170'"
         }
       },
       {
         "name": "18x195",
-        "select": {
-          "Thickness": "18",
-          "Width": "195"
-        },
         "values": {
           "T": "18 mm",
-          "W": "195 mm"
+          "Thickness": "'18'",
+          "W": "195 mm",
+          "Width": "'195'"
         }
       },
       {
         "name": "21x21",
-        "select": {
-          "Thickness": "21",
-          "Width": "21"
-        },
         "values": {
           "T": "21 mm",
-          "W": "21 mm"
+          "Thickness": "'21'",
+          "W": "21 mm",
+          "Width": "'21'"
         }
       },
       {
         "name": "21x45",
-        "select": {
-          "Thickness": "21",
-          "Width": "45"
-        },
         "values": {
           "T": "21 mm",
-          "W": "45 mm"
+          "Thickness": "'21'",
+          "W": "45 mm",
+          "Width": "'45'"
         }
       },
       {
         "name": "21x70",
-        "select": {
-          "Thickness": "21",
-          "Width": "70"
-        },
         "values": {
           "T": "21 mm",
-          "W": "70 mm"
+          "Thickness": "'21'",
+          "W": "70 mm",
+          "Width": "'70'"
         }
       },
       {
         "name": "21x95",
-        "select": {
-          "Thickness": "21",
-          "Width": "95"
-        },
         "values": {
           "T": "21 mm",
-          "W": "95 mm"
+          "Thickness": "'21'",
+          "W": "95 mm",
+          "Width": "'95'"
         }
       },
       {
         "name": "21x120",
-        "select": {
-          "Thickness": "21",
-          "Width": "120"
-        },
         "values": {
           "T": "21 mm",
-          "W": "120 mm"
+          "Thickness": "'21'",
+          "W": "120 mm",
+          "Width": "'120'"
         }
       },
       {
         "name": "21x145",
-        "select": {
-          "Thickness": "21",
-          "Width": "145"
-        },
         "values": {
           "T": "21 mm",
-          "W": "145 mm"
+          "Thickness": "'21'",
+          "W": "145 mm",
+          "Width": "'145'"
         }
       },
       {
         "name": "21x170",
-        "select": {
-          "Thickness": "21",
-          "Width": "170"
-        },
         "values": {
           "T": "21 mm",
-          "W": "170 mm"
+          "Thickness": "'21'",
+          "W": "170 mm",
+          "Width": "'170'"
         }
       },
       {
         "name": "21x195",
-        "select": {
-          "Thickness": "21",
-          "Width": "195"
-        },
         "values": {
           "T": "21 mm",
-          "W": "195 mm"
+          "Thickness": "'21'",
+          "W": "195 mm",
+          "Width": "'195'"
         }
       },
       {
         "name": "28x28",
-        "select": {
-          "Thickness": "28",
-          "Width": "28"
-        },
         "values": {
           "T": "28 mm",
-          "W": "28 mm"
+          "Thickness": "'28'",
+          "W": "28 mm",
+          "Width": "'28'"
         }
       },
       {
         "name": "28x45",
-        "select": {
-          "Thickness": "28",
-          "Width": "45"
-        },
         "values": {
           "T": "28 mm",
-          "W": "45 mm"
+          "Thickness": "'28'",
+          "W": "45 mm",
+          "Width": "'45'"
         }
       },
       {
         "name": "28x95",
-        "select": {
-          "Thickness": "28",
-          "Width": "95"
-        },
         "values": {
           "T": "28 mm",
-          "W": "95 mm"
+          "Thickness": "'28'",
+          "W": "95 mm",
+          "Width": "'95'"
         }
       },
       {
         "name": "28x120",
-        "select": {
-          "Thickness": "28",
-          "Width": "120"
-        },
         "values": {
           "T": "28 mm",
-          "W": "120 mm"
+          "Thickness": "'28'",
+          "W": "120 mm",
+          "Width": "'120'"
         }
       },
       {
         "name": "28x145",
-        "select": {
-          "Thickness": "28",
-          "Width": "145"
-        },
         "values": {
           "T": "28 mm",
-          "W": "145 mm"
+          "Thickness": "'28'",
+          "W": "145 mm",
+          "Width": "'145'"
         }
       },
       {
         "name": "33x21",
-        "select": {
-          "Thickness": "33",
-          "Width": "21"
-        },
         "values": {
           "T": "33 mm",
-          "W": "21 mm"
+          "Thickness": "'33'",
+          "W": "21 mm",
+          "Width": "'21'"
         }
       },
       {
         "name": "33x33",
-        "select": {
-          "Thickness": "33",
-          "Width": "33"
-        },
         "values": {
           "T": "33 mm",
-          "W": "33 mm"
+          "Thickness": "'33'",
+          "W": "33 mm",
+          "Width": "'33'"
         }
       },
       {
         "name": "33x45",
-        "select": {
-          "Thickness": "33",
-          "Width": "45"
-        },
         "values": {
           "T": "33 mm",
-          "W": "45 mm"
+          "Thickness": "'33'",
+          "W": "45 mm",
+          "Width": "'45'"
         }
       },
       {
         "name": "33x70",
-        "select": {
-          "Thickness": "33",
-          "Width": "70"
-        },
         "values": {
           "T": "33 mm",
-          "W": "70 mm"
+          "Thickness": "'33'",
+          "W": "70 mm",
+          "Width": "'70'"
         }
       },
       {
         "name": "33x95",
-        "select": {
-          "Thickness": "33",
-          "Width": "95"
-        },
         "values": {
           "T": "33 mm",
-          "W": "95 mm"
+          "Thickness": "'33'",
+          "W": "95 mm",
+          "Width": "'95'"
         }
       },
       {
         "name": "33x120",
-        "select": {
-          "Thickness": "33",
-          "Width": "120"
-        },
         "values": {
           "T": "33 mm",
-          "W": "120 mm"
+          "Thickness": "'33'",
+          "W": "120 mm",
+          "Width": "'120'"
         }
       },
       {
         "name": "33x145",
-        "select": {
-          "Thickness": "33",
-          "Width": "145"
-        },
         "values": {
           "T": "33 mm",
-          "W": "145 mm"
+          "Thickness": "'33'",
+          "W": "145 mm",
+          "Width": "'145'"
         }
       },
       {
         "name": "45x33",
-        "select": {
-          "Thickness": "45",
-          "Width": "33"
-        },
         "values": {
           "T": "45 mm",
-          "W": "33 mm"
+          "Thickness": "'45'",
+          "W": "33 mm",
+          "Width": "'33'"
         }
       },
       {
         "name": "45x45",
-        "select": {
-          "Thickness": "45",
-          "Width": "45"
-        },
         "values": {
           "T": "45 mm",
-          "W": "45 mm"
+          "Thickness": "'45'",
+          "W": "45 mm",
+          "Width": "'45'"
         }
       },
       {
         "name": "45x70",
-        "select": {
-          "Thickness": "45",
-          "Width": "70"
-        },
         "values": {
           "T": "45 mm",
-          "W": "70 mm"
+          "Thickness": "'45'",
+          "W": "70 mm",
+          "Width": "'70'"
         }
       },
       {
         "name": "45x95",
-        "select": {
-          "Thickness": "45",
-          "Width": "95"
-        },
         "values": {
           "T": "45 mm",
-          "W": "95 mm"
+          "Thickness": "'45'",
+          "W": "95 mm",
+          "Width": "'95'"
         }
       },
       {
         "name": "45x120",
-        "select": {
-          "Thickness": "45",
-          "Width": "120"
-        },
         "values": {
           "T": "45 mm",
-          "W": "120 mm"
+          "Thickness": "'45'",
+          "W": "120 mm",
+          "Width": "'120'"
         }
       },
       {
         "name": "45x145",
-        "select": {
-          "Thickness": "45",
-          "Width": "145"
-        },
         "values": {
           "T": "45 mm",
-          "W": "145 mm"
+          "Thickness": "'45'",
+          "W": "145 mm",
+          "Width": "'145'"
         }
       },
       {
         "name": "45x170",
-        "select": {
-          "Thickness": "45",
-          "Width": "170"
-        },
         "values": {
           "T": "45 mm",
-          "W": "170 mm"
+          "Thickness": "'45'",
+          "W": "170 mm",
+          "Width": "'170'"
         }
       },
       {
         "name": "45x195",
-        "select": {
-          "Thickness": "45",
-          "Width": "195"
-        },
         "values": {
           "T": "45 mm",
-          "W": "195 mm"
+          "Thickness": "'45'",
+          "W": "195 mm",
+          "Width": "'195'"
         }
       },
       {
         "name": "70x70",
-        "select": {
-          "Thickness": "70",
-          "Width": "70"
-        },
         "values": {
           "T": "70 mm",
-          "W": "70 mm"
+          "Thickness": "'70'",
+          "W": "70 mm",
+          "Width": "'70'"
         }
       },
       {
         "name": "70x145",
-        "select": {
-          "Thickness": "70",
-          "Width": "145"
-        },
         "values": {
           "T": "70 mm",
-          "W": "145 mm"
+          "Thickness": "'70'",
+          "W": "145 mm",
+          "Width": "'145'"
         }
       },
       {
         "name": "70x195",
-        "select": {
-          "Thickness": "70",
-          "Width": "195"
-        },
         "values": {
           "T": "70 mm",
-          "W": "195 mm"
+          "Thickness": "'70'",
+          "W": "195 mm",
+          "Width": "'195'"
         }
       }
     ]

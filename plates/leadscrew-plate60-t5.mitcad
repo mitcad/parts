@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Material",
+      "expression": "'Aluminium'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -81,26 +89,25 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Material"
     ],
+    "closed": true,
     "parameters": [],
     "default": "Aluminium",
     "rows": [
       {
         "name": "Aluminium",
-        "select": {
-          "Material": "Aluminium"
+        "values": {
+          "Material": "'Aluminium'"
         },
-        "values": {},
         "part_number": "LP50125"
       },
       {
         "name": "Steel",
-        "select": {
-          "Material": "Steel"
+        "values": {
+          "Material": "'Steel'"
         },
-        "values": {},
         "part_number": "LP50125SB",
         "supplier_url": "https://www.motedis.com/en/Laser-cut-mounting-plate-60x60x5-for-Igus-RFRM-2525TR10x2-STEEL"
       }

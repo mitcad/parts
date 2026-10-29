@@ -12,6 +12,13 @@
       "unit": "mm",
       "value": 600.0,
       "comment": "Length"
+    },
+    {
+      "name": "Stock",
+      "expression": "'600'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -479,34 +486,32 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Stock"
     ],
+    "closed": true,
     "parameters": [],
     "default": "600",
     "rows": [
       {
         "name": "600",
-        "select": {
-          "Stock": "600"
+        "values": {
+          "Stock": "'600'"
         },
-        "values": {},
         "part_number": "SBS20-600"
       },
       {
         "name": "800",
-        "select": {
-          "Stock": "800"
+        "values": {
+          "Stock": "'800'"
         },
-        "values": {},
         "part_number": "SBS20-800"
       },
       {
         "name": "1000",
-        "select": {
-          "Stock": "1000"
+        "values": {
+          "Stock": "'1000'"
         },
-        "values": {},
         "part_number": "SBS20-1000"
       }
     ]

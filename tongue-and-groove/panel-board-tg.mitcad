@@ -347,6 +347,20 @@
       "value": 38.5,
       "comment": "Plane of tongue distance",
       "owner": "F16"
+    },
+    {
+      "name": "Thickness",
+      "expression": "'15'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    },
+    {
+      "name": "Width",
+      "expression": "'95'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -1101,10 +1115,11 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Thickness",
       "Width"
     ],
+    "closed": true,
     "parameters": [
       "W",
       "T",
@@ -1120,10 +1135,6 @@
     "rows": [
       {
         "name": "12x70",
-        "select": {
-          "Thickness": "12",
-          "Width": "70"
-        },
         "values": {
           "GC": "1 mm",
           "GW": "0.5 mm",
@@ -1131,17 +1142,15 @@
           "TL": "9 mm",
           "TO": "0 mm",
           "TT": "4 mm",
+          "Thickness": "'12'",
           "VA": "45 deg",
           "VB": "2 mm",
-          "W": "70 mm"
+          "W": "70 mm",
+          "Width": "'70'"
         }
       },
       {
         "name": "12x95",
-        "select": {
-          "Thickness": "12",
-          "Width": "95"
-        },
         "values": {
           "GC": "1 mm",
           "GW": "0.5 mm",
@@ -1149,17 +1158,15 @@
           "TL": "9 mm",
           "TO": "0 mm",
           "TT": "4 mm",
+          "Thickness": "'12'",
           "VA": "45 deg",
           "VB": "2 mm",
-          "W": "95 mm"
+          "W": "95 mm",
+          "Width": "'95'"
         }
       },
       {
         "name": "15x95",
-        "select": {
-          "Thickness": "15",
-          "Width": "95"
-        },
         "values": {
           "GC": "1 mm",
           "GW": "0.5 mm",
@@ -1167,17 +1174,15 @@
           "TL": "9 mm",
           "TO": "0 mm",
           "TT": "5 mm",
+          "Thickness": "'15'",
           "VA": "45 deg",
           "VB": "2 mm",
-          "W": "95 mm"
+          "W": "95 mm",
+          "Width": "'95'"
         }
       },
       {
         "name": "15x120",
-        "select": {
-          "Thickness": "15",
-          "Width": "120"
-        },
         "values": {
           "GC": "1 mm",
           "GW": "0.5 mm",
@@ -1185,17 +1190,15 @@
           "TL": "9 mm",
           "TO": "0 mm",
           "TT": "5 mm",
+          "Thickness": "'15'",
           "VA": "45 deg",
           "VB": "2 mm",
-          "W": "120 mm"
+          "W": "120 mm",
+          "Width": "'120'"
         }
       },
       {
         "name": "15x145",
-        "select": {
-          "Thickness": "15",
-          "Width": "145"
-        },
         "values": {
           "GC": "1 mm",
           "GW": "0.5 mm",
@@ -1203,17 +1206,15 @@
           "TL": "9 mm",
           "TO": "0 mm",
           "TT": "5 mm",
+          "Thickness": "'15'",
           "VA": "45 deg",
           "VB": "2 mm",
-          "W": "145 mm"
+          "W": "145 mm",
+          "Width": "'145'"
         }
       },
       {
         "name": "20x95",
-        "select": {
-          "Thickness": "20",
-          "Width": "95"
-        },
         "values": {
           "GC": "1 mm",
           "GW": "0.5 mm",
@@ -1221,17 +1222,15 @@
           "TL": "9 mm",
           "TO": "0 mm",
           "TT": "6 mm",
+          "Thickness": "'20'",
           "VA": "45 deg",
           "VB": "2 mm",
-          "W": "95 mm"
+          "W": "95 mm",
+          "Width": "'95'"
         }
       },
       {
         "name": "20x120",
-        "select": {
-          "Thickness": "20",
-          "Width": "120"
-        },
         "values": {
           "GC": "1 mm",
           "GW": "0.5 mm",
@@ -1239,17 +1238,15 @@
           "TL": "9 mm",
           "TO": "0 mm",
           "TT": "6 mm",
+          "Thickness": "'20'",
           "VA": "45 deg",
           "VB": "2 mm",
-          "W": "120 mm"
+          "W": "120 mm",
+          "Width": "'120'"
         }
       },
       {
         "name": "20x145",
-        "select": {
-          "Thickness": "20",
-          "Width": "145"
-        },
         "values": {
           "GC": "1 mm",
           "GW": "0.5 mm",
@@ -1257,9 +1254,11 @@
           "TL": "9 mm",
           "TO": "0 mm",
           "TT": "6 mm",
+          "Thickness": "'20'",
           "VA": "45 deg",
           "VB": "2 mm",
-          "W": "145 mm"
+          "W": "145 mm",
+          "Width": "'145'"
         }
       }
     ]

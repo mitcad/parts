@@ -63,6 +63,13 @@
       "value": 27.0,
       "comment": "Above the base diameter",
       "owner": "F2"
+    },
+    {
+      "name": "Size",
+      "expression": "'D25-M6'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -126,9 +133,10 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Size"
     ],
+    "closed": true,
     "parameters": [
       "D",
       "H",
@@ -141,15 +149,13 @@
     "rows": [
       {
         "name": "D16-M4",
-        "select": {
-          "Size": "D16-M4"
-        },
         "values": {
           "B": "12 mm",
           "D": "16 mm",
           "F": "9 mm",
           "H": "8 mm",
           "K": "3 mm",
+          "Size": "'D16-M4'",
           "T": "4 mm"
         },
         "designation": "Knob with internal thread D16 M4",
@@ -158,15 +164,13 @@
       },
       {
         "name": "D18-M5",
-        "select": {
-          "Size": "D18-M5"
-        },
         "values": {
           "B": "13 mm",
           "D": "18.5 mm",
           "F": "8 mm",
           "H": "8 mm",
           "K": "3 mm",
+          "Size": "'D18-M5'",
           "T": "5 mm"
         },
         "designation": "Knob with internal thread D18 M5",
@@ -175,15 +179,13 @@
       },
       {
         "name": "D25-M6",
-        "select": {
-          "Size": "D25-M6"
-        },
         "values": {
           "B": "17.5 mm",
           "D": "25 mm",
           "F": "9 mm",
           "H": "9 mm",
           "K": "9 mm",
+          "Size": "'D25-M6'",
           "T": "6 mm"
         },
         "designation": "Knob with internal thread D25 M6",
@@ -192,15 +194,13 @@
       },
       {
         "name": "D32-M8",
-        "select": {
-          "Size": "D32-M8"
-        },
         "values": {
           "B": "22 mm",
           "D": "32 mm",
           "F": "15 mm",
           "H": "11 mm",
           "K": "9 mm",
+          "Size": "'D32-M8'",
           "T": "8 mm"
         },
         "designation": "Knob with internal thread D32 M8",

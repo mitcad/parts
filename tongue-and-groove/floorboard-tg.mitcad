@@ -301,6 +301,20 @@
       "value": 52.0,
       "comment": "Plane of tongue distance",
       "owner": "F16"
+    },
+    {
+      "name": "Thickness",
+      "expression": "'28'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    },
+    {
+      "name": "Width",
+      "expression": "'120'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -995,10 +1009,11 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Thickness",
       "Width"
     ],
+    "closed": true,
     "parameters": [
       "W",
       "T",
@@ -1012,10 +1027,6 @@
     "rows": [
       {
         "name": "21x95",
-        "select": {
-          "Thickness": "21",
-          "Width": "95"
-        },
         "values": {
           "GC": "1 mm",
           "GW": "0.5 mm",
@@ -1023,15 +1034,13 @@
           "TL": "8 mm",
           "TO": "-1.5 mm",
           "TT": "6 mm",
-          "W": "95 mm"
+          "Thickness": "'21'",
+          "W": "95 mm",
+          "Width": "'95'"
         }
       },
       {
         "name": "21x120",
-        "select": {
-          "Thickness": "21",
-          "Width": "120"
-        },
         "values": {
           "GC": "1 mm",
           "GW": "0.5 mm",
@@ -1039,15 +1048,13 @@
           "TL": "8 mm",
           "TO": "-1.5 mm",
           "TT": "6 mm",
-          "W": "120 mm"
+          "Thickness": "'21'",
+          "W": "120 mm",
+          "Width": "'120'"
         }
       },
       {
         "name": "21x145",
-        "select": {
-          "Thickness": "21",
-          "Width": "145"
-        },
         "values": {
           "GC": "1 mm",
           "GW": "0.5 mm",
@@ -1055,15 +1062,13 @@
           "TL": "8 mm",
           "TO": "-1.5 mm",
           "TT": "6 mm",
-          "W": "145 mm"
+          "Thickness": "'21'",
+          "W": "145 mm",
+          "Width": "'145'"
         }
       },
       {
         "name": "28x95",
-        "select": {
-          "Thickness": "28",
-          "Width": "95"
-        },
         "values": {
           "GC": "1 mm",
           "GW": "0.5 mm",
@@ -1071,15 +1076,13 @@
           "TL": "8 mm",
           "TO": "-2 mm",
           "TT": "8 mm",
-          "W": "95 mm"
+          "Thickness": "'28'",
+          "W": "95 mm",
+          "Width": "'95'"
         }
       },
       {
         "name": "28x120",
-        "select": {
-          "Thickness": "28",
-          "Width": "120"
-        },
         "values": {
           "GC": "1 mm",
           "GW": "0.5 mm",
@@ -1087,15 +1090,13 @@
           "TL": "8 mm",
           "TO": "-2 mm",
           "TT": "8 mm",
-          "W": "120 mm"
+          "Thickness": "'28'",
+          "W": "120 mm",
+          "Width": "'120'"
         }
       },
       {
         "name": "28x145",
-        "select": {
-          "Thickness": "28",
-          "Width": "145"
-        },
         "values": {
           "GC": "1 mm",
           "GW": "0.5 mm",
@@ -1103,15 +1104,13 @@
           "TL": "8 mm",
           "TO": "-2 mm",
           "TT": "8 mm",
-          "W": "145 mm"
+          "Thickness": "'28'",
+          "W": "145 mm",
+          "Width": "'145'"
         }
       },
       {
         "name": "28x170",
-        "select": {
-          "Thickness": "28",
-          "Width": "170"
-        },
         "values": {
           "GC": "1 mm",
           "GW": "0.5 mm",
@@ -1119,15 +1118,13 @@
           "TL": "8 mm",
           "TO": "-2 mm",
           "TT": "8 mm",
-          "W": "170 mm"
+          "Thickness": "'28'",
+          "W": "170 mm",
+          "Width": "'170'"
         }
       },
       {
         "name": "33x145",
-        "select": {
-          "Thickness": "33",
-          "Width": "145"
-        },
         "values": {
           "GC": "1 mm",
           "GW": "0.5 mm",
@@ -1135,7 +1132,9 @@
           "TL": "8 mm",
           "TO": "-3 mm",
           "TT": "9 mm",
-          "W": "145 mm"
+          "Thickness": "'33'",
+          "W": "145 mm",
+          "Width": "'145'"
         }
       }
     ]

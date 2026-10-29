@@ -26,6 +26,13 @@
       "unit": "mm",
       "value": 12.0,
       "comment": ""
+    },
+    {
+      "name": "Thickness",
+      "expression": "'12'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -109,9 +116,10 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Thickness"
     ],
+    "closed": true,
     "parameters": [
       "T"
     ],
@@ -119,83 +127,65 @@
     "rows": [
       {
         "name": "4",
-        "select": {
-          "Thickness": "4"
-        },
         "values": {
-          "T": "4 mm"
+          "T": "4 mm",
+          "Thickness": "'4'"
         }
       },
       {
         "name": "6.5",
-        "select": {
-          "Thickness": "6.5"
-        },
         "values": {
-          "T": "6.5 mm"
+          "T": "6.5 mm",
+          "Thickness": "'6.5'"
         }
       },
       {
         "name": "9",
-        "select": {
-          "Thickness": "9"
-        },
         "values": {
-          "T": "9 mm"
+          "T": "9 mm",
+          "Thickness": "'9'"
         }
       },
       {
         "name": "12",
-        "select": {
-          "Thickness": "12"
-        },
         "values": {
-          "T": "12 mm"
+          "T": "12 mm",
+          "Thickness": "'12'"
         }
       },
       {
         "name": "15",
-        "select": {
-          "Thickness": "15"
-        },
         "values": {
-          "T": "15 mm"
+          "T": "15 mm",
+          "Thickness": "'15'"
         }
       },
       {
         "name": "18",
-        "select": {
-          "Thickness": "18"
-        },
         "values": {
-          "T": "18 mm"
+          "T": "18 mm",
+          "Thickness": "'18'"
         }
       },
       {
         "name": "21",
-        "select": {
-          "Thickness": "21"
-        },
         "values": {
-          "T": "21 mm"
+          "T": "21 mm",
+          "Thickness": "'21'"
         }
       },
       {
         "name": "24",
-        "select": {
-          "Thickness": "24"
-        },
         "values": {
-          "T": "24 mm"
+          "T": "24 mm",
+          "Thickness": "'24'"
         }
       },
       {
         "name": "30",
-        "select": {
-          "Thickness": "30"
-        },
         "values": {
-          "T": "30 mm"
+          "T": "30 mm",
+          "Thickness": "'30'"
         }
       }
     ]

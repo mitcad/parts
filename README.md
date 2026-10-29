@@ -3,9 +3,11 @@
 Mitcad's library of parts: ISO metric screws, nuts and washers, each standard
 one design with a table of its sizes; and the BUILD tab's slot profiles,
 connectors, nuts, caps, panels and linear parts, parametric (a profile is
-cut to any length), each naming its supplier and part number; and timber
+cut to any length), each naming its supplier and part number; timber
 members, wood fasteners, brackets, joist hangers, post bases and sheets in
-industry-standard sizes, modelled from their dimensions.
+industry-standard sizes, modelled from their dimensions; and round,
+square and rectangular steel tubes in the sizes of EN 10219-2 and
+EN 10305-5, and round stainless tubes in the sizes of EN ISO 1127.
 
 In Mitcad: Libraries, add this repository's URL, Fetch; then Insert
 Component from Library, or the BUILD tab's pickers. Designs record the

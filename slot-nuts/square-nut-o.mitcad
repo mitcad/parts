@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Thread",
+      "expression": "'M5'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -63,35 +71,33 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Thread"
     ],
+    "closed": true,
     "parameters": [],
     "default": "M5",
     "rows": [
       {
         "name": "M5",
-        "select": {
-          "Thread": "M5"
+        "values": {
+          "Thread": "'M5'"
         },
-        "values": {},
         "part_number": "SLOTONM5",
         "supplier_url": "https://www.motedis.com/en/Square-nut-type-O-M5"
       },
       {
         "name": "M6",
-        "select": {
-          "Thread": "M6"
+        "values": {
+          "Thread": "'M6'"
         },
-        "values": {},
         "part_number": "SLOTONM6"
       },
       {
         "name": "M8",
-        "select": {
-          "Thread": "M8"
+        "values": {
+          "Thread": "'M8'"
         },
-        "values": {},
         "part_number": "SLOTONM8",
         "supplier_url": "https://www.motedis.com/en/Square-nut-type-O-M8"
       }

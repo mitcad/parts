@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Type",
+      "expression": "'6901-2RS'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -95,28 +103,27 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Type"
     ],
+    "closed": true,
     "parameters": [],
     "default": "6901-2RS",
     "rows": [
       {
         "name": "6901-2RS",
-        "select": {
-          "Type": "6901-2RS"
+        "values": {
+          "Type": "'6901-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6901-2RS 12x24x6",
         "part_number": "9404",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-6901-2RS-12x24x6"
       },
       {
         "name": "SS61901-2RS",
-        "select": {
-          "Type": "SS61901-2RS"
+        "values": {
+          "Type": "'SS61901-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing SS61901-2RS 12x24x6, stainless steel",
         "part_number": "9584",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-SS61901-2RS-12x24x6"

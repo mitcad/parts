@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Finish",
+      "expression": "'galvanised'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -81,28 +89,27 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Finish"
     ],
+    "closed": true,
     "parameters": [],
     "default": "galvanised",
     "rows": [
       {
         "name": "galvanised",
-        "select": {
-          "Finish": "galvanised"
+        "values": {
+          "Finish": "'galvanised'"
         },
-        "values": {},
         "designation": "Steel connection angle 30 B-type slot 8, galvanised",
         "part_number": "BR30STS",
         "supplier_url": "https://www.motedis.com/en/Connection-Angle-30-B-Type-slot-8"
       },
       {
         "name": "black",
-        "select": {
-          "Finish": "black"
+        "values": {
+          "Finish": "'black'"
         },
-        "values": {},
         "designation": "Steel connection angle 30 B-type slot 8, black",
         "part_number": "BR30STB",
         "supplier_url": "https://www.motedis.com/en/Connection-Angle-30-Black-B-Type"

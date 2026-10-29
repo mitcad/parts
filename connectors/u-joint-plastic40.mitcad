@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Kit",
+      "expression": "'Joint'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -81,44 +89,41 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Kit"
     ],
+    "closed": true,
     "parameters": [],
     "default": "Joint",
     "rows": [
       {
         "name": "Joint",
-        "select": {
-          "Kit": "Joint"
+        "values": {
+          "Kit": "'Joint'"
         },
-        "values": {},
         "part_number": "S8IUJOI"
       },
       {
         "name": "40I core mounting",
-        "select": {
-          "Kit": "40I core mounting"
+        "values": {
+          "Kit": "'40I core mounting'"
         },
-        "values": {},
         "part_number": "Plastic U-joint kit 40I core mounting",
         "supplier_url": "https://www.motedis.com/en/Plastic-U-joint-kit-40I-Core-mounting"
       },
       {
         "name": "40B core mounting",
-        "select": {
-          "Kit": "40B core mounting"
+        "values": {
+          "Kit": "'40B core mounting'"
         },
-        "values": {},
         "part_number": "Plastic U-joint kit 40B core mounting",
         "supplier_url": "https://www.motedis.com/en/Plastic-U-joint-kit-40B-Core-mounting"
       },
       {
         "name": "40I groove mounting",
-        "select": {
-          "Kit": "40I groove mounting"
+        "values": {
+          "Kit": "'40I groove mounting'"
         },
-        "values": {},
         "part_number": "Plastic U-joint kit 40I groove mounting",
         "supplier_url": "https://www.motedis.com/en/Plastic-U-joint-kit-40I-groove-mounting"
       }

@@ -33,6 +33,13 @@
       "unit": "mm",
       "value": 4.7,
       "comment": "Nut height (m in ISO 4032)"
+    },
+    {
+      "name": "Size",
+      "expression": "'M5'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -301,9 +308,10 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Size"
     ],
+    "closed": true,
     "parameters": [
       "d",
       "P",
@@ -314,11 +322,9 @@
     "rows": [
       {
         "name": "M3",
-        "select": {
-          "Size": "M3"
-        },
         "values": {
           "P": "0.5 mm",
+          "Size": "'M3'",
           "d": "3 mm",
           "mn": "2.4 mm",
           "s": "5.5 mm"
@@ -326,11 +332,9 @@
       },
       {
         "name": "M4",
-        "select": {
-          "Size": "M4"
-        },
         "values": {
           "P": "0.7 mm",
+          "Size": "'M4'",
           "d": "4 mm",
           "mn": "3.2 mm",
           "s": "7 mm"
@@ -338,11 +342,9 @@
       },
       {
         "name": "M5",
-        "select": {
-          "Size": "M5"
-        },
         "values": {
           "P": "0.8 mm",
+          "Size": "'M5'",
           "d": "5 mm",
           "mn": "4.7 mm",
           "s": "8 mm"
@@ -350,11 +352,9 @@
       },
       {
         "name": "M6",
-        "select": {
-          "Size": "M6"
-        },
         "values": {
           "P": "1 mm",
+          "Size": "'M6'",
           "d": "6 mm",
           "mn": "5.2 mm",
           "s": "10 mm"
@@ -362,11 +362,9 @@
       },
       {
         "name": "M8",
-        "select": {
-          "Size": "M8"
-        },
         "values": {
           "P": "1.25 mm",
+          "Size": "'M8'",
           "d": "8 mm",
           "mn": "6.8 mm",
           "s": "13 mm"
@@ -374,11 +372,9 @@
       },
       {
         "name": "M10",
-        "select": {
-          "Size": "M10"
-        },
         "values": {
           "P": "1.5 mm",
+          "Size": "'M10'",
           "d": "10 mm",
           "mn": "8.4 mm",
           "s": "16 mm"
@@ -386,11 +382,9 @@
       },
       {
         "name": "M12",
-        "select": {
-          "Size": "M12"
-        },
         "values": {
           "P": "1.75 mm",
+          "Size": "'M12'",
           "d": "12 mm",
           "mn": "10.8 mm",
           "s": "18 mm"

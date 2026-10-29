@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Version",
+      "expression": "'Plain'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -100,26 +108,25 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Version"
     ],
+    "closed": true,
     "parameters": [],
     "default": "Plain",
     "rows": [
       {
         "name": "Plain",
-        "select": {
-          "Version": "Plain"
+        "values": {
+          "Version": "'Plain'"
         },
-        "values": {},
         "part_number": "THBM8X25"
       },
       {
         "name": "Caulked",
-        "select": {
-          "Version": "Caulked"
+        "values": {
+          "Version": "'Caulked'"
         },
-        "values": {},
         "part_number": "THBM8X25verstemmt",
         "supplier_url": "https://www.motedis.com/en/Hammer-Head-Screw-B-Type-slot-10-M8x25-caulked"
       }

@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Type",
+      "expression": "'6200-2RS'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -95,58 +103,54 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Type"
     ],
+    "closed": true,
     "parameters": [],
     "default": "6200-2RS",
     "rows": [
       {
         "name": "6200-2RS",
-        "select": {
-          "Type": "6200-2RS"
+        "values": {
+          "Type": "'6200-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6200-2RS 10x30x9",
         "part_number": "1462",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-6200-2RS-10x30x9mm"
       },
       {
         "name": "6200-2RS-C3",
-        "select": {
-          "Type": "6200-2RS-C3"
+        "values": {
+          "Type": "'6200-2RS-C3'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6200-2RS/C3 10x30x9",
         "part_number": "9577",
         "supplier_url": "https://www.motedis.com/en/Deepgrooveballbearings6200-2RS2FC310x30x9"
       },
       {
         "name": "6200-2Z-C3",
-        "select": {
-          "Type": "6200-2Z-C3"
+        "values": {
+          "Type": "'6200-2Z-C3'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6200-2Z/C3 10x30x9",
         "part_number": "9570",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-6200-2Z-C3-10x30x9"
       },
       {
         "name": "6200-open",
-        "select": {
-          "Type": "6200-open"
+        "values": {
+          "Type": "'6200-open'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 6200 open 10x30x9",
         "part_number": "1476",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-6200-open-10x30x9mm"
       },
       {
         "name": "SS6200-2RS",
-        "select": {
-          "Type": "SS6200-2RS"
+        "values": {
+          "Type": "'SS6200-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing SS6200-2RS 10x30x9, stainless steel",
         "part_number": "9573",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-SS6200-2RS-10x30x9"

@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Type",
+      "expression": "'608-2RS'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -95,28 +103,27 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Type"
     ],
+    "closed": true,
     "parameters": [],
     "default": "608-2RS",
     "rows": [
       {
         "name": "608-2RS",
-        "select": {
-          "Type": "608-2RS"
+        "values": {
+          "Type": "'608-2RS'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 608-2RS 8x22x7",
         "part_number": "1457",
         "supplier_url": "https://www.motedis.com/en/Deep-groove-ball-bearings-608-2RS-8x22x7mm"
       },
       {
         "name": "608-2RS-C3",
-        "select": {
-          "Type": "608-2RS-C3"
+        "values": {
+          "Type": "'608-2RS-C3'"
         },
-        "values": {},
         "designation": "Deep groove ball bearing 608-2RS/C3 8x22x7",
         "part_number": "9562",
         "supplier_url": "https://www.motedis.com/en/Deepgrooveballbearings608-2RS2FC38x22x7"

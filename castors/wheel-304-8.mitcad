@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Type",
+      "expression": "'solid-bearings'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -59,48 +67,45 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Type"
     ],
+    "closed": true,
     "parameters": [],
     "default": "solid-bearings",
     "rows": [
       {
         "name": "solid-bearings",
-        "select": {
-          "Type": "solid-bearings"
+        "values": {
+          "Type": "'solid-bearings'"
         },
-        "values": {},
         "designation": "Wheel 304.8 mm, solid rubber, ball bearings",
         "part_number": "SOLIDWH12-B",
         "supplier_url": "https://www.motedis.com/en/Wheel-3048-mm-solid-rubber-ball-bearings"
       },
       {
         "name": "solid-hex",
-        "select": {
-          "Type": "solid-hex"
+        "values": {
+          "Type": "'solid-hex'"
         },
-        "values": {},
         "designation": "Wheel 304.8 mm, solid rubber, hexagon hub",
         "part_number": "SOLIDWH12-H",
         "supplier_url": "https://www.motedis.com/en/Wheel-3048-mm-solid-rubber-wheel"
       },
       {
         "name": "air-bearings",
-        "select": {
-          "Type": "air-bearings"
+        "values": {
+          "Type": "'air-bearings'"
         },
-        "values": {},
         "designation": "Wheel 304.8 mm, pneumatic, PVC rim, ball bearings",
         "part_number": "INFWH12-B",
         "supplier_url": "https://www.motedis.com/en/3048-mm-air-wheel-with-PVC-rim-and-ball-bearings"
       },
       {
         "name": "air-hex",
-        "select": {
-          "Type": "air-hex"
+        "values": {
+          "Type": "'air-hex'"
         },
-        "values": {},
         "designation": "Wheel 304.8 mm, pneumatic, PVC rim, hexagon hub",
         "part_number": "INFWH12-H",
         "supplier_url": "https://www.motedis.com/en/Transport-wheel-3048-mm-pneumatic-wheel-with-PVC-rim"

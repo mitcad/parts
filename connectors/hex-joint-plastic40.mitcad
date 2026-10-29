@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Kit",
+      "expression": "'Joint'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -81,35 +89,33 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Kit"
     ],
+    "closed": true,
     "parameters": [],
     "default": "Joint",
     "rows": [
       {
         "name": "Joint",
-        "select": {
-          "Kit": "Joint"
+        "values": {
+          "Kit": "'Joint'"
         },
-        "values": {},
         "part_number": "S8IHEXJOI"
       },
       {
         "name": "40I groove mounting",
-        "select": {
-          "Kit": "40I groove mounting"
+        "values": {
+          "Kit": "'40I groove mounting'"
         },
-        "values": {},
         "part_number": "Hexagon joint plastic 40I groove mounting",
         "supplier_url": "https://www.motedis.com/en/Hexagon-joint-plastic-40I-Groove-mounting"
       },
       {
         "name": "40B groove mounting",
-        "select": {
-          "Kit": "40B groove mounting"
+        "values": {
+          "Kit": "'40B groove mounting'"
         },
-        "values": {},
         "part_number": "Hexagonal joint plastic 40B groove mounting",
         "supplier_url": "https://www.motedis.com/en/Hexagonal-joint-plastic-40B-Groove-mounting"
       }

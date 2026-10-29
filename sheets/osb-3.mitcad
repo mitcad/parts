@@ -26,6 +26,13 @@
       "unit": "mm",
       "value": 12.0,
       "comment": ""
+    },
+    {
+      "name": "Thickness",
+      "expression": "'12'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -109,9 +116,10 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Thickness"
     ],
+    "closed": true,
     "parameters": [
       "T"
     ],
@@ -119,65 +127,51 @@
     "rows": [
       {
         "name": "9",
-        "select": {
-          "Thickness": "9"
-        },
         "values": {
-          "T": "9 mm"
+          "T": "9 mm",
+          "Thickness": "'9'"
         }
       },
       {
         "name": "11",
-        "select": {
-          "Thickness": "11"
-        },
         "values": {
-          "T": "11 mm"
+          "T": "11 mm",
+          "Thickness": "'11'"
         }
       },
       {
         "name": "12",
-        "select": {
-          "Thickness": "12"
-        },
         "values": {
-          "T": "12 mm"
+          "T": "12 mm",
+          "Thickness": "'12'"
         }
       },
       {
         "name": "15",
-        "select": {
-          "Thickness": "15"
-        },
         "values": {
-          "T": "15 mm"
+          "T": "15 mm",
+          "Thickness": "'15'"
         }
       },
       {
         "name": "18",
-        "select": {
-          "Thickness": "18"
-        },
         "values": {
-          "T": "18 mm"
+          "T": "18 mm",
+          "Thickness": "'18'"
         }
       },
       {
         "name": "22",
-        "select": {
-          "Thickness": "22"
-        },
         "values": {
-          "T": "22 mm"
+          "T": "22 mm",
+          "Thickness": "'22'"
         }
       },
       {
         "name": "25",
-        "select": {
-          "Thickness": "25"
-        },
         "values": {
-          "T": "25 mm"
+          "T": "25 mm",
+          "Thickness": "'25'"
         }
       }
     ]

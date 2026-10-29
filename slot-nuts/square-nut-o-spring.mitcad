@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Thread",
+      "expression": "'M6'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -63,26 +71,25 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Thread"
     ],
+    "closed": true,
     "parameters": [],
     "default": "M6",
     "rows": [
       {
         "name": "M6",
-        "select": {
-          "Thread": "M6"
+        "values": {
+          "Thread": "'M6'"
         },
-        "values": {},
         "part_number": "SLOTSWBM6"
       },
       {
         "name": "M8",
-        "select": {
-          "Thread": "M8"
+        "values": {
+          "Thread": "'M8'"
         },
-        "values": {},
         "part_number": "SLOTSWBM8",
         "supplier_url": "https://www.motedis.com/en/Slot-O-Square-nut-with-spring-M8"
       }

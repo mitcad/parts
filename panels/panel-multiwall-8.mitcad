@@ -50,6 +50,13 @@
       "value": 0.0,
       "comment": "Centred z",
       "owner": "F2"
+    },
+    {
+      "name": "Width",
+      "expression": "'169'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -133,9 +140,10 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Width"
     ],
+    "closed": true,
     "parameters": [
       "W"
     ],
@@ -143,31 +151,25 @@
     "rows": [
       {
         "name": "169",
-        "select": {
-          "Width": "169"
-        },
         "values": {
-          "W": "169 mm"
+          "W": "169 mm",
+          "Width": "'169'"
         },
         "part_number": "Plate 169x1964 racking"
       },
       {
         "name": "269",
-        "select": {
-          "Width": "269"
-        },
         "values": {
-          "W": "269 mm"
+          "W": "269 mm",
+          "Width": "'269'"
         },
         "part_number": "Plate 269x1964 racking"
       },
       {
         "name": "369",
-        "select": {
-          "Width": "369"
-        },
         "values": {
-          "W": "369 mm"
+          "W": "369 mm",
+          "Width": "'369'"
         },
         "part_number": "Plate 369x1964 racking"
       }

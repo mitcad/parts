@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Finish",
+      "expression": "'black'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -81,28 +89,27 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Finish"
     ],
+    "closed": true,
     "parameters": [],
     "default": "black",
     "rows": [
       {
         "name": "black",
-        "select": {
-          "Finish": "black"
+        "values": {
+          "Finish": "'black'"
         },
-        "values": {},
         "designation": "Connection plate 40x80, black",
         "part_number": "PLAT4080STB",
         "supplier_url": "https://www.motedis.com/en/Connection-Plate-40x80-black"
       },
       {
         "name": "galvanised",
-        "select": {
-          "Finish": "galvanised"
+        "values": {
+          "Finish": "'galvanised'"
         },
-        "values": {},
         "designation": "Connection plate 40x80, galvanised",
         "part_number": "PLAT4080STS",
         "supplier_url": "https://www.motedis.com/en/Connection-Plate-40x80-steel-galvanized"

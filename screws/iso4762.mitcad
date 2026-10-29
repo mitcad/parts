@@ -64,6 +64,20 @@
       "owner": "F2"
     },
     {
+      "name": "Size",
+      "expression": "'M5'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    },
+    {
+      "name": "Length",
+      "expression": "'16'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    },
+    {
       "name": "d2",
       "expression": "0.06 * dk",
       "unit": "mm",
@@ -406,10 +420,11 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Size",
       "Length"
     ],
+    "closed": true,
     "parameters": [
       "d",
       "P",
@@ -423,13 +438,11 @@
     "rows": [
       {
         "name": "M3x5",
-        "select": {
-          "Length": "5",
-          "Size": "M3"
-        },
         "values": {
           "L": "5 mm",
+          "Length": "'5'",
           "P": "0.5 mm",
+          "Size": "'M3'",
           "d": "3 mm",
           "dk": "5.5 mm",
           "k": "3 mm",
@@ -439,13 +452,11 @@
       },
       {
         "name": "M3x6",
-        "select": {
-          "Length": "6",
-          "Size": "M3"
-        },
         "values": {
           "L": "6 mm",
+          "Length": "'6'",
           "P": "0.5 mm",
+          "Size": "'M3'",
           "d": "3 mm",
           "dk": "5.5 mm",
           "k": "3 mm",
@@ -455,13 +466,11 @@
       },
       {
         "name": "M3x8",
-        "select": {
-          "Length": "8",
-          "Size": "M3"
-        },
         "values": {
           "L": "8 mm",
+          "Length": "'8'",
           "P": "0.5 mm",
+          "Size": "'M3'",
           "d": "3 mm",
           "dk": "5.5 mm",
           "k": "3 mm",
@@ -471,13 +480,11 @@
       },
       {
         "name": "M3x10",
-        "select": {
-          "Length": "10",
-          "Size": "M3"
-        },
         "values": {
           "L": "10 mm",
+          "Length": "'10'",
           "P": "0.5 mm",
+          "Size": "'M3'",
           "d": "3 mm",
           "dk": "5.5 mm",
           "k": "3 mm",
@@ -487,13 +494,11 @@
       },
       {
         "name": "M3x12",
-        "select": {
-          "Length": "12",
-          "Size": "M3"
-        },
         "values": {
           "L": "12 mm",
+          "Length": "'12'",
           "P": "0.5 mm",
+          "Size": "'M3'",
           "d": "3 mm",
           "dk": "5.5 mm",
           "k": "3 mm",
@@ -503,13 +508,11 @@
       },
       {
         "name": "M3x16",
-        "select": {
-          "Length": "16",
-          "Size": "M3"
-        },
         "values": {
           "L": "16 mm",
+          "Length": "'16'",
           "P": "0.5 mm",
+          "Size": "'M3'",
           "d": "3 mm",
           "dk": "5.5 mm",
           "k": "3 mm",
@@ -519,13 +522,11 @@
       },
       {
         "name": "M3x20",
-        "select": {
-          "Length": "20",
-          "Size": "M3"
-        },
         "values": {
           "L": "20 mm",
+          "Length": "'20'",
           "P": "0.5 mm",
+          "Size": "'M3'",
           "d": "3 mm",
           "dk": "5.5 mm",
           "k": "3 mm",
@@ -535,13 +536,11 @@
       },
       {
         "name": "M3x25",
-        "select": {
-          "Length": "25",
-          "Size": "M3"
-        },
         "values": {
           "L": "25 mm",
+          "Length": "'25'",
           "P": "0.5 mm",
+          "Size": "'M3'",
           "d": "3 mm",
           "dk": "5.5 mm",
           "k": "3 mm",
@@ -551,13 +550,11 @@
       },
       {
         "name": "M3x30",
-        "select": {
-          "Length": "30",
-          "Size": "M3"
-        },
         "values": {
           "L": "30 mm",
+          "Length": "'30'",
           "P": "0.5 mm",
+          "Size": "'M3'",
           "d": "3 mm",
           "dk": "5.5 mm",
           "k": "3 mm",
@@ -567,13 +564,11 @@
       },
       {
         "name": "M4x6",
-        "select": {
-          "Length": "6",
-          "Size": "M4"
-        },
         "values": {
           "L": "6 mm",
+          "Length": "'6'",
           "P": "0.7 mm",
+          "Size": "'M4'",
           "d": "4 mm",
           "dk": "7 mm",
           "k": "4 mm",
@@ -583,13 +578,11 @@
       },
       {
         "name": "M4x8",
-        "select": {
-          "Length": "8",
-          "Size": "M4"
-        },
         "values": {
           "L": "8 mm",
+          "Length": "'8'",
           "P": "0.7 mm",
+          "Size": "'M4'",
           "d": "4 mm",
           "dk": "7 mm",
           "k": "4 mm",
@@ -599,13 +592,11 @@
       },
       {
         "name": "M4x10",
-        "select": {
-          "Length": "10",
-          "Size": "M4"
-        },
         "values": {
           "L": "10 mm",
+          "Length": "'10'",
           "P": "0.7 mm",
+          "Size": "'M4'",
           "d": "4 mm",
           "dk": "7 mm",
           "k": "4 mm",
@@ -615,13 +606,11 @@
       },
       {
         "name": "M4x12",
-        "select": {
-          "Length": "12",
-          "Size": "M4"
-        },
         "values": {
           "L": "12 mm",
+          "Length": "'12'",
           "P": "0.7 mm",
+          "Size": "'M4'",
           "d": "4 mm",
           "dk": "7 mm",
           "k": "4 mm",
@@ -631,13 +620,11 @@
       },
       {
         "name": "M4x16",
-        "select": {
-          "Length": "16",
-          "Size": "M4"
-        },
         "values": {
           "L": "16 mm",
+          "Length": "'16'",
           "P": "0.7 mm",
+          "Size": "'M4'",
           "d": "4 mm",
           "dk": "7 mm",
           "k": "4 mm",
@@ -647,13 +634,11 @@
       },
       {
         "name": "M4x20",
-        "select": {
-          "Length": "20",
-          "Size": "M4"
-        },
         "values": {
           "L": "20 mm",
+          "Length": "'20'",
           "P": "0.7 mm",
+          "Size": "'M4'",
           "d": "4 mm",
           "dk": "7 mm",
           "k": "4 mm",
@@ -663,13 +648,11 @@
       },
       {
         "name": "M4x25",
-        "select": {
-          "Length": "25",
-          "Size": "M4"
-        },
         "values": {
           "L": "25 mm",
+          "Length": "'25'",
           "P": "0.7 mm",
+          "Size": "'M4'",
           "d": "4 mm",
           "dk": "7 mm",
           "k": "4 mm",
@@ -679,13 +662,11 @@
       },
       {
         "name": "M4x30",
-        "select": {
-          "Length": "30",
-          "Size": "M4"
-        },
         "values": {
           "L": "30 mm",
+          "Length": "'30'",
           "P": "0.7 mm",
+          "Size": "'M4'",
           "d": "4 mm",
           "dk": "7 mm",
           "k": "4 mm",
@@ -695,13 +676,11 @@
       },
       {
         "name": "M4x35",
-        "select": {
-          "Length": "35",
-          "Size": "M4"
-        },
         "values": {
           "L": "35 mm",
+          "Length": "'35'",
           "P": "0.7 mm",
+          "Size": "'M4'",
           "d": "4 mm",
           "dk": "7 mm",
           "k": "4 mm",
@@ -711,13 +690,11 @@
       },
       {
         "name": "M4x40",
-        "select": {
-          "Length": "40",
-          "Size": "M4"
-        },
         "values": {
           "L": "40 mm",
+          "Length": "'40'",
           "P": "0.7 mm",
+          "Size": "'M4'",
           "d": "4 mm",
           "dk": "7 mm",
           "k": "4 mm",
@@ -727,13 +704,11 @@
       },
       {
         "name": "M5x8",
-        "select": {
-          "Length": "8",
-          "Size": "M5"
-        },
         "values": {
           "L": "8 mm",
+          "Length": "'8'",
           "P": "0.8 mm",
+          "Size": "'M5'",
           "d": "5 mm",
           "dk": "8.5 mm",
           "k": "5 mm",
@@ -743,13 +718,11 @@
       },
       {
         "name": "M5x10",
-        "select": {
-          "Length": "10",
-          "Size": "M5"
-        },
         "values": {
           "L": "10 mm",
+          "Length": "'10'",
           "P": "0.8 mm",
+          "Size": "'M5'",
           "d": "5 mm",
           "dk": "8.5 mm",
           "k": "5 mm",
@@ -759,13 +732,11 @@
       },
       {
         "name": "M5x12",
-        "select": {
-          "Length": "12",
-          "Size": "M5"
-        },
         "values": {
           "L": "12 mm",
+          "Length": "'12'",
           "P": "0.8 mm",
+          "Size": "'M5'",
           "d": "5 mm",
           "dk": "8.5 mm",
           "k": "5 mm",
@@ -775,13 +746,11 @@
       },
       {
         "name": "M5x16",
-        "select": {
-          "Length": "16",
-          "Size": "M5"
-        },
         "values": {
           "L": "16 mm",
+          "Length": "'16'",
           "P": "0.8 mm",
+          "Size": "'M5'",
           "d": "5 mm",
           "dk": "8.5 mm",
           "k": "5 mm",
@@ -791,13 +760,11 @@
       },
       {
         "name": "M5x20",
-        "select": {
-          "Length": "20",
-          "Size": "M5"
-        },
         "values": {
           "L": "20 mm",
+          "Length": "'20'",
           "P": "0.8 mm",
+          "Size": "'M5'",
           "d": "5 mm",
           "dk": "8.5 mm",
           "k": "5 mm",
@@ -807,13 +774,11 @@
       },
       {
         "name": "M5x25",
-        "select": {
-          "Length": "25",
-          "Size": "M5"
-        },
         "values": {
           "L": "25 mm",
+          "Length": "'25'",
           "P": "0.8 mm",
+          "Size": "'M5'",
           "d": "5 mm",
           "dk": "8.5 mm",
           "k": "5 mm",
@@ -823,13 +788,11 @@
       },
       {
         "name": "M5x30",
-        "select": {
-          "Length": "30",
-          "Size": "M5"
-        },
         "values": {
           "L": "30 mm",
+          "Length": "'30'",
           "P": "0.8 mm",
+          "Size": "'M5'",
           "d": "5 mm",
           "dk": "8.5 mm",
           "k": "5 mm",
@@ -839,13 +802,11 @@
       },
       {
         "name": "M5x35",
-        "select": {
-          "Length": "35",
-          "Size": "M5"
-        },
         "values": {
           "L": "35 mm",
+          "Length": "'35'",
           "P": "0.8 mm",
+          "Size": "'M5'",
           "d": "5 mm",
           "dk": "8.5 mm",
           "k": "5 mm",
@@ -855,13 +816,11 @@
       },
       {
         "name": "M5x40",
-        "select": {
-          "Length": "40",
-          "Size": "M5"
-        },
         "values": {
           "L": "40 mm",
+          "Length": "'40'",
           "P": "0.8 mm",
+          "Size": "'M5'",
           "d": "5 mm",
           "dk": "8.5 mm",
           "k": "5 mm",
@@ -871,13 +830,11 @@
       },
       {
         "name": "M5x45",
-        "select": {
-          "Length": "45",
-          "Size": "M5"
-        },
         "values": {
           "L": "45 mm",
+          "Length": "'45'",
           "P": "0.8 mm",
+          "Size": "'M5'",
           "d": "5 mm",
           "dk": "8.5 mm",
           "k": "5 mm",
@@ -887,13 +844,11 @@
       },
       {
         "name": "M5x50",
-        "select": {
-          "Length": "50",
-          "Size": "M5"
-        },
         "values": {
           "L": "50 mm",
+          "Length": "'50'",
           "P": "0.8 mm",
+          "Size": "'M5'",
           "d": "5 mm",
           "dk": "8.5 mm",
           "k": "5 mm",
@@ -903,13 +858,11 @@
       },
       {
         "name": "M6x8",
-        "select": {
-          "Length": "8",
-          "Size": "M6"
-        },
         "values": {
           "L": "8 mm",
+          "Length": "'8'",
           "P": "1 mm",
+          "Size": "'M6'",
           "d": "6 mm",
           "dk": "10 mm",
           "k": "6 mm",
@@ -919,13 +872,11 @@
       },
       {
         "name": "M6x10",
-        "select": {
-          "Length": "10",
-          "Size": "M6"
-        },
         "values": {
           "L": "10 mm",
+          "Length": "'10'",
           "P": "1 mm",
+          "Size": "'M6'",
           "d": "6 mm",
           "dk": "10 mm",
           "k": "6 mm",
@@ -935,13 +886,11 @@
       },
       {
         "name": "M6x12",
-        "select": {
-          "Length": "12",
-          "Size": "M6"
-        },
         "values": {
           "L": "12 mm",
+          "Length": "'12'",
           "P": "1 mm",
+          "Size": "'M6'",
           "d": "6 mm",
           "dk": "10 mm",
           "k": "6 mm",
@@ -951,13 +900,11 @@
       },
       {
         "name": "M6x16",
-        "select": {
-          "Length": "16",
-          "Size": "M6"
-        },
         "values": {
           "L": "16 mm",
+          "Length": "'16'",
           "P": "1 mm",
+          "Size": "'M6'",
           "d": "6 mm",
           "dk": "10 mm",
           "k": "6 mm",
@@ -967,13 +914,11 @@
       },
       {
         "name": "M6x20",
-        "select": {
-          "Length": "20",
-          "Size": "M6"
-        },
         "values": {
           "L": "20 mm",
+          "Length": "'20'",
           "P": "1 mm",
+          "Size": "'M6'",
           "d": "6 mm",
           "dk": "10 mm",
           "k": "6 mm",
@@ -983,13 +928,11 @@
       },
       {
         "name": "M6x25",
-        "select": {
-          "Length": "25",
-          "Size": "M6"
-        },
         "values": {
           "L": "25 mm",
+          "Length": "'25'",
           "P": "1 mm",
+          "Size": "'M6'",
           "d": "6 mm",
           "dk": "10 mm",
           "k": "6 mm",
@@ -999,13 +942,11 @@
       },
       {
         "name": "M6x30",
-        "select": {
-          "Length": "30",
-          "Size": "M6"
-        },
         "values": {
           "L": "30 mm",
+          "Length": "'30'",
           "P": "1 mm",
+          "Size": "'M6'",
           "d": "6 mm",
           "dk": "10 mm",
           "k": "6 mm",
@@ -1015,13 +956,11 @@
       },
       {
         "name": "M6x35",
-        "select": {
-          "Length": "35",
-          "Size": "M6"
-        },
         "values": {
           "L": "35 mm",
+          "Length": "'35'",
           "P": "1 mm",
+          "Size": "'M6'",
           "d": "6 mm",
           "dk": "10 mm",
           "k": "6 mm",
@@ -1031,13 +970,11 @@
       },
       {
         "name": "M6x40",
-        "select": {
-          "Length": "40",
-          "Size": "M6"
-        },
         "values": {
           "L": "40 mm",
+          "Length": "'40'",
           "P": "1 mm",
+          "Size": "'M6'",
           "d": "6 mm",
           "dk": "10 mm",
           "k": "6 mm",
@@ -1047,13 +984,11 @@
       },
       {
         "name": "M6x45",
-        "select": {
-          "Length": "45",
-          "Size": "M6"
-        },
         "values": {
           "L": "45 mm",
+          "Length": "'45'",
           "P": "1 mm",
+          "Size": "'M6'",
           "d": "6 mm",
           "dk": "10 mm",
           "k": "6 mm",
@@ -1063,13 +998,11 @@
       },
       {
         "name": "M6x50",
-        "select": {
-          "Length": "50",
-          "Size": "M6"
-        },
         "values": {
           "L": "50 mm",
+          "Length": "'50'",
           "P": "1 mm",
+          "Size": "'M6'",
           "d": "6 mm",
           "dk": "10 mm",
           "k": "6 mm",
@@ -1079,13 +1012,11 @@
       },
       {
         "name": "M6x55",
-        "select": {
-          "Length": "55",
-          "Size": "M6"
-        },
         "values": {
           "L": "55 mm",
+          "Length": "'55'",
           "P": "1 mm",
+          "Size": "'M6'",
           "d": "6 mm",
           "dk": "10 mm",
           "k": "6 mm",
@@ -1095,13 +1026,11 @@
       },
       {
         "name": "M6x60",
-        "select": {
-          "Length": "60",
-          "Size": "M6"
-        },
         "values": {
           "L": "60 mm",
+          "Length": "'60'",
           "P": "1 mm",
+          "Size": "'M6'",
           "d": "6 mm",
           "dk": "10 mm",
           "k": "6 mm",
@@ -1111,13 +1040,11 @@
       },
       {
         "name": "M8x10",
-        "select": {
-          "Length": "10",
-          "Size": "M8"
-        },
         "values": {
           "L": "10 mm",
+          "Length": "'10'",
           "P": "1.25 mm",
+          "Size": "'M8'",
           "d": "8 mm",
           "dk": "13 mm",
           "k": "8 mm",
@@ -1127,13 +1054,11 @@
       },
       {
         "name": "M8x12",
-        "select": {
-          "Length": "12",
-          "Size": "M8"
-        },
         "values": {
           "L": "12 mm",
+          "Length": "'12'",
           "P": "1.25 mm",
+          "Size": "'M8'",
           "d": "8 mm",
           "dk": "13 mm",
           "k": "8 mm",
@@ -1143,13 +1068,11 @@
       },
       {
         "name": "M8x16",
-        "select": {
-          "Length": "16",
-          "Size": "M8"
-        },
         "values": {
           "L": "16 mm",
+          "Length": "'16'",
           "P": "1.25 mm",
+          "Size": "'M8'",
           "d": "8 mm",
           "dk": "13 mm",
           "k": "8 mm",
@@ -1159,13 +1082,11 @@
       },
       {
         "name": "M8x20",
-        "select": {
-          "Length": "20",
-          "Size": "M8"
-        },
         "values": {
           "L": "20 mm",
+          "Length": "'20'",
           "P": "1.25 mm",
+          "Size": "'M8'",
           "d": "8 mm",
           "dk": "13 mm",
           "k": "8 mm",
@@ -1175,13 +1096,11 @@
       },
       {
         "name": "M8x25",
-        "select": {
-          "Length": "25",
-          "Size": "M8"
-        },
         "values": {
           "L": "25 mm",
+          "Length": "'25'",
           "P": "1.25 mm",
+          "Size": "'M8'",
           "d": "8 mm",
           "dk": "13 mm",
           "k": "8 mm",
@@ -1191,13 +1110,11 @@
       },
       {
         "name": "M8x30",
-        "select": {
-          "Length": "30",
-          "Size": "M8"
-        },
         "values": {
           "L": "30 mm",
+          "Length": "'30'",
           "P": "1.25 mm",
+          "Size": "'M8'",
           "d": "8 mm",
           "dk": "13 mm",
           "k": "8 mm",
@@ -1207,13 +1124,11 @@
       },
       {
         "name": "M8x35",
-        "select": {
-          "Length": "35",
-          "Size": "M8"
-        },
         "values": {
           "L": "35 mm",
+          "Length": "'35'",
           "P": "1.25 mm",
+          "Size": "'M8'",
           "d": "8 mm",
           "dk": "13 mm",
           "k": "8 mm",
@@ -1223,13 +1138,11 @@
       },
       {
         "name": "M8x40",
-        "select": {
-          "Length": "40",
-          "Size": "M8"
-        },
         "values": {
           "L": "40 mm",
+          "Length": "'40'",
           "P": "1.25 mm",
+          "Size": "'M8'",
           "d": "8 mm",
           "dk": "13 mm",
           "k": "8 mm",
@@ -1239,13 +1152,11 @@
       },
       {
         "name": "M8x45",
-        "select": {
-          "Length": "45",
-          "Size": "M8"
-        },
         "values": {
           "L": "45 mm",
+          "Length": "'45'",
           "P": "1.25 mm",
+          "Size": "'M8'",
           "d": "8 mm",
           "dk": "13 mm",
           "k": "8 mm",
@@ -1255,13 +1166,11 @@
       },
       {
         "name": "M8x50",
-        "select": {
-          "Length": "50",
-          "Size": "M8"
-        },
         "values": {
           "L": "50 mm",
+          "Length": "'50'",
           "P": "1.25 mm",
+          "Size": "'M8'",
           "d": "8 mm",
           "dk": "13 mm",
           "k": "8 mm",
@@ -1271,13 +1180,11 @@
       },
       {
         "name": "M8x55",
-        "select": {
-          "Length": "55",
-          "Size": "M8"
-        },
         "values": {
           "L": "55 mm",
+          "Length": "'55'",
           "P": "1.25 mm",
+          "Size": "'M8'",
           "d": "8 mm",
           "dk": "13 mm",
           "k": "8 mm",
@@ -1287,13 +1194,11 @@
       },
       {
         "name": "M8x60",
-        "select": {
-          "Length": "60",
-          "Size": "M8"
-        },
         "values": {
           "L": "60 mm",
+          "Length": "'60'",
           "P": "1.25 mm",
+          "Size": "'M8'",
           "d": "8 mm",
           "dk": "13 mm",
           "k": "8 mm",
@@ -1303,13 +1208,11 @@
       },
       {
         "name": "M8x65",
-        "select": {
-          "Length": "65",
-          "Size": "M8"
-        },
         "values": {
           "L": "65 mm",
+          "Length": "'65'",
           "P": "1.25 mm",
+          "Size": "'M8'",
           "d": "8 mm",
           "dk": "13 mm",
           "k": "8 mm",
@@ -1319,13 +1222,11 @@
       },
       {
         "name": "M8x70",
-        "select": {
-          "Length": "70",
-          "Size": "M8"
-        },
         "values": {
           "L": "70 mm",
+          "Length": "'70'",
           "P": "1.25 mm",
+          "Size": "'M8'",
           "d": "8 mm",
           "dk": "13 mm",
           "k": "8 mm",
@@ -1335,13 +1236,11 @@
       },
       {
         "name": "M8x80",
-        "select": {
-          "Length": "80",
-          "Size": "M8"
-        },
         "values": {
           "L": "80 mm",
+          "Length": "'80'",
           "P": "1.25 mm",
+          "Size": "'M8'",
           "d": "8 mm",
           "dk": "13 mm",
           "k": "8 mm",
@@ -1351,13 +1250,11 @@
       },
       {
         "name": "M10x16",
-        "select": {
-          "Length": "16",
-          "Size": "M10"
-        },
         "values": {
           "L": "16 mm",
+          "Length": "'16'",
           "P": "1.5 mm",
+          "Size": "'M10'",
           "d": "10 mm",
           "dk": "16 mm",
           "k": "10 mm",
@@ -1367,13 +1264,11 @@
       },
       {
         "name": "M10x20",
-        "select": {
-          "Length": "20",
-          "Size": "M10"
-        },
         "values": {
           "L": "20 mm",
+          "Length": "'20'",
           "P": "1.5 mm",
+          "Size": "'M10'",
           "d": "10 mm",
           "dk": "16 mm",
           "k": "10 mm",
@@ -1383,13 +1278,11 @@
       },
       {
         "name": "M10x25",
-        "select": {
-          "Length": "25",
-          "Size": "M10"
-        },
         "values": {
           "L": "25 mm",
+          "Length": "'25'",
           "P": "1.5 mm",
+          "Size": "'M10'",
           "d": "10 mm",
           "dk": "16 mm",
           "k": "10 mm",
@@ -1399,13 +1292,11 @@
       },
       {
         "name": "M10x30",
-        "select": {
-          "Length": "30",
-          "Size": "M10"
-        },
         "values": {
           "L": "30 mm",
+          "Length": "'30'",
           "P": "1.5 mm",
+          "Size": "'M10'",
           "d": "10 mm",
           "dk": "16 mm",
           "k": "10 mm",
@@ -1415,13 +1306,11 @@
       },
       {
         "name": "M10x35",
-        "select": {
-          "Length": "35",
-          "Size": "M10"
-        },
         "values": {
           "L": "35 mm",
+          "Length": "'35'",
           "P": "1.5 mm",
+          "Size": "'M10'",
           "d": "10 mm",
           "dk": "16 mm",
           "k": "10 mm",
@@ -1431,13 +1320,11 @@
       },
       {
         "name": "M10x40",
-        "select": {
-          "Length": "40",
-          "Size": "M10"
-        },
         "values": {
           "L": "40 mm",
+          "Length": "'40'",
           "P": "1.5 mm",
+          "Size": "'M10'",
           "d": "10 mm",
           "dk": "16 mm",
           "k": "10 mm",
@@ -1447,13 +1334,11 @@
       },
       {
         "name": "M10x45",
-        "select": {
-          "Length": "45",
-          "Size": "M10"
-        },
         "values": {
           "L": "45 mm",
+          "Length": "'45'",
           "P": "1.5 mm",
+          "Size": "'M10'",
           "d": "10 mm",
           "dk": "16 mm",
           "k": "10 mm",
@@ -1463,13 +1348,11 @@
       },
       {
         "name": "M10x50",
-        "select": {
-          "Length": "50",
-          "Size": "M10"
-        },
         "values": {
           "L": "50 mm",
+          "Length": "'50'",
           "P": "1.5 mm",
+          "Size": "'M10'",
           "d": "10 mm",
           "dk": "16 mm",
           "k": "10 mm",
@@ -1479,13 +1362,11 @@
       },
       {
         "name": "M10x55",
-        "select": {
-          "Length": "55",
-          "Size": "M10"
-        },
         "values": {
           "L": "55 mm",
+          "Length": "'55'",
           "P": "1.5 mm",
+          "Size": "'M10'",
           "d": "10 mm",
           "dk": "16 mm",
           "k": "10 mm",
@@ -1495,13 +1376,11 @@
       },
       {
         "name": "M10x60",
-        "select": {
-          "Length": "60",
-          "Size": "M10"
-        },
         "values": {
           "L": "60 mm",
+          "Length": "'60'",
           "P": "1.5 mm",
+          "Size": "'M10'",
           "d": "10 mm",
           "dk": "16 mm",
           "k": "10 mm",
@@ -1511,13 +1390,11 @@
       },
       {
         "name": "M10x65",
-        "select": {
-          "Length": "65",
-          "Size": "M10"
-        },
         "values": {
           "L": "65 mm",
+          "Length": "'65'",
           "P": "1.5 mm",
+          "Size": "'M10'",
           "d": "10 mm",
           "dk": "16 mm",
           "k": "10 mm",
@@ -1527,13 +1404,11 @@
       },
       {
         "name": "M10x70",
-        "select": {
-          "Length": "70",
-          "Size": "M10"
-        },
         "values": {
           "L": "70 mm",
+          "Length": "'70'",
           "P": "1.5 mm",
+          "Size": "'M10'",
           "d": "10 mm",
           "dk": "16 mm",
           "k": "10 mm",
@@ -1543,13 +1418,11 @@
       },
       {
         "name": "M10x80",
-        "select": {
-          "Length": "80",
-          "Size": "M10"
-        },
         "values": {
           "L": "80 mm",
+          "Length": "'80'",
           "P": "1.5 mm",
+          "Size": "'M10'",
           "d": "10 mm",
           "dk": "16 mm",
           "k": "10 mm",
@@ -1559,13 +1432,11 @@
       },
       {
         "name": "M10x90",
-        "select": {
-          "Length": "90",
-          "Size": "M10"
-        },
         "values": {
           "L": "90 mm",
+          "Length": "'90'",
           "P": "1.5 mm",
+          "Size": "'M10'",
           "d": "10 mm",
           "dk": "16 mm",
           "k": "10 mm",
@@ -1575,13 +1446,11 @@
       },
       {
         "name": "M10x100",
-        "select": {
-          "Length": "100",
-          "Size": "M10"
-        },
         "values": {
           "L": "100 mm",
+          "Length": "'100'",
           "P": "1.5 mm",
+          "Size": "'M10'",
           "d": "10 mm",
           "dk": "16 mm",
           "k": "10 mm",
@@ -1591,13 +1460,11 @@
       },
       {
         "name": "M12x20",
-        "select": {
-          "Length": "20",
-          "Size": "M12"
-        },
         "values": {
           "L": "20 mm",
+          "Length": "'20'",
           "P": "1.75 mm",
+          "Size": "'M12'",
           "d": "12 mm",
           "dk": "18 mm",
           "k": "12 mm",
@@ -1607,13 +1474,11 @@
       },
       {
         "name": "M12x25",
-        "select": {
-          "Length": "25",
-          "Size": "M12"
-        },
         "values": {
           "L": "25 mm",
+          "Length": "'25'",
           "P": "1.75 mm",
+          "Size": "'M12'",
           "d": "12 mm",
           "dk": "18 mm",
           "k": "12 mm",
@@ -1623,13 +1488,11 @@
       },
       {
         "name": "M12x30",
-        "select": {
-          "Length": "30",
-          "Size": "M12"
-        },
         "values": {
           "L": "30 mm",
+          "Length": "'30'",
           "P": "1.75 mm",
+          "Size": "'M12'",
           "d": "12 mm",
           "dk": "18 mm",
           "k": "12 mm",
@@ -1639,13 +1502,11 @@
       },
       {
         "name": "M12x35",
-        "select": {
-          "Length": "35",
-          "Size": "M12"
-        },
         "values": {
           "L": "35 mm",
+          "Length": "'35'",
           "P": "1.75 mm",
+          "Size": "'M12'",
           "d": "12 mm",
           "dk": "18 mm",
           "k": "12 mm",
@@ -1655,13 +1516,11 @@
       },
       {
         "name": "M12x40",
-        "select": {
-          "Length": "40",
-          "Size": "M12"
-        },
         "values": {
           "L": "40 mm",
+          "Length": "'40'",
           "P": "1.75 mm",
+          "Size": "'M12'",
           "d": "12 mm",
           "dk": "18 mm",
           "k": "12 mm",
@@ -1671,13 +1530,11 @@
       },
       {
         "name": "M12x45",
-        "select": {
-          "Length": "45",
-          "Size": "M12"
-        },
         "values": {
           "L": "45 mm",
+          "Length": "'45'",
           "P": "1.75 mm",
+          "Size": "'M12'",
           "d": "12 mm",
           "dk": "18 mm",
           "k": "12 mm",
@@ -1687,13 +1544,11 @@
       },
       {
         "name": "M12x50",
-        "select": {
-          "Length": "50",
-          "Size": "M12"
-        },
         "values": {
           "L": "50 mm",
+          "Length": "'50'",
           "P": "1.75 mm",
+          "Size": "'M12'",
           "d": "12 mm",
           "dk": "18 mm",
           "k": "12 mm",
@@ -1703,13 +1558,11 @@
       },
       {
         "name": "M12x55",
-        "select": {
-          "Length": "55",
-          "Size": "M12"
-        },
         "values": {
           "L": "55 mm",
+          "Length": "'55'",
           "P": "1.75 mm",
+          "Size": "'M12'",
           "d": "12 mm",
           "dk": "18 mm",
           "k": "12 mm",
@@ -1719,13 +1572,11 @@
       },
       {
         "name": "M12x60",
-        "select": {
-          "Length": "60",
-          "Size": "M12"
-        },
         "values": {
           "L": "60 mm",
+          "Length": "'60'",
           "P": "1.75 mm",
+          "Size": "'M12'",
           "d": "12 mm",
           "dk": "18 mm",
           "k": "12 mm",
@@ -1735,13 +1586,11 @@
       },
       {
         "name": "M12x65",
-        "select": {
-          "Length": "65",
-          "Size": "M12"
-        },
         "values": {
           "L": "65 mm",
+          "Length": "'65'",
           "P": "1.75 mm",
+          "Size": "'M12'",
           "d": "12 mm",
           "dk": "18 mm",
           "k": "12 mm",
@@ -1751,13 +1600,11 @@
       },
       {
         "name": "M12x70",
-        "select": {
-          "Length": "70",
-          "Size": "M12"
-        },
         "values": {
           "L": "70 mm",
+          "Length": "'70'",
           "P": "1.75 mm",
+          "Size": "'M12'",
           "d": "12 mm",
           "dk": "18 mm",
           "k": "12 mm",
@@ -1767,13 +1614,11 @@
       },
       {
         "name": "M12x80",
-        "select": {
-          "Length": "80",
-          "Size": "M12"
-        },
         "values": {
           "L": "80 mm",
+          "Length": "'80'",
           "P": "1.75 mm",
+          "Size": "'M12'",
           "d": "12 mm",
           "dk": "18 mm",
           "k": "12 mm",
@@ -1783,13 +1628,11 @@
       },
       {
         "name": "M12x90",
-        "select": {
-          "Length": "90",
-          "Size": "M12"
-        },
         "values": {
           "L": "90 mm",
+          "Length": "'90'",
           "P": "1.75 mm",
+          "Size": "'M12'",
           "d": "12 mm",
           "dk": "18 mm",
           "k": "12 mm",
@@ -1799,13 +1642,11 @@
       },
       {
         "name": "M12x100",
-        "select": {
-          "Length": "100",
-          "Size": "M12"
-        },
         "values": {
           "L": "100 mm",
+          "Length": "'100'",
           "P": "1.75 mm",
+          "Size": "'M12'",
           "d": "12 mm",
           "dk": "18 mm",
           "k": "12 mm",
@@ -1815,13 +1656,11 @@
       },
       {
         "name": "M12x110",
-        "select": {
-          "Length": "110",
-          "Size": "M12"
-        },
         "values": {
           "L": "110 mm",
+          "Length": "'110'",
           "P": "1.75 mm",
+          "Size": "'M12'",
           "d": "12 mm",
           "dk": "18 mm",
           "k": "12 mm",
@@ -1831,13 +1670,11 @@
       },
       {
         "name": "M12x120",
-        "select": {
-          "Length": "120",
-          "Size": "M12"
-        },
         "values": {
           "L": "120 mm",
+          "Length": "'120'",
           "P": "1.75 mm",
+          "Size": "'M12'",
           "d": "12 mm",
           "dk": "18 mm",
           "k": "12 mm",

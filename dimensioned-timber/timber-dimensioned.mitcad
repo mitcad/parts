@@ -58,6 +58,20 @@
       "value": 24.0,
       "comment": "Plane of face_yn distance",
       "owner": "F12"
+    },
+    {
+      "name": "Thickness",
+      "expression": "'48'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    },
+    {
+      "name": "Width",
+      "expression": "'98'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
     }
   ],
   "features": [
@@ -431,10 +445,11 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Thickness",
       "Width"
     ],
+    "closed": true,
     "parameters": [
       "W",
       "T"
@@ -443,222 +458,182 @@
     "rows": [
       {
         "name": "20x95",
-        "select": {
-          "Thickness": "20",
-          "Width": "95"
-        },
         "values": {
           "T": "20 mm",
-          "W": "95 mm"
+          "Thickness": "'20'",
+          "W": "95 mm",
+          "Width": "'95'"
         }
       },
       {
         "name": "20x120",
-        "select": {
-          "Thickness": "20",
-          "Width": "120"
-        },
         "values": {
           "T": "20 mm",
-          "W": "120 mm"
+          "Thickness": "'20'",
+          "W": "120 mm",
+          "Width": "'120'"
         }
       },
       {
         "name": "20x145",
-        "select": {
-          "Thickness": "20",
-          "Width": "145"
-        },
         "values": {
           "T": "20 mm",
-          "W": "145 mm"
+          "Thickness": "'20'",
+          "W": "145 mm",
+          "Width": "'145'"
         }
       },
       {
         "name": "42x66",
-        "select": {
-          "Thickness": "42",
-          "Width": "66"
-        },
         "values": {
           "T": "42 mm",
-          "W": "66 mm"
+          "Thickness": "'42'",
+          "W": "66 mm",
+          "Width": "'66'"
         }
       },
       {
         "name": "42x73",
-        "select": {
-          "Thickness": "42",
-          "Width": "73"
-        },
         "values": {
           "T": "42 mm",
-          "W": "73 mm"
+          "Thickness": "'42'",
+          "W": "73 mm",
+          "Width": "'73'"
         }
       },
       {
         "name": "42x98",
-        "select": {
-          "Thickness": "42",
-          "Width": "98"
-        },
         "values": {
           "T": "42 mm",
-          "W": "98 mm"
+          "Thickness": "'42'",
+          "W": "98 mm",
+          "Width": "'98'"
         }
       },
       {
         "name": "42x123",
-        "select": {
-          "Thickness": "42",
-          "Width": "123"
-        },
         "values": {
           "T": "42 mm",
-          "W": "123 mm"
+          "Thickness": "'42'",
+          "W": "123 mm",
+          "Width": "'123'"
         }
       },
       {
         "name": "42x148",
-        "select": {
-          "Thickness": "42",
-          "Width": "148"
-        },
         "values": {
           "T": "42 mm",
-          "W": "148 mm"
+          "Thickness": "'42'",
+          "W": "148 mm",
+          "Width": "'148'"
         }
       },
       {
         "name": "42x173",
-        "select": {
-          "Thickness": "42",
-          "Width": "173"
-        },
         "values": {
           "T": "42 mm",
-          "W": "173 mm"
+          "Thickness": "'42'",
+          "W": "173 mm",
+          "Width": "'173'"
         }
       },
       {
         "name": "42x198",
-        "select": {
-          "Thickness": "42",
-          "Width": "198"
-        },
         "values": {
           "T": "42 mm",
-          "W": "198 mm"
+          "Thickness": "'42'",
+          "W": "198 mm",
+          "Width": "'198'"
         }
       },
       {
         "name": "42x223",
-        "select": {
-          "Thickness": "42",
-          "Width": "223"
-        },
         "values": {
           "T": "42 mm",
-          "W": "223 mm"
+          "Thickness": "'42'",
+          "W": "223 mm",
+          "Width": "'223'"
         }
       },
       {
         "name": "48x48",
-        "select": {
-          "Thickness": "48",
-          "Width": "48"
-        },
         "values": {
           "T": "48 mm",
-          "W": "48 mm"
+          "Thickness": "'48'",
+          "W": "48 mm",
+          "Width": "'48'"
         }
       },
       {
         "name": "48x73",
-        "select": {
-          "Thickness": "48",
-          "Width": "73"
-        },
         "values": {
           "T": "48 mm",
-          "W": "73 mm"
+          "Thickness": "'48'",
+          "W": "73 mm",
+          "Width": "'73'"
         }
       },
       {
         "name": "48x98",
-        "select": {
-          "Thickness": "48",
-          "Width": "98"
-        },
         "values": {
           "T": "48 mm",
-          "W": "98 mm"
+          "Thickness": "'48'",
+          "W": "98 mm",
+          "Width": "'98'"
         }
       },
       {
         "name": "48x123",
-        "select": {
-          "Thickness": "48",
-          "Width": "123"
-        },
         "values": {
           "T": "48 mm",
-          "W": "123 mm"
+          "Thickness": "'48'",
+          "W": "123 mm",
+          "Width": "'123'"
         }
       },
       {
         "name": "48x148",
-        "select": {
-          "Thickness": "48",
-          "Width": "148"
-        },
         "values": {
           "T": "48 mm",
-          "W": "148 mm"
+          "Thickness": "'48'",
+          "W": "148 mm",
+          "Width": "'148'"
         }
       },
       {
         "name": "48x173",
-        "select": {
-          "Thickness": "48",
-          "Width": "173"
-        },
         "values": {
           "T": "48 mm",
-          "W": "173 mm"
+          "Thickness": "'48'",
+          "W": "173 mm",
+          "Width": "'173'"
         }
       },
       {
         "name": "48x198",
-        "select": {
-          "Thickness": "48",
-          "Width": "198"
-        },
         "values": {
           "T": "48 mm",
-          "W": "198 mm"
+          "Thickness": "'48'",
+          "W": "198 mm",
+          "Width": "'198'"
         }
       },
       {
         "name": "48x223",
-        "select": {
-          "Thickness": "48",
-          "Width": "223"
-        },
         "values": {
           "T": "48 mm",
-          "W": "223 mm"
+          "Thickness": "'48'",
+          "W": "223 mm",
+          "Width": "'223'"
         }
       },
       {
         "name": "48x248",
-        "select": {
-          "Thickness": "48",
-          "Width": "248"
-        },
         "values": {
           "T": "48 mm",
-          "W": "248 mm"
+          "Thickness": "'48'",
+          "W": "248 mm",
+          "Width": "'248'"
         }
       }
     ]

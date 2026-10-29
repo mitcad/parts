@@ -5,7 +5,15 @@
     "length": "mm",
     "angle": "deg"
   },
-  "parameters": [],
+  "parameters": [
+    {
+      "name": "Finish",
+      "expression": "'black'",
+      "unit": "Text",
+      "value": 0.0,
+      "comment": ""
+    }
+  ],
   "features": [
     {
       "uid": "F1",
@@ -81,28 +89,27 @@
     }
   ],
   "configurations": {
-    "selectors": [
+    "options": [
       "Finish"
     ],
+    "closed": true,
     "parameters": [],
     "default": "black",
     "rows": [
       {
         "name": "black",
-        "select": {
-          "Finish": "black"
+        "values": {
+          "Finish": "'black'"
         },
-        "values": {},
         "designation": "Steel connection angle 45 B-type slot 10, black",
         "part_number": "BR45STB",
         "supplier_url": "https://www.motedis.com/en/Steel-angle-45-black"
       },
       {
         "name": "galvanised",
-        "select": {
-          "Finish": "galvanised"
+        "values": {
+          "Finish": "'galvanised'"
         },
-        "values": {},
         "designation": "Steel connection angle 45 B-type slot 10, galvanised",
         "part_number": "BR45STS",
         "supplier_url": "https://www.motedis.com/en/Steel-angle-45-galvanized"
