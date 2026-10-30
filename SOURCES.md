@@ -18,6 +18,15 @@ copied):
 - ISO 7089, plain washers, normal series: hole diameter (minimum), outside
   diameter (maximum), thickness (nominal).
 - ISO 261 and ISO 724: the coarse thread pitches (parameter P).
+- DIN 912, DIN 933, DIN 7991, DIN 934 and DIN 125-1, the standards the
+  ISO ones replaced: their lengths, DIN 933's width across flats at M10,
+  M12 and M14, and DIN 934's widths and heights. Each row of a component
+  names the standards whose tables have it; a supplier's length in no
+  table is marked non-standard.
+
+The suppliers' part numbers, materials and finishes of the rows (Würth,
+Etra) were read from their public catalogue pages on the date each entry
+names (`checked`); no prices or product texts are kept.
 
 The geometry is simplified for assemblies: the screws' threads are
 cosmetic (a thread feature without geometry but the chamfer at the tip),
