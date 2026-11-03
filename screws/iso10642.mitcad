@@ -461,6 +461,32 @@
       "location": "low_end",
       "chamfer": "both",
       "chamfer_diameter": "d5"
+    },
+    {
+      "uid": "F10",
+      "name": "Mount seat",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "mount": {
+        "name": "seat",
+        "kind": "shaft"
+      }
     }
   ],
   "bodies": [

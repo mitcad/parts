@@ -4,7 +4,7 @@
   "id": "mitcad-parts",
   "name": "Mitcad parts",
   "description": "Mitcad's parts: ISO metric screws, nuts and washers, and slot profiles, connectors, nuts, caps, panels and linear parts for the BUILD tab.",
-  "library_version": "2.9.0",
+  "library_version": "2.10.0",
   "license": "MIT",
   "authors": [
     "Mitcad contributors"
@@ -50099,6 +50099,13 @@
           }
         ]
       },
+      "mounts": [
+        {
+          "name": "axis",
+          "kind": "shaft",
+          "joint": "rigid"
+        }
+      ],
       "description": "26 sizes, 4.0x30 to 6.0x160."
     },
     {
@@ -50168,6 +50175,13 @@
           }
         ]
       },
+      "mounts": [
+        {
+          "name": "axis",
+          "kind": "shaft",
+          "joint": "rigid"
+        }
+      ],
       "description": "5 sizes, 5.0x25 to 5.0x60."
     },
     {
@@ -50248,6 +50262,13 @@
           }
         ]
       },
+      "mounts": [
+        {
+          "name": "axis",
+          "kind": "shaft",
+          "joint": "rigid"
+        }
+      ],
       "description": "7 sizes, 2.8x50 to 4.0x60."
     },
     {
@@ -50437,6 +50458,13 @@
           }
         ]
       },
+      "mounts": [
+        {
+          "name": "axis",
+          "kind": "shaft",
+          "joint": "rigid"
+        }
+      ],
       "description": "25 sizes, 6.0x80 to 8.0x400."
     },
     {
@@ -55081,6 +55109,13 @@
       "license": "CC0-1.0",
       "designation": "{standard} {Size}x{Length}",
       "description": "448 sizes, M1.6x2.5 to M24x500.",
+      "mounts": [
+        {
+          "name": "seat",
+          "kind": "shaft",
+          "joint": "rigid"
+        }
+      ],
       "rows": {
         "M1.6x2.5": {
           "standards": [
@@ -73708,6 +73743,13 @@
       "license": "CC0-1.0",
       "designation": "{standard} {Size}x{Length}",
       "description": "429 sizes, M1.6x2 to M24x300.",
+      "mounts": [
+        {
+          "name": "seat",
+          "kind": "shaft",
+          "joint": "rigid"
+        }
+      ],
       "rows": {
         "M1.6x2": {
           "standards": [
@@ -85144,6 +85186,13 @@
       "license": "CC0-1.0",
       "designation": "{standard} {Size}x{Length}",
       "description": "121 sizes, M3x8 to M20x100.",
+      "mounts": [
+        {
+          "name": "seat",
+          "kind": "shaft",
+          "joint": "rigid"
+        }
+      ],
       "rows": {
         "M3x8": {
           "standards": [
@@ -89971,6 +90020,13 @@
       "license": "CC0-1.0",
       "designation": "{standard} {Size}",
       "description": "23 sizes, M1.6 to M24 DIN 934.",
+      "mounts": [
+        {
+          "name": "seat",
+          "kind": "hole",
+          "joint": "rigid"
+        }
+      ],
       "rows": {
         "M1.6": {
           "standards": [
@@ -90756,6 +90812,13 @@
       "license": "CC0-1.0",
       "designation": "{standard} {Size}",
       "description": "14 sizes, M1.6 to M24.",
+      "mounts": [
+        {
+          "name": "seat",
+          "kind": "hole",
+          "joint": "rigid"
+        }
+      ],
       "rows": {
         "M1.6": {
           "standards": [

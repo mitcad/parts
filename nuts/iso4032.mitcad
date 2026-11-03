@@ -273,6 +273,32 @@
       "diameter": "d",
       "height": "mn",
       "operation": "cut"
+    },
+    {
+      "uid": "F4",
+      "name": "Mount seat",
+      "type": "joint_origin",
+      "geometry": {
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_axis": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "mount": {
+        "name": "seat",
+        "kind": "hole"
+      }
     }
   ],
   "bodies": [
