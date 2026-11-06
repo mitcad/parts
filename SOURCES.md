@@ -887,6 +887,10 @@ standards and tables named below.
 - rhs-en10219 (Rectangular steel tube EN 10219-2): EN 10219-2 cold-formed rectangular hollow sections (sizes, wall thicknesses and the corner radii for calculation)
 - rect-tube-en10305 (Rectangular tube EN 10305-5 (furniture tube)): EN 10305-5:2016 Table 6, welded cold-sized rectangular precision tubes (sizes, corner radii and tolerances)
 - stainless-tube-iso1127 (Round stainless steel tube EN ISO 1127): EN ISO 1127 Table 3, the outside diameter and wall thickness combinations of austenitic stainless steel tubes (EN 10216-5 seamless, EN 10217-7 welded)
+- hss-square-a500 (Square steel tube ASTM A500 (HSS, inch)): ASTM A500 square HSS: the sizes and nominal wall thicknesses of a producer's published A500 section property table (Atlas Tube, ASTM A500 Section Properties - Squares), corner radii for calculation 2 t and t on the nominal wall
+- hss-rect-a500 (Rectangular steel tube ASTM A500 (HSS, inch)): ASTM A500 rectangular HSS: the sizes and nominal wall thicknesses of a producer's published A500 section property table (Atlas Tube, ASTM A500 Section Properties - Rectangles), corner radii for calculation 2 t and t on the nominal wall
+- shs-typed (Square steel tube of a typed size): Typed sizes within the limits of its options; the corner radii for calculation of EN 10219-2 (T <= 6 mm 2.0 T and 1.0 T, 6 < T <= 10 mm 2.5 T and 1.5 T, over 10 mm 3.0 T and 2.0 T)
+- rhs-typed (Rectangular steel tube of a typed size): Typed sizes within the limits of its options; the corner radii for calculation of EN 10219-2 (T <= 6 mm 2.0 T and 1.0 T, 6 < T <= 10 mm 2.5 T and 1.5 T, over 10 mm 3.0 T and 2.0 T)
 - cladding-shiplap (Cladding board, shiplap): industry-standard sizes and cover widths of shiplap cladding boards (at 20 % moisture)
 - cladding-feather-edge (Cladding board, feather-edge): industry-standard sizes of feather-edge cladding boards (at 20 % moisture)
 - angle-bracket-40 (Angle bracket 40x40x40): common sizes of angle brackets for timber

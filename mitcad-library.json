@@ -4,7 +4,7 @@
   "id": "mitcad-parts",
   "name": "Mitcad parts",
   "description": "Mitcad's parts: ISO metric screws, nuts and washers, and slot profiles, connectors, nuts, caps, panels and linear parts for the BUILD tab.",
-  "library_version": "2.10.0",
+  "library_version": "2.11.0",
   "license": "MIT",
   "authors": [
     "Mitcad contributors"
@@ -46985,6 +46985,6012 @@
           {
             "name": "axis",
             "kind": "shaft"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hss-square-a500",
+      "path": "steel-tubes/hss-square-a500.mitcad",
+      "category": "steel-tubes",
+      "name": "Square steel tube ASTM A500 (HSS, inch)",
+      "standard": "ASTM A500",
+      "description": "Cold-formed welded square structural steel tube (hollow structural section, Grade B/C) in inch sizes from 1x1x0.065 to 12x12x7/8, with the corner radii for calculation, cut to length.",
+      "keywords": [
+        "tube",
+        "square tube",
+        "steel tube",
+        "box section",
+        "hollow structural section",
+        "HSS",
+        "steel",
+        "structural tubing",
+        "inch",
+        "imperial",
+        "ASTM A500",
+        "A500"
+      ],
+      "license": "MIT",
+      "designation": "HSS {Size}x{Size}x{Thickness} L={L}",
+      "preview": "previews/hss-square-a500.png",
+      "build": {
+        "role": "profile",
+        "material": {
+          "density": 7850
+        },
+        "length": {
+          "parameter": "L",
+          "min": 10,
+          "max": 12192,
+          "default": 1000,
+          "stock": [
+            6096,
+            7315.2
+          ]
+        },
+        "section": {
+          "width": "76.2 mm",
+          "height": "76.2 mm"
+        },
+        "mass_per_metre": "10.224 kg",
+        "tube": {
+          "shape": "square",
+          "thickness": "4.7625 mm",
+          "outer_radius": "9.525 mm",
+          "inner_radius": "4.7625 mm",
+          "area": 1302.475
+        },
+        "rows": {
+          "1x1x0.065": {
+            "section": {
+              "width": "25.4 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "1.176 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "1.651 mm",
+              "outer_radius": "3.302 mm",
+              "inner_radius": "1.651 mm",
+              "area": 149.819
+            }
+          },
+          "1x1x0.083": {
+            "section": {
+              "width": "25.4 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "1.452 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "2.1082 mm",
+              "outer_radius": "4.2164 mm",
+              "inner_radius": "2.1082 mm",
+              "area": 184.969
+            }
+          },
+          "1x1x0.100": {
+            "section": {
+              "width": "25.4 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "1.693 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "2.54 mm",
+              "outer_radius": "5.08 mm",
+              "inner_radius": "2.54 mm",
+              "area": 215.643
+            }
+          },
+          "1x1x0.120": {
+            "section": {
+              "width": "25.4 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "1.951 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 248.591
+            }
+          },
+          "1x1x1/8": {
+            "section": {
+              "width": "25.4 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "2.012 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 256.298
+            }
+          },
+          "1-1/4x1-1/4x0.065": {
+            "section": {
+              "width": "31.75 mm",
+              "height": "31.75 mm"
+            },
+            "mass_per_metre": "1.505 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "1.651 mm",
+              "outer_radius": "3.302 mm",
+              "inner_radius": "1.651 mm",
+              "area": 191.754
+            }
+          },
+          "1-1/4x1-1/4x0.083": {
+            "section": {
+              "width": "31.75 mm",
+              "height": "31.75 mm"
+            },
+            "mass_per_metre": "1.872 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "2.1082 mm",
+              "outer_radius": "4.2164 mm",
+              "inner_radius": "2.1082 mm",
+              "area": 238.518
+            }
+          },
+          "1-1/4x1-1/4x0.100": {
+            "section": {
+              "width": "31.75 mm",
+              "height": "31.75 mm"
+            },
+            "mass_per_metre": "2.199 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "2.54 mm",
+              "outer_radius": "5.08 mm",
+              "inner_radius": "2.54 mm",
+              "area": 280.159
+            }
+          },
+          "1-1/4x1-1/4x0.120": {
+            "section": {
+              "width": "31.75 mm",
+              "height": "31.75 mm"
+            },
+            "mass_per_metre": "2.559 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 326.01
+            }
+          },
+          "1-1/4x1-1/4x1/8": {
+            "section": {
+              "width": "31.75 mm",
+              "height": "31.75 mm"
+            },
+            "mass_per_metre": "2.645 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 336.943
+            }
+          },
+          "1-1/2x1-1/2x0.065": {
+            "section": {
+              "width": "38.1 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "1.834 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "1.651 mm",
+              "outer_radius": "3.302 mm",
+              "inner_radius": "1.651 mm",
+              "area": 233.69
+            }
+          },
+          "1-1/2x1-1/2x0.083": {
+            "section": {
+              "width": "38.1 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "2.293 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "2.1082 mm",
+              "outer_radius": "4.2164 mm",
+              "inner_radius": "2.1082 mm",
+              "area": 292.066
+            }
+          },
+          "1-1/2x1-1/2x0.100": {
+            "section": {
+              "width": "38.1 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "2.706 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "2.54 mm",
+              "outer_radius": "5.08 mm",
+              "inner_radius": "2.54 mm",
+              "area": 344.675
+            }
+          },
+          "1-1/2x1-1/2x0.120": {
+            "section": {
+              "width": "38.1 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "3.167 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 403.429
+            }
+          },
+          "1-1/2x1-1/2x1/8": {
+            "section": {
+              "width": "38.1 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "3.278 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 417.588
+            }
+          },
+          "1-1/2x1-1/2x0.134": {
+            "section": {
+              "width": "38.1 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "3.474 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 442.538
+            }
+          },
+          "1-1/2x1-1/2x3/16": {
+            "section": {
+              "width": "38.1 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "4.527 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 576.67
+            }
+          },
+          "1-1/2x1-1/2x1/4": {
+            "section": {
+              "width": "38.1 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "5.515 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 702.611
+            }
+          },
+          "2x2x0.065": {
+            "section": {
+              "width": "50.8 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "2.493 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "1.651 mm",
+              "outer_radius": "3.302 mm",
+              "inner_radius": "1.651 mm",
+              "area": 317.56
+            }
+          },
+          "2x2x0.083": {
+            "section": {
+              "width": "50.8 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "3.133 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "2.1082 mm",
+              "outer_radius": "4.2164 mm",
+              "inner_radius": "2.1082 mm",
+              "area": 399.163
+            }
+          },
+          "2x2x0.100": {
+            "section": {
+              "width": "50.8 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "3.719 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "2.54 mm",
+              "outer_radius": "5.08 mm",
+              "inner_radius": "2.54 mm",
+              "area": 473.707
+            }
+          },
+          "2x2x0.120": {
+            "section": {
+              "width": "50.8 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "4.382 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 558.268
+            }
+          },
+          "2x2x1/8": {
+            "section": {
+              "width": "50.8 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "4.544 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 578.878
+            }
+          },
+          "2x2x0.134": {
+            "section": {
+              "width": "50.8 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "4.831 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 615.441
+            }
+          },
+          "2x2x3/16": {
+            "section": {
+              "width": "50.8 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "6.426 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 818.605
+            }
+          },
+          "2x2x1/4": {
+            "section": {
+              "width": "50.8 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "8.048 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 1025.191
+            }
+          },
+          "2-1/8x2-1/8x1/8": {
+            "section": {
+              "width": "53.975 mm",
+              "height": "53.975 mm"
+            },
+            "mass_per_metre": "4.861 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 619.2
+            }
+          },
+          "2-1/8x2-1/8x0.134": {
+            "section": {
+              "width": "53.975 mm",
+              "height": "53.975 mm"
+            },
+            "mass_per_metre": "5.171 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 658.667
+            }
+          },
+          "2-1/8x2-1/8x3/16": {
+            "section": {
+              "width": "53.975 mm",
+              "height": "53.975 mm"
+            },
+            "mass_per_metre": "6.901 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 879.088
+            }
+          },
+          "2-1/2x2-1/2x0.083": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "3.974 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "2.1082 mm",
+              "outer_radius": "4.2164 mm",
+              "inner_radius": "2.1082 mm",
+              "area": 506.259
+            }
+          },
+          "2-1/2x2-1/2x0.120": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "5.598 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 713.106
+            }
+          },
+          "2-1/2x2-1/2x1/8": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "5.810 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 740.168
+            }
+          },
+          "2-1/2x2-1/2x0.134": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "6.188 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 788.344
+            }
+          },
+          "2-1/2x2-1/2x3/16": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "8.325 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 1060.54
+            }
+          },
+          "2-1/2x2-1/2x0.238": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "10.167 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "6.0452 mm",
+              "outer_radius": "12.0904 mm",
+              "inner_radius": "6.0452 mm",
+              "area": 1295.193
+            }
+          },
+          "2-1/2x2-1/2x1/4": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "10.580 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 1347.771
+            }
+          },
+          "2-1/2x2-1/2x5/16": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "12.575 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 1601.86
+            }
+          },
+          "3x3x0.120": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "6.813 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 867.945
+            }
+          },
+          "3x3x1/8": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "7.076 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 901.458
+            }
+          },
+          "3x3x0.134": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "7.546 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 961.247
+            }
+          },
+          "3x3x3/16": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "10.224 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 1302.475
+            }
+          },
+          "3x3x0.238": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "12.578 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "6.0452 mm",
+              "outer_radius": "12.0904 mm",
+              "inner_radius": "6.0452 mm",
+              "area": 1602.289
+            }
+          },
+          "3x3x1/4": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "13.112 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 1670.351
+            }
+          },
+          "3x3x5/16": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "15.740 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 2005.085
+            }
+          },
+          "3x3x3/8": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "18.107 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 2306.679
+            }
+          },
+          "3-1/2x3-1/2x0.120": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "88.9 mm"
+            },
+            "mass_per_metre": "8.029 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 1022.783
+            }
+          },
+          "3-1/2x3-1/2x1/8": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "88.9 mm"
+            },
+            "mass_per_metre": "8.343 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1062.748
+            }
+          },
+          "3-1/2x3-1/2x0.134": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "88.9 mm"
+            },
+            "mass_per_metre": "8.903 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1134.15
+            }
+          },
+          "3-1/2x3-1/2x3/16": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "88.9 mm"
+            },
+            "mass_per_metre": "12.124 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 1544.41
+            }
+          },
+          "3-1/2x3-1/2x0.238": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "88.9 mm"
+            },
+            "mass_per_metre": "14.989 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "6.0452 mm",
+              "outer_radius": "12.0904 mm",
+              "inner_radius": "6.0452 mm",
+              "area": 1909.385
+            }
+          },
+          "3-1/2x3-1/2x1/4": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "88.9 mm"
+            },
+            "mass_per_metre": "15.645 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 1992.931
+            }
+          },
+          "3-1/2x3-1/2x5/16": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "88.9 mm"
+            },
+            "mass_per_metre": "18.905 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 2408.31
+            }
+          },
+          "3-1/2x3-1/2x3/8": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "88.9 mm"
+            },
+            "mass_per_metre": "21.906 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 2790.549
+            }
+          },
+          "4x4x0.120": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "9.244 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 1177.621
+            }
+          },
+          "4x4x1/8": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "9.609 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1224.038
+            }
+          },
+          "4x4x0.134": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "10.260 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1307.052
+            }
+          },
+          "4x4x3/16": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "14.023 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 1786.345
+            }
+          },
+          "4x4x1/4": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "18.177 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 2315.511
+            }
+          },
+          "4x4x5/16": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "22.071 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 2811.535
+            }
+          },
+          "4x4x3/8": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "25.704 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 3274.419
+            }
+          },
+          "4x4x1/2": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "32.191 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 4100.762
+            }
+          },
+          "4-1/2x4-1/2x1/8": {
+            "section": {
+              "width": "114.3 mm",
+              "height": "114.3 mm"
+            },
+            "mass_per_metre": "10.875 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1385.328
+            }
+          },
+          "4-1/2x4-1/2x0.134": {
+            "section": {
+              "width": "114.3 mm",
+              "height": "114.3 mm"
+            },
+            "mass_per_metre": "11.618 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1479.955
+            }
+          },
+          "4-1/2x4-1/2x3/16": {
+            "section": {
+              "width": "114.3 mm",
+              "height": "114.3 mm"
+            },
+            "mass_per_metre": "15.922 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 2028.28
+            }
+          },
+          "4-1/2x4-1/2x1/4": {
+            "section": {
+              "width": "114.3 mm",
+              "height": "114.3 mm"
+            },
+            "mass_per_metre": "20.709 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 2638.091
+            }
+          },
+          "4-1/2x4-1/2x5/16": {
+            "section": {
+              "width": "114.3 mm",
+              "height": "114.3 mm"
+            },
+            "mass_per_metre": "25.236 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 3214.76
+            }
+          },
+          "4-1/2x4-1/2x3/8": {
+            "section": {
+              "width": "114.3 mm",
+              "height": "114.3 mm"
+            },
+            "mass_per_metre": "29.503 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 3758.289
+            }
+          },
+          "4-1/2x4-1/2x1/2": {
+            "section": {
+              "width": "114.3 mm",
+              "height": "114.3 mm"
+            },
+            "mass_per_metre": "37.255 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 4745.922
+            }
+          },
+          "5x5x1/8": {
+            "section": {
+              "width": "127 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "12.141 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1546.618
+            }
+          },
+          "5x5x0.134": {
+            "section": {
+              "width": "127 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "12.975 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1652.858
+            }
+          },
+          "5x5x3/16": {
+            "section": {
+              "width": "127 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "17.821 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 2270.215
+            }
+          },
+          "5x5x1/4": {
+            "section": {
+              "width": "127 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "23.241 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 2960.671
+            }
+          },
+          "5x5x5/16": {
+            "section": {
+              "width": "127 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "28.401 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 3617.985
+            }
+          },
+          "5x5x3/8": {
+            "section": {
+              "width": "127 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "33.301 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 4242.159
+            }
+          },
+          "5x5x1/2": {
+            "section": {
+              "width": "127 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "42.320 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 5391.082
+            }
+          },
+          "6x6x1/8": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "14.673 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1869.198
+            }
+          },
+          "6x6x3/16": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "21.620 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 2754.085
+            }
+          },
+          "6x6x1/4": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "28.306 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 3605.831
+            }
+          },
+          "6x6x5/16": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "34.732 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 4424.435
+            }
+          },
+          "6x6x3/8": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "40.898 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 5209.899
+            }
+          },
+          "6x6x1/2": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "52.449 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 6681.402
+            }
+          },
+          "6x6x5/8": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "62.960 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "15.875 mm",
+              "outer_radius": "31.75 mm",
+              "inner_radius": "15.875 mm",
+              "area": 8020.341
+            }
+          },
+          "7x7x3/16": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "177.8 mm"
+            },
+            "mass_per_metre": "25.418 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 3237.955
+            }
+          },
+          "7x7x1/4": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "177.8 mm"
+            },
+            "mass_per_metre": "33.370 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 4250.991
+            }
+          },
+          "7x7x5/16": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "177.8 mm"
+            },
+            "mass_per_metre": "41.062 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 5230.885
+            }
+          },
+          "7x7x3/8": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "177.8 mm"
+            },
+            "mass_per_metre": "48.494 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 6177.639
+            }
+          },
+          "7x7x1/2": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "177.8 mm"
+            },
+            "mass_per_metre": "62.578 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 7971.722
+            }
+          },
+          "7x7x5/8": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "177.8 mm"
+            },
+            "mass_per_metre": "75.621 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "15.875 mm",
+              "outer_radius": "31.75 mm",
+              "inner_radius": "15.875 mm",
+              "area": 9633.241
+            }
+          },
+          "8x8x3/16": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "29.216 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 3721.825
+            }
+          },
+          "8x8x1/4": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "38.435 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 4896.151
+            }
+          },
+          "8x8x5/16": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "47.393 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 6037.335
+            }
+          },
+          "8x8x3/8": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "56.091 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 7145.379
+            }
+          },
+          "8x8x1/2": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "72.707 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 9262.042
+            }
+          },
+          "8x8x5/8": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "88.282 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "15.875 mm",
+              "outer_radius": "31.75 mm",
+              "inner_radius": "15.875 mm",
+              "area": 11246.141
+            }
+          },
+          "9x9x3/16": {
+            "section": {
+              "width": "228.6 mm",
+              "height": "228.6 mm"
+            },
+            "mass_per_metre": "33.015 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 4205.695
+            }
+          },
+          "9x9x1/4": {
+            "section": {
+              "width": "228.6 mm",
+              "height": "228.6 mm"
+            },
+            "mass_per_metre": "43.499 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 5541.311
+            }
+          },
+          "9x9x5/16": {
+            "section": {
+              "width": "228.6 mm",
+              "height": "228.6 mm"
+            },
+            "mass_per_metre": "53.724 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 6843.785
+            }
+          },
+          "9x9x3/8": {
+            "section": {
+              "width": "228.6 mm",
+              "height": "228.6 mm"
+            },
+            "mass_per_metre": "63.688 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 8113.119
+            }
+          },
+          "9x9x1/2": {
+            "section": {
+              "width": "228.6 mm",
+              "height": "228.6 mm"
+            },
+            "mass_per_metre": "82.836 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 10552.362
+            }
+          },
+          "9x9x5/8": {
+            "section": {
+              "width": "228.6 mm",
+              "height": "228.6 mm"
+            },
+            "mass_per_metre": "100.943 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "15.875 mm",
+              "outer_radius": "31.75 mm",
+              "inner_radius": "15.875 mm",
+              "area": 12859.041
+            }
+          },
+          "10x10x3/16": {
+            "section": {
+              "width": "254 mm",
+              "height": "254 mm"
+            },
+            "mass_per_metre": "36.813 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 4689.565
+            }
+          },
+          "10x10x1/4": {
+            "section": {
+              "width": "254 mm",
+              "height": "254 mm"
+            },
+            "mass_per_metre": "48.564 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 6186.471
+            }
+          },
+          "10x10x5/16": {
+            "section": {
+              "width": "254 mm",
+              "height": "254 mm"
+            },
+            "mass_per_metre": "60.054 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 7650.235
+            }
+          },
+          "10x10x3/8": {
+            "section": {
+              "width": "254 mm",
+              "height": "254 mm"
+            },
+            "mass_per_metre": "71.285 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 9080.859
+            }
+          },
+          "10x10x1/2": {
+            "section": {
+              "width": "254 mm",
+              "height": "254 mm"
+            },
+            "mass_per_metre": "92.965 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 11842.682
+            }
+          },
+          "10x10x5/8": {
+            "section": {
+              "width": "254 mm",
+              "height": "254 mm"
+            },
+            "mass_per_metre": "113.605 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "15.875 mm",
+              "outer_radius": "31.75 mm",
+              "inner_radius": "15.875 mm",
+              "area": 14471.941
+            }
+          },
+          "10x10x3/4": {
+            "section": {
+              "width": "254 mm",
+              "height": "254 mm"
+            },
+            "mass_per_metre": "133.204 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "19.05 mm",
+              "outer_radius": "38.1 mm",
+              "inner_radius": "19.05 mm",
+              "area": 16968.635
+            }
+          },
+          "12x12x1/4": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "304.8 mm"
+            },
+            "mass_per_metre": "58.693 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 7476.791
+            }
+          },
+          "12x12x5/16": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "304.8 mm"
+            },
+            "mass_per_metre": "72.716 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 9263.135
+            }
+          },
+          "12x12x3/8": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "304.8 mm"
+            },
+            "mass_per_metre": "86.478 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 11016.339
+            }
+          },
+          "12x12x1/2": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "304.8 mm"
+            },
+            "mass_per_metre": "113.223 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 14423.322
+            }
+          },
+          "12x12x5/8": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "304.8 mm"
+            },
+            "mass_per_metre": "138.927 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "15.875 mm",
+              "outer_radius": "31.75 mm",
+              "inner_radius": "15.875 mm",
+              "area": 17697.741
+            }
+          },
+          "12x12x3/4": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "304.8 mm"
+            },
+            "mass_per_metre": "163.591 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "19.05 mm",
+              "outer_radius": "38.1 mm",
+              "inner_radius": "19.05 mm",
+              "area": 20839.595
+            }
+          },
+          "12x12x7/8": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "304.8 mm"
+            },
+            "mass_per_metre": "187.214 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "22.225 mm",
+              "outer_radius": "44.45 mm",
+              "inner_radius": "22.225 mm",
+              "area": 23848.885
+            }
+          }
+        },
+        "frames": [
+          {
+            "name": "end_a",
+            "kind": "end"
+          },
+          {
+            "name": "end_b",
+            "kind": "end"
+          },
+          {
+            "name": "face_xp",
+            "kind": "face"
+          },
+          {
+            "name": "face_xn",
+            "kind": "face"
+          },
+          {
+            "name": "face_yp",
+            "kind": "face"
+          },
+          {
+            "name": "face_yn",
+            "kind": "face"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hss-rect-a500",
+      "path": "steel-tubes/hss-rect-a500.mitcad",
+      "category": "steel-tubes",
+      "name": "Rectangular steel tube ASTM A500 (HSS, inch)",
+      "standard": "ASTM A500",
+      "description": "Cold-formed welded rectangular structural steel tube (hollow structural section, Grade B/C) in inch sizes from 1-1/2x3/4x0.083 to 12x10x5/8, with the corner radii for calculation, cut to length.",
+      "keywords": [
+        "tube",
+        "rectangular tube",
+        "steel tube",
+        "box section",
+        "hollow structural section",
+        "HSS",
+        "steel",
+        "structural tubing",
+        "inch",
+        "imperial",
+        "ASTM A500",
+        "A500"
+      ],
+      "license": "MIT",
+      "designation": "HSS {Size}x{Thickness} L={L}",
+      "preview": "previews/hss-rect-a500.png",
+      "build": {
+        "role": "profile",
+        "material": {
+          "density": 7850
+        },
+        "length": {
+          "parameter": "L",
+          "min": 10,
+          "max": 12192,
+          "default": 1000,
+          "stock": [
+            6096,
+            7315.2
+          ]
+        },
+        "section": {
+          "width": "101.6 mm",
+          "height": "50.8 mm"
+        },
+        "mass_per_metre": "10.224 kg",
+        "tube": {
+          "shape": "rectangular",
+          "thickness": "4.7625 mm",
+          "outer_radius": "9.525 mm",
+          "inner_radius": "4.7625 mm",
+          "area": 1302.475
+        },
+        "rows": {
+          "1-1/2x3/4x0.083": {
+            "section": {
+              "width": "38.1 mm",
+              "height": "19.05 mm"
+            },
+            "mass_per_metre": "1.662 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "2.1082 mm",
+              "outer_radius": "4.2164 mm",
+              "inner_radius": "2.1082 mm",
+              "area": 211.744
+            }
+          },
+          "1-1/2x3/4x0.120": {
+            "section": {
+              "width": "38.1 mm",
+              "height": "19.05 mm"
+            },
+            "mass_per_metre": "2.255 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 287.301
+            }
+          },
+          "1-1/2x1x0.065": {
+            "section": {
+              "width": "38.1 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "1.505 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "1.651 mm",
+              "outer_radius": "3.302 mm",
+              "inner_radius": "1.651 mm",
+              "area": 191.754
+            }
+          },
+          "1-1/2x1x0.083": {
+            "section": {
+              "width": "38.1 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "1.872 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "2.1082 mm",
+              "outer_radius": "4.2164 mm",
+              "inner_radius": "2.1082 mm",
+              "area": 238.518
+            }
+          },
+          "1-1/2x1x0.120": {
+            "section": {
+              "width": "38.1 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "2.559 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 326.01
+            }
+          },
+          "2x1x0.065": {
+            "section": {
+              "width": "50.8 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "1.834 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "1.651 mm",
+              "outer_radius": "3.302 mm",
+              "inner_radius": "1.651 mm",
+              "area": 233.69
+            }
+          },
+          "2x1x0.083": {
+            "section": {
+              "width": "50.8 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "2.293 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "2.1082 mm",
+              "outer_radius": "4.2164 mm",
+              "inner_radius": "2.1082 mm",
+              "area": 292.066
+            }
+          },
+          "2x1x0.100": {
+            "section": {
+              "width": "50.8 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "2.706 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "2.54 mm",
+              "outer_radius": "5.08 mm",
+              "inner_radius": "2.54 mm",
+              "area": 344.675
+            }
+          },
+          "2x1x0.120": {
+            "section": {
+              "width": "50.8 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "3.167 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 403.429
+            }
+          },
+          "2x1x1/8": {
+            "section": {
+              "width": "50.8 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "3.278 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 417.588
+            }
+          },
+          "2x1x0.134": {
+            "section": {
+              "width": "50.8 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "3.474 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 442.538
+            }
+          },
+          "2x1x3/16": {
+            "section": {
+              "width": "50.8 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "4.527 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 576.67
+            }
+          },
+          "2x1-1/2x1/8": {
+            "section": {
+              "width": "50.8 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "3.911 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 498.233
+            }
+          },
+          "2x1-1/2x0.134": {
+            "section": {
+              "width": "50.8 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "4.153 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 528.989
+            }
+          },
+          "2x1-1/2x3/16": {
+            "section": {
+              "width": "50.8 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "5.476 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 697.637
+            }
+          },
+          "2-1/2x1x1/8": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "3.911 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 498.233
+            }
+          },
+          "2-1/2x1x0.134": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "4.153 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 528.989
+            }
+          },
+          "2-1/2x1x3/16": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "5.476 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 697.637
+            }
+          },
+          "2-1/2x1-1/2x0.065": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "2.493 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "1.651 mm",
+              "outer_radius": "3.302 mm",
+              "inner_radius": "1.651 mm",
+              "area": 317.56
+            }
+          },
+          "2-1/2x1-1/2x0.083": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "3.133 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "2.1082 mm",
+              "outer_radius": "4.2164 mm",
+              "inner_radius": "2.1082 mm",
+              "area": 399.163
+            }
+          },
+          "2-1/2x1-1/2x0.100": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "3.719 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "2.54 mm",
+              "outer_radius": "5.08 mm",
+              "inner_radius": "2.54 mm",
+              "area": 473.707
+            }
+          },
+          "2-1/2x1-1/2x0.120": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "4.382 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 558.268
+            }
+          },
+          "2-1/2x1-1/2x1/8": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "4.544 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 578.878
+            }
+          },
+          "2-1/2x1-1/2x0.134": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "4.831 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 615.441
+            }
+          },
+          "2-1/2x1-1/2x3/16": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "6.426 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 818.605
+            }
+          },
+          "2-1/2x1-1/2x1/4": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "8.048 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 1025.191
+            }
+          },
+          "2-1/2x2x0.120": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "4.990 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 635.687
+            }
+          },
+          "2-1/2x2x1/8": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "5.177 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 659.523
+            }
+          },
+          "2-1/2x2x0.134": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "5.510 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 701.892
+            }
+          },
+          "2-1/2x2x3/16": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "7.376 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 939.572
+            }
+          },
+          "2-1/2x2x1/4": {
+            "section": {
+              "width": "63.5 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "9.314 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 1186.481
+            }
+          },
+          "3x1x0.065": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "2.493 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "1.651 mm",
+              "outer_radius": "3.302 mm",
+              "inner_radius": "1.651 mm",
+              "area": 317.56
+            }
+          },
+          "3x1x0.083": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "3.133 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "2.1082 mm",
+              "outer_radius": "4.2164 mm",
+              "inner_radius": "2.1082 mm",
+              "area": 399.163
+            }
+          },
+          "3x1x0.120": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "4.382 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 558.268
+            }
+          },
+          "3x1x1/8": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "4.544 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 578.878
+            }
+          },
+          "3x1x0.134": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "4.831 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 615.441
+            }
+          },
+          "3x1x3/16": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "25.4 mm"
+            },
+            "mass_per_metre": "6.426 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 818.605
+            }
+          },
+          "3x1-1/2x0.120": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "4.990 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 635.687
+            }
+          },
+          "3x1-1/2x1/8": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "5.177 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 659.523
+            }
+          },
+          "3x1-1/2x0.134": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "5.510 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 701.892
+            }
+          },
+          "3x1-1/2x3/16": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "7.376 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 939.572
+            }
+          },
+          "3x1-1/2x1/4": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "9.314 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 1186.481
+            }
+          },
+          "3x2x0.083": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "3.974 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "2.1082 mm",
+              "outer_radius": "4.2164 mm",
+              "inner_radius": "2.1082 mm",
+              "area": 506.259
+            }
+          },
+          "3x2x0.120": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "5.598 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 713.106
+            }
+          },
+          "3x2x1/8": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "5.810 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 740.168
+            }
+          },
+          "3x2x0.134": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "6.188 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 788.344
+            }
+          },
+          "3x2x3/16": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "8.325 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 1060.54
+            }
+          },
+          "3x2x0.238": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "10.167 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.0452 mm",
+              "outer_radius": "12.0904 mm",
+              "inner_radius": "6.0452 mm",
+              "area": 1295.193
+            }
+          },
+          "3x2x1/4": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "10.580 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 1347.771
+            }
+          },
+          "3x2x5/16": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "12.575 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 1601.86
+            }
+          },
+          "3x2-1/2x1/8": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "6.443 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 820.813
+            }
+          },
+          "3x2-1/2x0.134": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "6.867 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 874.795
+            }
+          },
+          "3x2-1/2x3/16": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "9.275 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 1181.507
+            }
+          },
+          "3x2-1/2x1/4": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "11.846 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 1509.061
+            }
+          },
+          "3-1/2x1-1/2x1/8": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "5.810 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 740.168
+            }
+          },
+          "3-1/2x1-1/2x0.134": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "6.188 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 788.344
+            }
+          },
+          "3-1/2x1-1/2x3/16": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "8.325 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 1060.54
+            }
+          },
+          "3-1/2x2x1/8": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "6.443 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 820.813
+            }
+          },
+          "3-1/2x2x0.134": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "6.867 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 874.795
+            }
+          },
+          "3-1/2x2x3/16": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "9.275 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 1181.507
+            }
+          },
+          "3-1/2x2x1/4": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "11.846 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 1509.061
+            }
+          },
+          "3-1/2x2-1/2x1/8": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "7.076 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 901.458
+            }
+          },
+          "3-1/2x2-1/2x0.134": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "7.546 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 961.247
+            }
+          },
+          "3-1/2x2-1/2x3/16": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "10.224 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 1302.475
+            }
+          },
+          "3-1/2x2-1/2x1/4": {
+            "section": {
+              "width": "88.9 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "13.112 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 1670.351
+            }
+          },
+          "4x1-1/4x0.120": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "31.75 mm"
+            },
+            "mass_per_metre": "5.902 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 751.816
+            }
+          },
+          "4x1-1/2x1/8": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "6.443 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 820.813
+            }
+          },
+          "4x1-1/2x0.134": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "6.867 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 874.795
+            }
+          },
+          "4x1-1/2x3/16": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "38.1 mm"
+            },
+            "mass_per_metre": "9.275 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 1181.507
+            }
+          },
+          "4x2x0.120": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "6.813 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 867.945
+            }
+          },
+          "4x2x1/8": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "7.076 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 901.458
+            }
+          },
+          "4x2x0.134": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "7.546 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 961.247
+            }
+          },
+          "4x2x3/16": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "10.224 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 1302.475
+            }
+          },
+          "4x2x0.238": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "12.578 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.0452 mm",
+              "outer_radius": "12.0904 mm",
+              "inner_radius": "6.0452 mm",
+              "area": 1602.289
+            }
+          },
+          "4x2x1/4": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "13.112 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 1670.351
+            }
+          },
+          "4x2x5/16": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "15.740 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 2005.085
+            }
+          },
+          "4x2x3/8": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "18.107 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 2306.679
+            }
+          },
+          "4x2-1/2x1/8": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "7.710 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 982.103
+            }
+          },
+          "4x2-1/2x0.134": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "8.224 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1047.698
+            }
+          },
+          "4x2-1/2x3/16": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "11.174 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 1423.442
+            }
+          },
+          "4x2-1/2x1/4": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "14.378 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 1831.641
+            }
+          },
+          "4x3x0.120": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "8.029 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 1022.783
+            }
+          },
+          "4x3x1/8": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "8.343 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1062.748
+            }
+          },
+          "4x3x0.134": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "8.903 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1134.15
+            }
+          },
+          "4x3x3/16": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "12.124 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 1544.41
+            }
+          },
+          "4x3x0.238": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "14.989 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.0452 mm",
+              "outer_radius": "12.0904 mm",
+              "inner_radius": "6.0452 mm",
+              "area": 1909.385
+            }
+          },
+          "4x3x1/4": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "15.645 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 1992.931
+            }
+          },
+          "4x3x5/16": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "18.905 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 2408.31
+            }
+          },
+          "4x3x3/8": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "21.906 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 2790.549
+            }
+          },
+          "4-1/2x3x1/8": {
+            "section": {
+              "width": "114.3 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "8.976 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1143.393
+            }
+          },
+          "4-1/2x3x0.134": {
+            "section": {
+              "width": "114.3 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "9.582 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1220.601
+            }
+          },
+          "4-1/2x3x3/16": {
+            "section": {
+              "width": "114.3 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "13.073 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 1665.377
+            }
+          },
+          "4-1/2x3x1/4": {
+            "section": {
+              "width": "114.3 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "16.911 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 2154.221
+            }
+          },
+          "5x2x0.120": {
+            "section": {
+              "width": "127 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "8.029 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 1022.783
+            }
+          },
+          "5x2x1/8": {
+            "section": {
+              "width": "127 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "8.343 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1062.748
+            }
+          },
+          "5x2x0.134": {
+            "section": {
+              "width": "127 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "8.903 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1134.15
+            }
+          },
+          "5x2x3/16": {
+            "section": {
+              "width": "127 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "12.124 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 1544.41
+            }
+          },
+          "5x2x0.238": {
+            "section": {
+              "width": "127 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "14.989 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.0452 mm",
+              "outer_radius": "12.0904 mm",
+              "inner_radius": "6.0452 mm",
+              "area": 1909.385
+            }
+          },
+          "5x2x1/4": {
+            "section": {
+              "width": "127 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "15.645 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 1992.931
+            }
+          },
+          "5x2x5/16": {
+            "section": {
+              "width": "127 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "18.905 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 2408.31
+            }
+          },
+          "5x2x3/8": {
+            "section": {
+              "width": "127 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "21.906 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 2790.549
+            }
+          },
+          "5x2-1/2x1/8": {
+            "section": {
+              "width": "127 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "8.976 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1143.393
+            }
+          },
+          "5x2-1/2x0.134": {
+            "section": {
+              "width": "127 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "9.582 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1220.601
+            }
+          },
+          "5x2-1/2x3/16": {
+            "section": {
+              "width": "127 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "13.073 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 1665.377
+            }
+          },
+          "5x2-1/2x1/4": {
+            "section": {
+              "width": "127 mm",
+              "height": "63.5 mm"
+            },
+            "mass_per_metre": "16.911 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 2154.221
+            }
+          },
+          "5x3x0.120": {
+            "section": {
+              "width": "127 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "9.244 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 1177.621
+            }
+          },
+          "5x3x1/8": {
+            "section": {
+              "width": "127 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "9.609 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1224.038
+            }
+          },
+          "5x3x0.134": {
+            "section": {
+              "width": "127 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "10.260 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1307.052
+            }
+          },
+          "5x3x3/16": {
+            "section": {
+              "width": "127 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "14.023 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 1786.345
+            }
+          },
+          "5x3x1/4": {
+            "section": {
+              "width": "127 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "18.177 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 2315.511
+            }
+          },
+          "5x3x5/16": {
+            "section": {
+              "width": "127 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "22.071 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 2811.535
+            }
+          },
+          "5x3x3/8": {
+            "section": {
+              "width": "127 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "25.704 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 3274.419
+            }
+          },
+          "5x3x1/2": {
+            "section": {
+              "width": "127 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "32.191 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 4100.762
+            }
+          },
+          "5x4x1/8": {
+            "section": {
+              "width": "127 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "10.875 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1385.328
+            }
+          },
+          "5x4x0.134": {
+            "section": {
+              "width": "127 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "11.618 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1479.955
+            }
+          },
+          "5x4x3/16": {
+            "section": {
+              "width": "127 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "15.922 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 2028.28
+            }
+          },
+          "5x4x1/4": {
+            "section": {
+              "width": "127 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "20.709 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 2638.091
+            }
+          },
+          "5x4x5/16": {
+            "section": {
+              "width": "127 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "25.236 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 3214.76
+            }
+          },
+          "5x4x3/8": {
+            "section": {
+              "width": "127 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "29.503 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 3758.289
+            }
+          },
+          "5x4x1/2": {
+            "section": {
+              "width": "127 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "37.255 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 4745.922
+            }
+          },
+          "6x2x0.120": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "9.244 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.048 mm",
+              "outer_radius": "6.096 mm",
+              "inner_radius": "3.048 mm",
+              "area": 1177.621
+            }
+          },
+          "6x2x1/8": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "9.609 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1224.038
+            }
+          },
+          "6x2x0.134": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "10.260 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1307.052
+            }
+          },
+          "6x2x3/16": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "14.023 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 1786.345
+            }
+          },
+          "6x2x1/4": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "18.177 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 2315.511
+            }
+          },
+          "6x2x5/16": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "22.071 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 2811.535
+            }
+          },
+          "6x2x3/8": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "25.704 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 3274.419
+            }
+          },
+          "6x3x1/8": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "10.875 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1385.328
+            }
+          },
+          "6x3x0.134": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "11.618 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1479.955
+            }
+          },
+          "6x3x3/16": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "15.922 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 2028.28
+            }
+          },
+          "6x3x1/4": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "20.709 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 2638.091
+            }
+          },
+          "6x3x5/16": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "25.236 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 3214.76
+            }
+          },
+          "6x3x3/8": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "29.503 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 3758.289
+            }
+          },
+          "6x3x1/2": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "37.255 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 4745.922
+            }
+          },
+          "6x4x1/8": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "12.141 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1546.618
+            }
+          },
+          "6x4x0.134": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "12.975 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1652.858
+            }
+          },
+          "6x4x3/16": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "17.821 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 2270.215
+            }
+          },
+          "6x4x1/4": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "23.241 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 2960.671
+            }
+          },
+          "6x4x5/16": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "28.401 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 3617.985
+            }
+          },
+          "6x4x3/8": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "33.301 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 4242.159
+            }
+          },
+          "6x4x1/2": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "42.320 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 5391.082
+            }
+          },
+          "6x5x1/8": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "13.407 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1707.908
+            }
+          },
+          "6x5x0.134": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "14.332 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1825.761
+            }
+          },
+          "6x5x3/16": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "19.720 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 2512.15
+            }
+          },
+          "6x5x1/4": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "25.774 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 3283.251
+            }
+          },
+          "6x5x5/16": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "31.567 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 4021.21
+            }
+          },
+          "6x5x3/8": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "37.099 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 4726.029
+            }
+          },
+          "6x5x1/2": {
+            "section": {
+              "width": "152.4 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "47.385 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 6036.242
+            }
+          },
+          "7x3x1/8": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "12.141 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1546.618
+            }
+          },
+          "7x3x0.134": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "12.975 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1652.858
+            }
+          },
+          "7x3x3/16": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "17.821 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 2270.215
+            }
+          },
+          "7x3x1/4": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "23.241 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 2960.671
+            }
+          },
+          "7x3x5/16": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "28.401 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 3617.985
+            }
+          },
+          "7x3x3/8": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "33.301 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 4242.159
+            }
+          },
+          "7x3x1/2": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "42.320 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 5391.082
+            }
+          },
+          "7x4x1/8": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "13.407 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1707.908
+            }
+          },
+          "7x4x0.134": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "14.332 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1825.761
+            }
+          },
+          "7x4x3/16": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "19.720 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 2512.15
+            }
+          },
+          "7x4x1/4": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "25.774 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 3283.251
+            }
+          },
+          "7x4x5/16": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "31.567 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 4021.21
+            }
+          },
+          "7x4x3/8": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "37.099 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 4726.029
+            }
+          },
+          "7x4x1/2": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "47.385 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 6036.242
+            }
+          },
+          "7x5x1/8": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "14.673 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1869.198
+            }
+          },
+          "7x5x3/16": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "21.620 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 2754.085
+            }
+          },
+          "7x5x1/4": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "28.306 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 3605.831
+            }
+          },
+          "7x5x5/16": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "34.732 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 4424.435
+            }
+          },
+          "7x5x3/8": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "40.898 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 5209.899
+            }
+          },
+          "7x5x1/2": {
+            "section": {
+              "width": "177.8 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "52.449 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 6681.402
+            }
+          },
+          "8x2x1/8": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "12.141 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1546.618
+            }
+          },
+          "8x2x0.134": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "12.975 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1652.858
+            }
+          },
+          "8x2x3/16": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "17.821 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 2270.215
+            }
+          },
+          "8x2x1/4": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "23.241 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 2960.671
+            }
+          },
+          "8x2x5/16": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "28.401 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 3617.985
+            }
+          },
+          "8x2x3/8": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "33.301 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 4242.159
+            }
+          },
+          "8x3x1/8": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "13.407 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1707.908
+            }
+          },
+          "8x3x0.134": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "14.332 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 1825.761
+            }
+          },
+          "8x3x3/16": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "19.720 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 2512.15
+            }
+          },
+          "8x3x1/4": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "25.774 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 3283.251
+            }
+          },
+          "8x3x5/16": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "31.567 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 4021.21
+            }
+          },
+          "8x3x3/8": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "37.099 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 4726.029
+            }
+          },
+          "8x3x1/2": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "47.385 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 6036.242
+            }
+          },
+          "8x4x1/8": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "14.673 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 1869.198
+            }
+          },
+          "8x4x3/16": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "21.620 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 2754.085
+            }
+          },
+          "8x4x1/4": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "28.306 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 3605.831
+            }
+          },
+          "8x4x5/16": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "34.732 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 4424.435
+            }
+          },
+          "8x4x3/8": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "40.898 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 5209.899
+            }
+          },
+          "8x4x1/2": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "52.449 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 6681.402
+            }
+          },
+          "8x4x5/8": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "62.960 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "15.875 mm",
+              "outer_radius": "31.75 mm",
+              "inner_radius": "15.875 mm",
+              "area": 8020.341
+            }
+          },
+          "8x5x1/8": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "15.939 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 2030.488
+            }
+          },
+          "8x5x0.134": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "17.047 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 2171.567
+            }
+          },
+          "8x5x3/16": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "23.519 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 2996.02
+            }
+          },
+          "8x5x1/4": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "30.838 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 3928.411
+            }
+          },
+          "8x5x5/16": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "37.897 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 4827.66
+            }
+          },
+          "8x5x3/8": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "44.696 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 5693.769
+            }
+          },
+          "8x5x1/2": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "57.514 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 7326.562
+            }
+          },
+          "8x6x3/16": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "25.418 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 3237.955
+            }
+          },
+          "8x6x1/4": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "33.370 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 4250.991
+            }
+          },
+          "8x6x5/16": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "41.062 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 5230.885
+            }
+          },
+          "8x6x3/8": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "48.494 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 6177.639
+            }
+          },
+          "8x6x1/2": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "62.578 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 7971.722
+            }
+          },
+          "8x6x5/8": {
+            "section": {
+              "width": "203.2 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "75.621 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "15.875 mm",
+              "outer_radius": "31.75 mm",
+              "inner_radius": "15.875 mm",
+              "area": 9633.241
+            }
+          },
+          "9x5x3/16": {
+            "section": {
+              "width": "228.6 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "25.418 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 3237.955
+            }
+          },
+          "9x5x1/4": {
+            "section": {
+              "width": "228.6 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "33.370 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 4250.991
+            }
+          },
+          "9x5x5/16": {
+            "section": {
+              "width": "228.6 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "41.062 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 5230.885
+            }
+          },
+          "9x5x3/8": {
+            "section": {
+              "width": "228.6 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "48.494 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 6177.639
+            }
+          },
+          "9x5x1/2": {
+            "section": {
+              "width": "228.6 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "62.578 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 7971.722
+            }
+          },
+          "9x5x5/8": {
+            "section": {
+              "width": "228.6 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "75.621 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "15.875 mm",
+              "outer_radius": "31.75 mm",
+              "inner_radius": "15.875 mm",
+              "area": 9633.241
+            }
+          },
+          "9x7x3/16": {
+            "section": {
+              "width": "228.6 mm",
+              "height": "177.8 mm"
+            },
+            "mass_per_metre": "29.216 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 3721.825
+            }
+          },
+          "9x7x1/4": {
+            "section": {
+              "width": "228.6 mm",
+              "height": "177.8 mm"
+            },
+            "mass_per_metre": "38.435 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 4896.151
+            }
+          },
+          "9x7x5/16": {
+            "section": {
+              "width": "228.6 mm",
+              "height": "177.8 mm"
+            },
+            "mass_per_metre": "47.393 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 6037.335
+            }
+          },
+          "9x7x3/8": {
+            "section": {
+              "width": "228.6 mm",
+              "height": "177.8 mm"
+            },
+            "mass_per_metre": "56.091 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 7145.379
+            }
+          },
+          "9x7x1/2": {
+            "section": {
+              "width": "228.6 mm",
+              "height": "177.8 mm"
+            },
+            "mass_per_metre": "72.707 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 9262.042
+            }
+          },
+          "9x7x5/8": {
+            "section": {
+              "width": "228.6 mm",
+              "height": "177.8 mm"
+            },
+            "mass_per_metre": "88.282 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "15.875 mm",
+              "outer_radius": "31.75 mm",
+              "inner_radius": "15.875 mm",
+              "area": 11246.141
+            }
+          },
+          "10x2x3/16": {
+            "section": {
+              "width": "254 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "21.620 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 2754.085
+            }
+          },
+          "10x2x1/4": {
+            "section": {
+              "width": "254 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "28.306 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 3605.831
+            }
+          },
+          "10x2x5/16": {
+            "section": {
+              "width": "254 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "34.732 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 4424.435
+            }
+          },
+          "10x2x3/8": {
+            "section": {
+              "width": "254 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "40.898 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 5209.899
+            }
+          },
+          "10x3x1/8": {
+            "section": {
+              "width": "254 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "15.939 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 2030.488
+            }
+          },
+          "10x3x0.134": {
+            "section": {
+              "width": "254 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "17.047 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 2171.567
+            }
+          },
+          "10x3x3/16": {
+            "section": {
+              "width": "254 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "23.519 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 2996.02
+            }
+          },
+          "10x3x1/4": {
+            "section": {
+              "width": "254 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "30.838 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 3928.411
+            }
+          },
+          "10x3x5/16": {
+            "section": {
+              "width": "254 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "37.897 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 4827.66
+            }
+          },
+          "10x3x3/8": {
+            "section": {
+              "width": "254 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "44.696 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 5693.769
+            }
+          },
+          "10x3-1/2x1/8": {
+            "section": {
+              "width": "254 mm",
+              "height": "88.9 mm"
+            },
+            "mass_per_metre": "16.572 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.175 mm",
+              "outer_radius": "6.35 mm",
+              "inner_radius": "3.175 mm",
+              "area": 2111.133
+            }
+          },
+          "10x3-1/2x0.134": {
+            "section": {
+              "width": "254 mm",
+              "height": "88.9 mm"
+            },
+            "mass_per_metre": "17.725 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3.4036 mm",
+              "outer_radius": "6.8072 mm",
+              "inner_radius": "3.4036 mm",
+              "area": 2258.018
+            }
+          },
+          "10x3-1/2x3/16": {
+            "section": {
+              "width": "254 mm",
+              "height": "88.9 mm"
+            },
+            "mass_per_metre": "24.468 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 3116.987
+            }
+          },
+          "10x3-1/2x1/4": {
+            "section": {
+              "width": "254 mm",
+              "height": "88.9 mm"
+            },
+            "mass_per_metre": "32.104 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 4089.701
+            }
+          },
+          "10x3-1/2x5/16": {
+            "section": {
+              "width": "254 mm",
+              "height": "88.9 mm"
+            },
+            "mass_per_metre": "39.480 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 5029.273
+            }
+          },
+          "10x3-1/2x3/8": {
+            "section": {
+              "width": "254 mm",
+              "height": "88.9 mm"
+            },
+            "mass_per_metre": "46.595 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 5935.704
+            }
+          },
+          "10x4x3/16": {
+            "section": {
+              "width": "254 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "25.418 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 3237.955
+            }
+          },
+          "10x4x1/4": {
+            "section": {
+              "width": "254 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "33.370 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 4250.991
+            }
+          },
+          "10x4x5/16": {
+            "section": {
+              "width": "254 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "41.062 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 5230.885
+            }
+          },
+          "10x4x3/8": {
+            "section": {
+              "width": "254 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "48.494 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 6177.639
+            }
+          },
+          "10x4x1/2": {
+            "section": {
+              "width": "254 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "62.578 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 7971.722
+            }
+          },
+          "10x4x5/8": {
+            "section": {
+              "width": "254 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "75.621 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "15.875 mm",
+              "outer_radius": "31.75 mm",
+              "inner_radius": "15.875 mm",
+              "area": 9633.241
+            }
+          },
+          "10x5x3/16": {
+            "section": {
+              "width": "254 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "27.317 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 3479.89
+            }
+          },
+          "10x5x1/4": {
+            "section": {
+              "width": "254 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "35.903 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 4573.571
+            }
+          },
+          "10x5x5/16": {
+            "section": {
+              "width": "254 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "44.228 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 5634.11
+            }
+          },
+          "10x5x3/8": {
+            "section": {
+              "width": "254 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "52.293 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 6661.509
+            }
+          },
+          "10x5x1/2": {
+            "section": {
+              "width": "254 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "67.643 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 8616.882
+            }
+          },
+          "10x5x5/8": {
+            "section": {
+              "width": "254 mm",
+              "height": "127 mm"
+            },
+            "mass_per_metre": "81.952 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "15.875 mm",
+              "outer_radius": "31.75 mm",
+              "inner_radius": "15.875 mm",
+              "area": 10439.691
+            }
+          },
+          "10x6x3/16": {
+            "section": {
+              "width": "254 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "29.216 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 3721.825
+            }
+          },
+          "10x6x1/4": {
+            "section": {
+              "width": "254 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "38.435 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 4896.151
+            }
+          },
+          "10x6x5/16": {
+            "section": {
+              "width": "254 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "47.393 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 6037.335
+            }
+          },
+          "10x6x3/8": {
+            "section": {
+              "width": "254 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "56.091 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 7145.379
+            }
+          },
+          "10x6x1/2": {
+            "section": {
+              "width": "254 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "72.707 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 9262.042
+            }
+          },
+          "10x6x5/8": {
+            "section": {
+              "width": "254 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "88.282 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "15.875 mm",
+              "outer_radius": "31.75 mm",
+              "inner_radius": "15.875 mm",
+              "area": 11246.141
+            }
+          },
+          "10x8x3/16": {
+            "section": {
+              "width": "254 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "33.015 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 4205.695
+            }
+          },
+          "10x8x1/4": {
+            "section": {
+              "width": "254 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "43.499 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 5541.311
+            }
+          },
+          "10x8x5/16": {
+            "section": {
+              "width": "254 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "53.724 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 6843.785
+            }
+          },
+          "10x8x3/8": {
+            "section": {
+              "width": "254 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "63.688 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 8113.119
+            }
+          },
+          "10x8x1/2": {
+            "section": {
+              "width": "254 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "82.836 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 10552.362
+            }
+          },
+          "10x8x5/8": {
+            "section": {
+              "width": "254 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "100.943 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "15.875 mm",
+              "outer_radius": "31.75 mm",
+              "inner_radius": "15.875 mm",
+              "area": 12859.041
+            }
+          },
+          "12x3x3/16": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "27.317 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 3479.89
+            }
+          },
+          "12x3x1/4": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "35.903 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 4573.571
+            }
+          },
+          "12x3x5/16": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "44.228 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 5634.11
+            }
+          },
+          "12x3x3/8": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "52.293 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 6661.509
+            }
+          },
+          "12x4x3/16": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "29.216 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 3721.825
+            }
+          },
+          "12x4x1/4": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "38.435 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 4896.151
+            }
+          },
+          "12x4x5/16": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "47.393 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 6037.335
+            }
+          },
+          "12x4x3/8": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "56.091 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 7145.379
+            }
+          },
+          "12x4x1/2": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "72.707 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 9262.042
+            }
+          },
+          "12x4x5/8": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "101.6 mm"
+            },
+            "mass_per_metre": "88.282 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "15.875 mm",
+              "outer_radius": "31.75 mm",
+              "inner_radius": "15.875 mm",
+              "area": 11246.141
+            }
+          },
+          "12x6x3/16": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "33.015 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 4205.695
+            }
+          },
+          "12x6x1/4": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "43.499 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 5541.311
+            }
+          },
+          "12x6x5/16": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "53.724 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 6843.785
+            }
+          },
+          "12x6x3/8": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "63.688 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 8113.119
+            }
+          },
+          "12x6x1/2": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "82.836 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 10552.362
+            }
+          },
+          "12x6x5/8": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "152.4 mm"
+            },
+            "mass_per_metre": "100.943 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "15.875 mm",
+              "outer_radius": "31.75 mm",
+              "inner_radius": "15.875 mm",
+              "area": 12859.041
+            }
+          },
+          "12x8x3/16": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "36.813 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.7625 mm",
+              "outer_radius": "9.525 mm",
+              "inner_radius": "4.7625 mm",
+              "area": 4689.565
+            }
+          },
+          "12x8x1/4": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "48.564 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 6186.471
+            }
+          },
+          "12x8x5/16": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "60.054 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 7650.235
+            }
+          },
+          "12x8x3/8": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "71.285 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 9080.859
+            }
+          },
+          "12x8x1/2": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "92.965 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 11842.682
+            }
+          },
+          "12x8x5/8": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "113.605 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "15.875 mm",
+              "outer_radius": "31.75 mm",
+              "inner_radius": "15.875 mm",
+              "area": 14471.941
+            }
+          },
+          "12x8x3/4": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "203.2 mm"
+            },
+            "mass_per_metre": "133.204 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "19.05 mm",
+              "outer_radius": "38.1 mm",
+              "inner_radius": "19.05 mm",
+              "area": 16968.635
+            }
+          },
+          "12x10x1/4": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "254 mm"
+            },
+            "mass_per_metre": "53.628 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "6.35 mm",
+              "outer_radius": "12.7 mm",
+              "inner_radius": "6.35 mm",
+              "area": 6831.631
+            }
+          },
+          "12x10x5/16": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "254 mm"
+            },
+            "mass_per_metre": "66.385 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "7.9375 mm",
+              "outer_radius": "15.875 mm",
+              "inner_radius": "7.9375 mm",
+              "area": 8456.685
+            }
+          },
+          "12x10x3/8": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "254 mm"
+            },
+            "mass_per_metre": "78.882 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "9.525 mm",
+              "outer_radius": "19.05 mm",
+              "inner_radius": "9.525 mm",
+              "area": 10048.599
+            }
+          },
+          "12x10x1/2": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "254 mm"
+            },
+            "mass_per_metre": "103.094 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "12.7 mm",
+              "outer_radius": "25.4 mm",
+              "inner_radius": "12.7 mm",
+              "area": 13133.002
+            }
+          },
+          "12x10x5/8": {
+            "section": {
+              "width": "304.8 mm",
+              "height": "254 mm"
+            },
+            "mass_per_metre": "126.266 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "15.875 mm",
+              "outer_radius": "31.75 mm",
+              "inner_radius": "15.875 mm",
+              "area": 16084.841
+            }
+          }
+        },
+        "frames": [
+          {
+            "name": "end_a",
+            "kind": "end"
+          },
+          {
+            "name": "end_b",
+            "kind": "end"
+          },
+          {
+            "name": "face_xp",
+            "kind": "face"
+          },
+          {
+            "name": "face_xn",
+            "kind": "face"
+          },
+          {
+            "name": "face_yp",
+            "kind": "face"
+          },
+          {
+            "name": "face_yn",
+            "kind": "face"
+          }
+        ]
+      }
+    },
+    {
+      "id": "shs-typed",
+      "path": "steel-tubes/shs-typed.mitcad",
+      "category": "steel-tubes",
+      "name": "Square steel tube of a typed size",
+      "standard": "EN 10219-2",
+      "description": "Square steel tube of any side B from 10 to 400 mm and wall T from 0.5 to 20 mm (under a third of the side), with EN 10219-2's corner radii, cut to length.",
+      "keywords": [
+        "tube",
+        "square tube",
+        "steel tube",
+        "box section",
+        "square hollow section",
+        "SHS",
+        "steel",
+        "custom size",
+        "typed size",
+        "any size",
+        "inch"
+      ],
+      "license": "MIT",
+      "designation": "Square tube {B}x{B}x{T} L={L}",
+      "preview": "previews/shs-typed.png",
+      "build": {
+        "role": "profile",
+        "material": {
+          "density": 7850
+        },
+        "length": {
+          "parameter": "L",
+          "min": 10,
+          "max": 12000,
+          "default": 1000,
+          "stock": [
+            6000
+          ]
+        },
+        "section": {
+          "width": "40 mm",
+          "height": "40 mm"
+        },
+        "mass_per_metre": "3.303 kg",
+        "tube": {
+          "shape": "square",
+          "thickness": "3 mm",
+          "outer_radius": "6 mm",
+          "inner_radius": "3 mm",
+          "area": 420.823
+        },
+        "rows": {
+          "20x20x2": {
+            "section": {
+              "width": "20 mm",
+              "height": "20 mm"
+            },
+            "mass_per_metre": "1.050 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "2 mm",
+              "outer_radius": "4 mm",
+              "inner_radius": "2 mm",
+              "area": 133.699
+            }
+          },
+          "40x40x3": {
+            "section": {
+              "width": "40 mm",
+              "height": "40 mm"
+            },
+            "mass_per_metre": "3.303 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "3 mm",
+              "outer_radius": "6 mm",
+              "inner_radius": "3 mm",
+              "area": 420.823
+            }
+          },
+          "50x50x4": {
+            "section": {
+              "width": "50 mm",
+              "height": "50 mm"
+            },
+            "mass_per_metre": "5.454 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "4 mm",
+              "outer_radius": "8 mm",
+              "inner_radius": "4 mm",
+              "area": 694.796
+            }
+          },
+          "76.2x76.2x4.8": {
+            "section": {
+              "width": "76.2 mm",
+              "height": "76.2 mm"
+            },
+            "mass_per_metre": "10.296 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "4.8 mm",
+              "outer_radius": "9.6 mm",
+              "inner_radius": "4.8 mm",
+              "area": 1311.547
+            }
+          },
+          "100x100x5": {
+            "section": {
+              "width": "100 mm",
+              "height": "100 mm"
+            },
+            "mass_per_metre": "14.410 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "5 mm",
+              "outer_radius": "10 mm",
+              "inner_radius": "5 mm",
+              "area": 1835.619
+            }
+          },
+          "100x100x8": {
+            "section": {
+              "width": "100 mm",
+              "height": "100 mm"
+            },
+            "mass_per_metre": "21.385 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "8 mm",
+              "outer_radius": "20 mm",
+              "inner_radius": "12 mm",
+              "area": 2724.248
+            }
+          },
+          "200x200x12": {
+            "section": {
+              "width": "200 mm",
+              "height": "200 mm"
+            },
+            "mass_per_metre": "65.987 kg",
+            "tube": {
+              "shape": "square",
+              "thickness": "12 mm",
+              "outer_radius": "36 mm",
+              "inner_radius": "24 mm",
+              "area": 8405.947
+            }
+          }
+        },
+        "area_parameter": "A",
+        "frames": [
+          {
+            "name": "end_a",
+            "kind": "end"
+          },
+          {
+            "name": "end_b",
+            "kind": "end"
+          },
+          {
+            "name": "face_xp",
+            "kind": "face"
+          },
+          {
+            "name": "face_xn",
+            "kind": "face"
+          },
+          {
+            "name": "face_yp",
+            "kind": "face"
+          },
+          {
+            "name": "face_yn",
+            "kind": "face"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rhs-typed",
+      "path": "steel-tubes/rhs-typed.mitcad",
+      "category": "steel-tubes",
+      "name": "Rectangular steel tube of a typed size",
+      "standard": "EN 10219-2",
+      "description": "Rectangular steel tube of any width W and height H from 10 to 400 mm and wall T from 0.5 to 20 mm (under a third of the smaller side), with EN 10219-2's corner radii, cut to length.",
+      "keywords": [
+        "tube",
+        "rectangular tube",
+        "steel tube",
+        "box section",
+        "rectangular hollow section",
+        "RHS",
+        "steel",
+        "custom size",
+        "typed size",
+        "any size",
+        "inch"
+      ],
+      "license": "MIT",
+      "designation": "Rectangular tube {W}x{H}x{T} L={L}",
+      "preview": "previews/rhs-typed.png",
+      "build": {
+        "role": "profile",
+        "material": {
+          "density": 7850
+        },
+        "length": {
+          "parameter": "L",
+          "min": 10,
+          "max": 12000,
+          "default": 1000,
+          "stock": [
+            6000
+          ]
+        },
+        "section": {
+          "width": "100 mm",
+          "height": "50 mm"
+        },
+        "mass_per_metre": "8.594 kg",
+        "tube": {
+          "shape": "rectangular",
+          "thickness": "4 mm",
+          "outer_radius": "8 mm",
+          "inner_radius": "4 mm",
+          "area": 1094.796
+        },
+        "rows": {
+          "60x40x3": {
+            "section": {
+              "width": "60 mm",
+              "height": "40 mm"
+            },
+            "mass_per_metre": "4.245 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "3 mm",
+              "outer_radius": "6 mm",
+              "inner_radius": "3 mm",
+              "area": 540.823
+            }
+          },
+          "100x50x4": {
+            "section": {
+              "width": "100 mm",
+              "height": "50 mm"
+            },
+            "mass_per_metre": "8.594 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4 mm",
+              "outer_radius": "8 mm",
+              "inner_radius": "4 mm",
+              "area": 1094.796
+            }
+          },
+          "101.6x50.8x4.8": {
+            "section": {
+              "width": "101.6 mm",
+              "height": "50.8 mm"
+            },
+            "mass_per_metre": "10.296 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "4.8 mm",
+              "outer_radius": "9.6 mm",
+              "inner_radius": "4.8 mm",
+              "area": 1311.547
+            }
+          },
+          "200x100x8": {
+            "section": {
+              "width": "200 mm",
+              "height": "100 mm"
+            },
+            "mass_per_metre": "33.945 kg",
+            "tube": {
+              "shape": "rectangular",
+              "thickness": "8 mm",
+              "outer_radius": "20 mm",
+              "inner_radius": "12 mm",
+              "area": 4324.248
+            }
+          }
+        },
+        "area_parameter": "A",
+        "frames": [
+          {
+            "name": "end_a",
+            "kind": "end"
+          },
+          {
+            "name": "end_b",
+            "kind": "end"
+          },
+          {
+            "name": "face_xp",
+            "kind": "face"
+          },
+          {
+            "name": "face_xn",
+            "kind": "face"
+          },
+          {
+            "name": "face_yp",
+            "kind": "face"
+          },
+          {
+            "name": "face_yn",
+            "kind": "face"
           }
         ]
       }
